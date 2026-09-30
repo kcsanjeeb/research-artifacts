@@ -1,0 +1,16 @@
+{
+ "status": "complete (shard2 partial: 1/3 videos, process exited silently after video 0)",
+ "coverage": {"videos": "8/10", "queries": 96, "loo_evals": 2710},
+ "mean_token_f1_full_memory": 0.2351,
+ "gini_f_pooled": 0.9644,
+ "gini_f_null_uniform_retrieval": 0.7008,
+ "frac_never_retrieved": 0.9617,
+ "gini_v_sampled_equals_gini_vpb": 0.5668,
+ "gini_v_perblock_script_after_dtype_fix": 0.5631,
+ "frac_loo_drop_negative": 0.3625,
+ "mean_loo_drop": 0.0201,
+ "query_value_top1_share": 0.0715,
+ "uniform_vs_oracle_additive_headroom_pts": {"0.75": -0.0004, "0.5": -0.0005, "0.25": 0.0, "0.1": 0.0},
+ "verdict": "ReKV side mixed (Gini PASS / headroom FAIL); SMB side PASS decisive -> overall T1 PASS, see ~/e1/t1_value_heterogeneity/REPORT.md",
+ "outage_note": "shard0 video1 encode 43788s, shard1 video1 encode 43908s (~12h, storage outage) vs ~1900s typical"
+}

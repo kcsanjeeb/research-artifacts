@@ -1,0 +1,49 @@
+{
+  "baseline": {
+    "auc_tier1": 0.9343076709787779,
+    "ap_tier1": 0.7745752725388535
+  },
+  "cells": [
+    {
+      "gate": "band",
+      "span_snippets": 0,
+      "model": "HolmesVAU-2B",
+      "n_clips": 12522,
+      "anomalous_in_pool": 0.2926848746206676,
+      "oracle_ceiling_dAUC": 0.018626411576774915,
+      "oracle_ceiling_dAP": 0.052782236256859294,
+      "dAUC": 0.002308203720622126,
+      "dAP": 0.0037147213944070945,
+      "capture_fraction_auc": 0.1239210092136159,
+      "capture_fraction_ap": 0.07037824953701823,
+      "within_pool_auc_vlm": 0.7828231067494883,
+      "within_pool_auc_tier1": 0.6047609886415675,
+      "vlm_yes_rate": 0.20987062769525636,
+      "vlm_acc": 0.7651333652771123,
+      "const_majority_acc": 0.7073151253793324
+    },
+    {
+      "gate": "topk",
+      "span_snippets": 0,
+      "model": "HolmesVAU-2B",
+      "n_clips": 12522,
+      "anomalous_in_pool": 0.832534738859607,
+      "oracle_ceiling_dAUC": 0.014494830457366104,
+      "oracle_ceiling_dAP": 0.06284598797276153,
+      "dAUC": -0.013731279868665514,
+      "dAP": -0.09969392007948219,
+      "capture_fraction_auc": -0.9473225581391631,
+      "capture_fraction_ap": -1.5863211526357284,
+      "within_pool_auc_vlm": 0.8526643177589545,
+      "within_pool_auc_tier1": 0.7255728350081022,
+      "vlm_yes_rate": 0.817042006069318,
+      "vlm_acc": 0.8621625938348506,
+      "const_majority_acc": 0.832534738859607
+    }
+  ],
+  "config": {
+    "model": "HolmesVAU-2B",
+    "prompt": "Does this video contain an anomaly? Answer Yes or No first, then explain briefly.",
+    "fusion": "isotonic_crossfit_by_video_parity"
+  }
+}

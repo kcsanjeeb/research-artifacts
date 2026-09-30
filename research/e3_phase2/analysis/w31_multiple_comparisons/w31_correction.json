@@ -1,0 +1,37 @@
+{
+ "primary": "deferred vs writetime_tax075",
+ "families": {
+  "A(m=21, full-run RVS arms)|p_exact": {
+   "m": 21,
+   "primary_raw": 0.041638283839502584,
+   "primary_holm": 0.6662125414320413,
+   "primary_bh": 0.14573399343825905
+  },
+  "A(m=21, full-run RVS arms)|p_cc": {
+   "m": 21,
+   "primary_raw": 0.04205939394353999,
+   "primary_holm": 0.6729503030966398,
+   "primary_bh": 0.14720787880238997
+  },
+  "B(m=15, oracle subset arms)|p_exact": {
+   "m": 15,
+   "primary_raw": "primary not in this family"
+  },
+  "B(m=15, oracle subset arms)|p_cc": {
+   "m": 15,
+   "primary_raw": "primary not in this family"
+  },
+  "union(m=36)|p_exact": {
+   "m": 36,
+   "primary_raw": 0.041638283839502584,
+   "primary_holm": 1.0,
+   "primary_bh": 0.16655313535801033
+  },
+  "union(m=36)|p_cc": {
+   "m": 36,
+   "primary_raw": 0.04205939394353999,
+   "primary_holm": 1.0,
+   "primary_bh": 0.16823757577415996
+  }
+ }
+}

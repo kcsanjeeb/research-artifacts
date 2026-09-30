@@ -1,0 +1,96 @@
+{
+  "results": {
+    "fcfs_N16": {
+      "n_arrivals": 338,
+      "horizon_vt": 3540.0,
+      "demand_gpu_s_per_vt_s": 1.1878192090395476,
+      "salience_min": 0.5083,
+      "salience_p05": 0.61468,
+      "etas": {
+        "0.05": {
+          "mean": 0.1753409876543209,
+          "p2p": 0.11652592592592588,
+          "amp_rel": 0.6645675234569397,
+          "sign_changes_per_100w": 46.666666666666664,
+          "oscillates": true,
+          "B_W": 67.5,
+          "mean_spend_frac_budget": 1.069441975308642
+        },
+        "0.2": {
+          "mean": 0.487902222222222,
+          "p2p": 0.5155259259259262,
+          "amp_rel": 1.056617294296976,
+          "sign_changes_per_100w": 53.333333333333336,
+          "oscillates": true,
+          "B_W": 67.5,
+          "mean_spend_frac_budget": 1.0249086419753088
+        },
+        "0.5": {
+          "mean": 0.47788641975308577,
+          "p2p": 0.9510370370370365,
+          "amp_rel": 1.9900901087091323,
+          "sign_changes_per_100w": 53.333333333333336,
+          "oscillates": true,
+          "B_W": 67.5,
+          "mean_spend_frac_budget": 0.9897827160493827
+        },
+        "1.0": {
+          "mean": 0.43684938271604923,
+          "p2p": 1.2315555555555555,
+          "amp_rel": 2.819176595600372,
+          "sign_changes_per_100w": 56.666666666666664,
+          "oscillates": true,
+          "B_W": 67.5,
+          "mean_spend_frac_budget": 0.9505234567901234
+        }
+      }
+    },
+    "fcfs_N24": {
+      "n_arrivals": 358,
+      "horizon_vt": 2760.0,
+      "demand_gpu_s_per_vt_s": 1.6372318840579707,
+      "salience_min": 0.5083,
+      "salience_p05": 0.5736,
+      "etas": {
+        "0.05": {
+          "mean": 0.7270019323671499,
+          "p2p": 0.32454814814814836,
+          "amp_rel": 0.44641992503569483,
+          "sign_changes_per_100w": 47.82608695652174,
+          "oscillates": true,
+          "B_W": 67.5,
+          "mean_spend_frac_budget": 1.246254428341385
+        },
+        "0.2": {
+          "mean": 0.9098190016103065,
+          "p2p": 0.38115555555555536,
+          "amp_rel": 0.4189355848591211,
+          "sign_changes_per_100w": 73.91304347826086,
+          "oscillates": true,
+          "B_W": 67.5,
+          "mean_spend_frac_budget": 0.9615201288244765
+        },
+        "0.5": {
+          "mean": 0.8835619967793877,
+          "p2p": 1.0203703703703704,
+          "amp_rel": 1.1548373222135555,
+          "sign_changes_per_100w": 73.91304347826086,
+          "oscillates": true,
+          "B_W": 67.5,
+          "mean_spend_frac_budget": 0.9775523349436394
+        },
+        "1.0": {
+          "mean": 0.7367665056360708,
+          "p2p": 1.6074074074074076,
+          "amp_rel": 2.1817053233435044,
+          "sign_changes_per_100w": 73.91304347826086,
+          "oscillates": true,
+          "B_W": 67.5,
+          "mean_spend_frac_budget": 1.0106731078904991
+        }
+      }
+    }
+  },
+  "any_eta_oscillates": true,
+  "verdict": "PASS (lambda oscillates -> build hysteresis M2)"
+}

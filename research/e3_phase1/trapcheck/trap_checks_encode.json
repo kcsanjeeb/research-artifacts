@@ -1,0 +1,112 @@
+{
+  "mode": "encode",
+  "decaf_position_free": "0",
+  "T4_frame_sampling": {
+    "n_sampled_total": 1806,
+    "encoded": 96,
+    "stride": "fps/0.5"
+  },
+  "T2c_sidecar_identity": {
+    "n_init": 13,
+    "n_blocks": 96,
+    "block_size": 196,
+    "identity_holds": true
+  },
+  "T1_store_is_prerope": {
+    "layer0": {
+      "n_blocks_checked": 96,
+      "k_rel_err_max": 0.0,
+      "k_rel_err_mean": 0.0,
+      "v_rel_err_max": 0.0,
+      "v_rel_err_mean": 0.0
+    },
+    "layer5": {
+      "n_blocks_checked": 96,
+      "k_rel_err_max": 0.0,
+      "k_rel_err_mean": 0.0,
+      "v_rel_err_max": 0.0,
+      "v_rel_err_mean": 0.0
+    },
+    "layer11": {
+      "n_blocks_checked": 96,
+      "k_rel_err_max": 0.0,
+      "k_rel_err_mean": 0.0,
+      "v_rel_err_max": 0.0,
+      "v_rel_err_mean": 0.0
+    },
+    "layer17": {
+      "n_blocks_checked": 96,
+      "k_rel_err_max": 0.0,
+      "k_rel_err_mean": 0.0,
+      "v_rel_err_max": 0.0,
+      "v_rel_err_mean": 0.0
+    },
+    "layer23": {
+      "n_blocks_checked": 96,
+      "k_rel_err_max": 0.0,
+      "k_rel_err_mean": 0.0,
+      "v_rel_err_max": 0.0,
+      "v_rel_err_mean": 0.0
+    }
+  },
+  "T2_rotary_reproduction": {
+    "layers": {
+      "layer0": {
+        "dump_Kpre_rel_err": 0.01028619147837162,
+        "rotary_vs_dump_Kpost_rel_err": 0.0003008918138220906
+      },
+      "layer5": {
+        "dump_Kpre_rel_err": 0.5390687584877014,
+        "rotary_vs_dump_Kpost_rel_err": 0.00038180980482138693
+      },
+      "layer11": {
+        "dump_Kpre_rel_err": 0.6800761818885803,
+        "rotary_vs_dump_Kpost_rel_err": 0.00036386496503837407
+      },
+      "layer17": {
+        "dump_Kpre_rel_err": 0.6959582567214966,
+        "rotary_vs_dump_Kpost_rel_err": 0.0003674795152619481
+      },
+      "layer23": {
+        "dump_Kpre_rel_err": 0.09888187795877457,
+        "rotary_vs_dump_Kpost_rel_err": 0.00029501845710910857
+      }
+    },
+    "note": "dump K_pre/V from the UNPATCHED sdpa-fp16 HF path; patched host uses fp32-upcast torch attention, so layer>=1 diffs are kernel differences, not capture bugs. rotary check is elementwise on the same K_pre -> tight tolerance expected."
+  },
+  "memory": {
+    "store_bytes": 231211008,
+    "sidecar_bytes": 18432,
+    "total_bytes": 231229440,
+    "n_blocks": 96,
+    "block_size": 196,
+    "n_layers": 24
+  },
+  "T5_stock_equivalence_vs_w25": {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "checks": [
+      {
+        "question": "What task is being performed with vegetables?",
+        "pred": "The task being performed with vegetables is preparing a dish that includes diced tomatoes, onions, and peppers.",
+        "w25_pred": "The task being performed with vegetables is preparing a dish that includes diced tomatoes, onions, and peppers.",
+        "match": true
+      },
+      {
+        "question": "What step is being taken with flatbread?",
+        "pred": "The person is transferring the cooked meat and vegetables from the pot onto a plate.",
+        "w25_pred": "The person is transferring the cooked meat and vegetables from the pot onto a plate.",
+        "match": true
+      }
+    ]
+  },
+  "verdict": {
+    "gate_store_prerope": "PASS",
+    "gate_rotary": "PASS",
+    "gate_sidecar": "PASS",
+    "gate_stock_equiv": "PASS",
+    "max_stored_k_rel_err": 0.0,
+    "max_stored_v_rel_err": 0.0,
+    "max_rotary_rel_err": 0.00038180980482138693,
+    "OVERALL": "PASS"
+  }
+}

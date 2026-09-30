@@ -1,0 +1,654 @@
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1786, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1786, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1786, "f1_full": 0.12765957446808512, "f1_minus_j": 0.211, "drop": -0.083}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1786, "f1_full": 0.12, "f1_minus_j": 0.151, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1786, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1786, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1786, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1786, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1786, "f1_full": 0.5714285714285714, "f1_minus_j": 0.148, "drop": 0.423}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1786, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1786, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1786, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1282, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1282, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1282, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1282, "f1_full": 0.12, "f1_minus_j": 0.205, "drop": -0.085}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1282, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1282, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1282, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1282, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1282, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1282, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1282, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1282, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1093, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1093, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1093, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1093, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1093, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1093, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1093, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1093, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1093, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1093, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1093, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1093, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1380, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1380, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1380, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1380, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1380, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1380, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1380, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1380, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 851, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 851, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 851, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 851, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 851, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 851, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 851, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 851, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 851, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 851, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 851, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 851, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1145, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1145, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1145, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1145, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1145, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1145, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1145, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1145, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1145, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1145, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1145, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1145, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1382, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1382, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1382, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1373, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1373, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1373, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1373, "f1_full": 0.12, "f1_minus_j": 0.151, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1373, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1373, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1373, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1373, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1373, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1373, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1373, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1373, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1393, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1393, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1393, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1393, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1393, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1393, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1393, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1393, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1393, "f1_full": 0.5714285714285714, "f1_minus_j": 0.125, "drop": 0.446}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1393, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1393, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1393, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 852, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 852, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 852, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 852, "f1_full": 0.12, "f1_minus_j": 0.151, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 852, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 852, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 852, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 852, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 852, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 852, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 852, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 852, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 575, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 575, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 575, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 575, "f1_full": 0.12, "f1_minus_j": 0.151, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 575, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 575, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 575, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 575, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 575, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 575, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 575, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 575, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1787, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1787, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1787, "f1_full": 0.12765957446808512, "f1_minus_j": 0.242, "drop": -0.115}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1787, "f1_full": 0.12, "f1_minus_j": 0.151, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1787, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1787, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1787, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1787, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1787, "f1_full": 0.5714285714285714, "f1_minus_j": 0.182, "drop": 0.39}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1787, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1787, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1787, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 512, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 512, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 512, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 512, "f1_full": 0.12, "f1_minus_j": 0.151, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 512, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 512, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 512, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 512, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 512, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 512, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 512, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 512, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1372, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1372, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1372, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1372, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1372, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1372, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1372, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1372, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1372, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1372, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1372, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1372, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1061, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1061, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1061, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1061, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1061, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1061, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1061, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1061, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1061, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1061, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1061, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1061, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1392, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1392, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1392, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1392, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1392, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1392, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1392, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1726, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1726, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1726, "f1_full": 0.12765957446808512, "f1_minus_j": 0.242, "drop": -0.115}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1726, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1726, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1726, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1726, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1726, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1726, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1726, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1726, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1726, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1217, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1217, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1217, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1217, "f1_full": 0.12, "f1_minus_j": 0.151, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1217, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1217, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1217, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1217, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1217, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1217, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1217, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1217, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1405, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1405, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1405, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1094, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1094, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1094, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1094, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1094, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1094, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1094, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1094, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1094, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1094, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1094, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1094, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1356, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1356, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1356, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1356, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1356, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1356, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1356, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1356, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1356, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1356, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1356, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1356, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1374, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1374, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1374, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1374, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1374, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1374, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1374, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1374, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1374, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1374, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1374, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1374, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1571, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1571, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1571, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1571, "f1_full": 0.12, "f1_minus_j": 0.143, "drop": -0.023}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1571, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1571, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1571, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1571, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1571, "f1_full": 0.5714285714285714, "f1_minus_j": 0.125, "drop": 0.446}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1571, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1571, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1571, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1095, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1095, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1095, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1095, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1095, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1095, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1095, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1095, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1095, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1095, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1095, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1095, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1071, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1071, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1071, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1071, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1071, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1071, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1071, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1071, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1071, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1071, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1071, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 826, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 826, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 826, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 826, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 826, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 826, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 826, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 826, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 826, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 826, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 826, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 826, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1570, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1570, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1570, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1570, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1570, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1570, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1570, "f1_full": 0.6666666666666665, "f1_minus_j": 0.421, "drop": 0.246}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1570, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1570, "f1_full": 0.5714285714285714, "f1_minus_j": 0.125, "drop": 0.446}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1570, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1570, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1570, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1747, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1747, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1747, "f1_full": 0.12765957446808512, "f1_minus_j": 0.242, "drop": -0.115}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1747, "f1_full": 0.12, "f1_minus_j": 0.143, "drop": -0.023}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1747, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1747, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1747, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1747, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1747, "f1_full": 0.5714285714285714, "f1_minus_j": 0.125, "drop": 0.446}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1747, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1747, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1747, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1694, "f1_full": 0.12765957446808512, "f1_minus_j": 0.242, "drop": -0.115}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1694, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1694, "f1_full": 0.5714285714285714, "f1_minus_j": 0.125, "drop": 0.446}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is depicted in this snapshot?", "block": 1336, "f1_full": 0.24242424242424243, "f1_minus_j": 0.286, "drop": -0.043}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before picking up the cards?", "block": 1336, "f1_full": 0.21428571428571427, "f1_minus_j": 0.148, "drop": 0.066}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What objects are present in the scene?", "block": 1336, "f1_full": 0.12765957446808512, "f1_minus_j": 0.222, "drop": -0.095}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What sequence of actions is depicted here?", "block": 1336, "f1_full": 0.12, "f1_minus_j": 0.118, "drop": 0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Did picking the cards happen after playing the card game?", "block": 1336, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What is the current setting in the video clip?", "block": 1336, "f1_full": 0.2857142857142857, "f1_minus_j": 0.222, "drop": 0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Where are the players sitting in the scenario?", "block": 1336, "f1_full": 0.6666666666666665, "f1_minus_j": 0.4, "drop": 0.267}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "Does the reshuffling occur before arranging cards on the floor?", "block": 1336, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What activity is being performed in the scene?", "block": 1336, "f1_full": 0.5714285714285714, "f1_minus_j": 0.188, "drop": 0.384}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What occurs just before the lady picks up her cards?", "block": 1336, "f1_full": 0.23076923076923078, "f1_minus_j": 0.294, "drop": -0.063}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What action takes place before the game begins?", "block": 1336, "f1_full": 0.06060606060606061, "f1_minus_j": 0.062, "drop": -0.002}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "question": "What takes place right before more cards are picked from the deck?", "block": 1336, "f1_full": 0.08695652173913045, "f1_minus_j": 0.118, "drop": -0.031}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1458, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1458, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1458, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1458, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1458, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1458, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1458, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1458, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1458, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1458, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1458, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1458, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 685, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 685, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 685, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 685, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 685, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 685, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 685, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 685, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 685, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 685, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 685, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 685, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1472, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1472, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1472, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1472, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1472, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1472, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1472, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1472, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1472, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1472, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1472, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1472, "f1_full": 0.13793103448275865, "f1_minus_j": 0.16, "drop": -0.022}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1366, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1366, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1366, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1366, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1366, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1366, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1366, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1366, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1366, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1366, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1366, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1366, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1449, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1449, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1449, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1449, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1449, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1449, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1449, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1449, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1449, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1449, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1449, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1449, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 241, "f1_full": 0.15384615384615385, "f1_minus_j": 0.0, "drop": 0.154}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 241, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 241, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 241, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 241, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 241, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 241, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 241, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 241, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 241, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1499, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1499, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1499, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1499, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1499, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1499, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1499, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1499, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1499, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1499, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1499, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1499, "f1_full": 0.13793103448275865, "f1_minus_j": 0.16, "drop": -0.022}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 769, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 769, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 769, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 769, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 769, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 769, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 769, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 769, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1769, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1769, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1769, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1769, "f1_full": 0.25, "f1_minus_j": 0.27, "drop": -0.02}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1769, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1769, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1769, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1769, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1769, "f1_full": 0.3846153846153846, "f1_minus_j": 0.417, "drop": -0.032}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1769, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1769, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1769, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1471, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1471, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1471, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1471, "f1_full": 0.25, "f1_minus_j": 0.207, "drop": 0.043}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1471, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1471, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1471, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1471, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1471, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1471, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1471, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1471, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 273, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 273, "f1_full": 0.15384615384615385, "f1_minus_j": 0.0, "drop": 0.154}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 273, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 273, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 273, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 273, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 273, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 273, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 273, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 273, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 273, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 273, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 303, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 303, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 303, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 303, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 303, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 303, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 303, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 303, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 303, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 303, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 303, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 303, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1453, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1453, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1453, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1453, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1453, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1453, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1453, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1453, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1453, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1453, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1453, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1453, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1285, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1285, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1285, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1285, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1285, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1285, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1285, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1285, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1285, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1285, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1285, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1285, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1320, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1320, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1320, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1320, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1320, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1320, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1320, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1320, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1320, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1320, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1320, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1320, "f1_full": 0.13793103448275865, "f1_minus_j": 0.16, "drop": -0.022}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 347, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 347, "f1_full": 0.15384615384615385, "f1_minus_j": 0.0, "drop": 0.154}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 347, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 347, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 347, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 347, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 347, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 347, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 347, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 347, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 347, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 347, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1767, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1767, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1767, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1767, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1767, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1767, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1767, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1767, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1767, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1767, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1767, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1767, "f1_full": 0.13793103448275865, "f1_minus_j": 0.16, "drop": -0.022}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 400, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 400, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 682, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 682, "f1_full": 0.15384615384615385, "f1_minus_j": 0.0, "drop": 0.154}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 682, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 682, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 682, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 682, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 682, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 682, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 682, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 682, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 682, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 682, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1429, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1429, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1429, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1429, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1429, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1429, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1429, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1429, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1429, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1429, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1429, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1429, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1448, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1448, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1448, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1448, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1448, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1448, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1448, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1448, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1448, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1448, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1448, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1448, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 399, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 399, "f1_full": 0.15384615384615385, "f1_minus_j": 0.0, "drop": 0.154}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 399, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 399, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 399, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 399, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 399, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 399, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 399, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 302, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 302, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 302, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 302, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 302, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 302, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 302, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 302, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 302, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 302, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 302, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 302, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 1768, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 1768, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 1768, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 1768, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 1768, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 1768, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 1768, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 1768, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 1768, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 1768, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 1768, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 1768, "f1_full": 0.13793103448275865, "f1_minus_j": 0.16, "drop": -0.022}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 289, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 289, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 289, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 289, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 289, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 289, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 289, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 289, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 289, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 289, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 289, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 289, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 629, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 629, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 629, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 338, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 338, "f1_full": 0.15384615384615385, "f1_minus_j": 0.0, "drop": 0.154}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 338, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 338, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 338, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 338, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 338, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 338, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 338, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 338, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 338, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 338, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 383, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 383, "f1_full": 0.15384615384615385, "f1_minus_j": 0.0, "drop": 0.154}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 383, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 383, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 383, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 383, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 383, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 383, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 383, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 383, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 383, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 383, "f1_full": 0.13793103448275865, "f1_minus_j": 0.176, "drop": -0.039}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 149, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 149, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 149, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 149, "f1_full": 0.25, "f1_minus_j": 0.348, "drop": -0.098}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 149, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 149, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 149, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 149, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 149, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 149, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 149, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What environment surrounds the individual in the video?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, do I flip the book page before writing on it?", "block": 540, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the video, does the interaction with woman A happen before writing in the notebook?", "block": 540, "f1_full": 0.05882352941176471, "f1_minus_j": 0.059, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Can you caption the person's activity in this clip?", "block": 540, "f1_full": 0.25, "f1_minus_j": 0.333, "drop": -0.083}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the pen placed in the book before writing?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "In the sequence, do I open the book before writing on it?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Does the video show page-turning?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person using a pencil to write?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What part of the room is visible in the clip?", "block": 540, "f1_full": 0.3846153846153846, "f1_minus_j": 0.276, "drop": 0.109}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is the person writing with their right hand?", "block": 540, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "Is there any use of electronic devices in these frames?", "block": 540, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "question": "What happens before the conversation with woman X in the video?", "block": 540, "f1_full": 0.13793103448275865, "f1_minus_j": 0.235, "drop": -0.097}

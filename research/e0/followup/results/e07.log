@@ -1,0 +1,13 @@
+[band] pool=5965 anomalous=0.064 ceiling=+0.0256
+  s 0: dAUC=-0.0006 capture=-2.4% poolAUC vlm=0.669 t1=0.573 acc=0.934/const=0.936 yes=0.016
+  s 8: dAUC=-0.0015 capture=-5.8% poolAUC vlm=0.657 t1=0.573 acc=0.907/const=0.936 yes=0.057
+  s32: dAUC=-0.0026 capture=-10.0% poolAUC vlm=0.605 t1=0.573 acc=0.836/const=0.936 yes=0.126
+[topk] pool=5965 anomalous=0.364 ceiling=+0.0459
+  s 0: dAUC=-0.0668 capture=-145.5% poolAUC vlm=0.602 t1=0.550 acc=0.574/const=0.636 yes=0.406
+  s 8: dAUC=-0.0644 capture=-140.2% poolAUC vlm=0.620 t1=0.550 acc=0.533/const=0.636 yes=0.594
+  s32: dAUC=-0.0703 capture=-153.0% poolAUC vlm=0.583 t1=0.550 acc=0.484/const=0.636 yes=0.692
+
+attribution: gate=-1.4019 context=-0.0330 interaction=0.0190
+max capture fraction: -2.4%
+VERDICT: NEGATIVE CONFIRMED
+[saved] /home/san/FleetVAD/research/e0/followup/results/e07.json

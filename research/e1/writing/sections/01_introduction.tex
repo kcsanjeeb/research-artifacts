@@ -1,0 +1,31 @@
+\section{Introduction}
+\label{sec:intro}
+
+Camera fleets are among the largest producers of continuous data in the world, and the questions their operators ask are simple to state: \emph{``Did anyone enter the loading dock after 22:00?''}, \emph{``When did the fight start?''}, \emph{``Show me all robberies this week.''} Answering such questions requires a system that watches many always-on streams and maintains a \emph{persistent, queryable memory} of what happened. The recent wave of video-capable language models~\cite{qwen25vl,internvl,llavaov} makes the semantics attainable; what does not yet exist is the \emph{system} that makes them affordable at fleet scale.
+
+We audited the two existing paradigms for memory over video (Section~\ref{sec:gap}) and found that both are defined by the absence of budgets:
+
+\paragraph{KV-state memory.} Streaming video-LLM systems retain key--value cache tensors per stream~\cite{rekv,livevlm,streammem,streamingvlm}. Full-fidelity retention costs 18.8\,GB per stream-hour at 7B quality~\cite{rekv} --- a 100-camera fleet would need $\sim$45\,TB/day --- and ReKV itself calls this growth ``unsustainable'' for surveillance. Compressed variants~\cite{livevlm,streammem} cap a per-stream token budget as an accuracy hyperparameter, but the memory remains opaque (not queryable across streams), model-bound, and evaluated only on single streams of minutes to an hour.
+
+\paragraph{Semantic memory.} A parallel line builds textual/graph memory: Avas captions \emph{every 3-second chunk} unconditionally~\cite{avas}, VideoRAG every 30-second clip~\cite{videoraghkuds}, WorldMM at fixed intervals while retaining every sampled frame~\cite{worldmm}, and the VideoDB report prices a VLM call every 5 seconds per stream~\cite{videodb}. None reports bytes per stream-hour, GPU-seconds per camera-hour, or any accuracy-vs-cost operating curve; the VideoDB report explicitly defers cost measurement to future work. And none evaluates more than one stream: Avas's own throughput numbers show a single stream nearly saturating one RTX\,3090.
+
+Meanwhile, a measurement fact about the workload goes unexploited: surveillance is \emph{mostly uneventful}. In UCF-Crime only 7.8\% of clips are anomalous~\cite{ucfcrime}, and our measurements (Appendix~\ref{app:e0}) show temporal redundancy concentrates within one minute. Time-driven writes therefore spend the dominant cost narrating static footage.
+
+This paper presents \sys, a serving system that treats semantic memory as a \emph{budgeted resource}. Given $N$ camera streams, one GPU server, and explicit GPU/storage budgets, \sys maintains a tiered memory (metadata, narrated event records, embeddings, raw-footage pointers) and answers natural-language queries with evidence, bounded latency, and measured cost. Its four policies are each backed by a measurement that prior work does not report:
+
+\begin{itemize}
+\item \textbf{Event-driven writes} (what deserves memory at all): a cheap tier-1 salience signal gates expensive VLM narration, cutting write compute $\sim$3$\times$ vs.\ time-driven captioning at equal event recall (Section~\ref{sec:exp-write}).
+\item \textbf{Coverage-aware eviction with tombstones} (what survives): eviction becomes compression --- evicted events leave compact stubs that preserve aggregate answerability at $\sim$2\% storage (Section~\ref{sec:exp-eviction}).
+\item \textbf{Fleet admission control} (whose writes happen under overload): ordering alone provably does nothing under saturation --- priority queueing is statistically indistinguishable from FCFS in our measurements --- while shedding low-salience writes holds the freshness SLO for high-salience events at 10--20$\times$ the rate of fair queueing (Section~\ref{sec:exp-fleet}).
+\item \textbf{Calibrated query path with abstention} (when to answer): retrieval over the memory, optional asymmetric verification against raw footage, and an explicit not-answerable outcome (Section~\ref{sec:design-query}).
+\end{itemize}
+
+We evaluate \sys on 4$\times$Tesla V100 hardware against runnable baselines --- ReKV~\cite{rekv}, LiveVLM-lineage compression~\cite{livevlm,mukv}, time-driven captioning (an Avas-style policy)~\cite{avas}, TASTI-style appearance indexes~\cite{tasti}, and direct VLM reading --- on \smb, our new 300-query surveillance memory benchmark built from UCF-Crime, XD-Violence, and ShanghaiTech~\cite{ucfcrime,xdviolence,shanghaitech} with ground-truth evidence spans and a QC-checked answer key. \sys leads every accuracy metric among memory systems at $\approx$0 GPU-s per query, with 1.13\,MB/stream-day storage versus $\sim$103\,GB/stream-day for full-fidelity KV retention at 0.5B scale and $\sim$24\,GB/stream-day even at MuKV's aggressive 3/4-removal setting~\cite{mukv,rekv}.
+
+\paragraph{Contributions.}
+\begin{enumerate}
+\item \textbf{\sys}, the first video memory system with explicit GPU/storage budgets, budgeted event-driven writes, eviction-with-tombstones, fleet admission control, and abstaining queries (Sections~\ref{sec:design}).
+\item \textbf{\smb}, the first query/memory benchmark over always-on surveillance video, with five query types, ground-truth evidence, and an independent QC pass (Section~\ref{sec:exp-smb}).
+\item \textbf{A cost-accounting methodology} (GPU-s/camera-hour, MB/stream-day, accuracy-vs-cost frontiers) applied uniformly to all systems, including baselines (Sections~\ref{sec:exp-setup}--\ref{sec:exp-baselines}).
+\item \textbf{Measured negative results with design consequences}: appearance embeddings fail as event memory in-system (Section~\ref{sec:exp-tasti}); priority ordering without admission control is useless under saturation (Section~\ref{sec:exp-fleet}); VLMs are near-useless as online anomaly \emph{scorers} but effective as gated \emph{narrators} (Appendix~\ref{app:e0}).
+\end{enumerate}

@@ -1,0 +1,16 @@
+{
+  "task": "T5.3",
+  "sizes": [
+    10000,
+    100000,
+    1000000
+  ],
+  "dim": 384,
+  "k": 10,
+  "n_queries": 1000,
+  "warmup": 50,
+  "seed": 0,
+  "p99_threshold_ms": 50.0,
+  "device": "CPU only (per task constraints)",
+  "validated_against": "/home/san/e1/runs/20260918_0111_writepath_fullcorpus/artifacts"
+}

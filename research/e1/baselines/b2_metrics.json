@@ -1,0 +1,27 @@
+{
+ "label": "B2_rekv05b",
+ "existence": {
+  "n": 60,
+  "acc": 0.617
+ },
+ "negation": {
+  "n": 50,
+  "acc": 0.8,
+  "FAR": 0.2
+ },
+ "balanced": 0.708,
+ "temporal": {
+  "n": 60,
+  "mean_tIoU": 0.055,
+  "tIoU_at_0.3": 0.067
+ },
+ "unparsed_yesno": 0,
+ "unparsed_span": 14,
+ "cost": {
+  "n_videos": 144,
+  "mean_encode_gpu_s_per_video": 10.8,
+  "stream_hours_scanned": 5.47,
+  "encode_gpu_s_per_stream_h": 283.8,
+  "mean_qa_gpu_s_per_query": 0.62
+ }
+}

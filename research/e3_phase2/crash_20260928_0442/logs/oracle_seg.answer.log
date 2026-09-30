@@ -1,0 +1,82 @@
+[I 260928 04:42:57 base:203] seed: 2024
+[I 260928 04:42:57 base:208] Loading VideoQA model: model_zoo/llava-onevision-qwen2-7b-ov-hf
+Please install pyav to use video processing functions.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.39s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.36s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.05it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.10s/it]
+[I 260928 04:43:05 llava_onevision_rekv:226] n_init: 13
+[I 260928 04:43:05 llava_onevision_rekv:226] n_local: 15000
+[I 260928 04:43:05 llava_onevision_rekv:226] fattn: False
+[I 260928 04:43:05 llava_onevision_rekv:226] block_size: 196
+[I 260928 04:43:05 llava_onevision_rekv:226] topk: 64
+[I 260928 04:43:05 llava_onevision_rekv:226] chunk_size: 1
+[I 260928 04:43:05 llava_onevision_rekv:226] max_cached_block: 128
+[I 260928 04:43:05 llava_onevision_rekv:226] exc_block_size: 196
+[I 260928 04:43:05 llava_onevision_rekv:226] pin_memory: True
+[I 260928 04:43:05 llava_onevision_rekv:227] n_frame_tokens: 196
+  0%|          | 0/2 [00:00<?, ?it/s]  0%|          | 0/2 [03:38<?, ?it/s]
+Traceback (most recent call last):
+  File "/data3/zhuotaotian2_e2/code/decaf/video_qa/rekv_stream_vqa.py", line 72, in <module>
+    work(ReKVStreamVQA)
+  File "/data3/zhuotaotian2_e2/code/decaf/video_qa/base.py", line 231, in work
+    retrieve_analyzer.analyze(debug=args.debug)
+  File "/data3/zhuotaotian2_e2/code/decaf/video_qa/base.py", line 157, in analyze
+    self.analyze_a_video(video_sample)
+  File "/data4/rekv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/video_qa/rekv_stream_vqa.py", line 61, in analyze_a_video
+    qa_results = self.video_open_qa(question, max_new_tokens=256)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/video_qa/rekv_stream_vqa.py", line 29, in video_open_qa
+    pred_answer = self.qa_model.question_answering(input_text, max_new_tokens=max_new_tokens)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/model/llava_onevision_rekv.py", line 156, in question_answering
+    answer, entropies, ntok, stopped = run_pass('coarse')
+                                       ^^^^^^^^^^^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/model/llava_onevision_rekv.py", line 87, in run_pass
+    out = self.language_model(input_ids=input_ids, use_cache=True, past_key_values=self.kv_cache)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 1164, in forward
+    outputs = self.model(
+              ^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/model/patch.py", line 101, in model_forward
+    layer_outputs = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 623, in forward
+    hidden_states, self_attn_weights, present_key_value = self.self_attn(
+                                                          ^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/model/patch.py", line 19, in hf_forward
+    ret = forward(
+          ^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/model/attention/rekv_attention.py", line 69, in forward
+    past_k, past_v = past_key_value.get_retrieved_kv(global_q)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/model/attention/kv_cache_manager.py", line 450, in get_retrieved_kv
+    global_h_k[0, :, st:st + n, :].copy_(k[:, off:off + n, :], non_blocking=True)
+RuntimeError: The size of tensor a (0) must match the size of tensor b (196) at non-singleton dimension 1

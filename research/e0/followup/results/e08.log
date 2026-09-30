@@ -1,0 +1,17 @@
+[stride] baseline auc=0.8802 ap=0.3352
+[stride  1] auc_held=0.8802 ap_held=0.3352 auc_analysed=0.8791 recall=0.836 tta=0.65s
+[stride  2] auc_held=0.8798 ap_held=0.3339 auc_analysed=0.8794 recall=0.836 tta=0.68s
+[stride  4] auc_held=0.8788 ap_held=0.3310 auc_analysed=0.8798 recall=0.836 tta=0.76s
+[stride  8] auc_held=0.8763 ap_held=0.3251 auc_analysed=0.8785 recall=0.821 tta=0.82s
+[stride 16] auc_held=0.8704 ap_held=0.3119 auc_analysed=0.8830 recall=0.786 tta=0.88s
+[budget] decode=4.238 extract=354.043 head=0.9915 vlm=408.983 GPU-s/cam-hour; VLM share=53.2%
+[budget] cameras per 4-GPU server: with VLM=19, without=40
+              tier1 stride 1, no VLM: 359.273 GPU-s AUC=0.8802 dAUC=+0.0000 auc/gpu_s=0.0024
+              tier1 stride 2, no VLM: 179.637 GPU-s AUC=0.8798 dAUC=-0.0004 auc/gpu_s=0.0049
+              tier1 stride 4, no VLM: 89.818 GPU-s AUC=0.8788 dAUC=-0.0014 auc/gpu_s=0.0098
+              tier1 stride 8, no VLM: 44.909 GPU-s AUC=0.8763 dAUC=-0.0039 auc/gpu_s=0.0195
+             tier1 stride 16, no VLM: 22.455 GPU-s AUC=0.8704 dAUC=-0.0098 auc/gpu_s=0.0388
+          tier1 stride 1 + VLM @8.6%: 768.256 GPU-s AUC=0.8796 dAUC=-0.0006 auc/gpu_s=0.0011
+          tier1 stride 2 + VLM @8.6%: 588.619 GPU-s AUC=0.8792 dAUC=-0.0006 auc/gpu_s=0.0015
+gate1=STRONG gate2=FLAT -> MORE-CAMERAS PAPER
+[saved] /Users/24sf51025/Research/FleetVAD/research/e0/followup/results/e08.json

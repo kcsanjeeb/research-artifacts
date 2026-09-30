@@ -1,0 +1,59 @@
+{
+  "config": {
+    "model": "OpenGVLab/InternVL2-8B",
+    "prompt": "VERA learned prompt + 5 guiding questions (verbatim from repo)",
+    "clip_spec": "same as E0.7 cells (12 frames, 448x448, s0)",
+    "fusion": "isotonic_crossfit_by_video_parity",
+    "note": "VERA natively uses 8 frames over a 10s window and a hard 0/1 parse; we hold the grid clip spec and report both the logprob score (primary) and VERA's own parse"
+  },
+  "baseline": {
+    "auc_tier1": 0.8801992605166815,
+    "ap_tier1": 0.3352453933862587
+  },
+  "cells": [
+    {
+      "gate": "band",
+      "span_snippets": 0,
+      "model": "VERA/InternVL2-8B",
+      "oracle_ceiling_dAUC": 0.025564532365298098,
+      "replace_b_isotonic": {
+        "dAUC": -0.0027641420432451547,
+        "dAP": -0.001217048044681035,
+        "capture_fraction": -0.10812409958248509
+      },
+      "replace_c_raw": {
+        "dAUC": -0.04161130069154917,
+        "dAP": -0.08545144188494758,
+        "capture_fraction": -1.6276965327178576
+      },
+      "within_pool_auc_vlm": 0.46986280032891997,
+      "within_pool_auc_tier1": 0.5726248020259076,
+      "vlm_yes_rate": 0.2112321877619447,
+      "vlm_acc": 0.7570829840737636,
+      "const_majority_acc": 0.9357921207041073,
+      "agreement_c_vs_b@0.5": 0.9840737636211232
+    },
+    {
+      "gate": "topk",
+      "span_snippets": 0,
+      "model": "VERA/InternVL2-8B",
+      "oracle_ceiling_dAUC": 0.04592441418144555,
+      "replace_b_isotonic": {
+        "dAUC": -0.0669096124194295,
+        "dAP": -0.13408786782344637,
+        "capture_fraction": -1.4569508095426598
+      },
+      "replace_c_raw": {
+        "dAUC": -0.08162062121628277,
+        "dAP": -0.0048324368479177315,
+        "capture_fraction": -1.7772817067149276
+      },
+      "within_pool_auc_vlm": 0.6104883170129767,
+      "within_pool_auc_tier1": 0.549655243387877,
+      "vlm_yes_rate": 0.5882648784576697,
+      "vlm_acc": 0.5785414920368818,
+      "const_majority_acc": 0.6357082984073763,
+      "agreement_c_vs_b@0.5": 0.9946353730092204
+    }
+  ]
+}

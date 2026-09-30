@@ -1,0 +1,12 @@
+{
+  "task": "T2.4 honest metric reporting",
+  "inputs": {
+    "eviction_run": "/home/san/e1/runs/20260919_1019_eviction_c3",
+    "t23_run": "/home/san/e1/runs/20260925_1924_t23_tombstone_matrix",
+    "smb_queries": "/home/san/e1/smb/queries.jsonl",
+    "ingest_run": "/home/san/e1/runs/20260918_0111_writepath_fullcorpus",
+    "tagging_run": "/home/san/e1/runs/20260918_0802_v01_tagging",
+    "e0_tier1": "/home/san/FleetVAD/research/e0/results/tier1_scores.npz"
+  },
+  "no_new_inference": true
+}

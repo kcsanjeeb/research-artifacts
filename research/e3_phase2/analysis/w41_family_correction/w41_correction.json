@@ -1,0 +1,105 @@
+{
+ "replaced_arm": "writetime (old 0.25fps-effective) -> writetime_05fps (W4.1 true 0.5fps)",
+ "corrected_comparisons": {
+  "p_exact": {
+   "mukv_paper vs writetime_05fps": 0.20319154030350103,
+   "stock_rekv_w25 vs writetime_05fps": 0.1387502435545096
+  },
+  "p_cc": {
+   "mukv_paper vs writetime_05fps": 0.2032690879469226,
+   "stock_rekv_w25 vs writetime_05fps": 0.1388990286512803
+  }
+ },
+ "families": {
+  "A(m=21, full-run RVS arms)|p_exact": {
+   "m": 21,
+   "min_holm": 0.020303766303133904,
+   "min_bh": 0.020303766303133904,
+   "any_holm_lt_0.05": true,
+   "any_bh_lt_0.05": true,
+   "corrected_comparisons": {
+    "mukv_paper vs writetime_05fps": {
+     "raw": 0.20319154030350103,
+     "holm": 1.0,
+     "bh": 0.3879111223975929
+    },
+    "stock_rekv_w25 vs writetime_05fps": {
+     "raw": 0.1387502435545096,
+     "holm": 1.0,
+     "bh": 0.29137551146447016
+    }
+   }
+  },
+  "A(m=21, full-run RVS arms)|p_cc": {
+   "m": 21,
+   "min_holm": 0.020972413962785444,
+   "min_bh": 0.020972413962785444,
+   "any_holm_lt_0.05": true,
+   "any_bh_lt_0.05": true,
+   "corrected_comparisons": {
+    "mukv_paper vs writetime_05fps": {
+     "raw": 0.2032690879469226,
+     "holm": 1.0,
+     "bh": 0.38805916789867045
+    },
+    "stock_rekv_w25 vs writetime_05fps": {
+     "raw": 0.1388990286512803,
+     "holm": 1.0,
+     "bh": 0.2916879601676886
+    }
+   }
+  },
+  "B(m=15, oracle subset arms)|p_exact": {
+   "m": 15,
+   "min_holm": 0.300924105104059,
+   "min_bh": 0.12153255054727197,
+   "any_holm_lt_0.05": false,
+   "any_bh_lt_0.05": false
+  },
+  "B(m=15, oracle subset arms)|p_cc": {
+   "m": 15,
+   "min_holm": 0.32334400140024416,
+   "min_bh": 0.12890938888736272,
+   "any_holm_lt_0.05": false,
+   "any_bh_lt_0.05": false
+  },
+  "union(m=36)|p_exact": {
+   "m": 36,
+   "min_holm": 0.03480645651965812,
+   "min_bh": 0.03480645651965812,
+   "any_holm_lt_0.05": true,
+   "any_bh_lt_0.05": true,
+   "corrected_comparisons": {
+    "mukv_paper vs writetime_05fps": {
+     "raw": 0.20319154030350103,
+     "holm": 1.0,
+     "bh": 0.4302879677015316
+    },
+    "stock_rekv_w25 vs writetime_05fps": {
+     "raw": 0.1387502435545096,
+     "holm": 1.0,
+     "bh": 0.3121880479976466
+    }
+   }
+  },
+  "union(m=36)|p_cc": {
+   "m": 36,
+   "min_holm": 0.03595270965048933,
+   "min_bh": 0.03595270965048933,
+   "any_holm_lt_0.05": true,
+   "any_bh_lt_0.05": true,
+   "corrected_comparisons": {
+    "mukv_paper vs writetime_05fps": {
+     "raw": 0.2032690879469226,
+     "holm": 1.0,
+     "bh": 0.430452186240542
+    },
+    "stock_rekv_w25 vs writetime_05fps": {
+     "raw": 0.1388990286512803,
+     "holm": 1.0,
+     "bh": 0.31252281446538066
+    }
+   }
+  }
+ }
+}

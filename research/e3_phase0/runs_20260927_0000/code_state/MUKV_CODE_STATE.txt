@@ -1,0 +1,10 @@
+MuKV code state 2026-09-27 (Gate 0 answering)
+base: https://github.com/IMBALDY/MuKV @ 2127b875ea1c2d91e4349324edbd779168a3da9e (PROVENANCE.txt; zip download, no git)
+patches applied (vs pristine GitHub download):
+  1. code/patches/mukv_v100_sdpa.patch (fattn=False, attn_implementation=sdpa) — torch fallback because rekv env lacks flash_attn
+  2. fp32-upcast hunks in model/attention/dot_production_attention/torch_impl.py — copied verbatim from patched ReKV same-file (identical pre-patch); fp32 QK^T scores + cast-back after softmax
+  3. data -> symlink to ../ReKV/data (RVS-Ego 10 videos + ego4d_oe.json)
+0f03aaf9807de71bb3a47eaeaec974e4ee7274eb670772d70ff8887b453d1d33  MuKV/model/llava_onevision_mukv.py
+677aa5f97ab7d39da88f000c45512333d6bee0ae3cbd3105b85d3beb61636402  MuKV/model/attention/dot_production_attention/torch_impl.py
+  4. scripts/run_mukv_rvs_ego.py: decord VideoReader num_threads=1 -> auto (decode parallelism only; identical frame_idx sampling). Smoke showed num_threads=1 costs ~15 min/video (1080p 1h mp4) vs ~1-2 min auto. Model-affecting code untouched.
+  5. scripts/run_mukv_rvs_ego.py npy branch: identity load (no linspace resample) — npy inputs are pre-decoded at the exact mp4-path frame indices (/dev/shm/e3_mukv_npy, written by decode_to_shm.py, decord num_threads=2). Workaround for broken decord threaded decoder (threads>=4 crash; threads 0-2 give no speedup; 13 min/video). Frame bytes identical to mp4 path.

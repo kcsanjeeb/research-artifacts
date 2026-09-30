@@ -1,0 +1,6 @@
+seed: 0
+capacity_json: /home/san/FleetVAD/research/e0/results/capacity.json
+tau: 0.5
+target_escalation_rate: 0.086
+clip_periods: [0.5, 1.0, 2.0]
+n_streams: [1, 2, 4, 8, 16, 32, 64, 128, 256]

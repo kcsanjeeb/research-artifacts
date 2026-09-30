@@ -1,0 +1,1040 @@
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 554, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 554, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 554, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 554, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 554, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 554, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 554, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 554, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 554, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 554, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 554, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 554, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 569, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 569, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 569, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 569, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 569, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 569, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 569, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 569, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 569, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 569, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 569, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 569, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 582, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 582, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 582, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 582, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 582, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 582, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 582, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 582, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 582, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 582, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 582, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 582, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 557, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 557, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 557, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 557, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 557, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 557, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 557, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 557, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 557, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 557, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 557, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 557, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 574, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 574, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 574, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 574, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 574, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 574, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 574, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 574, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 574, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 574, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 574, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 574, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 532, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 532, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 532, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 532, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 532, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 532, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 532, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 532, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 532, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 532, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 532, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 532, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 551, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 551, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 551, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 551, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 551, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 551, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 551, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 551, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 551, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 551, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 551, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 551, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 592, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 592, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 592, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 592, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 592, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 592, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 592, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 592, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 592, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 592, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 592, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 592, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 571, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 571, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 571, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 571, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 571, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 571, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 571, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 571, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 571, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 571, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 571, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 571, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 580, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 580, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 580, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 580, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 580, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 580, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 580, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 580, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 580, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 580, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 580, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 580, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 568, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 568, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 568, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 568, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 568, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 568, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 568, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 568, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 568, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 568, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 568, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 568, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 584, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 584, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 584, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 584, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 584, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 584, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 584, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 584, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 584, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 584, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 584, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 584, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 565, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 565, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 565, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 565, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 565, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 565, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 565, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 565, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 565, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 565, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 565, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 565, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 556, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 556, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 556, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 556, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 556, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 556, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 556, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 556, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 556, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 556, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 556, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 556, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 587, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 587, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 587, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 587, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 587, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 587, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 587, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 587, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 587, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 587, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 587, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 587, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 579, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 579, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 579, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 579, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 579, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 579, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 579, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 579, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 579, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 579, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 579, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 579, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 533, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 533, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 533, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 533, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 533, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 533, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 533, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 533, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 533, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 533, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 533, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 533, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 570, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 570, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 570, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 570, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 570, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 570, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 570, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 570, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 570, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 570, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 570, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 570, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 566, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 566, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 566, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 566, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 566, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 566, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 566, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 566, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 566, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 566, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 566, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 566, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 540, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 540, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 540, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 540, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 540, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 540, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 540, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 540, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 540, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 586, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 586, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 586, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 586, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 586, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 586, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 586, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 586, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 586, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 586, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 586, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 586, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 549, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 549, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 549, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 549, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 549, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 549, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 549, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 549, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 549, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 549, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 549, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 549, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 564, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 564, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 564, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 564, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 564, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 564, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 564, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 564, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 564, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 564, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 564, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 564, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 590, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 590, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 590, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 590, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 590, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 590, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 590, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 590, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 590, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 590, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 590, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 590, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 547, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 547, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 547, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 547, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 547, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 547, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 547, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 547, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 547, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 547, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 547, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 547, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 585, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 585, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 585, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 585, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 585, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 585, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 585, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 585, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 585, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 585, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 585, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 585, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 583, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 583, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 583, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 583, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 583, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 583, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 583, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 583, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 583, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 583, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 583, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 583, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 578, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 578, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 578, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 578, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 578, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 578, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 578, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 578, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 578, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 578, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 578, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 578, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 563, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 563, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 563, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 563, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 563, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 563, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 563, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 563, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 563, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 563, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 563, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 563, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Who is involved in the scene?", "block": 581, "f1_full": 0.2608695652173913, "f1_minus_j": 0.111, "drop": 0.15}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What is the setting in this video clip?", "block": 581, "f1_full": 0.24, "f1_minus_j": 0.19, "drop": 0.05}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the vendor wearing gloves while handling food?", "block": 581, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Describe the setting of this video clip.", "block": 581, "f1_full": 0.06451612903225806, "f1_minus_j": 0.032, "drop": 0.032}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the cook multitasking between cooking and another activity?", "block": 581, "f1_full": 0.1, "f1_minus_j": 0.08, "drop": 0.02}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "How many customers are being interacted with?", "block": 581, "f1_full": 0.8333333333333334, "f1_minus_j": 0.381, "drop": 0.452}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "What do I do before making food for woman A and man B?", "block": 581, "f1_full": 0.19047619047619047, "f1_minus_j": 0.08, "drop": 0.11}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the scene suggest any sign of a rush or urgency?", "block": 581, "f1_full": 0.0, "f1_minus_j": 0.069, "drop": -0.069}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Is the food being freshly prepared or pre-packaged?", "block": 581, "f1_full": 0.4615384615384615, "f1_minus_j": 0.462, "drop": 0.0}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did the serving of potato balls happen before the gruel in foam plates?", "block": 581, "f1_full": 0.0, "f1_minus_j": 0.143, "drop": -0.143}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Does the video show the exchange of goods for payment?", "block": 581, "f1_full": 0.10526315789473684, "f1_minus_j": 0.0, "drop": 0.105}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "question": "Did I serve gruel before serving potato balls?", "block": 581, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1413, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1413, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1413, "f1_full": 0.29411764705882354, "f1_minus_j": 0.2, "drop": 0.094}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1413, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1413, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1413, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1413, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1413, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1413, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1413, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1413, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1413, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 710, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 710, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 710, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 710, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 710, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 710, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 710, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 710, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 710, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 710, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 710, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 710, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 181, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 181, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 181, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 181, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 181, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 181, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 181, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 181, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 181, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 181, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 181, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 181, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 760, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 760, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 760, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 760, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 760, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 760, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 760, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 760, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 760, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 760, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 760, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 760, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 230, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 230, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 230, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 230, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 230, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 230, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 230, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 230, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 230, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 230, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 230, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 230, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 772, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1573, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1573, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1573, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1573, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1573, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1573, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1573, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1573, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1573, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1573, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1573, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1573, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1554, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1554, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1554, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1554, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1554, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1554, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1554, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1554, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1554, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1554, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1554, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1554, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 705, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 705, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 705, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 705, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 705, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 705, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 705, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 705, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 705, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 705, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 23, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 23, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 23, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 23, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 23, "f1_full": 0.4, "f1_minus_j": 0.25, "drop": 0.15}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 23, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 23, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 23, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 23, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 23, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 23, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 23, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1640, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1640, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1640, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1640, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1640, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1640, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1640, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1640, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1640, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1640, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1640, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1640, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 679, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 679, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 679, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 679, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 679, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 679, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 679, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 679, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 679, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 679, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 679, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 679, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1653, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1653, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1653, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1653, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1653, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1653, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1653, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1653, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1653, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1653, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1653, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1653, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 22, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 22, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 22, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 22, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 22, "f1_full": 0.4, "f1_minus_j": 0.25, "drop": 0.15}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 22, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 22, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 22, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 22, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 22, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 22, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 22, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 758, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 758, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 758, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 758, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 758, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 758, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 758, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 758, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 758, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 758, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 758, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 758, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 21, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 21, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 21, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 21, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 21, "f1_full": 0.4, "f1_minus_j": 0.25, "drop": 0.15}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 21, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 21, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 21, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 21, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 21, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 21, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 21, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1572, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1572, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1572, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1572, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1572, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1572, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1572, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1572, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1572, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1572, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1572, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1572, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 5, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 5, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 5, "f1_full": 0.29411764705882354, "f1_minus_j": 0.158, "drop": 0.136}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 5, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 5, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 5, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 5, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 5, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 5, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 5, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 5, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 5, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 39, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 39, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 39, "f1_full": 0.29411764705882354, "f1_minus_j": 0.2, "drop": 0.094}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 39, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 39, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 39, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 39, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 39, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 39, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 39, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 39, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 39, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1407, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1407, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1407, "f1_full": 0.29411764705882354, "f1_minus_j": 0.158, "drop": 0.136}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1407, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1407, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1407, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1407, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1407, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1407, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1407, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1407, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1407, "f1_full": 0.07142857142857142, "f1_minus_j": 0.174, "drop": -0.102}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 868, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 868, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 868, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 868, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 868, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 868, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 868, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 868, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 868, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 868, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 868, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 868, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1495, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1495, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1495, "f1_full": 0.29411764705882354, "f1_minus_j": 0.2, "drop": 0.094}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1495, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1495, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1495, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1495, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1495, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1495, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1495, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1495, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1495, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1644, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1644, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1644, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1644, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1644, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1644, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1644, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1644, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1644, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1644, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1644, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1644, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1457, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1457, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1457, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1457, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1457, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1457, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1457, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1457, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1457, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1457, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1457, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1457, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1804, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1804, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1804, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1804, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1804, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1804, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1804, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1804, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 38, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 38, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 38, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 38, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 38, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 38, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 38, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 38, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 38, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 38, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 38, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 38, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1552, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1552, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1552, "f1_full": 0.29411764705882354, "f1_minus_j": 0.167, "drop": 0.127}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1552, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1552, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1552, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1552, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1552, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1552, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1552, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1552, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1552, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 1409, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 1409, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 1409, "f1_full": 0.29411764705882354, "f1_minus_j": 0.2, "drop": 0.094}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 1409, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 1409, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 1409, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 1409, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 1409, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 1409, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 1409, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 1409, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 1409, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 40, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 40, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 40, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 40, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 40, "f1_full": 0.4, "f1_minus_j": 0.286, "drop": 0.114}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 40, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 40, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 40, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 40, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 40, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 40, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 40, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What is depicted in the scene of the video clip?", "block": 27, "f1_full": 0.25531914893617025, "f1_minus_j": 0.485, "drop": -0.23}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What object is prominently featured in the scene?", "block": 27, "f1_full": 0.7142857142857143, "f1_minus_j": 0.533, "drop": 0.181}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the motion occurring in the clip?", "block": 27, "f1_full": 0.29411764705882354, "f1_minus_j": 0.133, "drop": 0.161}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Can you describe the posture of the reader in this clip?", "block": 27, "f1_full": 0.41379310344827586, "f1_minus_j": 0.414, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "How is the person positioned in this section of the video?", "block": 27, "f1_full": 0.4, "f1_minus_j": 0.25, "drop": 0.15}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Was I in the house before I sat on the couch?", "block": 27, "f1_full": 0.15384615384615385, "f1_minus_j": 0.154, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Is the individual in the video communicating with someone else?", "block": 27, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "In the video, is the tablet picked up before legs are placed on the couch?", "block": 27, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the video show the person watching TV?", "block": 27, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What happens before I use the tablet in the video?", "block": 27, "f1_full": 0.21621621621621623, "f1_minus_j": 0.216, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "Does the frame show the person cooking in the kitchen?", "block": 27, "f1_full": 1.0, "f1_minus_j": 1.0, "drop": 0.0}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "question": "What occurs just before raising hands?", "block": 27, "f1_full": 0.07142857142857142, "f1_minus_j": 0.182, "drop": -0.11}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 39, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 39, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 39, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 39, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 39, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 39, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 39, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 39, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 39, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 39, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 39, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 39, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 63, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 63, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 63, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 63, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 63, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 63, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 63, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 63, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 63, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 63, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 63, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 63, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 112, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 112, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 75, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 75, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 75, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 75, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 75, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 75, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 75, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 75, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 75, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 75, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 75, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 75, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 91, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 91, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 91, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 91, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 91, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 91, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 2, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 2, "f1_full": 0.4, "f1_minus_j": 0.207, "drop": 0.193}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 2, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 2, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 2, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 2, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 2, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 2, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 2, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 2, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 2, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 2, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 8, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 8, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 8, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 8, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 8, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 8, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 8, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 8, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 8, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 8, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 8, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 8, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 59, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 59, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 59, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 59, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 59, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 59, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 59, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 59, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 59, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 59, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 59, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 59, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 70, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 70, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 70, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 70, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 70, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 70, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 70, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 70, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 70, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 70, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 70, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 70, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 99, "f1_full": 0.08695652173913043, "f1_minus_j": 0.235, "drop": -0.148}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 99, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 99, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 99, "f1_full": 0.14035087719298245, "f1_minus_j": 0.229, "drop": -0.088}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 99, "f1_full": 0.2777777777777778, "f1_minus_j": 0.118, "drop": 0.16}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 14, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 14, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 14, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 14, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 14, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 14, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 14, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 14, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 14, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 14, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 14, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 14, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 106, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 106, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 106, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 106, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 106, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 106, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 106, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 106, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 106, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 106, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 106, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 106, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 10, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 10, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 10, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 10, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 10, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 10, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 10, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 10, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 10, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 10, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 10, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 10, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 60, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 60, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 60, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 60, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 60, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 60, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 60, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 60, "f1_full": 0.2, "f1_minus_j": 0.095, "drop": 0.105}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 60, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 60, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 60, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 60, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 78, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 78, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 78, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 78, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 78, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 78, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 78, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 78, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 78, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 78, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 78, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 78, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 64, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 64, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 64, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 64, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 64, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 64, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 64, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 64, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 64, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 64, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 64, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 64, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 86, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 86, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 86, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 86, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 86, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 86, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 86, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 86, "f1_full": 0.2, "f1_minus_j": 0.095, "drop": 0.105}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 86, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 86, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 86, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 86, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 140, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 140, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 140, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 140, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 140, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 140, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 140, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 140, "f1_full": 0.2, "f1_minus_j": 0.095, "drop": 0.105}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 140, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 140, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 140, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 140, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 108, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 108, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 108, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 108, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 108, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 108, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 108, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 108, "f1_full": 0.2, "f1_minus_j": 0.095, "drop": 0.105}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 108, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 108, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 108, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 108, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 126, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 126, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 126, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 126, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 126, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 126, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 126, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 126, "f1_full": 0.2, "f1_minus_j": 0.095, "drop": 0.105}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 126, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 126, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 126, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 126, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 88, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 88, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 88, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 88, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 88, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 88, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 88, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 88, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 88, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 88, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 88, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 88, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 142, "f1_full": 0.08695652173913043, "f1_minus_j": 0.235, "drop": -0.148}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 142, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 142, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 142, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 142, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 142, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 142, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 142, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 142, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 142, "f1_full": 0.2777777777777778, "f1_minus_j": 0.118, "drop": 0.16}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 142, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 142, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 55, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 55, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 55, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 55, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 55, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 55, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 55, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 55, "f1_full": 0.2, "f1_minus_j": 0.095, "drop": 0.105}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 55, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 55, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 55, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 55, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 71, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 71, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 71, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 71, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 71, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 71, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 71, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 71, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 71, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 71, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 71, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 71, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 73, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 73, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 73, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 73, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 73, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 73, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 73, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 73, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 73, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 73, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 73, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 73, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 37, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 37, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 37, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 37, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 37, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 37, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 37, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 37, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 37, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 37, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 37, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 37, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 77, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 77, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 77, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 77, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 77, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 77, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 77, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 77, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 77, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 77, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 77, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 77, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 62, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 62, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 62, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 62, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 62, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 62, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 62, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 62, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 62, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 62, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 62, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 62, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 42, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 42, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 42, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 42, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 42, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 42, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 42, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 42, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 42, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 42, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 42, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 42, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What location is shown in the video frame?", "block": 80, "f1_full": 0.08695652173913043, "f1_minus_j": 0.211, "drop": -0.124}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the environment urban or rural?", "block": 80, "f1_full": 0.4, "f1_minus_j": 0.2, "drop": 0.2}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Who is walking in this clip?", "block": 80, "f1_full": 0.1, "f1_minus_j": 0.154, "drop": -0.054}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Do any vehicles pass by closely?", "block": 80, "f1_full": 0.0, "f1_minus_j": 0.182, "drop": -0.182}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is there any construction work shown in the video?", "block": 80, "f1_full": 0.5333333333333333, "f1_minus_j": 0.533, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Which location is primarily featured in this video clip?", "block": 80, "f1_full": 0.5263157894736842, "f1_minus_j": 0.455, "drop": 0.072}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What actions are shown in these new frames?", "block": 80, "f1_full": 0.14035087719298245, "f1_minus_j": 0.207, "drop": -0.067}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Are the movements in the video leisurely or hurried?", "block": 80, "f1_full": 0.2, "f1_minus_j": 0.167, "drop": 0.033}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the person in the video engaging in a conversation?", "block": 80, "f1_full": 1.0, "f1_minus_j": 0.0, "drop": 1.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What is the setting of this video clip?", "block": 80, "f1_full": 0.2777777777777778, "f1_minus_j": 0.158, "drop": 0.12}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "Is the communication friendly and non-threatening?", "block": 80, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "question": "What do I do just before interacting with the woman on the road in the video?", "block": 80, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}

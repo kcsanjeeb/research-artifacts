@@ -1,0 +1,23 @@
+clips=69368 anom=0.0781
+
+--- pool=ALL (motion-only, alpha=0) ---
+ theta     hit   agree   nhits
+  0.80   0.994   0.920   68978
+  0.85   0.978   0.922   67820
+  0.90   0.893   0.928   61965
+  0.95   0.587   0.948   40731
+  0.96   0.474   0.954   32870
+  0.99   0.057   0.976    3953
+  SAFE op point: theta=0.96 hit=0.474 agree=0.954
+
+--- pool=XVID (motion-only, alpha=0) ---
+ theta     hit   agree   nhits
+  0.80   0.981   0.815   68061
+  0.85   0.929   0.819   64457
+  0.90   0.748   0.830   51872
+  0.95   0.316   0.862   21953
+  0.96   0.210   0.871   14537
+  0.99   0.012   0.946     840
+  NO safe point; max agree=0.946 at theta=0.99 (hit=0.012)
+
+baselines: random-pair agreement=0.856  majority-class=0.922

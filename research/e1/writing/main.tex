@@ -1,0 +1,42 @@
+% FleetMem paper draft — Overleaf-ready.
+% Compile: pdfLaTeX (or XeLaTeX). Class: acmart (available on Overleaf).
+\documentclass[sigconf,anonymous]{acmart}
+
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{xspace}
+
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+
+\newcommand{\sys}{FleetMem\xspace}
+\newcommand{\smb}{SMB\xspace}
+
+\title{FleetMem: Budget-Constrained Semantic Memory for Always-On Video Fleets}
+
+\begin{document}
+
+\begin{abstract}
+Always-on camera fleets need persistent, queryable memory of what happened, but existing approaches force a choice between two unbudgeted extremes: retaining model-internal key--value state, which is opaque, per-stream, and grows at gigabytes per stream-hour, or building semantic indexes with unconditional time-driven writes whose compute cost is never reported. Neither paradigm treats memory as a resource with a budget. We present \sys, a serving system that maintains a queryable semantic memory over many live camera streams under explicit GPU and storage budgets. \sys contributes four budgeted policies: event-driven memory writes gated by a cheap tier-1 signal; coverage-aware eviction with tombstones that convert deletion into compression; a fleet admission controller that sheds low-salience writes under overload; and a calibrated query path that can abstain. We also contribute SMB, a 300-query surveillance memory benchmark with ground-truth evidence spans over UCF-Crime, XD-Violence, and ShanghaiTech. On 4$\times$V100 hardware, \sys answers existence queries at 0.95 accuracy with a write cost of 244 GPU-s per stream-hour and 1.13\,MB per stream-day --- beating every baseline on every accuracy metric while using $\sim$2$\times 10^4\times$ less storage than even aggressively compressed KV-cache retention (MuKV at 3/4 removal) and $\sim$5$\times$ less write compute than time-driven captioning. Under fleet overload, admission control preserves timely memory for high-salience events at 10--20$\times$ the rate of fair queueing. All measurements are reproducible; every run is pinned by configuration, environment, and code state.
+\end{abstract}
+
+\maketitle
+
+\input{sections/01_introduction}
+\input{sections/02_related}
+\input{sections/03_gap_formulation}
+\input{sections/04_design}
+\input{sections/05_experiments}
+\input{sections/06_discussion}
+\input{sections/07_conclusion}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\appendix
+\input{sections/08_appendix}
+
+\end{document}

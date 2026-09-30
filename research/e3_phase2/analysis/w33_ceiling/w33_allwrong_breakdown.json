@@ -1,0 +1,72 @@
+{
+ "rvs": {
+  "best_policy_used": "patch",
+  "categories": {
+   "model-capability-failure": 138,
+   "store-coverage(logged)-failure": 14
+  },
+  "pct_of_all_wrong": {
+   "model-capability-failure": 90.8,
+   "store-coverage(logged)-failure": 9.2
+  },
+  "overlap_ratio_all_wrong": {
+   "mean": 0.20903446664907882,
+   "median": 0.12649122807017543,
+   "frac_zero": 0.0,
+   "frac_ge_half": 0.11842105263157894
+  },
+  "by_question_type": {
+   "action-doing": {
+    "model-capability-failure": 2
+   },
+   "other-what": {
+    "model-capability-failure": 51,
+    "store-coverage(logged)-failure": 11
+   },
+   "overview": {
+    "model-capability-failure": 1
+   },
+   "temporal-beforeafter": {
+    "model-capability-failure": 83,
+    "store-coverage(logged)-failure": 3
+   },
+   "temporal-firstlast": {
+    "model-capability-failure": 1
+   }
+  },
+  "window_length_s": {
+   "all-wrong": {
+    "mean": 508.6,
+    "n": 152
+   },
+   "all-right": {
+    "mean": 421.1,
+    "n": 110
+   },
+   "mixed": {
+    "mean": 463.3,
+    "n": 54
+   }
+  },
+  "proxies": {
+   "block_to_time": "frame block b <-> [4b, 4b+4) s (effective 0.25 fps; verified vs max block id and n_segments=225/3600s)",
+   "frontier": "streamed until 2*end s; window always within streamed range on RVS; the last n_local=15000 tokens (76 frames = 304 s) are additionally resident in the local cache at answer time and count as context-present",
+   "store": "per-segment budget, no cross-segment eviction -> true zero-coverage impossible at tax0.5; 'store-coverage(logged)' = window segments absent from ALL logged store interactions (seg_scores+commit) of that video in the patch arm"
+  }
+ },
+ "xbench": {
+  "best_policy_used": "frame",
+  "categories": {
+   "model-capability-failure": 42
+  },
+  "pct_of_all_wrong": {
+   "model-capability-failure": 100.0
+  },
+  "overlap_ratio_all_wrong": {
+   "mean": 1.0,
+   "median": 1.0,
+   "frac_zero": 0.0
+  },
+  "note": "store coverage not assessable: xbench commit logs carry no seg ids"
+ }
+}

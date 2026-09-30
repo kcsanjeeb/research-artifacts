@@ -1,0 +1,156 @@
+{
+  "B_label_anchored": {
+    "internvl2/schema": {
+      "n": 200,
+      "parse_rate": 0.95,
+      "category_consistency": 0.617,
+      "category_consistency_n": 60,
+      "false_alarm_normal": 0.025,
+      "false_alarm_n": 40,
+      "false_alarm_events": [
+        "e0195"
+      ]
+    },
+    "internvl2/freeform": {
+      "n": 200,
+      "parse_rate": null,
+      "category_consistency": 0.533,
+      "category_consistency_n": 60,
+      "false_alarm_normal": 0.025,
+      "false_alarm_n": 40,
+      "false_alarm_events": [
+        "e0195"
+      ]
+    },
+    "qwen25vl/schema": {
+      "n": 200,
+      "parse_rate": 0.96,
+      "category_consistency": 0.5,
+      "category_consistency_n": 60,
+      "false_alarm_normal": 0.075,
+      "false_alarm_n": 40,
+      "false_alarm_events": [
+        "e0092",
+        "e0191",
+        "e0198"
+      ]
+    },
+    "qwen25vl/freeform": {
+      "n": 200,
+      "parse_rate": null,
+      "category_consistency": 0.4,
+      "category_consistency_n": 60,
+      "false_alarm_normal": 0.0,
+      "false_alarm_n": 40,
+      "false_alarm_events": []
+    }
+  },
+  "C_agreement": {
+    "anomalous": {
+      "n": 78,
+      "mean_f1": 0.332,
+      "median_f1": 0.333
+    },
+    "borderline": {
+      "n": 70,
+      "mean_f1": 0.298,
+      "median_f1": 0.296
+    },
+    "normal": {
+      "n": 35,
+      "mean_f1": 0.375,
+      "median_f1": 0.333
+    }
+  },
+  "D_parse_failures": {
+    "internvl2": {
+      "n_unparsed": 10,
+      "events": [
+        "e0003",
+        "e0038",
+        "e0096",
+        "e0144",
+        "e0154",
+        "e0172",
+        "e0176",
+        "e0192",
+        "e0193",
+        "e0194"
+      ],
+      "datasets": {
+        "ucf": 3,
+        "xd": 7
+      },
+      "strata": {
+        "anomalous": 2,
+        "normal": 4,
+        "borderline": 4
+      },
+      "crowded_proxy": 7
+    },
+    "qwen25vl": {
+      "n_unparsed": 8,
+      "events": [
+        "e0083",
+        "e0145",
+        "e0156",
+        "e0163",
+        "e0165",
+        "e0170",
+        "e0172",
+        "e0179"
+      ],
+      "datasets": {
+        "ucf": 1,
+        "xd": 7
+      },
+      "strata": {
+        "normal": 1,
+        "borderline": 7
+      },
+      "crowded_proxy": 3
+    }
+  }
+}
+/home/san/miniconda/envs/e1qwen/lib/python3.10/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+tags loaded for 749 events
+50/220
+100/220
+150/220
+200/220
+{
+  "per_type": {
+    "existence": {
+      "n": 60,
+      "accuracy": 0.95
+    },
+    "negation": {
+      "n": 50,
+      "accuracy": 0.5,
+      "false_alarm_rate": 0.5
+    },
+    "existence_plus_negation": {
+      "balanced_acc": 0.725
+    },
+    "temporal": {
+      "n": 60,
+      "mean_tIoU": 0.204,
+      "tIoU_at_0.3": 0.217
+    },
+    "retrieval": {
+      "n": 50,
+      "recall_at_10": 0.437,
+      "AP": 0.365
+    }
+  },
+  "config": {
+    "expansion": true,
+    "tags": true,
+    "refined": null,
+    "verify": "none",
+    "tau_hi": null,
+    "tau": 0.47999999999999987
+  },
+  "total_verify_gpu_s": 0.0
+}

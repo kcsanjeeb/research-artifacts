@@ -1,0 +1,98 @@
+{
+  "mode": "qa",
+  "decaf_position_free": "1",
+  "T3a_helper_equiv_p0": {
+    "rel_err": 0.0
+  },
+  "T3a_helper_equiv_p5": {
+    "rel_err": 0.0
+  },
+  "T3a_helper_equiv_p15001": {
+    "rel_err": 0.0
+  },
+  "T3a_helper_equiv_p352000": {
+    "rel_err": 0.0
+  },
+  "T3b_rotate_on_fetch_plumbing": {
+    "n_init": 13,
+    "checks": [
+      {
+        "question": "What is the setting of the video clip?",
+        "next_pos": 86253,
+        "manager_length": 86253,
+        "next_pos_ok": true,
+        "buffer_pos_ok": true,
+        "sidecar_grp_ok": true,
+        "sidecar_identity": true,
+        "retrieved_layer0": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "layer0_diag": {
+          "num_global_block": 440,
+          "init_exc": true,
+          "topk": 64,
+          "chunk_size": 1,
+          "n_blocks_retrieved": 64,
+          "logits_len": 440
+        },
+        "all_layers_n_blocks": [
+          64
+        ]
+      },
+      {
+        "question": "Is the scene occurring in an urban or rural environment?",
+        "next_pos": 86253,
+        "manager_length": 86253,
+        "next_pos_ok": true,
+        "buffer_pos_ok": true,
+        "sidecar_grp_ok": true,
+        "sidecar_identity": true,
+        "retrieved_layer0": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "layer0_diag": {
+          "num_global_block": 440,
+          "init_exc": true,
+          "topk": 64,
+          "chunk_size": 1,
+          "n_blocks_retrieved": 64,
+          "logits_len": 440
+        },
+        "all_layers_n_blocks": [
+          64
+        ]
+      }
+    ]
+  },
+  "T3d_full_qa_smoke": [
+    {
+      "question": "What is the setting of the video clip?",
+      "answer": "It is in an outdoor field.",
+      "pred": "The setting of the video clip appears to be a coastal area with a sandy beach and calm waters. The sky is clear, suggesting a sunny day."
+    },
+    {
+      "question": "Is the scene occurring in an urban or rural environment?",
+      "answer": "Rural environment.",
+      "pred": "The scene appears to be in an urban environment, as indicated by the presence of a paved road and the urban infrastructure visible in the background."
+    }
+  ],
+  "verdict": {
+    "gate_rotate_on_fetch": "PASS",
+    "gate_qa_smoke": "PASS",
+    "OVERALL": "PASS"
+  }
+}

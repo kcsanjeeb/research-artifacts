@@ -1,0 +1,11 @@
+{
+ "n_evals": 8367, "n_blocks": 250, "videos": 10, "bits": [2,4,8],
+ "drop2_block_mean_by_quintile": [0.0456, 0.0320, 0.0391, 0.0431, 0.0451],
+ "out_distortion_2bit_by_quintile": [0.4114, 0.3779, 0.3508, 0.4067, 0.4757],
+ "hot_over_cold_2bit_drop": 0.99, "hot_over_cold_2bit_outdist": 1.16,
+ "welch_p_drop": 0.975, "welch_p_outdist": 0.054,
+ "spearman_freq_drop2": -0.05, "spearman_freq_outdist": -0.06,
+ "drift": {"cold_to_hot": 0.0083, "spearman_early_late": 0.949,
+           "ttkv_ref": {"cold_to_hot": "0.07-0.08", "rho": "0.64-0.78"}},
+ "gate": "Hot 2-bit distortion >= 1.5x Cold (block-level mean gold-F1 drop)",
+ "verdict": "FAIL - drop component (c)"}

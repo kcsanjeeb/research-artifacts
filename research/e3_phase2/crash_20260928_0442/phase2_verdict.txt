@@ -1,0 +1,5 @@
+deferred (B, debias, tax0.5, q4): MISSING
+writetime (MuKV-style, debias, tax0.5, q4): MISSING
+deferred RAW bias (equal memory): MISSING
+stock ReKV 7B (W2.5): Acc 54.1 / Score 2.82 (n=1465)
+Gate 2 (part 2, clairvoyant gap): PENDING oracle policies

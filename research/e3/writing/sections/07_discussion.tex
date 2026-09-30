@@ -1,0 +1,8 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\paragraph{Threats to validity.} The 72B judge substitutes for the field's GPT judges; the stability argument (three systems, consistent offset) bounds but does not eliminate this risk, and letter-match benchmarks bypass it entirely. The RVS oracle analysis rests on a 2-video subset (mitigated by the three-benchmark protocol). The coverage--gain correlation is three points. The causal coverage experiment is underpowered at $n{=}83$ by pre-declared MDE. Each caveat is load-bearing and stated where the number lives.
+
+\paragraph{What we would tell a new entrant.} Do not build a mechanism against an oracle bound until you have run the oracle-null protocol on it. Do not trust a repository's defaults against its paper. Assert your effective frame rate. Label your statistical tails at emit time. Pre-register your primary comparison and your multiplicity family, and apply the correction to your own claims before a reviewer does.
+
+\paragraph{Ethics and scope.} All experiments use public benchmarks; no human subjects. The measurement stack (code, judged artifacts, statistical tooling) is released for reuse.

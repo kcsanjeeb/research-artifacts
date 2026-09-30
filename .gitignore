@@ -1,0 +1,17 @@
+# OS / editor
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large artifacts: datasets, checkpoints, extracted features, media
+*.npz
+*.pth
+*.pt
+*.ckpt
+*.mp4
+*.avi
+*.zip

@@ -1,0 +1,58 @@
+{
+  "faiss_version": "1.15.0",
+  "omp_threads": 72,
+  "dim": 384,
+  "k": 10,
+  "n_queries": 1000,
+  "seed": 0,
+  "metric": "inner product on unit-norm vectors (cosine)",
+  "threshold": {
+    "p99_ms_at_1M": 50.0,
+    "rationale": "interactive retrieval on a 60 s SLO query path; index time must not dominate"
+  },
+  "real_embedding_validation": {
+    "n_files": 633,
+    "dims": [
+      384
+    ],
+    "dtypes": [
+      "float32"
+    ],
+    "l2_norm_min": 0.9999999403953552,
+    "l2_norm_max": 1.0
+  },
+  "latency": {
+    "10000": {
+      "p50_ms": 0.43483916670084,
+      "p95_ms": 0.45125968754291534,
+      "p99_ms": 0.4836777597665787,
+      "mean_ms": 0.43748703598976135,
+      "max_ms": 0.5350541323423386,
+      "qps_single": 2285.782018060538,
+      "index_bytes": 15360000,
+      "self_recall_at_1_100probe": 1.0
+    },
+    "100000": {
+      "p50_ms": 52.409025840461254,
+      "p95_ms": 64.93134126067162,
+      "p99_ms": 72.74198049679396,
+      "mean_ms": 53.480708384886384,
+      "max_ms": 94.94754113256931,
+      "qps_single": 18.69833123382112,
+      "index_bytes": 153600000,
+      "self_recall_at_1_100probe": 1.0
+    },
+    "1000000": {
+      "p50_ms": 75.94833895564079,
+      "p95_ms": 88.83567461743951,
+      "p99_ms": 95.90465227141976,
+      "mean_ms": 76.87113851308823,
+      "max_ms": 133.2497950643301,
+      "qps_single": 13.008783521916202,
+      "index_bytes": 1536000000,
+      "self_recall_at_1_100probe": 1.0
+    }
+  },
+  "flat_holds_at_1M": false,
+  "verdict": "flat breaks before 1M -> P5-f survives"
+}

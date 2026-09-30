@@ -1,0 +1,16 @@
+{
+  "task": "T3 M1 sketch surrogate validity",
+  "memory": "/home/san/e1/runs/20260918_0111_writepath_fullcorpus",
+  "tags": "/home/san/e1/runs/20260918_0802_v01_tagging",
+  "clip_features": {
+    "ucf": "E0 data/UCFClipFeatures (10-crop, 16f@30fps snippets)",
+    "xd": "E0 data/XDTestClipFeatures (16f@24fps snippets)"
+  },
+  "pq": {
+    "M": 8,
+    "K": 64
+  },
+  "tod_bucket_s": 300.0,
+  "camera_definition": "one video = one camera/stream; strictly per-camera, never cross-camera",
+  "no_gpu": true
+}

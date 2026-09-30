@@ -1,0 +1,13 @@
+deferred (B, debias, tax0.5): Acc 51.8 / Score 2.75 (n=1465)
+writetime (MuKV-style, debias, tax0.5): Acc 51.1 / Score 2.72 (n=1465)
+writetime RAW bias (equal memory): Acc 52.1 / Score 2.74 (n=1465)
+stock ReKV 7B (W2.5): Acc 54.1 / Score 2.82 (n=1465)
+Gate 2 (part 1): deferred - writetime = +0.8 pts Acc (need >= +2)
+Revised Gate 1: debias - raw = -0.3 pts Acc at equal memory
+deferred vs stock 54.1: -2.3 pts
+oracle policy seg (tax1.0): Acc 41.1 / Score 2.23 (n=316)
+oracle policy frame (tax1.0): Acc 43.4 / Score 2.30 (n=316)
+oracle policy patch (tax1.0): Acc 45.6 / Score 2.40 (n=316)
+oracle policy default (tax1.0): Acc 41.1 / Score 2.23 (n=316)
+oracle clairvoyant (best policy): Acc 45.6 / Score 2.40 (n=316)
+Gate 2 (part 2): oracle-writetime gap ~ 0; closure undefined

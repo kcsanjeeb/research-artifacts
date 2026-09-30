@@ -1,0 +1,25 @@
+{
+  "task": "T2.3 tombstones ON/OFF x every eviction policy",
+  "policies": [
+    "recency",
+    "random(3 seeds)",
+    "salience",
+    "coverage"
+  ],
+  "tombstones": [
+    false,
+    true
+  ],
+  "budgets": [
+    0.5,
+    0.25,
+    0.1,
+    0.05,
+    0.02
+  ],
+  "memory": "/home/san/e1/runs/20260918_0111_writepath_fullcorpus",
+  "tags": "/home/san/e1/runs/20260918_0802_v01_tagging",
+  "eval": "220 UCF/XD SMB queries, v0.1 final config (tags channel, refined-combo temporal, frozen tau=0.48, verify=none) \u2014 identical to runs/20260919_1019_eviction_c3",
+  "code": "fleetmem/eviction/t23_tombstone_matrix.py + fleetmem/eviction/eviction_eval.py (reused unchanged)",
+  "no_gpu": true
+}

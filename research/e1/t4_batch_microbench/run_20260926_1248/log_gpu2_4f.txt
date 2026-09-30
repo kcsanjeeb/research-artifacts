@@ -1,0 +1,77 @@
+/home/san/miniconda/envs/e1qwen/lib/python3.10/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+loading model on gpu2 ...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:13<00:52, 13.23s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:17<00:24,  8.16s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:20<00:10,  5.46s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:22<00:04,  4.38s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:28<00:00,  4.70s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:28<00:00,  5.62s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+model loaded in 41s
+/home/san/miniconda/envs/e1qwen/lib/python3.10/site-packages/torch/cuda/memory.py:391: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+[4f_b1] warmup 1/2 6.9s
+[4f_b1] warmup 2/2 4.9s
+[4f_b1] batch 1/30 wall=5.68s vram=16080MB
+[4f_b1] batch 2/30 wall=6.57s vram=16080MB
+[4f_b1] batch 3/30 wall=5.26s vram=16080MB
+[4f_b1] batch 4/30 wall=5.01s vram=16080MB
+[4f_b1] batch 5/30 wall=4.40s vram=16080MB
+[4f_b1] batch 6/30 wall=5.31s vram=16080MB
+[4f_b1] batch 7/30 wall=3.45s vram=16080MB
+[4f_b1] batch 8/30 wall=4.89s vram=16080MB
+[4f_b1] batch 9/30 wall=4.43s vram=16080MB
+[4f_b1] batch 10/30 wall=6.96s vram=16080MB
+[4f_b1] batch 11/30 wall=3.61s vram=16080MB
+[4f_b1] batch 12/30 wall=4.09s vram=16080MB
+[4f_b1] batch 13/30 wall=3.70s vram=16080MB
+[4f_b1] batch 14/30 wall=4.75s vram=16080MB
+[4f_b1] batch 15/30 wall=3.61s vram=16080MB
+[4f_b1] batch 16/30 wall=4.73s vram=16080MB
+[4f_b1] batch 17/30 wall=4.56s vram=16080MB
+[4f_b1] batch 18/30 wall=6.83s vram=16080MB
+[4f_b1] batch 19/30 wall=5.58s vram=16080MB
+[4f_b1] batch 20/30 wall=4.82s vram=16080MB
+[4f_b1] batch 21/30 wall=7.88s vram=16080MB
+[4f_b1] batch 22/30 wall=6.79s vram=16080MB
+[4f_b1] batch 23/30 wall=5.04s vram=16080MB
+[4f_b1] batch 24/30 wall=5.01s vram=16080MB
+[4f_b1] batch 25/30 wall=5.39s vram=16080MB
+[4f_b1] batch 26/30 wall=3.48s vram=16080MB
+[4f_b1] batch 27/30 wall=4.37s vram=16080MB
+[4f_b1] batch 28/30 wall=4.75s vram=16080MB
+[4f_b1] batch 29/30 wall=5.17s vram=16080MB
+[4f_b1] batch 30/30 wall=4.98s vram=16080MB
+[4f_b2] warmup 1/2 6.8s
+[4f_b2] warmup 2/2 7.4s
+[4f_b2] batch 1/15 wall=5.95s vram=16310MB
+[4f_b2] batch 2/15 wall=8.47s vram=16310MB
+[4f_b2] batch 3/15 wall=4.56s vram=16310MB
+[4f_b2] batch 4/15 wall=6.51s vram=16310MB
+[4f_b2] batch 5/15 wall=4.63s vram=16310MB
+[4f_b2] batch 6/15 wall=3.55s vram=16310MB
+[4f_b2] batch 7/15 wall=6.20s vram=16310MB
+[4f_b2] batch 8/15 wall=6.51s vram=16310MB
+[4f_b2] batch 9/15 wall=6.86s vram=16310MB
+[4f_b2] batch 10/15 wall=6.02s vram=16310MB
+[4f_b2] batch 11/15 wall=6.79s vram=16310MB
+[4f_b2] batch 12/15 wall=7.06s vram=16310MB
+[4f_b2] batch 13/15 wall=8.47s vram=16310MB
+[4f_b2] batch 14/15 wall=6.23s vram=16310MB
+[4f_b2] batch 15/15 wall=5.14s vram=16310MB
+[4f_b4] warmup 1/2 8.4s
+[4f_b4] warmup 2/2 7.4s
+[4f_b4] batch 1/8 wall=7.66s vram=16693MB
+[4f_b4] batch 2/8 wall=8.43s vram=16693MB
+[4f_b4] batch 3/8 wall=10.23s vram=16693MB
+[4f_b4] batch 4/8 wall=8.16s vram=16693MB
+[4f_b4] batch 5/8 wall=9.88s vram=16693MB
+[4f_b4] batch 6/8 wall=10.20s vram=16693MB
+[4f_b4] batch 7/8 wall=7.70s vram=16693MB
+[4f_b4] batch 8/8 wall=9.80s vram=16693MB
+[4f_b8] warmup 1/2 12.3s
+[4f_b8] warmup 2/2 13.6s
+[4f_b8] batch 1/4 wall=11.95s vram=17510MB
+[4f_b8] batch 2/4 wall=12.04s vram=17510MB
+[4f_b8] batch 3/4 wall=26.94s vram=17510MB
+[4f_b8] batch 4/4 wall=9.22s vram=17510MB
+[4f_b16] warmup 1/1 22.9s
+[4f_b16] batch 1/2 wall=20.43s vram=19146MB
+[4f_b16] batch 2/2 wall=18.91s vram=19146MB
+DONE

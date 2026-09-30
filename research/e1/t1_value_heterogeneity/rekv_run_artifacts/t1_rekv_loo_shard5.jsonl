@@ -1,0 +1,360 @@
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 330, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 330, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 330, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 330, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 330, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 330, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 330, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 330, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 330, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 330, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 330, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 330, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 361, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 361, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 361, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 361, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 361, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 361, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 361, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 361, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 361, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 361, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 361, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 361, "f1_full": 0.21428571428571427, "f1_minus_j": 0.158, "drop": 0.056}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 332, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 332, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 332, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 332, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 332, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 332, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 332, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 332, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 332, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 332, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 332, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 332, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 362, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 362, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 362, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 362, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 362, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 362, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 362, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 362, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 362, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 362, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 362, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 362, "f1_full": 0.21428571428571427, "f1_minus_j": 0.158, "drop": 0.056}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 324, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 324, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 324, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 324, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 324, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 324, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 324, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 324, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 324, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 324, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 324, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 324, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 347, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 347, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 347, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 347, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 347, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 347, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 347, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 347, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 347, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 347, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 347, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 347, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 357, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 357, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 357, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 357, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 357, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 357, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 357, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 357, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 357, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 357, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 357, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 357, "f1_full": 0.21428571428571427, "f1_minus_j": 0.158, "drop": 0.056}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 311, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 311, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 311, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 311, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 311, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 311, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 311, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 311, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 311, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 311, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 311, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 311, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 329, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 329, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 329, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 329, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 329, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 329, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 329, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 329, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 329, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 329, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 329, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 329, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 364, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 364, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 364, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 364, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 364, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 364, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 364, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 364, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 364, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 364, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 364, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 364, "f1_full": 0.21428571428571427, "f1_minus_j": 0.158, "drop": 0.056}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 304, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 304, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 304, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 304, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 304, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 304, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 304, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 304, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 304, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 304, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 304, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 304, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 341, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 341, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 341, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 341, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 341, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 341, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 341, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 341, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 341, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 341, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 341, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 341, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 343, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 343, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 343, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 343, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 343, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 343, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 343, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 343, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 343, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 343, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 343, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 343, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 344, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 344, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 344, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 344, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 344, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 344, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 344, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 344, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 344, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 344, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 344, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 344, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 353, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 353, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 353, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 353, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 353, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 353, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 353, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 353, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 353, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 353, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 353, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 353, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 322, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 322, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 322, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 322, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 322, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 322, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 322, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 322, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 322, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 322, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 322, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 322, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 350, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 350, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 350, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 350, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 350, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 350, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 350, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 350, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 350, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 350, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 350, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 350, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 318, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 318, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 318, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 318, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 318, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 318, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 318, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 318, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 318, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 318, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 318, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 318, "f1_full": 0.21428571428571427, "f1_minus_j": 0.158, "drop": 0.056}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 335, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 335, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 335, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 335, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 335, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 335, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 335, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 335, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 335, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 335, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 335, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 335, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 325, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 325, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 325, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 325, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 325, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 325, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 325, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 325, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 325, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 325, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 325, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 325, "f1_full": 0.21428571428571427, "f1_minus_j": 0.158, "drop": 0.056}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 307, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 307, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 307, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 307, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 307, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 307, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 307, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 307, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 307, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 307, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 307, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 307, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 326, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 326, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 326, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 326, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 326, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 326, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 326, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 326, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 326, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 326, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 326, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 326, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 303, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 303, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 303, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 303, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 303, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 303, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 303, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 303, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 303, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 303, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 303, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 303, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 320, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 320, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 320, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 320, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 320, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 320, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 320, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 320, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 320, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 320, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 320, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 320, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 356, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 356, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 356, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 356, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 356, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 356, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 356, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 356, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 356, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 356, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 356, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 356, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 345, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 345, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 345, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 345, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 345, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 345, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 345, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 345, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 345, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 345, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 345, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 345, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 333, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 333, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 333, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 333, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 333, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 333, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 333, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 333, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 333, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 333, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 333, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 333, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 305, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 305, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 305, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 305, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 305, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 305, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 305, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 305, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 305, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 305, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 305, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 305, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 334, "f1_full": 0.13114754098360654, "f1_minus_j": 0.14, "drop": -0.008}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 334, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 334, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 334, "f1_full": 0.0, "f1_minus_j": 0.2, "drop": -0.2}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 334, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 334, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 334, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 334, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 334, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 334, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 334, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 334, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Describe the environment displayed in the video clip.", "block": 301, "f1_full": 0.13114754098360654, "f1_minus_j": 0.261, "drop": -0.13}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Are there any other objects visible associated with cooking?", "block": 301, "f1_full": 0.4666666666666667, "f1_minus_j": 0.182, "drop": 0.285}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video, does pouring oil in the pan occur after cutting onions?", "block": 301, "f1_full": 0.16666666666666669, "f1_minus_j": 0.0, "drop": 0.167}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Does rolling the dough happen before cleaning the counter?", "block": 301, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the immediate environment around the dough-making area?", "block": 301, "f1_full": 0.18181818181818182, "f1_minus_j": 0.182, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Did the person complete the dough rolling in one try?", "block": 301, "f1_full": 0.0, "f1_minus_j": 0.133, "drop": -0.133}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Was the counter cleaned after cooking food?", "block": 301, "f1_full": 0.2222222222222222, "f1_minus_j": 0.222, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What is the setting of this clip?", "block": 301, "f1_full": 0.16, "f1_minus_j": 0.0, "drop": 0.16}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "In the video sequence, what happens before rolling dough with hands?", "block": 301, "f1_full": 0.05714285714285715, "f1_minus_j": 0.105, "drop": -0.048}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What do I do before cleaning the counter?", "block": 301, "f1_full": 0.0, "f1_minus_j": 0.0, "drop": 0.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "Is the roti being taken out of the pan in this frame?", "block": 301, "f1_full": 0.0, "f1_minus_j": 1.0, "drop": -1.0}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "question": "What activity is shown just before the roti comes in contact with the pan?", "block": 301, "f1_full": 0.21428571428571427, "f1_minus_j": 0.171, "drop": 0.043}

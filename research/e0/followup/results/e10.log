@@ -1,0 +1,36 @@
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py:3015: RuntimeWarning: Degrees of freedom <= 0 for slice
+  c = cov(x, y, rowvar, dtype=dtype)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+=== ucf ===
+[A:ucf] loss at stride 8: mean=+0.0383 lose>0.02=0.56 improve=0.26
+[A:ucf] loss at stride 32: mean=+0.1259 lose>0.02=0.68 improve=0.28
+[A:ucf] B=1/8  uniform=0.8763 oracle=0.8831 headroom=+0.0068 random=0.8489 (oracle cost 0.1250)
+[A:ucf] B=1/16 uniform=0.8704 oracle=0.8780 headroom=+0.0076 random=0.8471 (oracle cost 0.0625)
+[A:ucf] B=1/32 uniform=0.8599 oracle=0.8737 headroom=+0.0138 random=0.8461 (oracle cost 0.0312)
+[B:ucf] B=1/8 target=loss@u model_cv_corr=-0.055 quartile_sep=-0.0156 top=[('roughness', 0.2306862087949578), ('grid_entropy', 0.17091690168140428), ('std', 0.12176777139718452)]
+[B:ucf] B=1/16 target=loss@u model_cv_corr=0.013 quartile_sep=+0.0376 top=[('scene_change_rate', 0.14016499303533375), ('frac_hi', -0.1295016590394905), ('roughness', 0.1282468596632818)]
+[B:ucf] B=1/32 target=loss@u model_cv_corr=-0.121 quartile_sep=-0.0624 top=[('frac_hi', -0.13078718524752317), ('entropy_change', -0.12504983928644528), ('roughness', 0.09518207851015488)]
+[C:ucf] B=1/8  uniform=0.8763 adapt_pv=0.8495(cost 0.0168) adapt_pw=0.8724(cost 0.1250) rand_pw=0.8651(cost 0.1326) oracle=0.8831 headroom=+0.0068 capture=-57.5% beats_random=+0.0073
+[C:ucf] B=1/16 uniform=0.8704 adapt_pv=0.8493(cost 0.0176) adapt_pw=0.8704(cost 0.0625) rand_pw=0.8612(cost 0.0771) oracle=0.8780 headroom=+0.0076 capture=+0.0% beats_random=+0.0092
+[C:ucf] B=1/32 uniform=0.8599 adapt_pv=0.8466(cost 0.0158) adapt_pw=0.8599(cost 0.0312) rand_pw=0.8600(cost 0.0459) oracle=0.8737 headroom=+0.0138 capture=+0.0% beats_random=-0.0000
+=== xd ===
+[A:xd] loss at stride 8: mean=+0.0674 lose>0.02=0.64 improve=0.16
+[A:xd] loss at stride 32: mean=+0.2187 lose>0.02=0.81 improve=0.15
+[A:xd] B=1/8  uniform=0.9307 oracle=0.9295 headroom=-0.0012 random=0.9115 (oracle cost 0.1250)
+[A:xd] B=1/16 uniform=0.9248 oracle=0.9262 headroom=+0.0014 random=0.9093 (oracle cost 0.0625)
+[A:xd] B=1/32 uniform=0.9160 oracle=0.9210 headroom=+0.0050 random=0.9083 (oracle cost 0.0312)
+[B:xd] B=1/8 target=loss@u model_cv_corr=0.183 quartile_sep=+0.0576 top=[('lag1', -0.26463984764503246), ('rng', -0.20322126566815332), ('std', -0.17520748947359693)]
+[B:xd] B=1/16 target=loss@u model_cv_corr=0.266 quartile_sep=+0.1665 top=[('entropy_change', -0.2016919355544949), ('lag1', -0.18640049435891906), ('rng', -0.17573080215823944)]
+[B:xd] B=1/32 target=loss@u model_cv_corr=0.309 quartile_sep=+0.1949 top=[('frac_hi', -0.22144866705719227), ('mx', -0.20919346368010386), ('lag1', -0.1966519873248364)]
+[C:xd] B=1/8  uniform=0.9307 adapt_pv=0.9092(cost 0.0166) adapt_pw=0.9251(cost 0.1249) rand_pw=0.9234(cost 0.1316) oracle=0.9295 headroom=-0.0012 capture=+0.0% beats_random=+0.0017
+[C:xd] B=1/16 uniform=0.9248 adapt_pv=0.9084(cost 0.0160) adapt_pw=0.9248(cost 0.0625) rand_pw=0.9192(cost 0.0763) oracle=0.9262 headroom=+0.0014 capture=+0.0% beats_random=+0.0056
+[C:xd] B=1/32 uniform=0.9160 adapt_pv=0.9085(cost 0.0158) adapt_pw=0.9160(cost 0.0312) rand_pw=0.9172(cost 0.0469) oracle=0.9210 headroom=+0.0050 capture=+0.0% beats_random=-0.0012
+[figures] e10_capture.png, e10_frontier.png
+
+GATE capture@1/32: {'ucf': 0.0, 'xd': 0.0}
+GATE beats_random@1/32: {'ucf': -4.301442747156603e-05, 'xd': -0.001189542552741063}
+GATE: {'ucf': 'NO SYSTEM', 'xd': 'NO SYSTEM'}  VERDICT: MEASUREMENT PAPER
+[saved] /Users/24sf51025/Research/FleetVAD/research/e0/followup/results/e10.json

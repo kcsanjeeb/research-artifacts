@@ -1,0 +1,43 @@
+{
+ "rvs": {
+  "n": 316,
+  "counts": {
+   "all-right": 110,
+   "mixed": 54,
+   "all-wrong": 152
+  },
+  "pct": {
+   "all-right": 34.8,
+   "mixed": 17.1,
+   "all-wrong": 48.1
+  },
+  "per_policy_acc": {
+   "seg": 41.1,
+   "frame": 43.4,
+   "patch": 45.6,
+   "default": 41.1
+  },
+  "best_fixed_policy": "patch",
+  "note": "occurrence-indexed records (316); the question 'What is the setting of the video clip?' appears 3x identically"
+ },
+ "xbench": {
+  "n": 180,
+  "counts": {
+   "all-right": 113,
+   "all-wrong": 42,
+   "mixed": 25
+  },
+  "pct": {
+   "all-right": 62.8,
+   "all-wrong": 23.3,
+   "mixed": 13.9
+  },
+  "per_policy_acc": {
+   "seg": 67.8,
+   "frame": 71.7,
+   "patch": 71.1,
+   "default": 67.8
+  },
+  "best_fixed_policy": "frame"
+ }
+}

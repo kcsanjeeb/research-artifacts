@@ -1,0 +1,11 @@
+{
+  "task": "T4 batch microbenchmark",
+  "model": "Qwen/Qwen2.5-VL-7B-Instruct (fp16, sdpa, HF cache offline)",
+  "hardware": "Tesla V100-PCIE-32GB (sm_70, Volta)",
+  "job": "schema narration, 8 or 4 frames/event at 448x336 (multiples of 28), max_new_tokens=512, T=0.2 top_p=0.9",
+  "batch_sizes": [1, 2, 4, 8, 16],
+  "jobs_per_point": ">=30 after warmup (warmup 2 batches, 1 for b16)",
+  "points": ["8f homogeneous", "4f homogeneous", "mixed 4f+8f at b8/b16"],
+  "patches": "v100_patches.py: per-segment vision sdpa (dense block-diagonal mask is O(N^2) on sm_70, OOM at bs>=2) + lm_head last-token-only (full-seq fp32 logits 2-24GiB). Equivalence verified at bs=1: greedy outputs identical.",
+  "gpu_seconds_definition": "wall time on exclusive GPU (single tenant, util ~100% during generation)"
+}

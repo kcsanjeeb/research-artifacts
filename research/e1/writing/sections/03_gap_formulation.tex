@@ -1,0 +1,56 @@
+\section{Gap Analysis and Problem Formulation}
+\label{sec:gap}
+
+\subsection{The gap, stated precisely}
+\label{sec:gap-matrix}
+
+We read the eight closest systems in full and tabulated what each stores, when it writes, whether it budgets or evicts, whether it models multiple streams, and whether it accounts cost (details in Appendix~\ref{app:profiles}). Table~\ref{tab:gap} is the result. Four verifiable absences define the open problem:
+
+\begin{enumerate}
+\item \textbf{No budget abstraction.} No system takes a GPU, storage, or dollar budget as input and reports accuracy as a function of it. KV-line token caps~\cite{livevlm,streammem,streamingvlm} are per-stream accuracy hyperparameters, not system budgets; the semantic line~\cite{avas,videoraghkuds,worldmm,videodb} reports no cost model at all.
+\item \textbf{Every write is time-driven.} Every frame (ReKV, 0.5\,FPS), every 3\,s (Avas), every 5\,s (VideoDB), every 30\,s (VideoRAG) is processed identically regardless of content. In a regime where 7.8\% of clips are anomalous and 94.4\% of temporal redundancy is sub-minute (Appendix~\ref{app:e0}), unconditional writes spend the dominant cost on static footage.
+\item \textbf{No fleet model.} Zero multi-stream evaluation, zero contention, zero write scheduling. The two available data points are stark: full-fidelity KV retention implies $\sim$45\,TB/day for a 100-camera fleet~\cite{rekv}, and one Avas-style indexer nearly saturates one consumer GPU on one stream~\cite{avas}.
+\item \textbf{No cost accounting.} Nobody reports GPU-seconds per camera-hour, bytes per stream-day, or accuracy-vs-cost curves. The field's metrics (accuracy, win-rate) are cost-blind.
+\end{enumerate}
+
+\begin{table}[t]
+\centering
+\caption{Gap matrix: capabilities of the eight closest systems, verified against their papers (Appendix~\ref{app:profiles}). ``KV'' = model-internal KV tensors only. $\dagger$: per-stream token cap as hyperparameter, not a system budget.}
+\label{tab:gap}
+\small
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+System & Budgeted writes & Event-driven & Eviction & Fleet & Cost accounting & Queryable memory \\
+\midrule
+ReKV~\cite{rekv} & \texttimes & \texttimes & \texttimes & \texttimes & partial (GB/h) & KV only \\
+LiveVLM~\cite{livevlm} & $\dagger$ & \texttimes & KV pruning & \texttimes & ratios only & KV only \\
+StreamMem~\cite{streammem} & $\dagger$ & \texttimes & KV pruning & \texttimes & \texttimes & KV only \\
+StreamingVLM~\cite{streamingvlm} & window & \texttimes & recency & \texttimes & \texttimes & \texttimes \\
+Avas~\cite{avas} & \texttimes & \texttimes & \texttimes & \texttimes & spot numbers & graph+text \\
+VideoRAG~\cite{videoraghkuds} & \texttimes & \texttimes & \texttimes & \texttimes & \texttimes & graph+emb. \\
+WorldMM~\cite{worldmm} & \texttimes & \texttimes & \texttimes & \texttimes & \texttimes & KG+frames \\
+VideoDB~\cite{videodb} & \texttimes & \texttimes & \texttimes & \texttimes & \texttimes & artifacts \\
+\midrule
+\sys (ours) & \checkmark & \checkmark & \checkmark & \checkmark & \checkmark & tiered \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Problem formulation}
+\label{sec:formulation}
+
+\textbf{Setting.} $N$ always-on camera streams $s_1,\dots,s_N$ share one GPU server with per-tier compute capacities and a storage allowance. A stream is an unbounded sequence of chunks; a small subset of chunks belong to \emph{events} worth remembering. Queries $q$ arrive over the fleet's lifetime; each asks about the past (retrospective) or the live edge (any-time), scoped to a video, the corpus, or the fleet.
+
+\textbf{Budgets.} The system receives: (i) a \emph{write budget} $B_W$ in GPU-s per stream-hour (how much compute memory-writing may consume, fleet-wide); (ii) a \emph{storage budget} $B_S$ in bytes per stream-day (how much memory may persist); (iii) a \emph{query budget} $B_Q$ in GPU-s per query (verification effort allowed at answer time).
+
+\textbf{Memory.} A memory $\mathcal{M}$ is a set of records $r = (\text{stream}, \text{span}, \text{salience}, \text{tag}, \text{narration}, \text{embedding}, \text{tombstone?})$ written by the write path, evicted under $B_S$ by the eviction policy, and read by the query path.
+
+\textbf{Objective.} Maximize query accuracy under budgets, with a freshness constraint:
+\begin{equation}
+\max_{\text{policies}} \; \mathrm{Acc}(\mathcal{M}, \mathcal{Q}) \quad \text{s.t.} \quad \mathrm{GPU\text{-}s/stream\text{-}h} \le B_W,\;\; \mathrm{bytes/stream\text{-}day} \le B_S,\;\; \mathrm{GPU\text{-}s/query} \le B_Q,
+\end{equation}
+and, for always-on operation, \emph{memory freshness} --- the virtual time from event occurrence to its record being written --- must satisfy an SLO (we use 60\,s) even under bursty load.
+
+\textbf{Query types and metrics} (instantiated by \smb, Section~\ref{sec:exp-smb}): \emph{existence} (accuracy), \emph{negation} (false-alarm rate; the system must not hallucinate absent events), \emph{temporal localization} (tIoU against ground-truth spans), \emph{retrieval} (Recall@$k$ / average precision over a relevant set), \emph{cross-camera} (set/count accuracy over cameras). All are reported \emph{against cost}, never alone.
+
+\textbf{Why prior formulations do not apply.} Single-stream KV systems optimize per-stream accuracy under a VRAM cap; semantic-memory systems optimize corpus QA accuracy; classic video analytics optimizes fixed-schema query latency. None can express ``$N$ streams, $B_W$ GPU-s/h, $B_S$ bytes/day, maximize event-recall-weighted query accuracy with 60\,s freshness,'' which is the operator's actual problem.

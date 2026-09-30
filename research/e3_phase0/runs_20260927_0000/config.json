@@ -1,0 +1,9 @@
+{
+  "task": "Gate 0: MuKV RVS-Ego answering (0.5B GPU0, 7B GPU1)",
+  "date": "2026-09-27",
+  "code": "code/MuKV @ 2127b875ea1c2d91e4349324edbd779168a3da9e + sdpa patch + fp32-upcast torch_impl + decord auto-threads (see code_state/MUKV_CODE_STATE.txt)",
+  "env": "/data4/rekv (torch 2.6.0+cu124, transformers 4.46.3, no flash-attn -> sdpa/torch fallback)",
+  "config": "README paper config: sample_fps 0.5, n_local 15000, retrieve_size 64, granularities 49/196/784 topks default, keep_ratio 0.70/0.50/0.30, importance attention_fft_weighted, fft diff, rerank on (alpha 0.5, beta 0.6, top_n 5)",
+  "data": "code/ReKV/data/rvs/ego (10 videos, 1465 Q), symlinked as code/MuKV/data",
+  "models": {"05b": "code/ReKV/model_zoo/llava-onevision-qwen2-0.5b-ov-hf", "7b": "code/ReKV/model_zoo/llava-onevision-qwen2-7b-ov-hf"}
+}

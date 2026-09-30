@@ -1,0 +1,13 @@
+clips=69368  escalated=5965 (0.0860)  anomalous among escalated=0.064
+
+Cache over ESCALATED clips (pool = earlier escalated clips), motion-only:
+ theta  hit/esc   agree  agree|anom  suppressed  sameVid%
+  0.80    0.967   0.939       0.712       0.274     0.747
+  0.90    0.760   0.950       0.778       0.175     0.815
+  0.95    0.449   0.952       0.856       0.073     0.909
+  0.96    0.355   0.954       0.866       0.055     0.924
+  0.98    0.139   0.966       0.907       0.013     0.954
+  0.99    0.050   0.953       0.842       0.008     0.963
+
+For reference, E0's headline was a hit rate over ALL clips, where 91.4% of clips
+are never escalated and therefore never cost a VLM call in the first place.

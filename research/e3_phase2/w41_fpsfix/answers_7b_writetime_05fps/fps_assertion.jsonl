@@ -1,0 +1,10 @@
+{"video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a", "config_fps": 0.5, "n_frames": 1800, "duration_s": 3600.0, "effective_fps": 0.5, "assert_passed": true}
+{"video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88", "config_fps": 0.5, "n_frames": 1806, "duration_s": 3610.366666666667, "effective_fps": 0.5002, "assert_passed": true}
+{"video_id": "879dd163-7588-45d1-9466-a5deabc59167", "config_fps": 0.5, "n_frames": 1806, "duration_s": 3610.766666666667, "effective_fps": 0.5002, "assert_passed": true}
+{"video_id": "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36", "config_fps": 0.5, "n_frames": 1801, "duration_s": 3600.633333333333, "effective_fps": 0.5002, "assert_passed": true}
+{"video_id": "6baa36c1-e4d0-4dbd-97b2-dff48ecf796e", "config_fps": 0.5, "n_frames": 1801, "duration_s": 3600.9, "effective_fps": 0.5002, "assert_passed": true}
+{"video_id": "e58207f1-84ec-424b-a997-ff64a57eb13b", "config_fps": 0.5, "n_frames": 1806, "duration_s": 3611.4, "effective_fps": 0.5001, "assert_passed": true}
+{"video_id": "89a95cd8-ca13-4edf-807e-d62138fd30e0", "config_fps": 0.5, "n_frames": 1804, "duration_s": 3606.5666666666666, "effective_fps": 0.5002, "assert_passed": true}
+{"video_id": "2bb31b69-fcda-4f54-8338-f590944df999", "config_fps": 0.5, "n_frames": 1800, "duration_s": 3599.9666666666667, "effective_fps": 0.5, "assert_passed": true}
+{"video_id": "af400f98-3c57-46ad-acac-eaca6f940180", "config_fps": 0.5, "n_frames": 1804, "duration_s": 3607.366666666667, "effective_fps": 0.5001, "assert_passed": true}
+{"video_id": "20bc995f-c3de-4789-bd7a-34cf1a313b0c", "config_fps": 0.5, "n_frames": 1804, "duration_s": 3606.6, "effective_fps": 0.5002, "assert_passed": true}

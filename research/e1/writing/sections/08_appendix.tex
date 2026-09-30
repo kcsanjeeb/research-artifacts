@@ -1,0 +1,59 @@
+\section{Prior Measurement Study (E0) Informing the Design}
+\label{app:e0}
+
+\sys's design decisions are justified by a measurement study we conducted on the same hardware and datasets before building the system. We summarize the load-bearing numbers; each is replicated across two datasets (UCF-Crime, XD-Violence) and, where applicable, two VLM families (Holmes-VAU-2B~\cite{holmesvau}, VERA/InternVL2-8B~\cite{vera,internvl}).
+
+\paragraph{Pipeline cost census (E0.8).} Per camera-hour: decode 0.6\% of GPU budget (25{,}482 frames/s on 16 CPU cores); tier-1 CLIP feature extraction 46.1\% (305 frames/s, 354 GPU-s); tier-1 head 0.1\%; VLM escalation at an 8.6\% rate 53.2\%. A server carries 19 cameras with the VLM stage vs.\ 40 without.
+
+\paragraph{VLM as scorer: near-zero value.} Escalating uncertain clips to a VLM changes frame-level AUC by $+0.0009$ raw / $-0.0006$ calibrated against a $+0.0256$ oracle ceiling on 5{,}965 escalated clips (2--4\% of headroom). The VLM's ``93.4\% accuracy'' on the pool is a base-rate artifact (a constant ``No'' scores 93.58\%). More context makes the VLM \emph{more} alarmist (within-pool ranking AUC 0.669$\to$0.605 as context grows 0.5\,s$\to$34\,s); a second VLM family reproduces the failure (band capture $-10.8\%$, within-pool AUC 0.470, below random). \emph{Design consequence: the VLM narrates; it never scores.}
+
+\paragraph{Tier-1 oversampling.} Zero-order-hold stride sweep: stride 1 = 0.8802 AUC / 359.3 GPU-s; stride 4 = 0.8788 / 89.8; stride 8 = 0.8763 / 44.9; stride 16 = 0.8704 / 22.5. Tier-1 is 4--8$\times$ oversampled for detection.
+
+\paragraph{Workload burstiness.} Demand exceeds capacity at $N$=16 cameras (p95) / $N$=32 (mean) on 4$\times$V100, robust across a 4$\times$ clip-period swing and replicated on XD-Violence; burstiness p95/mean = 2.77. Fleets live near saturation --- hence the arbiter.
+
+\paragraph{Semantic verdict cache: dead as designed.} Raw ``safe hit rate'' reaches 99.9\%, but under a base-rate-invariant criterion (suppressed anomalies $\le$1\%) the safe hit rate is 5.7\% at threshold 0.99; $\ge$96\% of hits are same-video temporal reuse, 94.4\% within one minute; the cache's marginal value over a gate is $\sim$14\% of escalated calls (capacity multiplier 1.16$\times$). \emph{Design consequence: no verdict cache; temporal redundancy is exploited by the write gate instead.}
+
+\paragraph{Appearance signatures fail for events.} Cross-camera neighbors at similarity $\ge$0.80 agree on labels at 0.55--0.59 vs.\ 0.501 chance (ShanghaiTech); appearance encodes scene, not event content. \emph{Design consequence: memory records carry text + score trajectories; appearance embeddings are excluded from retrieval keys (confirmed in-system, Section~\ref{sec:exp-tasti}).}
+
+\paragraph{Per-window adaptation fails.} A causal per-window sampling controller captures 0\% of measured oracle headroom on both datasets (predictor--outcome correlation $\approx$0 on UCF). \emph{Design consequence: adaptation lives at fleet granularity (the arbiter), not per window.}
+
+\section{Per-System Profiles Behind Table~\ref{tab:gap}}
+\label{app:profiles}
+
+Each profile below was extracted from a full-text read of the cited paper in September 2026; ``not stated'' means the paper reports nothing on the axis.
+
+\textbf{ReKV}~\cite{rekv}: stores full-fidelity per-frame KV offloaded to RAM/disk + per-frame retrieval keys; 18.8\,GB/h (7B) / 4.0\,GB/h (0.5B) at 0.5\,FPS; 11\,FPS encode on A100; fixed $r$=64 retrieved frames per query; single stream, $\le$1\,h horizons; its appendix calls surveillance-scale cache growth ``unsustainable.''
+
+\textbf{LiveVLM}~\cite{livevlm}: compressed KV only (vision-sink bucketing, 12k-token cap); permanent discard, offload disabled by design; validated on one 24\,GB consumer GPU; retrieval over KV pages improves accuracy vs.\ full cache (68.1 vs.\ 66.2 MLVU) via redundancy filtering.
+
+\textbf{StreamMem}~\cite{streammem}: saliency-pruned KV at 6K tokens/layer; query-agnostic; the only real eviction policy in the set, but GPU-resident and per-video.
+
+\textbf{StreamingVLM}~\cite{streamingvlm}: 512 text tokens + 16\,s vision window is the entire long-term memory; recency-only eviction; 8\,FPS on one H100; no retrospective querying is possible by construction.
+
+\textbf{Avas}~\cite{avas}: event knowledge graph (five tables) + per-frame embeddings + retained raw frames; a 7B VLM captions every 3-s chunk unconditionally; indexing throughput 2.5\,FPS on one RTX\,3090 vs.\ 2\,FPS input; query latency $\sim$3--4\,min; no bytes/hour anywhere.
+
+\textbf{VideoRAG}~\cite{videoraghkuds}: knowledge graph + text-chunk embeddings + one visual embedding per 30-s clip; every clip captioned and transcribed; unbounded graph growth; accuracy-only evaluation (win-rates 52--58\% on subjective axes).
+
+\textbf{WorldMM}~\cite{worldmm}: textual knowledge graphs at four temporal scales + semantic KG + retains every sampled frame; driven by paid API models; no cost numbers at all (not even token counts); week-long single-video horizon (44.3\,h).
+
+\textbf{VideoDB}~\cite{videodb}: strict-JSON scene artifacts from a VLM call every 5-s scene per stream + derived text embeddings; ``append-mostly'' memory; cost measurement explicitly deferred to future work; retrieval-quality evaluation only.
+
+\section{SMB Construction Details}
+\label{app:smb}
+
+Event inventories are rebuilt from official label files (UCF \texttt{Temporal\_Anomaly\_Annotation.txt}; XD \texttt{annotations.txt} + filename category codes; SHT \texttt{test\_frame\_mask/*.npy}), never from our own model outputs. Queries are template-instantiated from the inventories (category names, video ids, camera ids, time spans), then paraphrased (temperature 0.7) with the deterministic template preserved per query. Difficulty strata combine event duration (short/long) with peak tier-1 score (high/low). The QC script recomputes every ground-truth artifact from raw labels and checks each query against it. Counts: UCF 290 videos / 10.3\,h / 156 events (top categories: Shooting 25, Shoplifting 25, RoadAccidents 23); XD 800 / 27.0\,h / 1{,}238 (Car Accident 513, Fighting 275, Shooting 261); SHT 107 / 0.45\,h / 194 events across 12 cameras.
+
+\section{Groundedness Methodology}
+\label{app:grounded}
+
+Judging is cross-family (each model's narrations judged against frames by the other model family) to avoid self-agreement bias; judges answer three binary questions (actions supported? hallucinated content? usable as memory entry?) with strict JSON at temperature 0.1. Label-anchored checks use a documented keyword map per category (e.g., Robbery$\to$\{steal, grab, snatch\}) for consistency on anomalous events, and a strict violence-keyword map for false-alarm detection on normal events (a loose vocabulary would inflate false alarms to 32--40\% via benign matches like parade ``rifles''; the strict map yields 0--7.5\%). Judge leniency asymmetry (InternVL2-as-judge approves 99.5\% of Qwen's narrations) is documented; we rely on orderings, not absolute rates.
+
+\section{Volta Porting Notes}
+\label{app:porting}
+
+All systems ran on Tesla V100 (sm\_70, fp16, no FlashAttention-2). We found and fixed a genuine upstream bug: ReKV-lineage's torch fallback attention computes QK$^{\top}$ and softmax entirely in fp16, which saturates at head\_dim 128 (Qwen2-7B) and produces degenerate output; upstream never observed it because their H800s used the triton kernel, which upcasts. Our two-line fp32-upcast patch fixes 7B output; the same bug exists verbatim in MuKV. LiveVLM required routing its streaming attention (registered only under \texttt{flash\_attention\_2}) to SDPA with a bottom-right causal mask. Qwen2.5-VL's vision SDPA builds a dense $N^2$ mask; frames are pre-resized to multiples of 28. All patches are preserved (Appendix~\ref{app:repro}).
+
+\section{Reproducibility}
+\label{app:repro}
+
+Every experiment is a run directory containing: \texttt{config.json} (written before the run, never edited), \texttt{env.json} (conda environment + full package list), \texttt{code\_state.json} (commit hashes + patch files for every external repository), \texttt{data\_manifest.json}, logs, \texttt{metrics.jsonl}, and \texttt{cost.json} (GPU-seconds per stage, wall time, peak VRAM). Failed runs are retained and marked. An append-only experiment log indexes all runs, including four pre-convention ones (baseline validation, narration spike, groundedness, benchmark construction). Baseline pins: ReKV commit \texttt{1fd9a3d}; LiveVLM commit \texttt{8b84be8}; Qwen2.5-VL via transformers 4.49.0. The calibration split (frozen 20\% of SMB queries) is shared by all systems that need a threshold.

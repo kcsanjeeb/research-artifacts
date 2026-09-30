@@ -1,0 +1,33 @@
+{
+  "n_events": 194,
+  "n_cameras": 12,
+  "cameras": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "definition": "normalized per-clip windows [start/dur, end/dur], interval overlap, pairs restricted to DIFFERENT cameras; no shared clock exists (SMB PROTOCOL) so this proxy is a generous upper bound on true co-occurrence",
+  "cross_cam_pairs_total": 16319,
+  "cross_cam_pairs_overlapping": 8464,
+  "cooccurrence_frac_pairs": 0.5186592315705619,
+  "cooccurrence_frac_events_with_partner": 1.0,
+  "cam_pairs_with_any_overlap": 66,
+  "cam_pairs_total": 66,
+  "cooccurrence_frac_cam_pairs": 1.0,
+  "overlap_len_median_normalized": 0.11443433029908967,
+  "null_model_overlap_frac": 0.50499,
+  "null_draws": 200000,
+  "same_cam_pairs": 169,
+  "same_cam_overlap": 0,
+  "kill_threshold": 0.15,
+  "gate_verdict": "SURVIVES_PROXY"
+}

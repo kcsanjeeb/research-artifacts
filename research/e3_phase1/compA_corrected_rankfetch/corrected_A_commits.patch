@@ -1,0 +1,333 @@
+From fe7af47352cae03a1f1dc10857900f5dd6ce1d3c Mon Sep 17 00:00:00 2001
+From: Hadi602 <muhammad.rashid.602@gmail.com>
+Date: Sun, 27 Sep 2026 21:42:23 +0800
+Subject: [PATCH 1/3] Component A corrected (Gate 1 post-mortem):
+ DECAF_FETCH_RANK=1 rank-remapped fetch positions
+
+Gate 1 (exact-position fetch) failed 22.3 vs 54.1: exact streaming positions
+(~86k tokens on a full RVS-Ego stream) exceed the model in-distribution RoPE
+range and collapse late-stream generation. Corrected Component A keeps the
+position-free store, content-key retrieval, and position sidecar, but assigns
+fetched blocks buffer-RANK positions (contiguous from n_init in retrieval
+buffer load order - the stock ReKV convention), with question/decoding tokens
+continuing right after the buffer. In rank mode next_pos is left unset so
+decoding continues from the carried rank positions.
+
+- kv_cache_manager: DECAF_FETCH_RANK env switch
+- rekv_attention: rank position assignment branch (score order, contiguous);
+  exact path (DECAF_POSITION_FREE) kept for the record
+- trapcheck: fix OVERALL verdict aggregation (filter on keys, not values -
+  float metric entries crashed the filter)
+---
+ model/attention/kv_cache_manager.py | 12 +++++++-
+ model/attention/rekv_attention.py   | 47 +++++++++++++++++++++--------
+ verification/decaf_trapcheck.py     |  5 +--
+ 3 files changed, 49 insertions(+), 15 deletions(-)
+
+diff --git a/model/attention/kv_cache_manager.py b/model/attention/kv_cache_manager.py
+index ce2784c..3435a97 100644
+--- a/model/attention/kv_cache_manager.py
++++ b/model/attention/kv_cache_manager.py
+@@ -7,12 +7,22 @@ from .dot_production_attention import get_multi_stage_dot_production_attention
+ 
+ 
+ # DECAF Component A: environment switch.
+-# DECAF_POSITION_FREE=1 -> position-disentangled store mode:
++# DECAF_POSITION_FREE=1 -> position-disentangled store mode (exact positions):
+ #   retrieval keeps scoring on content (pre-RoPE) keys, but fetched blocks are
+ #   rotated to their EXACT original positions (the sidecar) before attention,
+ #   and question/decoding tokens use their true streaming positions.
++# DECAF_FETCH_RANK=1 -> corrected Component A (Gate-1 post-mortem 2026-09-27):
++#   same position-free store + content retrieval + position sidecar (recording
++#   true order for Phase 2), but fetched blocks are rotated to buffer-RANK
++#   positions (contiguous from n_init, in retrieval-buffer load order - the
++#   stock ReKV convention) so all fetch positions stay in-distribution; the
++#   question/decoding tokens continue right after the buffer. Exact streaming
++#   positions (~86k tokens for a full RVS-Ego stream) exceed the model's
++#   in-distribution RoPE range and collapse late-stream generation (22.3 vs
++#   54.1 measured), which is why the exact path failed Gate 1.
+ # Unset -> stock ReKV behavior (bit-identical to the W2.5-validated code).
+ DECAF_POSITION_FREE = os.environ.get('DECAF_POSITION_FREE', '0') == '1'
++DECAF_FETCH_RANK = os.environ.get('DECAF_FETCH_RANK', '0') == '1'
+ 
+ 
+ # A KV cache entry that also carries the exact position id of every token.
+diff --git a/model/attention/rekv_attention.py b/model/attention/rekv_attention.py
+index 2c5ea35..1725078 100644
+--- a/model/attention/rekv_attention.py
++++ b/model/attention/rekv_attention.py
+@@ -2,7 +2,7 @@ import copy
+ import torch
+ from typing import Optional
+ 
+-from .kv_cache_manager import ContextManager, PositionalKV, DECAF_POSITION_FREE
++from .kv_cache_manager import ContextManager, PositionalKV, DECAF_POSITION_FREE, DECAF_FETCH_RANK
+ from .dot_production_attention import get_multi_stage_dot_production_attention
+ 
+ 
+@@ -70,20 +70,39 @@ def rekv_attention_forward(
+                 else:  # retrieve based on pre-computed retrieved_block_indices
+                     past_k, past_v = past_key_value.get_retrieved_kv()
+                 updata_kv_cache = False  # We do not update KV cache with the input KV (h_k, h_v) because we only use it for retrieval
+-                if DECAF_POSITION_FREE:
+-                    # Rotate-on-fetch: exact positions for the retrieved blocks
+-                    # come from the sidecar; init tokens keep positions 0..n_init-1
+-                    # (identical to the stock buffer layout); the incoming question
+-                    # tokens continue at their true streaming positions.
++                if DECAF_POSITION_FREE or DECAF_FETCH_RANK:
++                    # Rotate-on-fetch via the PositionalKV machinery, on the
++                    # pre-RoPE content store. Two position conventions:
++                    #   exact (DECAF_POSITION_FREE): block positions come from
++                    #     the sidecar; question/decoding continue at true
++                    #     streaming positions (past_key_value.length).
++                    #   rank (DECAF_FETCH_RANK): the block loaded at buffer slot
++                    #     cnt gets rank position n_init + cnt*block_size + j -
++                    #     contiguous, in retrieval-buffer load order, the stock
++                    #     ReKV convention, keeping every fetch position inside
++                    #     the model's in-distribution RoPE range. The question
++                    #     continues right after the buffer (n_past). Up to a
++                    #     window-relative shift in decoding this equals the
++                    #     stock contiguous rotation (RoPE logits depend only on
++                    #     position differences within one attention call).
+                     assert past_key_value.num_units == 1, 'DECAF position-free mode assumes batch size 1'
+-                    block_pos = past_key_value.get_retrieved_positions()[0].to(h_k.device)
+                     n_past = past_k.size(2)
+                     init_pos = torch.arange(past_key_value.n_init, device=h_k.device)
++                    if DECAF_FETCH_RANK:
++                        n_blk = (n_past - init_pos.numel()) // past_key_value.block_size
++                        block_pos = (
++                            torch.arange(n_blk, device=h_k.device, dtype=torch.long)[:, None]
++                            * past_key_value.block_size
++                            + torch.arange(past_key_value.block_size, device=h_k.device, dtype=torch.long)[None, :]
++                        ).reshape(-1) + past_key_value.n_init
++                    else:
++                        block_pos = past_key_value.get_retrieved_positions()[0].to(h_k.device)
+                     assert n_past == init_pos.numel() + block_pos.numel(), \
+                         f'{n_past} vs {init_pos.numel()} + {block_pos.numel()}'
++                    q_base = n_past if DECAF_FETCH_RANK else past_key_value.length
+                     decaf_pos = torch.cat([
+                         init_pos, block_pos,
+-                        torch.arange(h_k.size(2), device=h_k.device, dtype=torch.long) + past_key_value.length,
++                        torch.arange(h_k.size(2), device=h_k.device, dtype=torch.long) + q_base,
+                     ])
+             else:  # sliding-window attention
+                 past_k = past_key_value[0]
+@@ -125,12 +144,16 @@ def rekv_attention_forward(
+             else:
+                 if decaf_pos is not None:
+                     # exclude the incoming tokens, as in stock; carry positions only.
+-                    # next_pos: the question's true streaming position (store length
+-                    # at query time) so prefill/decoding continue at exact positions
+-                    # even though the retrieved buffer only holds a subset of blocks.
++                    # next_pos (exact mode only): the question's true streaming
++                    # position (store length at query time) so prefill/decoding
++                    # continue at exact positions even though the retrieved buffer
++                    # only holds a subset of blocks. Rank mode leaves next_pos
++                    # unset: decoding continues from the carried rank positions
++                    # (past_pos[-1] + 1), matching the stock contiguous layout.
+                     n_past = past_k.size(2)
+                     current_key_value = PositionalKV(past_k, past_v, decaf_pos[:n_past])
+-                    current_key_value.next_pos = int(past_key_value.length)
++                    if DECAF_POSITION_FREE and not DECAF_FETCH_RANK:
++                        current_key_value.next_pos = int(past_key_value.length)
+                 else:
+                     current_key_value = (past_k, past_v)
+ 
+diff --git a/verification/decaf_trapcheck.py b/verification/decaf_trapcheck.py
+index 826d54f..e571c7f 100644
+--- a/verification/decaf_trapcheck.py
++++ b/verification/decaf_trapcheck.py
+@@ -148,7 +148,8 @@ if MODE == 'encode':
+             x = torch.from_numpy(np.asarray(dump_pre)).permute(0, 2, 1, 3).cuda()  # (F,Hkv,196,Dh)
+             pos = (n_init + (torch.arange(n_first * Hkv) // Hkv)[:, None] * N_FRAME_TOKENS
+                    + torch.arange(N_FRAME_TOKENS)[None, :])  # (F*Hkv, 196) row r <-> (f=r//Hkv, h=r%Hkv)
+-            rot = rope.apply_rotary_with_positions(x.reshape(n_first * Hkv, N_FRAME_TOKENS, Dh), pos.cuda())
++            rot = rope.apply_rotary_with_positions(
++                x.permute(0, 1, 2, 3).reshape(-1, Dh), pos.reshape(-1).cuda())
+             rot = rot.reshape(n_first, Hkv, N_FRAME_TOKENS, Dh).permute(0, 2, 1, 3).half().cpu().numpy()
+             e_rot = rel_err(torch.from_numpy(rot), torch.from_numpy(np.asarray(dump_post)))
+             t2[f'layer{li}'] = {'dump_Kpre_rel_err': e_pre, 'rotary_vs_dump_Kpost_rel_err': e_rot}
+@@ -212,7 +213,7 @@ if MODE == 'encode':
+             'max_stored_k_rel_err': g1, 'max_stored_v_rel_err': g1v,
+             'max_rotary_rel_err': g2,
+         }
+-        verdict['OVERALL'] = 'PASS' if all(v == 'PASS' for v in verdict.values() if v.startswith('gate')) else 'FAIL'
++        verdict['OVERALL'] = 'PASS' if all(v == 'PASS' for k, v in verdict.items() if k.startswith('gate')) else 'FAIL'
+         save('verdict', verdict)
+         print('ENCODE_MODE_DONE', json.dumps(verdict))
+ 
+-- 
+2.34.1
+
+
+From 8ffe916943b43671f76442843e88c866bf7fdadb Mon Sep 17 00:00:00 2001
+From: Hadi602 <muhammad.rashid.602@gmail.com>
+Date: Sun, 27 Sep 2026 21:52:01 +0800
+Subject: [PATCH 2/3] trapcheck: mode=rankqa for corrected Component A
+
+TR1: rank plumbing (contiguous buffer-rank positions on retrieval prefill,
+next_pos unset so decoding continues from carried rank positions).
+TR2: late-stream stock equivalence - all 0fa75cb3 questions answered against
+the full 420-frame (~84k-token) store, the exact-mode failure position,
+must match W2.5 stock CSV answers.
+---
+ verification/decaf_trapcheck.py | 109 ++++++++++++++++++++++++++++++++
+ 1 file changed, 109 insertions(+)
+
+diff --git a/verification/decaf_trapcheck.py b/verification/decaf_trapcheck.py
+index e571c7f..4be0942 100644
+--- a/verification/decaf_trapcheck.py
++++ b/verification/decaf_trapcheck.py
+@@ -22,6 +22,14 @@ Runs in two modes (single process each):
+     T3c encode invariance: DECAF-mode encode == stock-mode encode bit-exact
+     T3d full greedy QA smoke (retrieval + prefill + decode) runs clean
+ 
++  mode=rankqa (subprocess with DECAF_POSITION_FREE=1 DECAF_FETCH_RANK=1):
++    TR1 rank plumbing: retrieval prefill carries contiguous buffer-RANK
++        positions (slot order), next_pos unset (decoding continues from the
++        carried rank positions)
++    TR2 late-stream stock equivalence: all 0fa75cb3 questions answered against
++        the full 420-frame (~84k-token) store - the exact-mode failure
++        position - must match W2.5 stock CSV answers
++
+ Usage: python verification/decaf_trapcheck.py <out_dir> <mode>
+ """
+ import json
+@@ -345,6 +353,107 @@ elif MODE == 'qa':
+     with torch.inference_mode():
+         main()
+ 
++
++
++elif MODE == 'rankqa':
++
++    def main():
++        # Gate-1 corrected trap check (2026-09-27): rank-remapped fetch
++        # positions must reproduce stock answers on questions asked against a
++        # FULL store (the exact-mode failure mode: 22.3 vs 54.1 with
++        # mid-sentence truncation at ~86k-token streaming positions). Runs
++        # with DECAF_POSITION_FREE=1 DECAF_FETCH_RANK=1 on the 0.5B; stock
++        # reference = W2.5 answers_0.5b CSV (T5 already proved the flag-off
++        # repo == W2.5 stock in this harness, same interleave).
++        from model.llava_onevision_rekv import load_model
++        from model.attention.kv_cache_manager import PositionalKV
++        from model.attention.rekv_attention import DECAF_POSITION_FREE, DECAF_FETCH_RANK
++        assert DECAF_POSITION_FREE and DECAF_FETCH_RANK, \
++            'mode=rankqa must run with DECAF_POSITION_FREE=1 DECAF_FETCH_RANK=1'
++        import pandas as pd
++        model, processor = load_model(model_path=MODEL, n_local=15000, topk=64, chunk_size=1)
++
++        anno = json.load(open(ANNO))
++        vs = [v for v in anno if v['video_id'].startswith('0fa75cb3')][0]
++        convs = [c for c in vs['conversations'] if c['end_time'] * SAMPLE_FPS <= N_FRAMES_QA]
++        assert len(convs) >= 2, f'need >=2 questions within {N_FRAMES_QA} frames'
++        w25 = pd.read_csv(W25_CSV)
++        frames, _ = load_video_frames(vs['video_path'], N_FRAMES_QA)
++        model.clear_cache()
++        model.encode_init_prompt()
++        model._current_video_id = vs['video_id']
++        n_init = int(model.kv_cache[0].n_init)
++
++        checks, answers = [], []
++        start_idx = 0.0
++        for qi, c in enumerate(convs):
++            end_idx = c['end_time'] * SAMPLE_FPS
++            if end_idx > start_idx:
++                model.encode_video(torch.from_numpy(frames[int(start_idx):int(end_idx)]))
++                start_idx = end_idx
++            # TR1 plumbing: retrieval prefill must carry contiguous RANK
++            # positions (buffer slot order), next_pos unset (decoding continues
++            # from carried rank positions).
++            for layer_kv in model.kv_cache:
++                layer_kv.set_retrieval()
++            input_ids = torch.as_tensor([processor.tokenizer(c['question']).input_ids],
++                                        device=model.device)
++            out = model.language_model(input_ids=input_ids, use_cache=True,
++                                       past_key_values=model.kv_cache)
++            pkv = out.past_key_values[0]
++            assert isinstance(pkv, PositionalKV), 'retrieval must return PositionalKV'
++            cm0 = model.kv_cache[0]
++            pos = [int(x) for x in pkv.positions]
++            n_blk = (len(pos) - n_init) // N_FRAME_TOKENS
++            exp_buf = list(range(n_init)) + [n_init + i for i in range(n_blk * N_FRAME_TOKENS)]
++            idx0 = [int(b) for b in cm0.retrieved_block_indices[0]]
++            checks.append({
++                'qi': qi, 'question': c['question'][:100], 'end_time': c['end_time'],
++                'store_blocks_at_query': int(cm0.num_global_block),
++                'manager_length_tokens': int(cm0.length),
++                'rank_pos_ok': pos == exp_buf,
++                'next_pos_unset': pkv.next_pos is None,
++                'retrieved_layer0_head': idx0[:8],
++                'retrieved_in_pos_order': idx0 == sorted(idx0),
++                'n_retrieved': len(idx0),
++            })
++            for layer_kv in model.kv_cache:
++                layer_kv.reset_retrieval()
++            # TR2: full greedy answer, compared to the W2.5 stock CSV row.
++            pred = model.question_answering(
++                {'question': c['question'], 'prompt': model.get_prompt(c['question'])},
++                max_new_tokens=256)
++            ref = w25[(w25.video_id == vs['video_id']) & (w25.question == c['question'])]['pred_answer']
++            answers.append({'qi': qi, 'question': c['question'][:100], 'end_time': c['end_time'],
++                            'pred': pred, 'w25_pred': ref.iloc[0] if len(ref) else None,
++                            'match': (ref.iloc[0] if len(ref) else None) == pred.replace('\n', ''),
++                            'pred_chars': len(pred)})
++
++        save('TR1_rank_plumbing', {'n_init': n_init, 'n_questions': len(convs),
++                                   'store_frames': int(start_idx),
++                                   'checks': checks})
++        save('TR2_late_stream_stock_equivalence', {
++            'video_id': vs['video_id'],
++            'note': ('questions answered with the full 420-frame (840 s) store ~84k tokens '
++                     '+ init - the exact-mode failure position; rank mode must match '
++                     'W2.5 stock answers'),
++            'checks': answers})
++        ok_plumbing = all(c['rank_pos_ok'] and c['next_pos_unset'] for c in checks)
++        n_match = sum(a['match'] for a in answers)
++        verdict = {
++            'gate_rank_plumbing': 'PASS' if ok_plumbing else 'FAIL',
++            'gate_late_stream_stock_equiv':
++                'PASS' if n_match == len(answers) else 'FAIL',
++            'n_stock_matches': f'{n_match}/{len(answers)}',
++        }
++        verdict['OVERALL'] = 'PASS' if all(v == 'PASS' for v in verdict.values()) else 'FAIL'
++        save('verdict', verdict)
++        print('RANKQA_MODE_DONE', json.dumps(verdict))
++
++    with torch.inference_mode():
++        main()
++
++
+ elif MODE == 'compare':
+     ref = np.load(os.path.join(OUT, 'T3c_encode_reference.npy'))
+     got = np.load(os.path.join(OUT, 'T3c_encode_snapshot.npy'))
+-- 
+2.34.1
+
+
+From 0277a19cba512a788f9ef6772821039d40b357c7 Mon Sep 17 00:00:00 2001
+From: Hadi602 <muhammad.rashid.602@gmail.com>
+Date: Sun, 27 Sep 2026 21:56:50 +0800
+Subject: [PATCH 3/3] trapcheck rankqa: fix OVERALL aggregation (filter gate_
+ keys, not all values)
+
+---
+ verification/decaf_trapcheck.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/verification/decaf_trapcheck.py b/verification/decaf_trapcheck.py
+index 4be0942..2485c9e 100644
+--- a/verification/decaf_trapcheck.py
++++ b/verification/decaf_trapcheck.py
+@@ -446,7 +446,7 @@ elif MODE == 'rankqa':
+                 'PASS' if n_match == len(answers) else 'FAIL',
+             'n_stock_matches': f'{n_match}/{len(answers)}',
+         }
+-        verdict['OVERALL'] = 'PASS' if all(v == 'PASS' for v in verdict.values()) else 'FAIL'
++        verdict['OVERALL'] = 'PASS' if all(v == 'PASS' for k, v in verdict.items() if k.startswith('gate')) else 'FAIL'
+         save('verdict', verdict)
+         print('RANKQA_MODE_DONE', json.dumps(verdict))
+ 
+-- 
+2.34.1
+

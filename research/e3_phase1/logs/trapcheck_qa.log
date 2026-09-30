@@ -1,0 +1,18 @@
+[I 260927 12:51:03 llava_onevision_rekv:184] n_init: 13
+[I 260927 12:51:03 llava_onevision_rekv:184] n_local: 15000
+[I 260927 12:51:03 llava_onevision_rekv:184] fattn: False
+[I 260927 12:51:03 llava_onevision_rekv:184] block_size: 196
+[I 260927 12:51:03 llava_onevision_rekv:184] topk: 64
+[I 260927 12:51:03 llava_onevision_rekv:184] chunk_size: 1
+[I 260927 12:51:03 llava_onevision_rekv:184] max_cached_block: 128
+[I 260927 12:51:03 llava_onevision_rekv:184] exc_block_size: 196
+[I 260927 12:51:03 llava_onevision_rekv:184] pin_memory: True
+[I 260927 12:51:03 llava_onevision_rekv:185] n_frame_tokens: 196
+[D 260927 12:52:33 abstract_rekv:51] KV-Cache RAM usage: 0.0 GB
+[D 260927 12:52:40 abstract_rekv:51] KV-Cache RAM usage: 0.3 GB
+[D 260927 12:52:48 abstract_rekv:51] KV-Cache RAM usage: 0.4 GB
+[D 260927 12:52:55 abstract_rekv:51] KV-Cache RAM usage: 0.6 GB
+[D 260927 12:53:03 abstract_rekv:51] KV-Cache RAM usage: 0.7 GB
+[D 260927 12:53:11 abstract_rekv:51] KV-Cache RAM usage: 0.9 GB
+[D 260927 12:53:17 abstract_rekv:61] KV-Cache RAM usage: 1.0 GB
+QA_MODE_DONE {"gate_rotate_on_fetch": "PASS", "gate_qa_smoke": "PASS", "OVERALL": "PASS"}

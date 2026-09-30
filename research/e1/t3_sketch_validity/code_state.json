@@ -1,0 +1,77 @@
+{
+  "code_dir": "/home/san/e1/fleetmem",
+  "files": {
+    "select_videos.py": {
+      "bytes": 2458,
+      "mtime": 1789663575.7645757
+    },
+    "make_run_dir.py": {
+      "bytes": 1643,
+      "mtime": 1789663612.9288616
+    },
+    "tag_events.py": {
+      "bytes": 5763,
+      "mtime": 1789689767.3308442
+    },
+    "add_text_embs.py": {
+      "bytes": 1324,
+      "mtime": 1789669346.4532564
+    },
+    "GENERALITY_REPORT.md": {
+      "bytes": 2736,
+      "mtime": 1789797593.6082087
+    },
+    "README.md": {
+      "bytes": 2876,
+      "mtime": 1789664531.2553751
+    },
+    "derive_frontier.py": {
+      "bytes": 6244,
+      "mtime": 1789664005.2317395
+    },
+    "EVICTION_REPORT.md": {
+      "bytes": 4992,
+      "mtime": 1789784610.3109214
+    },
+    "querypath.py": {
+      "bytes": 14296,
+      "mtime": 1789690483.923026
+    },
+    "PROTOTYPE_REPORT.md": {
+      "bytes": 3050,
+      "mtime": 1789664531.3313756
+    },
+    "QUERY_REPORT.md": {
+      "bytes": 4572,
+      "mtime": 1789670207.0422263
+    },
+    "analyze_fails.py": {
+      "bytes": 3304,
+      "mtime": 1789670092.725519
+    },
+    "V01_REPORT.md": {
+      "bytes": 4781,
+      "mtime": 1789693954.151914
+    },
+    "FLEET_REPORT.md": {
+      "bytes": 9712,
+      "mtime": 1789784076.0791624
+    },
+    "writepath.py": {
+      "bytes": 9400,
+      "mtime": 1789663575.9965775
+    },
+    "write_cost.py": {
+      "bytes": 2031,
+      "mtime": 1789669171.5524323
+    },
+    "querypath_v01.py": {
+      "bytes": 18209,
+      "mtime": 1789716203.5854917
+    },
+    "eviction/t23_tombstone_matrix.py": {
+      "bytes": 4026,
+      "mtime": 1790335497.6256058
+    }
+  }
+}

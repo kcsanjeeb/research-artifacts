@@ -1,0 +1,15 @@
+WATCHER_START 2026年 09月 28日 星期一 04:17:53 CST
+ARM answers_7b_b_writetime EXITED 1
+ARM answers_7b_b_deferred EXITED 1
+ARM answers_7b_b_writetime EXITED 1
+ARM answers_7b_b_writetime_rawbias EXITED 1
+ALL_ARMS_DONE 2026年 09月 28日 星期一 04:37:53 CST
+GPUS_FREE 2026年 09月 28日 星期一 04:37:53 CST
+ROWS answers_7b_b_deferred=0 2026年 09月 28日 星期一 04:37:53 CST
+SKIP answers_7b_b_deferred: only 0 rows
+ROWS answers_7b_b_writetime=0 2026年 09月 28日 星期一 04:37:54 CST
+SKIP answers_7b_b_writetime: only 0 rows
+ROWS answers_7b_b_writetime_rawbias=0 2026年 09月 28日 星期一 04:37:54 CST
+SKIP answers_7b_b_writetime_rawbias: only 0 rows
+VERDICT_EXIT 0 2026年 09月 28日 星期一 04:37:54 CST
+WATCHER_DONE 2026年 09月 28日 星期一 04:37:54 CST

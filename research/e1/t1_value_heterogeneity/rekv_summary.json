@@ -1,0 +1,134 @@
+{
+ "n_videos": 10,
+ "n_queries": 120,
+ "n_loo_evals": 3401,
+ "mean_token_f1_full_memory": 0.21948333333333334,
+ "block_bytes": 2408448,
+ "bytes_note": "all blocks identical KV size -> Gini(v/byte) == Gini(v)",
+ "gini_f_pooled": 0.9644529661389012,
+ "gini_v_pooled": 0.9941204975963109,
+ "gini_f_null_uniform_retrieval": 0.6992437200763459,
+ "gini_v_sampled": 0.6466027088555764,
+ "gini_f_per_video_mean": 0.9644256995554713,
+ "gini_v_per_video_mean": 0.7920370036144804,
+ "frac_never_retrieved_pooled": 0.9620674356699201,
+ "frac_v_negative_sampled": 0.45666666666666667,
+ "frac_v_zero_sampled": 0.01,
+ "query_value_concentration": {
+  "mean_top1_share": 0.08898125076552782,
+  "n_queries_with_positive_value": 47
+ },
+ "uniform_vs_oracle_additive": {
+  "budgets": [
+   0.75,
+   0.5,
+   0.25,
+   0.1
+  ],
+  "uniform": {
+   "0.75": 0.1218,
+   "0.5": 0.1192,
+   "0.25": 0.1178,
+   "0.1": 0.1171
+  },
+  "oracle": {
+   "0.75": 0.1227,
+   "0.5": 0.1202,
+   "0.25": 0.118,
+   "0.1": 0.1174
+  },
+  "note": "additive approximation over LOO-sampled blocks, drops clipped at 0 (negative LOO deltas = noise, treated as zero value, same clip0 convention as the SMB side): query F1 with removed set M = max(0, F1_full - sum of clipped drops of removed blocks); uniform = mean of 10 random subsets of sampled blocks; oracle = keep highest-value sampled blocks. Never-retrieved blocks (v=0) dropped first by both."
+ },
+ "per_video": {
+  "0fa75cb3-c4a0-4232-bdc4-15116ed39d88": {
+   "n_blocks": 1806,
+   "n_queries": 12,
+   "mean_token_f1": 0.18666666666666668,
+   "frac_never_retrieved": 0.9629014396456257,
+   "gini_f": 0.9645322882059799,
+   "gini_v": 0.0,
+   "n_loo_blocks": 30
+  },
+  "20bc995f-c3de-4789-bd7a-34cf1a313b0c": {
+   "n_blocks": 1804,
+   "n_queries": 12,
+   "mean_token_f1": 0.18800000000000003,
+   "frac_never_retrieved": 0.9645232815964523,
+   "gini_f": 0.9645232815964524,
+   "gini_v": 0.9833702882483375,
+   "n_loo_blocks": 30
+  },
+  "2bb31b69-fcda-4f54-8338-f590944df999": {
+   "n_blocks": 1800,
+   "n_queries": 12,
+   "mean_token_f1": 0.2324166666666667,
+   "frac_never_retrieved": 0.9605555555555556,
+   "gini_f": 0.9643041087962962,
+   "gini_v": 0.9860611735909364,
+   "n_loo_blocks": 30
+  },
+  "6baa36c1-e4d0-4dbd-97b2-dff48ecf796e": {
+   "n_blocks": 1801,
+   "n_queries": 12,
+   "mean_token_f1": 0.17933333333333334,
+   "frac_never_retrieved": 0.9589117157134925,
+   "gini_f": 0.9642024685359984,
+   "gini_v": 0.9989589117157136,
+   "n_loo_blocks": 30
+  },
+  "879dd163-7588-45d1-9466-a5deabc59167": {
+   "n_blocks": 1806,
+   "n_queries": 12,
+   "mean_token_f1": 0.4598333333333333,
+   "frac_never_retrieved": 0.9617940199335548,
+   "gini_f": 0.9645265203949795,
+   "gini_v": 0.9873545832260826,
+   "n_loo_blocks": 30
+  },
+  "89a95cd8-ca13-4edf-807e-d62138fd30e0": {
+   "n_blocks": 1804,
+   "n_queries": 12,
+   "mean_token_f1": 0.13333333333333333,
+   "frac_never_retrieved": 0.9645232815964523,
+   "gini_f": 0.9645232815964524,
+   "gini_v": 0.0,
+   "n_loo_blocks": 30
+  },
+  "9198b9a4-8d8f-4ba6-9924-4c86982d890a": {
+   "n_blocks": 1800,
+   "n_queries": 12,
+   "mean_token_f1": 0.10675,
+   "frac_never_retrieved": 0.9622222222222222,
+   "gini_f": 0.9643619791666667,
+   "gini_v": 0.9844184831491998,
+   "n_loo_blocks": 30
+  },
+  "af400f98-3c57-46ad-acac-eaca6f940180": {
+   "n_blocks": 1804,
+   "n_queries": 12,
+   "mean_token_f1": 0.29050000000000004,
+   "frac_never_retrieved": 0.9623059866962306,
+   "gini_f": 0.9644612088876572,
+   "gini_v": 0.9847599272365513,
+   "n_loo_blocks": 30
+  },
+  "cbfeb6c8-ec1f-4884-bcbf-14d7764c4a36": {
+   "n_blocks": 1801,
+   "n_queries": 12,
+   "mean_token_f1": 0.18066666666666664,
+   "frac_never_retrieved": 0.9622431982232094,
+   "gini_f": 0.9644135781047567,
+   "gini_v": 0.9962905615703868,
+   "n_loo_blocks": 30
+  },
+  "e58207f1-84ec-424b-a997-ff64a57eb13b": {
+   "n_blocks": 1806,
+   "n_queries": 12,
+   "mean_token_f1": 0.23733333333333329,
+   "frac_never_retrieved": 0.9606866002214839,
+   "gini_f": 0.964408280269472,
+   "gini_v": 0.9991561074075959,
+   "n_loo_blocks": 30
+  }
+ }
+}

@@ -1,0 +1,404 @@
+{
+ "rvs": {
+  "model-capability-failure": [
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What kitchen fixture is being utilized?",
+    "answer": "Opening a cabinet.",
+    "window": [
+     0,
+     300
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     1,
+     145
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.4
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "Is the flatbread being seasoned with sauce?",
+    "answer": "Yes.",
+    "window": [
+     0,
+     300
+    ],
+    "answer_type": "Whether Something Happened(Y/N)",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     1,
+     145
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.4
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What kitchen activity is underway in the clip?",
+    "answer": "Cutting vegetables.",
+    "window": [
+     270,
+     570
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     10,
+     280
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.253
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What tool does the person in the video use?",
+    "answer": "Knives.",
+    "window": [
+     270,
+     570
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     10,
+     280
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.24
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What appliance does the person in the video handle?",
+    "answer": "The heat regulator of the cooker.",
+    "window": [
+     270,
+     570
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     50,
+     280
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.24
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What part of the kitchen furniture does the person interact with?",
+    "answer": "Drawers.",
+    "window": [
+     270,
+     570
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     50,
+     280
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.253
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "Does the clip show any cooking taking place?",
+    "answer": "No direct cooking, only preparation.",
+    "window": [
+     270,
+     570
+    ],
+    "answer_type": "Action Caption",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     50,
+     280
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.24
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "Did the person use any other kitchen tools besides knives?",
+    "answer": "Heat regulator only mentioned.",
+    "window": [
+     270,
+     570
+    ],
+    "answer_type": "Whether Something Happened(Y/N)",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     50,
+     280
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.253
+   }
+  ],
+  "store-coverage(logged)-failure": [
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What ingredients are being used?",
+    "answer": "Dough and mixtures in bowls.",
+    "window": [
+     3240,
+     3540
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     54,
+     770
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.813
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What equipment is being utilized?",
+    "answer": "Rolling pin and spatulas.",
+    "window": [
+     3240,
+     3540
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     50,
+     770
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.813
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What is the main activity occurring?",
+    "answer": "Preparing dough and mixtures for baking.",
+    "window": [
+     3240,
+     3540
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     54,
+     770
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.813
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What is being done to the mixtures?",
+    "answer": "The mixtures are being stirred in steel bowls.",
+    "window": [
+     3240,
+     3540
+    ],
+    "answer_type": "Action Caption",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     54,
+     770
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.813
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "Is the dough being prepared for baking?",
+    "answer": "Yes.",
+    "window": [
+     3240,
+     3540
+    ],
+    "answer_type": "Whether Something Happened(Y/N)",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     54,
+     770
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.813
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "Is anything being cooked in the clip?",
+    "answer": "No, only preparation steps are shown.",
+    "window": [
+     3240,
+     3540
+    ],
+    "answer_type": "Whether Something Happened(Y/N)",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     54,
+     770
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 0.813
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "What object is primarily shown in the scene?",
+    "answer": "A doe laid out on a mat on a kitchen board.",
+    "window": [
+     3510,
+     3600
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     54,
+     770
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   },
+   {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "question": "Which item is used in the scene?",
+    "answer": "A knife to trim edges of the doe.",
+    "window": [
+     3510,
+     3600
+    ],
+    "answer_type": "Scene Summary",
+    "qtype": "other-what",
+    "retrieved_block_range": [
+     54,
+     770
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   }
+  ]
+ },
+ "xbench": {
+  "model-capability-failure": [
+   {
+    "video_id": "sb_110",
+    "question": "What does the overlay text on the screen right now humorously suggest?\nA. Someone is praising the person.\nB. S",
+    "answer": "B",
+    "window": [
+     920,
+     930
+    ],
+    "retrieved_block_range": [
+     1,
+     415
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   },
+   {
+    "video_id": "sb_120",
+    "question": "What specific hardware components are highlighted right now?\nA. RTX 3090 and GTX 980 Ti graphics cards.\nB. Coo",
+    "answer": "A",
+    "window": [
+     220,
+     240
+    ],
+    "retrieved_block_range": [
+     1,
+     116
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   },
+   {
+    "video_id": "sb_111",
+    "question": "What is the label of the highlighted central block in the GPU section right now?\nA. A510 1.8GHz.\nB. G710MC10.\n",
+    "answer": "B",
+    "window": [
+     220,
+     240
+    ],
+    "retrieved_block_range": [
+     0,
+     119
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   },
+   {
+    "video_id": "sb_111",
+    "question": "What is the average frame rate and power consumption for the \u9a81\u9f998 Gen1 device right now?\nA. 59 fps/3.9W.\nB. 59 ",
+    "answer": "C",
+    "window": [
+     660,
+     680
+    ],
+    "retrieved_block_range": [
+     100,
+     317
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   },
+   {
+    "video_id": "sb_111",
+    "question": "Which symbol is NOT displayed across the screen right now?\nA. Thumbs-up icon.\nB. forward icon.\nC. Star.\nD. Hea",
+    "answer": "D",
+    "window": [
+     840,
+     845
+    ],
+    "retrieved_block_range": [
+     92,
+     317
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   },
+   {
+    "video_id": "sb_36",
+    "question": "What color are the kitchen cupboards?\nA. Dark blue.\nB. Light green.\nC. White.\nD. Yellow.",
+    "answer": "B",
+    "window": [
+     180,
+     240
+    ],
+    "retrieved_block_range": [
+     1,
+     119
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   },
+   {
+    "video_id": "sb_36",
+    "question": "What is the person holding in the right hand right now?\nA. A pen.\nB. A ladle.\nC. A knife.\nD. A rolling pin.",
+    "answer": "A",
+    "window": [
+     780,
+     840
+    ],
+    "retrieved_block_range": [
+     1,
+     418
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   },
+   {
+    "video_id": "sb_35",
+    "question": "What action is the person performing right now?\nA. Stirring a pot.\nB. Slicing an onion.\nC. Chopping garlic.\nD.",
+    "answer": "C",
+    "window": [
+     360,
+     420
+    ],
+    "retrieved_block_range": [
+     1,
+     207
+    ],
+    "n_retrieved": 64,
+    "overlap_ratio": 1.0
+   }
+  ]
+ }
+}

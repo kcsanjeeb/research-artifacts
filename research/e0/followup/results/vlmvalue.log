@@ -1,0 +1,47 @@
+[analyze] collected 5965 / 5965 VLM verdicts
+[analyze] tier-1 baseline: AUC=0.8802 AP=0.3352
+             tier1: AUC=0.8802 (delta +0.0000) AP=0.3352 (delta +0.0000)
+         replace_b: AUC=0.8811 (delta +0.0009) AP=0.3357 (delta +0.0004)
+         replace_a: AUC=0.8790 (delta -0.0012) AP=0.3346 (delta -0.0007)
+         replace_c: AUC=0.8458 (delta -0.0344) AP=0.3280 (delta -0.0072)
+       blend_0.5_b: AUC=0.8809 (delta +0.0007) AP=0.3356 (delta +0.0004)
+[analyze] ops: {
+  "tier1": {
+    "precision@0.5": 0.21000258464719565,
+    "alerts_per_hour": 2258.8873832314607,
+    "event_recall": 0.8357142857142857,
+    "tta_snippets_mean": 1.2222222222222223,
+    "tta_seconds_mean": 0.6518518518518519
+  },
+  "replace_b": {
+    "precision@0.5": 0.23112411945629527,
+    "alerts_per_hour": 1961.5168377349783,
+    "event_recall": 0.8428571428571429,
+    "tta_snippets_mean": 2.211864406779661,
+    "tta_seconds_mean": 1.1796610169491524
+  }
+}
+[analyze] escalated-clip accuracy: {
+  "score_b": {
+    "thr": 0.5,
+    "acc": 0.9336127409891031
+  },
+  "score_a": {
+    "thr": 0.10727464407682419,
+    "acc": 0.4844928751047779
+  },
+  "score_c": {
+    "thr": 0.5,
+    "acc": 0.9337803855825649
+  },
+  "tier1_acc": 0.4937133277451802
+}
+[2.4] Random K=0.1: dAUC=+0.0000 +-0.0001
+[2.4] RawTopK K=0.1: dAUC=+0.0002 +-0.0000
+[2.4] Random K=0.25: dAUC=+0.0001 +-0.0001
+[2.4] RawTopK K=0.25: dAUC=-0.0003 +-0.0000
+[2.4] Random K=0.5: dAUC=+0.0002 +-0.0002
+[2.4] RawTopK K=0.5: dAUC=-0.0008 +-0.0000
+[2.4] Random K=1.0: dAUC=+0.0009 +-0.0000
+[2.4] RawTopK K=1.0: dAUC=+0.0009 +-0.0000
+[saved] /home/san/FleetVAD/research/e0/followup/results/vlmvalue.json

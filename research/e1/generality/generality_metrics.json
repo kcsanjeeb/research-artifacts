@@ -1,0 +1,26 @@
+{
+ "rekv": {
+  "n": 120,
+  "token_f1_mean": 0.212,
+  "token_f1_median": 0.154,
+  "write_gpu_s_per_stream_h": 341.1,
+  "query_gpu_s_per_q": 1.15,
+  "stream_hours": 9.585583333333332
+ },
+ "uniform": {
+  "n": 120,
+  "token_f1_mean": 0.143,
+  "token_f1_median": 0.119,
+  "write_gpu_s_per_stream_h": 851.2,
+  "query_gpu_s_per_q": 0.91,
+  "stream_hours": 9.585583333333332
+ },
+ "novelty": {
+  "n": 120,
+  "token_f1_mean": 0.13,
+  "token_f1_median": 0.092,
+  "write_gpu_s_per_stream_h": 418.4,
+  "query_gpu_s_per_q": 0.88,
+  "stream_hours": 9.585583333333332
+ }
+}

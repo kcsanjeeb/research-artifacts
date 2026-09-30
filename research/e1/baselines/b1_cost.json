@@ -1,0 +1,12 @@
+{
+ "n_videos": 1090,
+ "n_chunks": 4944,
+ "stream_hours": 37.24,
+ "write_gpu_s_per_stream_h": 317.6,
+ "caption_gpu_s_total": 11792.7,
+ "caption_s_per_chunk_mean": 2.39,
+ "decode_cpu_s_per_stream_h": 73.2,
+ "storage_kb_per_stream_day": 5906.8,
+ "tier1_charge": 0.0,
+ "peak_vram_mb": 22236
+}

@@ -1,0 +1,45 @@
+{
+  "verdict": {
+    "gate_store_prerope": "PASS",
+    "gate_rotary": "PASS",
+    "gate_sidecar": "PASS",
+    "gate_rotate_on_fetch": "PASS",
+    "gate_qa_smoke": "PASS",
+    "gate_stock_equiv": "PASS",
+    "gate_encode_invariance": "NOT_RUN",
+    "OVERALL": "PASS"
+  },
+  "T2_rotary_rel_err": {
+    "layer0": 0.0003008918138220906,
+    "layer5": 0.00038180980482138693,
+    "layer11": 0.00036386496503837407,
+    "layer17": 0.0003674795152619481,
+    "layer23": 0.00029501845710910857
+  },
+  "T2_note": "dump K_pre cross-path errs at deeper layers (up to 0.68) are fp32-upcast-torch-attn vs sdpa-fp16 kernel differences on attention-accumulated hidden states, not capture bugs; layer0=1e-2, rotary is elementwise on the same K_pre.",
+  "T5": {
+    "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+    "checks": [
+      {
+        "question": "What task is being performed with vegetables?",
+        "pred": "The task being performed with vegetables is preparing a dish that includes diced tomatoes, onions, and peppers.",
+        "w25_pred": "The task being performed with vegetables is preparing a dish that includes diced tomatoes, onions, and peppers.",
+        "match": true
+      },
+      {
+        "question": "What step is being taken with flatbread?",
+        "pred": "The person is transferring the cooked meat and vegetables from the pot onto a plate.",
+        "w25_pred": "The person is transferring the cooked meat and vegetables from the pot onto a plate.",
+        "match": true
+      }
+    ]
+  },
+  "memory_96blocks": {
+    "store_bytes": 231211008,
+    "sidecar_bytes": 18432,
+    "total_bytes": 231229440,
+    "n_blocks": 96,
+    "block_size": 196,
+    "n_layers": 24
+  }
+}

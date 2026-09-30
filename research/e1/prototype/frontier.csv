@@ -1,0 +1,5 @@
+gate,n_events,event_recall,recalled,gt_events,cost_gpu_s_per_stream_h,tier1_gpu_s_per_h,narration_gpu_s_per_h,storage_kb_per_stream_day
+loose,40,0.966,57,59,529.7,354.0,175.7,1257.47
+calibrated,37,0.949,56,59,516.4,354.0,162.4,1163.16
+strict,35,0.949,56,59,509.2,354.0,155.2,1100.28
+time_driven_30s,244,1.0,59,59,1441.6,354.0,1087.6,7670.55

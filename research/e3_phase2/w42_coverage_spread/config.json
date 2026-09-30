@@ -1,0 +1,23 @@
+{
+  "task": "W4.2 — THE DECISION EXPERIMENT: coverage-spread retrieval over the W4.1-fixed store",
+  "date": "2026-09-30",
+  "question_subset": "83 all-wrong temporal-before/after questions from the W3.3 ceiling analysis (recomputed 1:1 with w33_ceiling.py: 86 temporal-beforeafter all-wrong = 83 model-capability + 3 store-coverage; the 83 model-capability ones are used; temporal83_ids.json). Subset anno over 2 videos; window ends non-decreasing per video so the store state at each question is identical to the full run (encode content depends only on [0, end)).",
+  "store": "SAME store config as W4.1 arm (writetime, tax0.5, debias, QUANT=0, NOPASS2, position-free, rank-fetch); encode once per arm run; only retrieval allocation differs; 64-slot budget identical",
+  "arms": {
+    "A0_topk": "DECAF_B_POLICY=default (stock relevance order) — answered by the W4.1 full run, 83-question subset (NO extra GPU arm)",
+    "A1_uniform": "64 equal temporal bins over [0, store frontier); best-scoring unit per bin (1 slot per unit)",
+    "A2_hybrid": "32 slots top-k by similarity + 32 slots uniform spread over bins",
+    "A3_stratified": "64 bins; slots apportioned proportional to softmax(bin max similarity); top units per bin up to allocation"
+  },
+  "load_bearing_constraint": "spread bins span ONLY the streamed history [0, frontier) with frontier derived from store segment token_starts; the gold window [start,end] is NOT an input to plan(); asserted in decaf_b._spread_plan (gold_window_used=False logged per question). Spreading over the gold window would be oracle information and voids the experiment.",
+  "stats_predeclared": {
+    "primary": "hybrid vs top-k, paired McNemar (exact binomial, two-sided) on the 83 occurrence-indexed questions",
+    "secondary": ["uniform vs top-k", "stratified vs top-k"],
+    "multiplicity": "Holm correction across all 3 arm comparisons",
+    "mde_statement": "PRE-DECLARED before any number exists. n=83, observed base accuracy on these questions ~14%. Exact binomial McNemar at two-sided alpha=0.05 reaches 80% power only when the discordant-pair imbalance |b-c| >= ~13-17 for the expected d=20-30 discordant pairs (computed exactly from the binomial: d=20 -> min |b-c|=13 -> MDE 15.7 pts; d=25 -> 15 -> 18.1 pts; d=30 -> 17 -> 20.5 pts). The test can only detect very large effects (~16-21 accuracy points); anything smaller is underpowered and will be reported as such regardless of outcome. For reference, a +10-pt lift over 14% base yields ~26 expected discordant pairs, at the edge of detectability.",
+    "decision_mapping": "coverage up AND hybrid acc +>=3pts -> diagnosis actionable, Phase-4 redirection justified; coverage up but acc flat -> genuinely model capability, direction closed, diagnosis paper stronger; coverage flat -> allocator bug, not a finding"
+  },
+  "coverage_definition": "same as W3.3: committed frame blocks (2 s each at 0.5 fps; global frame = seg_id*4 + frame) intersect [start,end], plus the local-cache addressable window (stream frontier minus last n_local=15000 tokens = 152 s), divided by window length; min(,1)",
+  "judge": "same Qwen2.5-72B TP=4 gpu_mem 0.80 w25_judge.py harness",
+  "gpus": {"A0": "from W4.1 run (GPU0)", "A1": 1, "A2": 2, "A3": 3}
+}

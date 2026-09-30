@@ -1,0 +1,80 @@
+{
+  "n": 316,
+  "seed": 42,
+  "policy_acc": {
+    "seg": 0.41139240506329117,
+    "frame": 0.43354430379746833,
+    "patch": 0.45569620253164556,
+    "default": 0.41139240506329117
+  },
+  "correct_set_size_dist": {
+    "0": 152,
+    "1": 22,
+    "2": 17,
+    "3": 15,
+    "4": 110
+  },
+  "unique_correct": {
+    "patch": 12,
+    "frame": 10
+  },
+  "all_wrong": 152,
+  "stump_rule": "entropy <= 1.27",
+  "type_table": {
+    "action-doing": 0,
+    "other-what": 2,
+    "overview": 0,
+    "step": 0,
+    "task": 0,
+    "temporal-beforeafter": 2,
+    "temporal-firstlast": 0
+  },
+  "heldout": {
+    "decision_stump": {
+      "heldout_reward": 0.46835443037974683,
+      "patch": 0.46835443037974683,
+      "gain": 0.0,
+      "ci": [
+        -0.0253164556962025,
+        0.025316455696202556
+      ]
+    },
+    "logistic_reg": {
+      "heldout_reward": 0.4873417721518987,
+      "patch": 0.46835443037974683,
+      "gain": 0.01898734177215189,
+      "ci": [
+        0.0,
+        0.044303797468354444
+      ]
+    },
+    "type_conditioned": {
+      "heldout_reward": 0.46835443037974683,
+      "patch": 0.46835443037974683,
+      "gain": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "repeated": {
+    "logistic_reg": [
+      -0.01018987341772152,
+      0.01752593244205476
+    ],
+    "type_conditioned": [
+      -0.012373417721518986,
+      0.02046269678272772
+    ],
+    "decision_stump": [
+      -0.014082278481012655,
+      0.01793985639196157
+    ]
+  },
+  "insample_bounds": {
+    "memorization": 0.5189873417721519,
+    "logistic_reg": 0.47468354430379744,
+    "stump": 0.4651898734177215
+  }
+}

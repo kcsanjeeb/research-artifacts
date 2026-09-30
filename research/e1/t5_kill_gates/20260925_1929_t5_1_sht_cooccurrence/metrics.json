@@ -1,0 +1,13 @@
+{
+  "n_events": 194,
+  "n_cameras": 12,
+  "mean_normalized_window_len": 0.24667261722584388,
+  "cross_cam_pairs_total": 16319,
+  "proxy_raw_overlap_frac": 0.5186592315705619,
+  "null_overlap_frac": 0.50499,
+  "excess_over_null": 0.01366923157056188,
+  "strong_overlap_iou50_frac": 0.10264109320424046,
+  "strong_overlap_iou50_null": 0.088365,
+  "frac_events_with_partner_proxy": 1.0,
+  "kill_threshold": 0.15
+}

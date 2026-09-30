@@ -1,0 +1,116 @@
+{
+  "note": "E0.6 v2: calibrated fusion. v1 errors corrected: (1) 93.4% accuracy was below the constant-No baseline 93.58%; (2) raw P(Yes) fusion crushed escalated clips below the detector score scale. Calibration cross-fitted by video parity.",
+  "baseline": {
+    "auc_tier1": 0.8801992605166815,
+    "ap_tier1": 0.3352453933862587
+  },
+  "oracle_ceiling": {
+    "auc": 0.9057637928819796,
+    "dAUC": 0.025564532365298098,
+    "ap": 0.44102597780040037,
+    "dAP": 0.10578058441414168
+  },
+  "pool_stats": {
+    "n": 5965,
+    "anomalous": 383,
+    "const_no_acc": 0.9357921207041073,
+    "vlm_yes_at_0.5": 95,
+    "vlm_acc_at_0.5": 0.9336127409891031,
+    "within_pool_auc_vlm": 0.6690212291840708,
+    "within_pool_auc_tier1": 0.5726248020259076
+  },
+  "variants": [
+    {
+      "name": "replace_b_raw",
+      "auc": 0.8810880314797024,
+      "ap": 0.33568785684923685
+    },
+    {
+      "name": "replace_b_isotonic",
+      "auc": 0.8795729520330592,
+      "ap": 0.3361179259842628
+    },
+    {
+      "name": "replace_b_ranknorm",
+      "auc": 0.8807015173502071,
+      "ap": 0.335546767284048
+    }
+  ],
+  "vlm_pr_sweep": {
+    "best_f1": {
+      "thr": 0.12,
+      "precision": 0.10611604809200209,
+      "recall": 0.5300261096605744,
+      "f1": 0.17682926829268292
+    },
+    "note": "threshold swept 0.02..0.98; 0.5 is the wrong operating point at 6.4% base rate"
+  },
+  "ops": {
+    "tier1": {
+      "precision@0.5": 0.21000258464719565,
+      "alerts_per_hour": 2258.8873832314607,
+      "event_recall": 0.8357142857142857,
+      "tta_seconds_mean": 0.6518518518518519
+    },
+    "replace_b_isotonic": {
+      "precision@0.5": 0.2304666102285743,
+      "alerts_per_hour": 1954.0241898281627,
+      "event_recall": 0.8285714285714286,
+      "tta_seconds_mean": 1.1931034482758622
+    }
+  },
+  "marginal_value_calibrated": {
+    "Random": [
+      {
+        "K": 0.1,
+        "calls": 596,
+        "dAUC_mean": -0.00015579296271117649,
+        "dAUC_std": 0.00013865372934557485
+      },
+      {
+        "K": 0.25,
+        "calls": 1491,
+        "dAUC_mean": -0.00030892510543234497,
+        "dAUC_std": 0.00017553459018801603
+      },
+      {
+        "K": 0.5,
+        "calls": 2982,
+        "dAUC_mean": -0.0005260855614234172,
+        "dAUC_std": 0.0002380953285045771
+      },
+      {
+        "K": 1.0,
+        "calls": 5965,
+        "dAUC_mean": -0.0006263084836223287,
+        "dAUC_std": 0.0
+      }
+    ],
+    "RawTopK": [
+      {
+        "K": 0.1,
+        "calls": 596,
+        "dAUC_mean": 9.522847880760743e-05,
+        "dAUC_std": 0.0
+      },
+      {
+        "K": 0.25,
+        "calls": 1491,
+        "dAUC_mean": -0.0008576268027147282,
+        "dAUC_std": 0.0
+      },
+      {
+        "K": 0.5,
+        "calls": 2982,
+        "dAUC_mean": -0.002022284541639663,
+        "dAUC_std": 0.0
+      },
+      {
+        "K": 1.0,
+        "calls": 5965,
+        "dAUC_mean": -0.0006263084836223287,
+        "dAUC_std": 0.0
+      }
+    ]
+  }
+}

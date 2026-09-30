@@ -1,0 +1,35 @@
+{
+  "per_type": {
+    "existence": {
+      "n": 60,
+      "accuracy": 0.95
+    },
+    "negation": {
+      "n": 50,
+      "accuracy": 0.56,
+      "false_alarm_rate": 0.44
+    },
+    "existence_plus_negation": {
+      "balanced_acc": 0.755
+    },
+    "temporal": {
+      "n": 60,
+      "mean_tIoU": 0.286,
+      "tIoU_at_0.3": 0.367
+    },
+    "retrieval": {
+      "n": 50,
+      "recall_at_10": 0.454,
+      "AP": 0.353
+    }
+  },
+  "config": {
+    "expansion": false,
+    "tags": true,
+    "refined": "combo",
+    "verify": "asym2",
+    "tau_hi": null,
+    "tau": 0.47999999999999987
+  },
+  "total_verify_gpu_s": 307.3
+}

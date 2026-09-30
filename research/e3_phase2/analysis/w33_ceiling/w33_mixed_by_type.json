@@ -1,0 +1,26 @@
+{
+ "rvs_mixed_wins_by_type": {
+  "other-what": {
+   "frame": 13,
+   "patch": 14,
+   "seg": 8,
+   "default": 8
+  },
+  "step": {
+   "seg": 1,
+   "patch": 1,
+   "default": 1
+  },
+  "task": {
+   "seg": 1,
+   "frame": 1,
+   "default": 1
+  },
+  "temporal-beforeafter": {
+   "seg": 10,
+   "patch": 19,
+   "default": 10,
+   "frame": 13
+  }
+ }
+}

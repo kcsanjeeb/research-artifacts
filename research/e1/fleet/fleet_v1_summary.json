@@ -1,0 +1,650 @@
+{
+  "cells": [
+    {
+      "N": 16,
+      "policy": "arbiter",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1510.2,
+      "arrivals_total": 341,
+      "jobs_done": 338,
+      "jobs_dropped": 0,
+      "backlog_end": 3,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 341,
+        "n_done": 338,
+        "freshness_p50": 56.5,
+        "freshness_p95": 185.5,
+        "slo60_recall": 0.519
+      },
+      "topQ": {
+        "n_arrivals": 99,
+        "n_done": 99,
+        "freshness_p50": 51.3,
+        "freshness_p95": 152.4,
+        "slo60_recall": 0.586
+      },
+      "rest": {
+        "n_arrivals": 242,
+        "n_done": 239,
+        "freshness_p50": 60.0,
+        "freshness_p95": 199.2,
+        "slo60_recall": 0.492
+      },
+      "cell": "arbiter_N16"
+    },
+    {
+      "N": 24,
+      "policy": "arbiter",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1508.5,
+      "arrivals_total": 472,
+      "jobs_done": 345,
+      "jobs_dropped": 0,
+      "backlog_end": 127,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 6,
+      "all": {
+        "n_arrivals": 472,
+        "n_done": 345,
+        "freshness_p50": 500.7,
+        "freshness_p95": 1002.8,
+        "slo60_recall": 0.011
+      },
+      "topQ": {
+        "n_arrivals": 129,
+        "n_done": 90,
+        "freshness_p50": 512.5,
+        "freshness_p95": 1002.6,
+        "slo60_recall": 0.031
+      },
+      "rest": {
+        "n_arrivals": 343,
+        "n_done": 255,
+        "freshness_p50": 486.7,
+        "freshness_p95": 1001.7,
+        "slo60_recall": 0.003
+      },
+      "cell": "arbiter_N24"
+    },
+    {
+      "N": 32,
+      "policy": "arbiter",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1502.3,
+      "arrivals_total": 670,
+      "jobs_done": 360,
+      "jobs_dropped": 0,
+      "backlog_end": 310,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 8,
+      "all": {
+        "n_arrivals": 670,
+        "n_done": 360,
+        "freshness_p50": 802.4,
+        "freshness_p95": 1684.7,
+        "slo60_recall": 0.007
+      },
+      "topQ": {
+        "n_arrivals": 191,
+        "n_done": 92,
+        "freshness_p50": 703.1,
+        "freshness_p95": 1635.9,
+        "slo60_recall": 0.026
+      },
+      "rest": {
+        "n_arrivals": 479,
+        "n_done": 268,
+        "freshness_p50": 839.2,
+        "freshness_p95": 1690.1,
+        "slo60_recall": 0.0
+      },
+      "cell": "arbiter_N32"
+    },
+    {
+      "N": 4,
+      "policy": "arbiter",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1500.1,
+      "arrivals_total": 82,
+      "jobs_done": 82,
+      "jobs_dropped": 0,
+      "backlog_end": 0,
+      "sal_thr_top_quartile": 0.9998,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9998,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 82,
+        "n_done": 82,
+        "freshness_p50": 20.6,
+        "freshness_p95": 35.0,
+        "slo60_recall": 0.988
+      },
+      "topQ": {
+        "n_arrivals": 22,
+        "n_done": 22,
+        "freshness_p50": 20.2,
+        "freshness_p95": 27.4,
+        "slo60_recall": 1.0
+      },
+      "rest": {
+        "n_arrivals": 60,
+        "n_done": 60,
+        "freshness_p50": 20.7,
+        "freshness_p95": 37.6,
+        "slo60_recall": 0.983
+      },
+      "cell": "arbiter_N4"
+    },
+    {
+      "N": 8,
+      "policy": "arbiter",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1500.0,
+      "arrivals_total": 160,
+      "jobs_done": 160,
+      "jobs_dropped": 0,
+      "backlog_end": 0,
+      "sal_thr_top_quartile": 0.9998,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9998,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 160,
+        "n_done": 160,
+        "freshness_p50": 23.6,
+        "freshness_p95": 75.5,
+        "slo60_recall": 0.925
+      },
+      "topQ": {
+        "n_arrivals": 41,
+        "n_done": 41,
+        "freshness_p50": 23.5,
+        "freshness_p95": 49.4,
+        "slo60_recall": 1.0
+      },
+      "rest": {
+        "n_arrivals": 119,
+        "n_done": 119,
+        "freshness_p50": 23.7,
+        "freshness_p95": 77.3,
+        "slo60_recall": 0.899
+      },
+      "cell": "arbiter_N8"
+    },
+    {
+      "N": 16,
+      "policy": "arbiter_shed",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1504.4,
+      "arrivals_total": 341,
+      "jobs_done": 335,
+      "jobs_dropped": 3,
+      "backlog_end": 3,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 341,
+        "n_done": 335,
+        "freshness_p50": 52.2,
+        "freshness_p95": 169.0,
+        "slo60_recall": 0.563
+      },
+      "topQ": {
+        "n_arrivals": 99,
+        "n_done": 99,
+        "freshness_p50": 47.2,
+        "freshness_p95": 148.8,
+        "slo60_recall": 0.636
+      },
+      "rest": {
+        "n_arrivals": 242,
+        "n_done": 236,
+        "freshness_p50": 53.1,
+        "freshness_p95": 177.7,
+        "slo60_recall": 0.533
+      },
+      "cell": "arbiter_shed_N16"
+    },
+    {
+      "N": 24,
+      "policy": "arbiter_shed",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1510.1,
+      "arrivals_total": 472,
+      "jobs_done": 342,
+      "jobs_dropped": 120,
+      "backlog_end": 10,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 1,
+      "all": {
+        "n_arrivals": 472,
+        "n_done": 342,
+        "freshness_p50": 148.5,
+        "freshness_p95": 235.9,
+        "slo60_recall": 0.013
+      },
+      "topQ": {
+        "n_arrivals": 129,
+        "n_done": 127,
+        "freshness_p50": 144.6,
+        "freshness_p95": 197.8,
+        "slo60_recall": 0.039
+      },
+      "rest": {
+        "n_arrivals": 343,
+        "n_done": 215,
+        "freshness_p50": 151.4,
+        "freshness_p95": 247.6,
+        "slo60_recall": 0.003
+      },
+      "cell": "arbiter_shed_N24"
+    },
+    {
+      "N": 32,
+      "policy": "arbiter_shed",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1505.8,
+      "arrivals_total": 670,
+      "jobs_done": 366,
+      "jobs_dropped": 292,
+      "backlog_end": 12,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 2,
+      "all": {
+        "n_arrivals": 670,
+        "n_done": 366,
+        "freshness_p50": 150.1,
+        "freshness_p95": 216.6,
+        "slo60_recall": 0.007
+      },
+      "topQ": {
+        "n_arrivals": 191,
+        "n_done": 186,
+        "freshness_p50": 147.9,
+        "freshness_p95": 188.3,
+        "slo60_recall": 0.026
+      },
+      "rest": {
+        "n_arrivals": 479,
+        "n_done": 180,
+        "freshness_p50": 151.5,
+        "freshness_p95": 229.7,
+        "slo60_recall": 0.0
+      },
+      "cell": "arbiter_shed_N32"
+    },
+    {
+      "N": 4,
+      "policy": "arbiter_shed",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1500.1,
+      "arrivals_total": 82,
+      "jobs_done": 82,
+      "jobs_dropped": 0,
+      "backlog_end": 0,
+      "sal_thr_top_quartile": 0.9998,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9998,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 82,
+        "n_done": 82,
+        "freshness_p50": 20.9,
+        "freshness_p95": 35.7,
+        "slo60_recall": 0.988
+      },
+      "topQ": {
+        "n_arrivals": 22,
+        "n_done": 22,
+        "freshness_p50": 20.8,
+        "freshness_p95": 36.0,
+        "slo60_recall": 1.0
+      },
+      "rest": {
+        "n_arrivals": 60,
+        "n_done": 60,
+        "freshness_p50": 21.0,
+        "freshness_p95": 35.0,
+        "slo60_recall": 0.983
+      },
+      "cell": "arbiter_shed_N4"
+    },
+    {
+      "N": 8,
+      "policy": "arbiter_shed",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1500.1,
+      "arrivals_total": 160,
+      "jobs_done": 160,
+      "jobs_dropped": 0,
+      "backlog_end": 0,
+      "sal_thr_top_quartile": 0.9998,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9998,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 160,
+        "n_done": 160,
+        "freshness_p50": 22.7,
+        "freshness_p95": 72.1,
+        "slo60_recall": 0.925
+      },
+      "topQ": {
+        "n_arrivals": 41,
+        "n_done": 41,
+        "freshness_p50": 21.7,
+        "freshness_p95": 36.0,
+        "slo60_recall": 1.0
+      },
+      "rest": {
+        "n_arrivals": 119,
+        "n_done": 119,
+        "freshness_p50": 23.1,
+        "freshness_p95": 75.5,
+        "slo60_recall": 0.899
+      },
+      "cell": "arbiter_shed_N8"
+    },
+    {
+      "N": 24,
+      "policy": "arbiter_shed",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1518.2,
+      "arrivals_total": 472,
+      "jobs_done": 320,
+      "jobs_dropped": 148,
+      "backlog_end": 4,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 4,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 2,
+      "all": {
+        "n_arrivals": 472,
+        "n_done": 320,
+        "freshness_p50": 67.3,
+        "freshness_p95": 156.8,
+        "slo60_recall": 0.269
+      },
+      "topQ": {
+        "n_arrivals": 129,
+        "n_done": 127,
+        "freshness_p50": 67.5,
+        "freshness_p95": 156.4,
+        "slo60_recall": 0.403
+      },
+      "rest": {
+        "n_arrivals": 343,
+        "n_done": 193,
+        "freshness_p50": 67.2,
+        "freshness_p95": 157.7,
+        "slo60_recall": 0.219
+      },
+      "cell": "arbiter_shed_b4_N24"
+    },
+    {
+      "N": 32,
+      "policy": "arbiter_shed",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1507.6,
+      "arrivals_total": 670,
+      "jobs_done": 377,
+      "jobs_dropped": 289,
+      "backlog_end": 4,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 4,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 2,
+      "all": {
+        "n_arrivals": 670,
+        "n_done": 377,
+        "freshness_p50": 69.0,
+        "freshness_p95": 139.3,
+        "slo60_recall": 0.176
+      },
+      "topQ": {
+        "n_arrivals": 191,
+        "n_done": 190,
+        "freshness_p50": 69.1,
+        "freshness_p95": 94.0,
+        "slo60_recall": 0.319
+      },
+      "rest": {
+        "n_arrivals": 479,
+        "n_done": 187,
+        "freshness_p50": 68.9,
+        "freshness_p95": 154.3,
+        "slo60_recall": 0.119
+      },
+      "cell": "arbiter_shed_b4_N32"
+    },
+    {
+      "N": 16,
+      "policy": "fcfs",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1517.9,
+      "arrivals_total": 341,
+      "jobs_done": 338,
+      "jobs_dropped": 0,
+      "backlog_end": 3,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 341,
+        "n_done": 338,
+        "freshness_p50": 63.5,
+        "freshness_p95": 157.6,
+        "slo60_recall": 0.472
+      },
+      "topQ": {
+        "n_arrivals": 99,
+        "n_done": 99,
+        "freshness_p50": 60.0,
+        "freshness_p95": 158.7,
+        "slo60_recall": 0.495
+      },
+      "rest": {
+        "n_arrivals": 242,
+        "n_done": 239,
+        "freshness_p50": 64.3,
+        "freshness_p95": 156.7,
+        "slo60_recall": 0.463
+      },
+      "cell": "fcfs_N16"
+    },
+    {
+      "N": 24,
+      "policy": "fcfs",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1514.1,
+      "arrivals_total": 472,
+      "jobs_done": 358,
+      "jobs_dropped": 0,
+      "backlog_end": 114,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 6,
+      "all": {
+        "n_arrivals": 472,
+        "n_done": 358,
+        "freshness_p50": 434.4,
+        "freshness_p95": 891.1,
+        "slo60_recall": 0.008
+      },
+      "topQ": {
+        "n_arrivals": 129,
+        "n_done": 95,
+        "freshness_p50": 478.7,
+        "freshness_p95": 909.4,
+        "slo60_recall": 0.023
+      },
+      "rest": {
+        "n_arrivals": 343,
+        "n_done": 263,
+        "freshness_p50": 430.2,
+        "freshness_p95": 882.3,
+        "slo60_recall": 0.003
+      },
+      "cell": "fcfs_N24"
+    },
+    {
+      "N": 32,
+      "policy": "fcfs",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1512.6,
+      "arrivals_total": 670,
+      "jobs_done": 345,
+      "jobs_dropped": 0,
+      "backlog_end": 325,
+      "sal_thr_top_quartile": 0.9997,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9997,
+      "burst_jobs_done": 8,
+      "all": {
+        "n_arrivals": 670,
+        "n_done": 345,
+        "freshness_p50": 886.0,
+        "freshness_p95": 1721.7,
+        "slo60_recall": 0.006
+      },
+      "topQ": {
+        "n_arrivals": 191,
+        "n_done": 88,
+        "freshness_p50": 795.3,
+        "freshness_p95": 1703.1,
+        "slo60_recall": 0.016
+      },
+      "rest": {
+        "n_arrivals": 479,
+        "n_done": 257,
+        "freshness_p50": 908.2,
+        "freshness_p95": 1716.8,
+        "slo60_recall": 0.002
+      },
+      "cell": "fcfs_N32"
+    },
+    {
+      "N": 4,
+      "policy": "fcfs",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1500.1,
+      "arrivals_total": 82,
+      "jobs_done": 82,
+      "jobs_dropped": 0,
+      "backlog_end": 0,
+      "sal_thr_top_quartile": 0.9998,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9998,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 82,
+        "n_done": 82,
+        "freshness_p50": 20.1,
+        "freshness_p95": 37.0,
+        "slo60_recall": 0.988
+      },
+      "topQ": {
+        "n_arrivals": 22,
+        "n_done": 22,
+        "freshness_p50": 19.2,
+        "freshness_p95": 29.2,
+        "slo60_recall": 1.0
+      },
+      "rest": {
+        "n_arrivals": 60,
+        "n_done": 60,
+        "freshness_p50": 20.5,
+        "freshness_p95": 37.7,
+        "slo60_recall": 0.983
+      },
+      "cell": "fcfs_N4"
+    },
+    {
+      "N": 8,
+      "policy": "fcfs",
+      "seed": 0,
+      "accel": 2.4,
+      "horizon_s": 3600.0,
+      "wall_s": 1500.1,
+      "arrivals_total": 160,
+      "jobs_done": 160,
+      "jobs_dropped": 0,
+      "backlog_end": 0,
+      "sal_thr_top_quartile": 0.9998,
+      "shed_b": 12,
+      "shed_pctl_val": 0.9998,
+      "burst_jobs_done": 4,
+      "all": {
+        "n_arrivals": 160,
+        "n_done": 160,
+        "freshness_p50": 23.5,
+        "freshness_p95": 54.7,
+        "slo60_recall": 0.963
+      },
+      "topQ": {
+        "n_arrivals": 41,
+        "n_done": 41,
+        "freshness_p50": 22.8,
+        "freshness_p95": 50.9,
+        "slo60_recall": 1.0
+      },
+      "rest": {
+        "n_arrivals": 119,
+        "n_done": 119,
+        "freshness_p50": 23.7,
+        "freshness_p95": 57.3,
+        "slo60_recall": 0.95
+      },
+      "cell": "fcfs_N8"
+    }
+  ]
+}

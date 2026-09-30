@@ -1,0 +1,27 @@
+\section{The Oracle-Null Protocol}
+\label{sec:null}
+
+\subsection{The artifact we set out to harvest}
+Deferred commitment was motivated by a clairvoyant bound: per-question best-grain selection scored 51.6 on the RVS subset vs the system's 41--43 — an apparent $+9$ accuracy ceiling. Because decoding is greedy with fixed seed, that number is deterministic and looks attainable. A learnability probe failed to capture it from cheap features; this section explains why the number itself misleads.
+
+\subsection{The null model}
+Under a within-question exchangeability null — permuting the four policies' per-question correctness labels — a \emph{random per-question assignment} already achieves oracle-minus-best-fixed gaps of $7.8\pm0.6$ (RVS) and $5.6\pm0.7$ (StreamingBench). The observed gaps ($+6.3$/$+5.0$/$+4.4$ across three benchmarks) sit at the 1.1th, 12.3th, and 2.5th percentiles of their nulls: \textbf{the clairvoyant margin is fully explained by max-over-exchangeable-policies selection}. Reporting it as attainable headroom — a widespread practice — is a category error the null makes precise.
+
+\subsection{Implications}
+First, every mechanism in Section~\ref{sec:mech} that targeted retrieval/allocation ``headroom'' was chasing an artifact; the oracle-null protocol would have shown this in hours. Second, the protocol is cheap and general: it requires only per-question correctness vectors from a small set of policies, runs in CPU minutes, and we release it as a named methodological contribution. Third, the honest residual: the system sits \emph{at} the random-selector floor on RVS (42.7 vs 42.8), above it on StreamingBench ($+4.3$) and OVO ($+0.9$) — a benchmark-dependent planner effect that Section~\ref{sec:diag} explains.
+
+\begin{table}[t]
+\centering
+\caption{Oracle-null results (unified protocol: within-question permutation of 4 policy correctness labels; gap = per-question oracle $-$ best fixed policy; 10k iterations, seed 2024). High p = observed gap not in the upper tail.}
+\label{tab:null}
+\small
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+Benchmark & System & Random floor & Oracle & p (one-sided) \\
+\midrule
+RVS-Ego (314q) & 42.7 & 42.8 & 51.6 & 0.989 \\
+StreamingBench (180q) & 73.9 & 69.6 & 76.7 & 0.877 \\
+OVO-Bench (180q) & 39.4 & 38.5 & 45.6 & 0.975 \\
+\bottomrule
+\end{tabular}
+\end{table}

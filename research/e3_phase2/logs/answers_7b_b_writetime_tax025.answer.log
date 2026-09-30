@@ -1,0 +1,15 @@
+[I 260928 17:31:08 base:203] seed: 2024
+[I 260928 17:31:08 base:208] Loading VideoQA model: model_zoo/llava-onevision-qwen2-7b-ov-hf
+Please install pyav to use video processing functions.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.28s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.21it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.04it/s]
+[I 260928 17:31:14 llava_onevision_rekv:226] n_init: 13
+[I 260928 17:31:14 llava_onevision_rekv:226] n_local: 15000
+[I 260928 17:31:14 llava_onevision_rekv:226] fattn: False
+[I 260928 17:31:14 llava_onevision_rekv:226] block_size: 196
+[I 260928 17:31:14 llava_onevision_rekv:226] topk: 64
+[I 260928 17:31:14 llava_onevision_rekv:226] chunk_size: 1
+[I 260928 17:31:14 llava_onevision_rekv:226] max_cached_block: 128
+[I 260928 17:31:14 llava_onevision_rekv:226] exc_block_size: 196
+[I 260928 17:31:14 llava_onevision_rekv:226] pin_memory: True
+[I 260928 17:31:14 llava_onevision_rekv:227] n_frame_tokens: 196
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [20:48<3:07:19, 1248.81s/it] 20%|██        | 2/10 [31:22<1:58:14, 886.79s/it]  30%|███       | 3/10 [42:51<1:32:55, 796.56s/it] 40%|████      | 4/10 [56:50<1:21:19, 813.29s/it] 50%|█████     | 5/10 [1:13:04<1:12:37, 871.45s/it] 60%|██████    | 6/10 [1:26:19<56:20, 845.20s/it]   70%|███████   | 7/10 [1:37:46<39:40, 793.63s/it] 80%|████████  | 8/10 [1:52:27<27:22, 821.26s/it] 90%|█████████ | 9/10 [1:58:42<11:22, 682.06s/it]100%|██████████| 10/10 [2:07:29<00:00, 633.91s/it]100%|██████████| 10/10 [2:07:29<00:00, 764.91s/it]

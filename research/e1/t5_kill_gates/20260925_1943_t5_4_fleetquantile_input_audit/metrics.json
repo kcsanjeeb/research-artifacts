@@ -1,0 +1,97 @@
+{
+  "/home/san/FleetVAD/research/e0/results/tier1_scores.npz": {
+    "exists": true,
+    "keys": [
+      "video_ids",
+      "scores",
+      "lens",
+      "auc1",
+      "auc2",
+      "auc_used"
+    ],
+    "n_videos": 290,
+    "sample_ids": [
+      "Abuse028_x264",
+      "Abuse030_x264",
+      "Arrest001_x264",
+      "Arrest007_x264",
+      "Arrest024_x264"
+    ],
+    "shapes": {
+      "video_ids": [
+        290
+      ],
+      "scores": [
+        290,
+        6750
+      ],
+      "lens": [
+        290
+      ],
+      "auc1": [],
+      "auc2": [],
+      "auc_used": []
+    }
+  },
+  "/home/san/FleetVAD/research/e0/followup/results/xd_tier1_scores.npz": {
+    "exists": true,
+    "keys": [
+      "video_ids",
+      "scores",
+      "lens",
+      "auc1",
+      "ap1",
+      "auc2",
+      "ap2"
+    ],
+    "n_videos": 800,
+    "sample_ids": [
+      "Bad.Boys.1995__#01-11-55_01-12-40_label_G-B2-B6",
+      "Bad.Boys.1995__#01-33-51_01-34-37_label_B2-0-0",
+      "Bad.Boys.II.2003__#00-06-42_00-10-00_label_B2-G-0",
+      "Black.Hawk.Down.2001__#01-13-59_01-14-49_label_B2-0-0",
+      "Black.Hawk.Down.2001__#01-32-40_01-34-00_label_B4-0-0"
+    ],
+    "shapes": {
+      "video_ids": [
+        800
+      ],
+      "scores": [
+        800,
+        2074
+      ],
+      "lens": [
+        800
+      ],
+      "auc1": [],
+      "ap1": [],
+      "auc2": [],
+      "ap2": []
+    }
+  },
+  "/home/san/FleetVAD/research/e0/results/sht_features.npz": {
+    "exists": true,
+    "keys": [
+      "scene",
+      "motion",
+      "labels",
+      "meta"
+    ],
+    "shapes": {
+      "scene": [
+        107
+      ],
+      "motion": [
+        107
+      ],
+      "labels": [
+        107
+      ],
+      "meta": [
+        107
+      ]
+    }
+  },
+  "sht_score_file_search_hits": [],
+  "verdict": "BLOCKED \u2014 no per-clip tier-1 (VadCLIP) anomaly scores exist for ShanghaiTech test videos. tier1_scores.npz is UCF (290 videos, VadCLIP sanity AUC 0.8802 per e0 REPORT.md); xd_tier1_scores.npz is XD-Violence (800 videos); sht_features.npz holds CLIP features for 107 SHT videos (redundancy study), NOT anomaly scores. Computing SHT tier-1 scores is new inference work outside Work 1; not substituted."
+}

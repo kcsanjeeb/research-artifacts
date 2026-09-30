@@ -1,0 +1,30 @@
+[I 260927 12:50:22 llava_onevision_rekv:184] n_init: 13
+[I 260927 12:50:22 llava_onevision_rekv:184] n_local: 15000
+[I 260927 12:50:22 llava_onevision_rekv:184] fattn: False
+[I 260927 12:50:22 llava_onevision_rekv:184] block_size: 196
+[I 260927 12:50:22 llava_onevision_rekv:184] topk: 64
+[I 260927 12:50:22 llava_onevision_rekv:184] chunk_size: 1
+[I 260927 12:50:22 llava_onevision_rekv:184] max_cached_block: 128
+[I 260927 12:50:22 llava_onevision_rekv:184] exc_block_size: 196
+[I 260927 12:50:22 llava_onevision_rekv:184] pin_memory: True
+[I 260927 12:50:22 llava_onevision_rekv:185] n_frame_tokens: 196
+/data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py:146: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:203.)
+  e_pre = rel_err(torch.from_numpy(ck), torch.from_numpy(np.asarray(dump_pre)))
+Traceback (most recent call last):
+  File "/data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py", line 220, in <module>
+    main()
+  File "/data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py", line 151, in main
+    rot = rope.apply_rotary_with_positions(x.reshape(n_first, Hkv * N_FRAME_TOKENS, Dh), pos.cuda())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data3/zhuotaotian2_e2/code/decaf/model/attention/rope.py", line 118, in apply_rotary_with_positions
+    return ((x.float() * cos) + (self.rotate_half(x).float() * sin)).to(dtype)
+             ~~~~~~~~~~^~~~~
+RuntimeError: The size of tensor a (392) must match the size of tensor b (12544) at non-singleton dimension 1
+Traceback (most recent call last):
+  File "/data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py", line 348, in <module>
+    ref = np.load(os.path.join(OUT, 'T3c_encode_reference.npy'))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data4/rekv/lib/python3.11/site-packages/numpy/lib/_npyio_impl.py", line 454, in load
+    fid = stack.enter_context(open(os.fspath(file), "rb"))
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/data3/zhuotaotian2_e2/runs/20260927_1200_e3_phase1_compA/trapcheck/T3c_encode_reference.npy'

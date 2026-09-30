@@ -1,0 +1,17 @@
+{
+  "task": "W4.1 — fps discrepancy fix + writetime rerun at true 0.5 fps",
+  "date": "2026-09-30",
+  "bug": "video_qa/rekv_stream_vqa.py load_video npy branch linspace-resampled the 0.5-fps npy at sample_fps again -> 0.25 fps effective; MuKV (no resample) and stock ReKV (mp4 path) anchors ran at true 0.5 fps",
+  "fix": "commit eeb7f605: npy consumed at full rate (NPY_FPS=0.5 class constant, assert sample_fps<=0.5, resample only below 0.5); standing effective-fps assertion _assert_effective_fps at encode start (frame-count vs duration, tol 0.05, logged to save_dir/fps_assertion.jsonl, assert aborts the run)",
+  "npy_verification": "/dev/shm/e3_mukv_npy shapes 1800-1806 frames per 3600 s video = 0.5 fps (decode_to_shm.py stride fps/0.5); no re-decode needed",
+  "arm": {
+    "model": "llava-onevision-qwen2-7b-ov-hf",
+    "config": "rekv_stream_vqa, sample_fps 0.5, n_local 15000, retrieve_size 64, chunk_size 1, greedy, seed 2024",
+    "store": "DECAF_B writetime, tax 0.5, debias, DECAF_QUANT=0, NOPASS2=1, DECAF_POSITION_FREE=1, DECAF_FETCH_RANK=1 (identical to compB answers_7b_b_writetime except the fps fix)",
+    "data": "ego4d_oe_npy.json (full 1465q, 10 videos), npy decoded at 0.5 fps, consumed at full rate after fix",
+    "gpu": 0, "detached": true
+  },
+  "judge": "Qwen2.5-72B-Instruct bf16 vLLM TP=4 gpu_mem 0.80, w25_judge.py (same as all prior arms)",
+  "stats_plan": "paired McNemar (exact binomial two-sided + cc chi2) of writetime@0.5fps vs (a) MuKV paper judged (runs/20260927_0000_e3_phase0/judged_7b_paper_72b.json), (b) stock ReKV judged (runs/20260926_1455_w25_judge_harness/judged_7b_72b.json), (c) OLD 0.25fps writetime (runs/20260928_0315_e3_phase2_compB/judged_answers_7b_b_writetime_72b.json); discordant pairs + p reported per comparison",
+  "doubles_as": "W4.2 arm A0 (top-k baseline) at fixed fps; its 83-question subset is the baseline for the spread experiment"
+}

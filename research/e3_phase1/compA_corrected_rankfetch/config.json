@@ -1,0 +1,12 @@
+{
+  "arm": "decaf_component_A_corrected_rank_fetch",
+  "env_flags": {"DECAF_POSITION_FREE": "1", "DECAF_FETCH_RANK": "1"},
+  "model": "llava_ov_7b (LLaVA-OneVision-Qwen2-7b)",
+  "dataset": "RVS-Ego (10 videos, 1465 questions)",
+  "config": {"sample_fps": 0.5, "n_local": 15000, "retrieve_size": 64,
+             "internal_retrieval": true, "decoding": "greedy", "seed": 2024,
+             "num_chunks": 1, "chunk_idx": 0},
+  "baseline": "W2.5 stock 7B 54.1 Acc / 2.82 Score (judged_7b_72b.json)",
+  "gate": "corrected Gate 1: judged Acc within +/-1.5 pts of stock",
+  "videos_predecoded": "/dev/shm/e3_mukv_npy"
+}

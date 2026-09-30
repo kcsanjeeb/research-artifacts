@@ -1,0 +1,134 @@
+{
+  "config": {
+    "tau": 0.5,
+    "margin": 0.2603611499071121,
+    "seed": 0,
+    "prompt": "Does this video contain an anomaly? Answer Yes or No first, then explain briefly.",
+    "fusion_primary": "replace_b",
+    "score_extraction": {
+      "primary_b": "P(Yes) at first generated token, softmax over {Yes,No,yes,no}",
+      "c": "hard parse of first word of same answer",
+      "a": "ATS (UR-DMU) mean over 12 frame scores; NOT the MLLM verdict (separately trained sampler); fp16 pixels instead of repo bf16 (sm_70)"
+    }
+  },
+  "population": {
+    "escalated_clips": 5965,
+    "vlm_verdicts": 5965
+  },
+  "baseline": {
+    "auc_tier1": 0.8801992605166815,
+    "ap_tier1": 0.3352453933862587
+  },
+  "variants": [
+    {
+      "name": "tier1",
+      "auc": 0.8801992605166815,
+      "ap": 0.3352453933862587
+    },
+    {
+      "name": "replace_b",
+      "auc": 0.8810880314797024,
+      "ap": 0.335687856849237
+    },
+    {
+      "name": "replace_a",
+      "auc": 0.8790217659338115,
+      "ap": 0.3345543222213847
+    },
+    {
+      "name": "replace_c",
+      "auc": 0.8458314250469621,
+      "ap": 0.3280114535914841
+    },
+    {
+      "name": "blend_0.5_b",
+      "auc": 0.8808635395280268,
+      "ap": 0.3356219277590081
+    }
+  ],
+  "ops": {
+    "tier1": {
+      "precision@0.5": 0.21000258464719565,
+      "alerts_per_hour": 2258.8873832314607,
+      "event_recall": 0.8357142857142857,
+      "tta_snippets_mean": 1.2222222222222223,
+      "tta_seconds_mean": 0.6518518518518519
+    },
+    "replace_b": {
+      "precision@0.5": 0.23112411945629527,
+      "alerts_per_hour": 1961.5168377349783,
+      "event_recall": 0.8428571428571429,
+      "tta_snippets_mean": 2.211864406779661,
+      "tta_seconds_mean": 1.1796610169491524
+    }
+  },
+  "escalated_accuracy": {
+    "score_b": {
+      "thr": 0.5,
+      "acc": 0.9336127409891031
+    },
+    "score_a": {
+      "thr": 0.10727464407682419,
+      "acc": 0.4844928751047779
+    },
+    "score_c": {
+      "thr": 0.5,
+      "acc": 0.9337803855825649
+    },
+    "tier1_acc": 0.4937133277451802
+  },
+  "marginal_value": {
+    "Random": [
+      {
+        "K": 0.1,
+        "calls": 596,
+        "dAUC_mean": 7.616402608268125e-06,
+        "dAUC_std": 7.948705752486762e-05
+      },
+      {
+        "K": 0.25,
+        "calls": 1491,
+        "dAUC_mean": 6.423667250199383e-05,
+        "dAUC_std": 0.00010133530592636435
+      },
+      {
+        "K": 0.5,
+        "calls": 2982,
+        "dAUC_mean": 0.0001801295681685966,
+        "dAUC_std": 0.00016208333419474763
+      },
+      {
+        "K": 1.0,
+        "calls": 5965,
+        "dAUC_mean": 0.0008887709630208684,
+        "dAUC_std": 0.0
+      }
+    ],
+    "RawTopK": [
+      {
+        "K": 0.1,
+        "calls": 596,
+        "dAUC_mean": 0.00016822976928676514,
+        "dAUC_std": 0.0
+      },
+      {
+        "K": 0.25,
+        "calls": 1491,
+        "dAUC_mean": -0.0002953410102153331,
+        "dAUC_std": 0.0
+      },
+      {
+        "K": 0.5,
+        "calls": 2982,
+        "dAUC_mean": -0.0007999318996151361,
+        "dAUC_std": 0.0
+      },
+      {
+        "K": 1.0,
+        "calls": 5965,
+        "dAUC_mean": 0.0008887709630208684,
+        "dAUC_std": 0.0
+      }
+    ]
+  }
+}

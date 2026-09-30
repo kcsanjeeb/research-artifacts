@@ -1,0 +1,77 @@
+17:40 procs=3 records=  2347 total enc0=1 enc1=1 enc2=0 done=0
+17:45 procs=3 records=  2512 total enc0=1 enc1=1 enc2=0 done=0
+17:50 procs=3 records=  2559 total enc0=1 enc1=1 enc2=0 done=0
+17:59 procs=3 records=  3392 total enc0=1 enc1=2 enc2=1 done=0
+18:04 procs=4 records=   4053 total enc0=1 enc1=2 enc2=1 done=0
+18:09 procs=3 records=   4595 total enc0=2 enc1=2 enc2=1 done=0
+18:14 SSH_FAIL
+18:20 SSH_FAIL
+18:25 SSH_FAIL
+18:30 SSH_FAIL
+18:35 SSH_FAIL
+18:41 SSH_FAIL
+18:46 SSH_FAIL
+18:51 SSH_FAIL
+18:56 SSH_FAIL
+19:02 SSH_FAIL
+19:07 SSH_FAIL
+19:12 SSH_FAIL
+19:17 SSH_FAIL
+19:23 SSH_FAIL
+19:28 SSH_FAIL
+19:33 SSH_FAIL
+19:38 SSH_FAIL
+19:44 SSH_FAIL
+19:49 SSH_FAIL
+19:54 SSH_FAIL
+19:59 SSH_FAIL
+20:05 SSH_FAIL
+20:10 SSH_FAIL
+20:15 SSH_FAIL
+20:20 SSH_FAIL
+20:26 SSH_FAIL
+20:31 SSH_FAIL
+20:36 SSH_FAIL
+20:41 SSH_FAIL
+20:47 SSH_FAIL
+20:52 SSH_FAIL
+20:57 SSH_FAIL
+21:02 SSH_FAIL
+21:08 SSH_FAIL
+21:13 SSH_FAIL
+21:18 SSH_FAIL
+21:23 SSH_FAIL
+21:29 SSH_FAIL
+21:34 SSH_FAIL
+21:39 SSH_FAIL
+21:44 SSH_FAIL
+21:50 SSH_FAIL
+21:55 SSH_FAIL
+22:00 SSH_FAIL
+22:05 SSH_FAIL
+22:11 SSH_FAIL
+22:16 SSH_FAIL
+22:21 SSH_FAIL
+22:26 SSH_FAIL
+22:31 procs=2 records=   5052 total enc0=2 enc1=2 enc2=1 done=0
+22:36 SSH_FAIL
+22:42 procs=2 records=   5052 total enc0=2 enc1=2 enc2=1 done=0
+22:47 procs=2 records=   5330 total enc0=2 enc1=2 enc2=2 done=0
+22:52 procs=3 records=   4895 total enc0=2 enc1=0 enc2=2 done=0
+22:57 procs=2 records=   5097 total enc0=2 enc1=0 enc2=2 done=0
+23:02 procs=2 records=   5097 total enc0=2 enc1=0 enc2=2 done=0
+23:07 procs=2 records=   5655 total enc0=2 enc1=0 enc2=2 done=0
+23:12 procs=2 records=   6378 total enc0=2 enc1=0 enc2=2 done=0
+23:17 procs=1 records=   6696 total enc0=2 enc1=0 enc2=2 done=0
+23:22 procs=1 records=   6696 total enc0=2 enc1=0 enc2=2 done=0
+23:27 procs=1 records=   6696 total enc0=2 enc1=0 enc2=2 done=0
+23:32 procs=1 records=   6696 total enc0=2 enc1=0 enc2=2 done=0
+23:37 procs=1 records=   6826 total enc0=2 enc1=0 enc2=2 done=0
+23:42 procs=1 records=   7163 total enc0=2 enc1=0 enc2=2 done=0
+23:47 procs=1 records=   7551 total enc0=2 enc1=0 enc2=2 done=0
+23:52 procs=1 records=   7551 total enc0=2 enc1=0 enc2=2 done=0
+23:57 procs=1 records=   7551 total enc0=2 enc1=0 enc2=2 done=0
+00:02 procs=1 records=   7707 total enc0=2 enc1=0 enc2=2 done=0
+00:07 procs=1 records=   8060 total enc0=2 enc1=0 enc2=2 done=0
+00:12 procs=0 records=   8367 total enc0=2 enc1=0 enc2=2 done=0
+00:12 ALL SHARDS EXITED

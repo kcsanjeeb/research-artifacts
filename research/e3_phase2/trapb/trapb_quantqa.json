@@ -1,0 +1,17 @@
+{
+  "mode": "quantqa",
+  "env": {
+    "DECAF_B": "1",
+    "DECAF_B_COMMIT": "deferred",
+    "DECAF_B_TAX": "0.5",
+    "DECAF_B_BIAS": "debias",
+    "DECAF_QUANT": "1"
+  },
+  "verdict": {
+    "gate_quant_answer_equiv": "FAIL",
+    "n_identical": "1/5",
+    "arm": "q4",
+    "other": "fp16",
+    "OVERALL": "FAIL"
+  }
+}

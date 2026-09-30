@@ -1,0 +1,17 @@
+{
+  "n_videos": 1090,
+  "n_events_narrated": 749,
+  "stream_hours": 37.242,
+  "tier1_gpu_s_total": 13183.6,
+  "tier1_gpu_s_per_stream_h": 354.0,
+  "narration_gpu_s_total": 5734.5,
+  "narration_gpu_s_per_stream_h": 154.0,
+  "narration_s_per_event_mean": 7.66,
+  "embed_gpu_s_per_stream_h": 0.16,
+  "decode_cpu_s_per_stream_h": 10.39,
+  "total_gpu_s_per_stream_h": 508.1,
+  "peak_vram_mb_per_replica": 21582,
+  "sum_video_wall_s": 6151.4,
+  "memory_storage_bytes": 1794653,
+  "storage_kb_per_stream_day": 1129.4
+}

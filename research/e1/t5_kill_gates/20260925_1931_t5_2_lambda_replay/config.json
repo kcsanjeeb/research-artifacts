@@ -1,0 +1,25 @@
+{
+  "task": "T5.2",
+  "arrival_source": "/home/san/e1/runs/20260919_0100_fleet_v1_sweep",
+  "cells": [
+    "fcfs_N16",
+    "fcfs_N24"
+  ],
+  "controller": "admit iff salience >= lambda; lambda <- max(0, lambda + eta*(spend_W - B_W)/B_W)",
+  "W_virtual_s": 60.0,
+  "n_lanes": 3,
+  "accel": 2.4,
+  "target_util": 0.9,
+  "eta_grid": [
+    0.05,
+    0.2,
+    0.5,
+    1.0
+  ],
+  "lambda0": 0.0,
+  "osc_criteria": {
+    "amp_rel_min": 0.1,
+    "sign_changes_per_100w_min": 6.0,
+    "segment": "second half of horizon"
+  }
+}

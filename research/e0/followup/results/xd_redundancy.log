@@ -1,0 +1,19 @@
+  motion 0/800
+  motion 100/800
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c8f820ab00] Referenced QT chapter track not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c8f63f5380] Referenced QT chapter track not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c8f8261e00] Referenced QT chapter track not found
+  motion 200/800
+  motion 300/800
+  motion 400/800
+  motion 500/800
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c904cea000] Referenced QT chapter track not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c900259000] Referenced QT chapter track not found
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x55c8f74a5880] Referenced QT chapter track not found
+  motion 600/800
+  motion 700/800
+[redundancy] 145612 clips, anomalous=0.2380
+  alpha=0.0: theta*=0.99 hit=0.035 agree=0.932 (const 0.762) T1=0.029 T2=0.0021 T3=0.0034 suppressed=0.0030
+  alpha=0.5: theta*=0.96 hit=0.351 agree=0.986 (const 0.762) T1=0.345 T2=0.0040 T3=0.0021 suppressed=0.0078
+  alpha=1.0: theta*=0.99 hit=0.264 agree=0.987 (const 0.762) T1=0.262 T2=0.0017 T3=0.0009 suppressed=0.0053
+[saved] /home/san/FleetVAD/research/e0/followup/results/xd_redundancy.json

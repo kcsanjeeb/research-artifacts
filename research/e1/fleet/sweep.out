@@ -1,0 +1,30 @@
+=== CELL N=4 policy=fcfs Fri Sep 18 20:11:26 CST 2026 ===
+run_cells.sh: line 10: 30623 Aborted                 $PY -u sim.py --N $N --policy $P --run_dir $RD > $RD/run.out 2>&1
+cell done rc=134 Fri Sep 18 20:20:29 CST 2026
+=== CELL N=4 policy=arbiter Fri Sep 18 20:20:29 CST 2026 ===
+cell done rc=0 Fri Sep 18 20:29:34 CST 2026
+=== CELL N=8 policy=fcfs Fri Sep 18 20:29:34 CST 2026 ===
+run_cells.sh: line 10: 52191 Aborted                 $PY -u sim.py --N $N --policy $P --run_dir $RD > $RD/run.out 2>&1
+cell done rc=134 Fri Sep 18 20:38:40 CST 2026
+=== CELL N=8 policy=arbiter Fri Sep 18 20:38:40 CST 2026 ===
+cell done rc=0 Fri Sep 18 20:49:00 CST 2026
+=== CELL N=16 policy=fcfs Fri Sep 18 20:49:00 CST 2026 ===
+cell done rc=0 Fri Sep 18 20:58:16 CST 2026
+=== CELL N=16 policy=arbiter Fri Sep 18 20:58:16 CST 2026 ===
+run_cells.sh: line 10: 14518 Aborted                 $PY -u sim.py --N $N --policy $P --run_dir $RD > $RD/run.out 2>&1
+cell done rc=134 Fri Sep 18 21:07:32 CST 2026
+=== CELL N=24 policy=fcfs Fri Sep 18 21:07:32 CST 2026 ===
+run_cells.sh: line 10: 45825 Aborted                 $PY -u sim.py --N $N --policy $P --run_dir $RD > $RD/run.out 2>&1
+cell done rc=134 Fri Sep 18 21:16:35 CST 2026
+=== CELL N=24 policy=arbiter Fri Sep 18 21:16:35 CST 2026 ===
+run_cells.sh: line 10:  3992 Aborted                 $PY -u sim.py --N $N --policy $P --run_dir $RD > $RD/run.out 2>&1
+cell done rc=134 Fri Sep 18 21:25:48 CST 2026
+=== CELL N=24 policy=arbiter_deg Fri Sep 18 21:25:48 CST 2026 ===
+cell done rc=0 Fri Sep 18 21:34:54 CST 2026
+=== CELL N=32 policy=fcfs Fri Sep 18 21:34:54 CST 2026 ===
+cell done rc=0 Fri Sep 18 21:44:00 CST 2026
+=== CELL N=32 policy=arbiter Fri Sep 18 21:44:00 CST 2026 ===
+cell done rc=0 Fri Sep 18 21:53:15 CST 2026
+=== CELL N=32 policy=arbiter_deg Fri Sep 18 21:53:15 CST 2026 ===
+cell done rc=0 Fri Sep 18 22:02:23 CST 2026
+SWEEP DONE Fri Sep 18 22:02:23 CST 2026

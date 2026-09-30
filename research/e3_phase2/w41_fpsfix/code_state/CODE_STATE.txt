@@ -1,0 +1,12 @@
+adb5f783ae9e252cc380267185c3c402f380117e
+adb5f78 W4.2: coverage-spread allocation policies (uniform/hybrid/stratified) over [0,store frontier) only; gold window never used
+eeb7f60 W4.1: fix npy double-resample (0.25->true 0.5 fps) + standing effective-fps assertion
+93014b3 Fix oracle seg-policy crash: enforce slot budget for all policies + buffer-overflow guard in grain materialization
+commit adb5f783ae9e252cc380267185c3c402f380117e
+Author: w4-agent <w4@local>
+Date:   Wed Sep 30 09:31:27 2026 +0800
+
+    W4.2: coverage-spread allocation policies (uniform/hybrid/stratified) over [0,store frontier) only; gold window never used
+
+ model/attention/decaf_b.py | 129 +++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 129 insertions(+)

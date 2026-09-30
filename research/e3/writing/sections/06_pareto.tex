@@ -1,0 +1,35 @@
+\section{The Corrected Pareto Accounting}
+\label{sec:pareto}
+
+\subsection{The frame-rate correction}
+An autopsy of our own sweep found the npy video path double-resampled to an effective 0.25 fps against 0.5-fps anchors. Corrected at true 0.5 fps (standing assertion now live): the multi-grain store's accuracy rises 51.1 $\to$ \textbf{52.4} ($+1.3$, $p{=}0.093$ — the extra frames genuinely help), and \textbf{store bytes double to 10.38 GB/h} (fixed per-segment token budgets times twice the segments). The pre-fix storage ratio had quietly compared our half-rate store against competitors' full-rate numbers; we retract it.
+
+\subsection{Where the frontier stands}
+\begin{table}[t]
+\centering
+\caption{In-harness standings (7B, RVS-Ego, 72B judge; accuracy paired-tested; storage at true 0.5 fps, fp16). MuKV/ReKV storage from their papers.}
+\label{tab:pareto}
+\small
+\begin{tabular}{@{}lccl@{}}
+\toprule
+System & Acc & GB/h & Paired vs \sys \\
+\midrule
+ReKV-7B (full KV, offload)~\cite{rekv} & 54.1 & 18.8 & $-1.7$, $p{=}0.139$ \\
+\textbf{\sys multi-grain (writetime)} & \textbf{52.4} & \textbf{10.38} & --- \\
+MuKV-7B (faithful config)~\cite{mukv} & 50.9 & 0.91--1.23 & $+1.5$, $p{=}0.203$ \\
+best single grain (patch) & 45.6 & --- & $\ll$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+After multiplicity correction over the full 21-comparison family: \textbf{no accuracy claim survives} — the honest statement is that \sys matches CVPR'26 SOTA accuracy and is statistically indistinguishable from full-fidelity ReKV. The storage position is likewise honest: $8.4$--$11.4\times$ MuKV's published storage in fp16; the int4-group-scale repair (answer-level verified: naive int4 flips 4/5 greedy answers; group scales pending measurement) is the only route to parity, and we report its outcome separately rather than assuming $4\times$.
+
+\subsection{The pre-registered Pareto attempt}
+Whether a low-tax operating point (corrected $\approx$5.6 GB/h) plus verified int4 group scales reaches storage parity at matched accuracy is an engineering question with a pre-registered gate; its outcome strengthens or closes this section but does not change the paper. Whatever it yields, the claim ceiling is fixed in advance: \emph{matches SOTA accuracy at comparable storage with a different architecture}. We do not write ``beats'' for any margin that fails Holm — in any document, at any point.
+
+\begin{figure}[t]
+\centering
+\fbox{\parbox{0.9\columnwidth}{\centering\vspace{4pt} Pareto figure placeholder — accuracy vs GB/h at true 0.5 fps: \sys arms (tax sweep, int4 variants as measured), MuKV, ReKV-7B, single-grain policies. Regenerated from run artifacts at camera-ready; ships whatever the W5.3 outcome.\vspace{4pt}}}
+\caption{Accuracy vs storage at true 0.5 fps (placeholder; final data pending the W5 gate).}
+\label{fig:pareto}
+\end{figure}

@@ -1,0 +1,1 @@
+{"config": "tasti_lite", "per_type": {"existence": {"n": 60, "accuracy": 0.583}, "negation": {"n": 50, "accuracy": 0.8, "false_alarm_rate": 0.2}, "existence_plus_negation": {"balanced_acc": 0.692}, "temporal": {"n": 60, "mean_tIoU": 0.167, "tIoU_at_0.3": 0.25}, "retrieval": {"n": 50, "recall_at_10": 0.269, "AP": 0.157}}, "tau": 0.2700000000000001}

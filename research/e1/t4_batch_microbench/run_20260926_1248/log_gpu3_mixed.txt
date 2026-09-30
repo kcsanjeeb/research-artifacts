@@ -1,0 +1,18 @@
+/home/san/miniconda/envs/e1qwen/lib/python3.10/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+loading model on gpu3 ...
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:13<00:52, 13.21s/it]Loading checkpoint shards:  40%|████      | 2/5 [00:17<00:24,  8.15s/it]Loading checkpoint shards:  60%|██████    | 3/5 [00:20<00:10,  5.46s/it]Loading checkpoint shards:  80%|████████  | 4/5 [00:22<00:04,  4.38s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:27<00:00,  4.67s/it]Loading checkpoint shards: 100%|██████████| 5/5 [00:27<00:00,  5.60s/it]
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.48, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+model loaded in 39s
+/home/san/miniconda/envs/e1qwen/lib/python3.10/site-packages/torch/cuda/memory.py:391: FutureWarning: torch.cuda.reset_max_memory_allocated now calls torch.cuda.reset_peak_memory_stats, which resets /all/ peak memory stats.
+  warnings.warn(
+[mixed_b8] warmup 1/2 15.9s
+[mixed_b8] warmup 2/2 15.0s
+[mixed_b8] batch 1/4 wall=18.39s vram=18853MB
+[mixed_b8] batch 2/4 wall=13.00s vram=18853MB
+[mixed_b8] batch 3/4 wall=15.85s vram=18853MB
+[mixed_b8] batch 4/4 wall=19.58s vram=18853MB
+[mixed_b16] warmup 1/1 21.9s
+[mixed_b16] batch 1/2 wall=35.59s vram=21824MB
+[mixed_b16] batch 2/2 wall=24.48s vram=21824MB
+DONE

@@ -1,0 +1,65 @@
+capacity=3.0440  tau=0.5  margin=0.2604
+
+[A] escalated clips: 5965 (0.0860 of all)
+    base rates: label1=0.5063 label2=0.0642 label3=0.0032
+
+[B] discrimination on Label 1 (escalated clips only):
+           v: auc=0.1956 lift@50=0.364 precision@50=0.184
+           u: auc=0.472 lift@50=0.952 precision@50=0.482
+        rise: auc=0.5031 lift@50=0.999 precision@50=0.506
+       stale: auc=0.5014 lift@50=0.95 precision@50=0.481
+     g_state: auc=0.1933 lift@50=0.329 precision@50=0.166
+       raw_s: auc=0.938 lift@50=1.814 precision@50=0.918
+      oracle: auc=1.0 lift@50=1.975 precision@50=1.0
+      random: auc=0.4816 lift@50=0.963 precision@50=0.488
+
+[B] v sweep (label1):
+    w1_lam0.0: auc=0.1946 lift@50=0.364
+    w1_lam0.5: auc=0.1953 lift@50=0.364
+    w1_lam1.0: auc=0.1958 lift@50=0.364
+    w1_lam2.0: auc=0.1966 lift@50=0.364
+    w2_lam0.0: auc=0.1946 lift@50=0.364
+    w2_lam0.5: auc=0.1952 lift@50=0.364
+    w2_lam1.0: auc=0.1956 lift@50=0.364
+    w2_lam2.0: auc=0.1962 lift@50=0.364
+    w4_lam0.0: auc=0.1946 lift@50=0.364
+    w4_lam0.5: auc=0.1951 lift@50=0.364
+    w4_lam1.0: auc=0.1955 lift@50=0.364
+    w4_lam2.0: auc=0.196 lift@50=0.364
+
+[C] N=32: regen demand mean=3.088 p95=6.0 (demand.json: 3.088 / 6.0)
+    contention epochs: 1677 / 4485 (0.374)
+    in-window escalated: 8091, base_rate_l1=0.5332
+    v on label1: auc=0.2034 lift@50=0.407
+
+[C] N=64: regen demand mean=6.321 p95=10.0 (demand.json: 6.321 / 10.0)
+    contention epochs: 3612 / 4024 (0.898)
+    in-window escalated: 24375, base_rate_l1=0.5325
+    v on label1: auc=0.2133 lift@50=0.415
+
+[D] N=16: escalated requests=9842
+           FIFO: L1 served=1.000 L3 served=1.000 p95 delay=0.0 dropped=4
+         Random: L1 served=0.999 L3 served=1.000 p95 delay=0.0 dropped=4
+     FIFO+Queue: L1 served=1.000 L3 served=1.000 p95 delay=0.0 dropped=0
+      ValueTopK: L1 served=1.000 L3 served=1.000 p95 delay=0.0 dropped=0
+        RawTopK: L1 served=1.000 L3 served=1.000 p95 delay=0.0 dropped=0
+         Oracle: L1 served=1.000 L3 served=1.000 p95 delay=0.0 dropped=0
+
+[D] N=32: escalated requests=13850
+           FIFO: L1 served=0.957 L3 served=0.954 p95 delay=0.0 dropped=601
+         Random: L1 served=0.955 L3 served=0.969 p95 delay=0.0 dropped=601
+     FIFO+Queue: L1 served=0.958 L3 served=0.985 p95 delay=6.0 dropped=574
+      ValueTopK: L1 served=0.932 L3 served=0.985 p95 delay=0.0 dropped=574
+        RawTopK: L1 served=0.991 L3 served=0.969 p95 delay=0.0 dropped=574
+         Oracle: L1 served=0.998 L3 served=0.985 p95 delay=4.0 dropped=574
+
+[D] N=64: escalated requests=25436
+           FIFO: L1 served=0.503 L3 served=0.386 p95 delay=0.0 dropped=13188
+         Random: L1 served=0.482 L3 served=0.493 p95 delay=0.0 dropped=13188
+     FIFO+Queue: L1 served=0.482 L3 served=0.500 p95 delay=7.0 dropped=13188
+      ValueTopK: L1 served=0.247 L3 served=0.829 p95 delay=27.0 dropped=13188
+        RawTopK: L1 served=0.801 L3 served=0.307 p95 delay=26.0 dropped=13188
+         Oracle: L1 served=0.862 L3 served=0.643 p95 delay=9.0 dropped=13188
+
+[VERDICT] FAILS_IN_THE_REGIME_THAT_MATTERS  (auc=0.1956, lift@50=0.364, beats_raw_s=False)
+[saved] /Users/24sf51025/Research/FleetVAD/research/e0/followup/results/value.json

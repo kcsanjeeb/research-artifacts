@@ -1,0 +1,749 @@
+[
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "What do I do before walking on the walkway?",
+  "occ": 0,
+  "window": [
+   810,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the flat bread used before operating the mobile phone?",
+  "occ": 0,
+  "window": [
+   540,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What do we see happening before the egg crate is put in the fridge?",
+  "occ": 0,
+  "window": [
+   2430,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the shawarma served before adding sauce?",
+  "occ": 0,
+  "window": [
+   810,
+   1380
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "Did I tour the park before walking on the walkways?",
+  "occ": 0,
+  "window": [
+   1080,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs just before the shawarma preparation in the video?",
+  "occ": 0,
+  "window": [
+   2430,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is heat regulation done before cutting tomatoes with a knife?",
+  "occ": 0,
+  "window": [
+   270,
+   1110
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "Did I go home before looking at the scenes?",
+  "occ": 0,
+  "window": [
+   810,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs just before the meat is added to the bread in the video?",
+  "occ": 0,
+  "window": [
+   810,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs just before grating the cheese?",
+  "occ": 0,
+  "window": [
+   2430,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Does the chopping of vegetables occur before heating the pan?",
+  "occ": 0,
+  "window": [
+   810,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the video, is the flour poured into the bowl after the egg is cracked?",
+  "occ": 0,
+  "window": [
+   2160,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the trimmed dough folded before stirring the mixture?",
+  "occ": 0,
+  "window": [
+   2970,
+   3600
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "Was I in the field after walking on the walkway?",
+  "occ": 0,
+  "window": [
+   810,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the pan on the stove before chopping the herbs?",
+  "occ": 0,
+  "window": [
+   1080,
+   1920
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What activity occurs just before operating a mobile phone?",
+  "occ": 0,
+  "window": [
+   270,
+   840
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the video, is the refrigerator opened before the cheese is retrieved?",
+  "occ": 0,
+  "window": [
+   2160,
+   2730
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "Do I walk along the water before walking under the trees as shown in the clip?",
+  "occ": 0,
+  "window": [
+   540,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the kitchen light turned on after I enter the room?",
+  "occ": 0,
+  "window": [
+   2160,
+   2730
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What do we see happening before the heavy whipping cream is poured?",
+  "occ": 0,
+  "window": [
+   2430,
+   3270
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "What occurs just before I look at the scenes?",
+  "occ": 0,
+  "window": [
+   810,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Did I pour heavy whipping cream before cracking eggs?",
+  "occ": 0,
+  "window": [
+   2700,
+   3540
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the shawarma prepared before cutting tomatoes?",
+  "occ": 0,
+  "window": [
+   540,
+   1110
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is sugar added to the mixture after the egg is whipped?",
+  "occ": 0,
+  "window": [
+   2700,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the flour added to the bowl before the eggs are cracked?",
+  "occ": 0,
+  "window": [
+   2430,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the video, is the meat placed on the bread before adding vegetables?",
+  "occ": 0,
+  "window": [
+   810,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What do I do before cutting the tomatoes?",
+  "occ": 0,
+  "window": [
+   540,
+   1110
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens just before the dough is placed on the board?",
+  "occ": 0,
+  "window": [
+   2430,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs just before rolling sauce in flatbreads?",
+  "occ": 0,
+  "window": [
+   270,
+   840
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What is the action performed after placing the pan on the stove?",
+  "occ": 0,
+  "window": [
+   1080,
+   1920
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens before the pita is filled with shawarma?",
+  "occ": 0,
+  "window": [
+   1080,
+   1920
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the lettuce shredded after the hummus is spread on the bread?",
+  "occ": 0,
+  "window": [
+   1350,
+   1920
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happened before the dough was placed on the board?",
+  "occ": 0,
+  "window": [
+   2700,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Do I use the mobile phone before opening drawers?",
+  "occ": 0,
+  "window": [
+   0,
+   840
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "What event takes place before walking under the trees in the clip?",
+  "occ": 0,
+  "window": [
+   540,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What action occurs just before I operated the mobile phone?",
+  "occ": 0,
+  "window": [
+   540,
+   1110
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs immediately before operating the heat regulator?",
+  "occ": 0,
+  "window": [
+   0,
+   840
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "Did I walk on the field before looking at the scenes?",
+  "occ": 0,
+  "window": [
+   540,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What takes place just before flour is poured into a bowl?",
+  "occ": 0,
+  "window": [
+   2430,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the heat regulator operated before rolling sauce in flatbreads?",
+  "occ": 0,
+  "window": [
+   270,
+   840
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens just before the cream is poured into the cup?",
+  "occ": 0,
+  "window": [
+   2160,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs just before wrapping the sauce in flat bread?",
+  "occ": 0,
+  "window": [
+   0,
+   570
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs before folding the trimmed dough?",
+  "occ": 0,
+  "window": [
+   2970,
+   3600
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the clip, is the chopping of vegetables shown before the frying of meat?",
+  "occ": 0,
+  "window": [
+   810,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the cabinet opened before wrapping the sauce in flat bread?",
+  "occ": 0,
+  "window": [
+   0,
+   570
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "In the video, do we see walking through the walkways before walking on the field?",
+  "occ": 0,
+  "window": [
+   540,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the mobile phone operated after preparing the shawarma?",
+  "occ": 0,
+  "window": [
+   540,
+   1110
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the doe taken out of the fridge before the rolling pin is used?",
+  "occ": 0,
+  "window": [
+   2970,
+   3540
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens just before I place the dough on the board?",
+  "occ": 0,
+  "window": [
+   2700,
+   3540
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the video sequence, what action is taken before pouring flour into a glass bowl?",
+  "occ": 0,
+  "window": [
+   2430,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Was the cream poured into a cup before the eggs were cracked?",
+  "occ": 0,
+  "window": [
+   2700,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs just before preparing the shawarma?",
+  "occ": 0,
+  "window": [
+   540,
+   1110
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the video, is the sugar added to the mixture before the vegetables?",
+  "occ": 0,
+  "window": [
+   2430,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What action takes place just before using the mobile phone?",
+  "occ": 0,
+  "window": [
+   0,
+   840
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Does the cooking of shawarma happen before regulating the cooker's heat?",
+  "occ": 0,
+  "window": [
+   270,
+   1110
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What is done directly before opening drawers in the kitchen?",
+  "occ": 0,
+  "window": [
+   0,
+   840
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the heavy whipping cream poured before cracking the eggs?",
+  "occ": 0,
+  "window": [
+   2430,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens just before operating the heat regulator?",
+  "occ": 0,
+  "window": [
+   270,
+   840
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What is the immediate step before serving the shawarma?",
+  "occ": 0,
+  "window": [
+   810,
+   1380
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "What do I do before touring the park?",
+  "occ": 0,
+  "window": [
+   1080,
+   1650
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "Did I walk through the park before going home?",
+  "occ": 0,
+  "window": [
+   810,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Do I start preparing shawarma before setting the ingredients on the counter?",
+  "occ": 0,
+  "window": [
+   2160,
+   2730
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the video sequence, what do we see happening before the bread is picked up?",
+  "occ": 0,
+  "window": [
+   810,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Does the mixture get stirred before the eggs are cracked?",
+  "occ": 0,
+  "window": [
+   2430,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens just before the shawarma meat is added to the wrap in the video?",
+  "occ": 0,
+  "window": [
+   1080,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What occurs before I put the shawarma on the grill?",
+  "occ": 0,
+  "window": [
+   1350,
+   1920
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What does the cook do before adding condiments to the shawarma?",
+  "occ": 0,
+  "window": [
+   810,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Does cutting tomatoes occur before the marinating of meat?",
+  "occ": 0,
+  "window": [
+   1350,
+   1920
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What do we see happening before the spatula stirs the mixture in the steel bowls?",
+  "occ": 0,
+  "window": [
+   2970,
+   3540
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What is done just before cracking eggs from the fridge?",
+  "occ": 0,
+  "window": [
+   2700,
+   3270
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens just before the egg crate is put back in the fridge?",
+  "occ": 0,
+  "window": [
+   2160,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What do I do right before rolling sauce in flat breads?",
+  "occ": 0,
+  "window": [
+   0,
+   840
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "In the video, did I look at the scenes before walking on the field?",
+  "occ": 0,
+  "window": [
+   540,
+   1110
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What is done just before opening drawers in the kitchen?",
+  "occ": 0,
+  "window": [
+   270,
+   840
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the video, what do we see happening before the flour is poured into the bowl?",
+  "occ": 0,
+  "window": [
+   2160,
+   3000
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What task is completed before garnishing the dish with parsley?",
+  "occ": 0,
+  "window": [
+   1350,
+   1920
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Is the pita prepared before any cooking starts?",
+  "occ": 0,
+  "window": [
+   1080,
+   1920
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What do I do before adding the shawarma filling to the bread?",
+  "occ": 0,
+  "window": [
+   810,
+   1380
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens just before the cabinet is opened in the video?",
+  "occ": 0,
+  "window": [
+   0,
+   840
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "What happens before I season the shawarma meat?",
+  "occ": 0,
+  "window": [
+   1350,
+   1920
+  ]
+ },
+ {
+  "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+  "question": "What happened before I walked on the walkway in the video?",
+  "occ": 0,
+  "window": [
+   540,
+   1110
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "In the video, is the shawarma wrap prepared before the vegetables are chopped?",
+  "occ": 0,
+  "window": [
+   1080,
+   1650
+  ]
+ },
+ {
+  "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+  "question": "Did the whipping of eggs happen after the flour was poured?",
+  "occ": 0,
+  "window": [
+   2700,
+   3270
+  ]
+ }
+]

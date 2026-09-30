@@ -1,0 +1,97 @@
+{
+ "rvs_subset": {
+  "benchmark": "rvs_subset",
+  "n": 316,
+  "per_policy_acc": {
+   "seg": 0.41139240506329117,
+   "frame": 0.43354430379746833,
+   "patch": 0.45569620253164556,
+   "default": 0.41139240506329117
+  },
+  "oracle_acc": 0.5189873417721519,
+  "best_fixed": "patch",
+  "best_fixed_acc": 0.45569620253164556,
+  "system_acc": 0.510580204778157,
+  "obs_gap_oracle_minus_best_fixed": 0.06329113924050633,
+  "n_perm": 10000,
+  "seed": 2024,
+  "null_gap_mean": 0.07841993670886074,
+  "null_gap_sd": 0.006093894509459539,
+  "null_gap_q05": 0.06645569620253161,
+  "null_gap_q95": 0.08544303797468356,
+  "obs_gap_percentile_in_null": 1.0699999999999998,
+  "p_one_sided_upper_tail": 0.9893010698930107,
+  "z": -2.482615582673775
+ },
+ "streamingbench_rt": {
+  "benchmark": "streamingbench_rt",
+  "n": 180,
+  "per_policy_acc": {
+   "seg": 0.6777777777777778,
+   "frame": 0.7166666666666667,
+   "patch": 0.7111111111111111,
+   "default": 0.6777777777777778
+  },
+  "oracle_acc": 0.7666666666666667,
+  "best_fixed": "frame",
+  "best_fixed_acc": 0.7166666666666667,
+  "system_acc": 0.7388888888888889,
+  "obs_gap_oracle_minus_best_fixed": 0.050000000000000044,
+  "n_perm": 10000,
+  "seed": 2024,
+  "null_gap_mean": 0.055721666666666704,
+  "null_gap_sd": 0.007281394330419253,
+  "null_gap_q05": 0.04444444444444451,
+  "null_gap_q95": 0.06666666666666676,
+  "obs_gap_percentile_in_null": 12.29,
+  "p_one_sided_upper_tail": 0.8771122887711229,
+  "z": -0.7857927214247183
+ },
+ "ovo_bench": {
+  "benchmark": "ovo_bench",
+  "n": 180,
+  "per_policy_acc": {
+   "seg": 0.3611111111111111,
+   "frame": 0.4111111111111111,
+   "patch": 0.40555555555555556,
+   "default": 0.3611111111111111
+  },
+  "oracle_acc": 0.45555555555555555,
+  "best_fixed": "frame",
+  "best_fixed_acc": 0.4111111111111111,
+  "system_acc": 0.39444444444444443,
+  "obs_gap_oracle_minus_best_fixed": 0.04444444444444445,
+  "n_perm": 10000,
+  "seed": 2024,
+  "null_gap_mean": 0.05693555555555555,
+  "null_gap_sd": 0.006859924413793711,
+  "null_gap_q05": 0.04444444444444445,
+  "null_gap_q95": 0.06666666666666665,
+  "obs_gap_percentile_in_null": 2.4699999999999998,
+  "p_one_sided_upper_tail": 0.9753024697530247,
+  "z": -1.8208817412032094
+ },
+ "multiplicity": {
+  "method_note": "3 tests, family = oracle-gap permutation tests across benchmarks",
+  "holm_adjusted": {
+   "rvs_subset": 1.0,
+   "streamingbench_rt": 1.0,
+   "ovo_bench": 1.0
+  },
+  "holm_reject_alpha0.05": {
+   "rvs_subset": false,
+   "streamingbench_rt": false,
+   "ovo_bench": false
+  },
+  "bh_adjusted": {
+   "rvs_subset": 0.9893010698930107,
+   "streamingbench_rt": 0.9893010698930107,
+   "ovo_bench": 0.9893010698930107
+  },
+  "bh_reject_alpha0.05": {
+   "rvs_subset": false,
+   "streamingbench_rt": false,
+   "ovo_bench": false
+  }
+ }
+}

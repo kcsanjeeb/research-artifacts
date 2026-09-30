@@ -1,0 +1,24 @@
+[I 260927 18:41:40 llava_onevision_rekv:184] n_init: 13
+[I 260927 18:41:40 llava_onevision_rekv:184] n_local: 15000
+[I 260927 18:41:40 llava_onevision_rekv:184] fattn: False
+[I 260927 18:41:40 llava_onevision_rekv:184] block_size: 196
+[I 260927 18:41:40 llava_onevision_rekv:184] topk: 64
+[I 260927 18:41:40 llava_onevision_rekv:184] chunk_size: 1
+[I 260927 18:41:40 llava_onevision_rekv:184] max_cached_block: 128
+[I 260927 18:41:40 llava_onevision_rekv:184] exc_block_size: 196
+[I 260927 18:41:40 llava_onevision_rekv:184] pin_memory: True
+[I 260927 18:41:40 llava_onevision_rekv:185] n_frame_tokens: 196
+/data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py:146: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:203.)
+  e_pre = rel_err(torch.from_numpy(ck), torch.from_numpy(np.asarray(dump_pre)))
+[D 260927 18:43:22 abstract_rekv:51] KV-Cache RAM usage: 0.0 GB
+[D 260927 18:43:30 abstract_rekv:51] KV-Cache RAM usage: 0.3 GB
+[D 260927 18:43:32 abstract_rekv:61] KV-Cache RAM usage: 0.3 GB
+[D 260927 18:45:07 abstract_rekv:51] KV-Cache RAM usage: 0.0 GB
+[D 260927 18:45:15 abstract_rekv:51] KV-Cache RAM usage: 0.3 GB
+[D 260927 18:45:22 abstract_rekv:51] KV-Cache RAM usage: 0.4 GB
+[D 260927 18:45:30 abstract_rekv:51] KV-Cache RAM usage: 0.6 GB
+[D 260927 18:45:37 abstract_rekv:51] KV-Cache RAM usage: 0.7 GB
+[D 260927 18:45:45 abstract_rekv:51] KV-Cache RAM usage: 0.9 GB
+[D 260927 18:45:52 abstract_rekv:61] KV-Cache RAM usage: 1.0 GB
+ENCODE_MODE_DONE {"gate_store_prerope": "PASS", "gate_rotary": "PASS", "gate_sidecar": "PASS", "gate_stock_equiv": "PASS", "max_stored_k_rel_err": 0.0, "max_stored_v_rel_err": 0.0, "max_rotary_rel_err": 0.00038180980482138693, "OVERALL": "PASS"}
+COMPARE_DONE bit_exact=True

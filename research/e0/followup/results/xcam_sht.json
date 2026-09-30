@@ -1,0 +1,2603 @@
+[
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.8,
+  "hit_rate": 0.9295942720763724,
+  "agreement": 0.6876337184424476,
+  "n_hits": 2337,
+  "dangerous": 0.1762132060461416
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.81,
+  "hit_rate": 0.9140811455847255,
+  "agreement": 0.6888598781549173,
+  "n_hits": 2298,
+  "dangerous": 0.17382657120127287
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.82,
+  "hit_rate": 0.9009546539379475,
+  "agreement": 0.6909492273730684,
+  "n_hits": 2265,
+  "dangerous": 0.17064439140811455
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.83,
+  "hit_rate": 0.8858392999204455,
+  "agreement": 0.694207453973956,
+  "n_hits": 2227,
+  "dangerous": 0.1654733492442323
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.84,
+  "hit_rate": 0.8663484486873508,
+  "agreement": 0.6946740128558311,
+  "n_hits": 2178,
+  "dangerous": 0.16070007955449483
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.85,
+  "hit_rate": 0.8440731901352426,
+  "agreement": 0.6965127238454288,
+  "n_hits": 2122,
+  "dangerous": 0.15552903739061258
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.86,
+  "hit_rate": 0.817024661893397,
+  "agreement": 0.7025316455696202,
+  "n_hits": 2054,
+  "dangerous": 0.1475735879077168
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.87,
+  "hit_rate": 0.7856006364359587,
+  "agreement": 0.7063291139240506,
+  "n_hits": 1975,
+  "dangerous": 0.13842482100238662
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.88,
+  "hit_rate": 0.754574383452665,
+  "agreement": 0.7074327886136004,
+  "n_hits": 1897,
+  "dangerous": 0.1324582338902148
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.89,
+  "hit_rate": 0.7195704057279236,
+  "agreement": 0.7114427860696517,
+  "n_hits": 1809,
+  "dangerous": 0.12291169451073986
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.9,
+  "hit_rate": 0.6722354813046937,
+  "agreement": 0.7248520710059172,
+  "n_hits": 1690,
+  "dangerous": 0.11137629276054097
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.91,
+  "hit_rate": 0.6284805091487669,
+  "agreement": 0.7329113924050633,
+  "n_hits": 1580,
+  "dangerous": 0.10182975338106603
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.92,
+  "hit_rate": 0.57557677008751,
+  "agreement": 0.7436074637180373,
+  "n_hits": 1447,
+  "dangerous": 0.09029435163086715
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.93,
+  "hit_rate": 0.5127287191726333,
+  "agreement": 0.7455391776570985,
+  "n_hits": 1289,
+  "dangerous": 0.07836117740652347
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.94,
+  "hit_rate": 0.4443118536197295,
+  "agreement": 0.7591763652641003,
+  "n_hits": 1117,
+  "dangerous": 0.06563245823389022
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.95,
+  "hit_rate": 0.36953062848050916,
+  "agreement": 0.7761033369214209,
+  "n_hits": 929,
+  "dangerous": 0.05171042163882259
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.96,
+  "hit_rate": 0.2907716785998409,
+  "agreement": 0.8043775649794802,
+  "n_hits": 731,
+  "dangerous": 0.03420843277645187
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.97,
+  "hit_rate": 0.2167859984089101,
+  "agreement": 0.8275229357798165,
+  "n_hits": 545,
+  "dangerous": 0.021877486077963405
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.98,
+  "hit_rate": 0.13086714399363564,
+  "agreement": 0.8480243161094225,
+  "n_hits": 329,
+  "dangerous": 0.012728719172633254
+ },
+ {
+  "alpha": 0.0,
+  "pool": "ALL",
+  "theta": 0.99,
+  "hit_rate": 0.04494828957836118,
+  "agreement": 0.8761061946902655,
+  "n_hits": 113,
+  "dangerous": 0.0031821797931583136
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.8,
+  "hit_rate": 0.8997613365155132,
+  "agreement": 0.5981432360742706,
+  "n_hits": 2262,
+  "dangerous": 0.21360381861575178
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.81,
+  "hit_rate": 0.8778838504375497,
+  "agreement": 0.5994562754870866,
+  "n_hits": 2207,
+  "dangerous": 0.20843277645186953
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.82,
+  "hit_rate": 0.8591885441527446,
+  "agreement": 0.600925925925926,
+  "n_hits": 2160,
+  "dangerous": 0.20326173428798727
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.83,
+  "hit_rate": 0.8424821002386634,
+  "agreement": 0.6024551463644948,
+  "n_hits": 2118,
+  "dangerous": 0.19848846459824981
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.84,
+  "hit_rate": 0.822593476531424,
+  "agreement": 0.6039651837524178,
+  "n_hits": 2068,
+  "dangerous": 0.19331742243436753
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.85,
+  "hit_rate": 0.7939538583929993,
+  "agreement": 0.6047094188376754,
+  "n_hits": 1996,
+  "dangerous": 0.18575974542561655
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.86,
+  "hit_rate": 0.762132060461416,
+  "agreement": 0.6080375782881002,
+  "n_hits": 1916,
+  "dangerous": 0.1762132060461416
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.87,
+  "hit_rate": 0.7247414478918058,
+  "agreement": 0.6125137211855104,
+  "n_hits": 1822,
+  "dangerous": 0.16348448687350836
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.88,
+  "hit_rate": 0.6861575178997613,
+  "agreement": 0.6144927536231884,
+  "n_hits": 1725,
+  "dangerous": 0.15513126491646778
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.89,
+  "hit_rate": 0.6455847255369929,
+  "agreement": 0.6142945163277881,
+  "n_hits": 1623,
+  "dangerous": 0.14598249801113763
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.9,
+  "hit_rate": 0.5934765314240255,
+  "agreement": 0.6233243967828418,
+  "n_hits": 1492,
+  "dangerous": 0.1324582338902148
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.91,
+  "hit_rate": 0.5346062052505967,
+  "agreement": 0.6331845238095238,
+  "n_hits": 1344,
+  "dangerous": 0.1173428798727128
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.92,
+  "hit_rate": 0.47175815433572,
+  "agreement": 0.636593591905565,
+  "n_hits": 1186,
+  "dangerous": 0.10342084327764518
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.93,
+  "hit_rate": 0.4025457438345266,
+  "agreement": 0.633399209486166,
+  "n_hits": 1012,
+  "dangerous": 0.0879077167859984
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.94,
+  "hit_rate": 0.32577565632458233,
+  "agreement": 0.6361416361416361,
+  "n_hits": 819,
+  "dangerous": 0.07239459029435164
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.95,
+  "hit_rate": 0.25178997613365156,
+  "agreement": 0.6382306477093207,
+  "n_hits": 633,
+  "dangerous": 0.056881463802704854
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.96,
+  "hit_rate": 0.17024661893396978,
+  "agreement": 0.6518691588785047,
+  "n_hits": 428,
+  "dangerous": 0.03619729514717582
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.97,
+  "hit_rate": 0.09745425616547335,
+  "agreement": 0.6530612244897959,
+  "n_hits": 245,
+  "dangerous": 0.021081941129673827
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.98,
+  "hit_rate": 0.04852824184566428,
+  "agreement": 0.639344262295082,
+  "n_hits": 122,
+  "dangerous": 0.011535401750198886
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XVID",
+  "theta": 0.99,
+  "hit_rate": 0.021081941129673827,
+  "agreement": 0.7735849056603774,
+  "n_hits": 53,
+  "dangerous": 0.0027844073190135244
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.8,
+  "hit_rate": 0.7088305489260143,
+  "agreement": 0.5521885521885522,
+  "n_hits": 1782,
+  "dangerous": 0.18138424821002386
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.81,
+  "hit_rate": 0.6913285600636436,
+  "agreement": 0.5535097813578826,
+  "n_hits": 1738,
+  "dangerous": 0.1770087509944312
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.82,
+  "hit_rate": 0.6758154335719968,
+  "agreement": 0.557386698057681,
+  "n_hits": 1699,
+  "dangerous": 0.16945107398568018
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.83,
+  "hit_rate": 0.6587112171837709,
+  "agreement": 0.5585748792270532,
+  "n_hits": 1656,
+  "dangerous": 0.1658711217183771
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.84,
+  "hit_rate": 0.6400159108989658,
+  "agreement": 0.5581106277190802,
+  "n_hits": 1609,
+  "dangerous": 0.162291169451074
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.85,
+  "hit_rate": 0.6153540175019888,
+  "agreement": 0.5565610859728507,
+  "n_hits": 1547,
+  "dangerous": 0.1579156722354813
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.86,
+  "hit_rate": 0.5859188544152745,
+  "agreement": 0.5627970128988459,
+  "n_hits": 1473,
+  "dangerous": 0.14996022275258553
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.87,
+  "hit_rate": 0.5525059665871122,
+  "agreement": 0.5658747300215983,
+  "n_hits": 1389,
+  "dangerous": 0.14001591089896578
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.88,
+  "hit_rate": 0.5103420843277645,
+  "agreement": 0.5643024162120032,
+  "n_hits": 1283,
+  "dangerous": 0.13206046141607
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.89,
+  "hit_rate": 0.4733492442322991,
+  "agreement": 0.561344537815126,
+  "n_hits": 1190,
+  "dangerous": 0.12370723945902944
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.9,
+  "hit_rate": 0.41646778042959426,
+  "agreement": 0.5711556829035339,
+  "n_hits": 1047,
+  "dangerous": 0.10819411296738266
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.91,
+  "hit_rate": 0.35759745425616546,
+  "agreement": 0.5806451612903226,
+  "n_hits": 899,
+  "dangerous": 0.09029435163086715
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.92,
+  "hit_rate": 0.3038981702466189,
+  "agreement": 0.5772251308900523,
+  "n_hits": 764,
+  "dangerous": 0.07955449482895784
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.93,
+  "hit_rate": 0.24184566428003182,
+  "agreement": 0.5657894736842105,
+  "n_hits": 608,
+  "dangerous": 0.06324582338902147
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.94,
+  "hit_rate": 0.1801909307875895,
+  "agreement": 0.5761589403973509,
+  "n_hits": 453,
+  "dangerous": 0.046937151949085126
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.95,
+  "hit_rate": 0.1280827366746221,
+  "agreement": 0.577639751552795,
+  "n_hits": 322,
+  "dangerous": 0.03420843277645187
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.96,
+  "hit_rate": 0.07438345266507558,
+  "agreement": 0.5668449197860963,
+  "n_hits": 187,
+  "dangerous": 0.01949085123309467
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.97,
+  "hit_rate": 0.03619729514717582,
+  "agreement": 0.5384615384615384,
+  "n_hits": 91,
+  "dangerous": 0.00954653937947494
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.98,
+  "hit_rate": 0.011933174224343675,
+  "agreement": 0.4666666666666667,
+  "n_hits": 30,
+  "dangerous": 0.005568814638027049
+ },
+ {
+  "alpha": 0.0,
+  "pool": "XCAM",
+  "theta": 0.99,
+  "hit_rate": 0.001988862370723946,
+  "agreement": 0.8,
+  "n_hits": 5,
+  "dangerous": 0.0003977724741447892
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.8,
+  "hit_rate": 0.9367541766109785,
+  "agreement": 0.7023354564755838,
+  "n_hits": 2355,
+  "dangerous": 0.16825775656324582
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.81,
+  "hit_rate": 0.9224343675417661,
+  "agreement": 0.703751617076326,
+  "n_hits": 2319,
+  "dangerous": 0.16467780429594273
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.82,
+  "hit_rate": 0.9097056483691328,
+  "agreement": 0.7048535198950591,
+  "n_hits": 2287,
+  "dangerous": 0.16348448687350836
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.83,
+  "hit_rate": 0.8926014319809069,
+  "agreement": 0.7076648841354723,
+  "n_hits": 2244,
+  "dangerous": 0.15871121718377088
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.84,
+  "hit_rate": 0.8743038981702467,
+  "agreement": 0.7101910828025477,
+  "n_hits": 2198,
+  "dangerous": 0.15314240254574382
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.85,
+  "hit_rate": 0.8512330946698489,
+  "agreement": 0.7149532710280374,
+  "n_hits": 2140,
+  "dangerous": 0.14638027048528243
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.86,
+  "hit_rate": 0.8221957040572793,
+  "agreement": 0.7198838896952104,
+  "n_hits": 2067,
+  "dangerous": 0.13882259347653142
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.87,
+  "hit_rate": 0.7923627684964201,
+  "agreement": 0.7228915662650602,
+  "n_hits": 1992,
+  "dangerous": 0.13126491646778043
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.88,
+  "hit_rate": 0.7589498806682577,
+  "agreement": 0.7274633123689728,
+  "n_hits": 1908,
+  "dangerous": 0.12211614956245027
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.89,
+  "hit_rate": 0.7155926809864758,
+  "agreement": 0.7337409672040022,
+  "n_hits": 1799,
+  "dangerous": 0.11217183770883055
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.9,
+  "hit_rate": 0.6702466189339698,
+  "agreement": 0.7442136498516321,
+  "n_hits": 1685,
+  "dangerous": 0.09984089101034209
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.91,
+  "hit_rate": 0.6165473349244233,
+  "agreement": 0.7548387096774194,
+  "n_hits": 1550,
+  "dangerous": 0.09029435163086715
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.92,
+  "hit_rate": 0.5628480509148767,
+  "agreement": 0.7646643109540636,
+  "n_hits": 1415,
+  "dangerous": 0.081145584725537
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.93,
+  "hit_rate": 0.492442322991249,
+  "agreement": 0.7762520193861067,
+  "n_hits": 1238,
+  "dangerous": 0.06682577565632458
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.94,
+  "hit_rate": 0.41607000795544946,
+  "agreement": 0.8001912045889101,
+  "n_hits": 1046,
+  "dangerous": 0.049323786793953855
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.95,
+  "hit_rate": 0.3353221957040573,
+  "agreement": 0.8185053380782918,
+  "n_hits": 843,
+  "dangerous": 0.03381066030230708
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.96,
+  "hit_rate": 0.26332537788385046,
+  "agreement": 0.8429003021148036,
+  "n_hits": 662,
+  "dangerous": 0.022673031026252982
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.97,
+  "hit_rate": 0.19848846459824981,
+  "agreement": 0.8717434869739479,
+  "n_hits": 499,
+  "dangerous": 0.013126491646778043
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.98,
+  "hit_rate": 0.12052505966587113,
+  "agreement": 0.9042904290429042,
+  "n_hits": 303,
+  "dangerous": 0.0059665871121718375
+ },
+ {
+  "alpha": 0.25,
+  "pool": "ALL",
+  "theta": 0.99,
+  "hit_rate": 0.04295942720763723,
+  "agreement": 0.8981481481481481,
+  "n_hits": 108,
+  "dangerous": 0.001988862370723946
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.8,
+  "hit_rate": 0.9069212410501193,
+  "agreement": 0.6065789473684211,
+  "n_hits": 2280,
+  "dangerous": 0.20763723150357996
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.81,
+  "hit_rate": 0.8850437549721559,
+  "agreement": 0.6071910112359551,
+  "n_hits": 2225,
+  "dangerous": 0.2016706443914081
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.82,
+  "hit_rate": 0.8663484486873508,
+  "agreement": 0.6078971533516988,
+  "n_hits": 2178,
+  "dangerous": 0.19848846459824981
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.83,
+  "hit_rate": 0.8456642800318218,
+  "agreement": 0.6091251175917215,
+  "n_hits": 2126,
+  "dangerous": 0.19252187748607796
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.84,
+  "hit_rate": 0.822593476531424,
+  "agreement": 0.6112185686653772,
+  "n_hits": 2068,
+  "dangerous": 0.18615751789976134
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.85,
+  "hit_rate": 0.7959427207637232,
+  "agreement": 0.6136931534232883,
+  "n_hits": 2001,
+  "dangerous": 0.17939538583929993
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.86,
+  "hit_rate": 0.7629276054097056,
+  "agreement": 0.6173096976016684,
+  "n_hits": 1918,
+  "dangerous": 0.16905330151153541
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.87,
+  "hit_rate": 0.7259347653142403,
+  "agreement": 0.616986301369863,
+  "n_hits": 1825,
+  "dangerous": 0.15990453460620524
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.88,
+  "hit_rate": 0.6821797931583135,
+  "agreement": 0.6198250728862974,
+  "n_hits": 1715,
+  "dangerous": 0.14876690533015116
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.89,
+  "hit_rate": 0.6324582338902148,
+  "agreement": 0.6245283018867924,
+  "n_hits": 1590,
+  "dangerous": 0.1360381861575179
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.9,
+  "hit_rate": 0.5783611774065235,
+  "agreement": 0.6334250343878954,
+  "n_hits": 1454,
+  "dangerous": 0.11972951471758154
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.91,
+  "hit_rate": 0.5103420843277645,
+  "agreement": 0.6383476227591582,
+  "n_hits": 1283,
+  "dangerous": 0.10700079554494829
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.92,
+  "hit_rate": 0.441527446300716,
+  "agreement": 0.6441441441441441,
+  "n_hits": 1110,
+  "dangerous": 0.09307875894988067
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.93,
+  "hit_rate": 0.35839299920445505,
+  "agreement": 0.6459489456159823,
+  "n_hits": 901,
+  "dangerous": 0.07557677008750995
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.94,
+  "hit_rate": 0.2828162291169451,
+  "agreement": 0.6638537271448663,
+  "n_hits": 711,
+  "dangerous": 0.056483691328560064
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.95,
+  "hit_rate": 0.19769291964996022,
+  "agreement": 0.6720321931589537,
+  "n_hits": 497,
+  "dangerous": 0.03619729514717582
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.96,
+  "hit_rate": 0.12410501193317422,
+  "agreement": 0.6666666666666666,
+  "n_hits": 312,
+  "dangerous": 0.023468575974542563
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.97,
+  "hit_rate": 0.06364359586316627,
+  "agreement": 0.675,
+  "n_hits": 160,
+  "dangerous": 0.011933174224343675
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.98,
+  "hit_rate": 0.030628480509148768,
+  "agreement": 0.7012987012987013,
+  "n_hits": 77,
+  "dangerous": 0.00477326968973747
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XVID",
+  "theta": 0.99,
+  "hit_rate": 0.016706443914081145,
+  "agreement": 0.7857142857142857,
+  "n_hits": 42,
+  "dangerous": 0.0015910898965791568
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.8,
+  "hit_rate": 0.7072394590294352,
+  "agreement": 0.5573678290213723,
+  "n_hits": 1778,
+  "dangerous": 0.1762132060461416
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.81,
+  "hit_rate": 0.6877486077963405,
+  "agreement": 0.5592828224407171,
+  "n_hits": 1729,
+  "dangerous": 0.17064439140811455
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.82,
+  "hit_rate": 0.6702466189339698,
+  "agreement": 0.5620178041543027,
+  "n_hits": 1685,
+  "dangerous": 0.16467780429594273
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.83,
+  "hit_rate": 0.652744630071599,
+  "agreement": 0.5636806825106643,
+  "n_hits": 1641,
+  "dangerous": 0.15950676213206047
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.84,
+  "hit_rate": 0.6308671439936356,
+  "agreement": 0.5598991172761665,
+  "n_hits": 1586,
+  "dangerous": 0.15672235481304694
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.85,
+  "hit_rate": 0.6054097056483692,
+  "agreement": 0.561760840998686,
+  "n_hits": 1522,
+  "dangerous": 0.1507557677008751
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.86,
+  "hit_rate": 0.5747812251392204,
+  "agreement": 0.5626297577854671,
+  "n_hits": 1445,
+  "dangerous": 0.1431980906921241
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.87,
+  "hit_rate": 0.5342084327764519,
+  "agreement": 0.5591958302308265,
+  "n_hits": 1343,
+  "dangerous": 0.13564041368337312
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.88,
+  "hit_rate": 0.4896579156722355,
+  "agreement": 0.5580828594638505,
+  "n_hits": 1231,
+  "dangerous": 0.12649164677804295
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.89,
+  "hit_rate": 0.43595863166268894,
+  "agreement": 0.5629562043795621,
+  "n_hits": 1096,
+  "dangerous": 0.11217183770883055
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.9,
+  "hit_rate": 0.37708830548926014,
+  "agreement": 0.5812236286919831,
+  "n_hits": 948,
+  "dangerous": 0.09228321400159109
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.91,
+  "hit_rate": 0.30708035003977724,
+  "agreement": 0.5816062176165803,
+  "n_hits": 772,
+  "dangerous": 0.07597454256165473
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.92,
+  "hit_rate": 0.24184566428003182,
+  "agreement": 0.5740131578947368,
+  "n_hits": 608,
+  "dangerous": 0.0624502784407319
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.93,
+  "hit_rate": 0.1766109785202864,
+  "agreement": 0.5720720720720721,
+  "n_hits": 444,
+  "dangerous": 0.046539379474940336
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.94,
+  "hit_rate": 0.11376292760540971,
+  "agreement": 0.5664335664335665,
+  "n_hits": 286,
+  "dangerous": 0.030628480509148768
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.95,
+  "hit_rate": 0.061654733492442326,
+  "agreement": 0.5935483870967742,
+  "n_hits": 155,
+  "dangerous": 0.013524264120922832
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.96,
+  "hit_rate": 0.025855210819411296,
+  "agreement": 0.5230769230769231,
+  "n_hits": 65,
+  "dangerous": 0.008353221957040573
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.97,
+  "hit_rate": 0.007955449482895784,
+  "agreement": 0.6,
+  "n_hits": 20,
+  "dangerous": 0.0027844073190135244
+ },
+ {
+  "alpha": 0.25,
+  "pool": "XCAM",
+  "theta": 0.98,
+  "hit_rate": 0.0011933174224343676,
+  "agreement": 0.6666666666666666,
+  "n_hits": 3,
+  "dangerous": 0.0003977724741447892
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.8,
+  "hit_rate": 0.9856801909307876,
+  "agreement": 0.7546408393866021,
+  "n_hits": 2478,
+  "dangerous": 0.14160700079554495
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.81,
+  "hit_rate": 0.9781225139220366,
+  "agreement": 0.7539650264335096,
+  "n_hits": 2459,
+  "dangerous": 0.14081145584725538
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.82,
+  "hit_rate": 0.9705648369132857,
+  "agreement": 0.7553278688524591,
+  "n_hits": 2440,
+  "dangerous": 0.13882259347653142
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.83,
+  "hit_rate": 0.958631662688942,
+  "agreement": 0.7572614107883817,
+  "n_hits": 2410,
+  "dangerous": 0.13524264120922833
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.84,
+  "hit_rate": 0.9447096260938743,
+  "agreement": 0.759578947368421,
+  "n_hits": 2375,
+  "dangerous": 0.13126491646778043
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.85,
+  "hit_rate": 0.926412092283214,
+  "agreement": 0.7625590382138256,
+  "n_hits": 2329,
+  "dangerous": 0.12609387430389818
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.86,
+  "hit_rate": 0.8977724741447892,
+  "agreement": 0.76650420912716,
+  "n_hits": 2257,
+  "dangerous": 0.11893396976929196
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.87,
+  "hit_rate": 0.8667462211614956,
+  "agreement": 0.7650298301973383,
+  "n_hits": 2179,
+  "dangerous": 0.11455847255369929
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.88,
+  "hit_rate": 0.8329355608591885,
+  "agreement": 0.7702960840496658,
+  "n_hits": 2094,
+  "dangerous": 0.10700079554494829
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.89,
+  "hit_rate": 0.7919649960222752,
+  "agreement": 0.7749874434957308,
+  "n_hits": 1991,
+  "dangerous": 0.09944311853619729
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.9,
+  "hit_rate": 0.7362768496420048,
+  "agreement": 0.7903835764451648,
+  "n_hits": 1851,
+  "dangerous": 0.08552108194112967
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.91,
+  "hit_rate": 0.6785998408910103,
+  "agreement": 0.8001172332942555,
+  "n_hits": 1706,
+  "dangerous": 0.07159904534606205
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.92,
+  "hit_rate": 0.6010342084327764,
+  "agreement": 0.8193249503639973,
+  "n_hits": 1511,
+  "dangerous": 0.05489260143198091
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.93,
+  "hit_rate": 0.5238663484486874,
+  "agreement": 0.8390280941533789,
+  "n_hits": 1317,
+  "dangerous": 0.04097056483691328
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.94,
+  "hit_rate": 0.449085123309467,
+  "agreement": 0.853852967227635,
+  "n_hits": 1129,
+  "dangerous": 0.032219570405727926
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.95,
+  "hit_rate": 0.3731105807478122,
+  "agreement": 0.8731343283582089,
+  "n_hits": 938,
+  "dangerous": 0.023468575974542563
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.96,
+  "hit_rate": 0.30031821797931585,
+  "agreement": 0.8874172185430463,
+  "n_hits": 755,
+  "dangerous": 0.01392203659506762
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.97,
+  "hit_rate": 0.2311058074781225,
+  "agreement": 0.9018932874354562,
+  "n_hits": 581,
+  "dangerous": 0.00954653937947494
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.98,
+  "hit_rate": 0.16070007955449483,
+  "agreement": 0.9306930693069307,
+  "n_hits": 404,
+  "dangerous": 0.005171042163882259
+ },
+ {
+  "alpha": 0.5,
+  "pool": "ALL",
+  "theta": 0.99,
+  "hit_rate": 0.05847255369928401,
+  "agreement": 0.9183673469387755,
+  "n_hits": 147,
+  "dangerous": 0.001988862370723946
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.8,
+  "hit_rate": 0.9669848846459825,
+  "agreement": 0.620732208967503,
+  "n_hits": 2431,
+  "dangerous": 0.20723945902943516
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.81,
+  "hit_rate": 0.9518695306284806,
+  "agreement": 0.62055996656916,
+  "n_hits": 2393,
+  "dangerous": 0.20405727923627684
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.82,
+  "hit_rate": 0.9355608591885441,
+  "agreement": 0.6207482993197279,
+  "n_hits": 2352,
+  "dangerous": 0.2012728719172633
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.83,
+  "hit_rate": 0.9148766905330151,
+  "agreement": 0.6230434782608696,
+  "n_hits": 2300,
+  "dangerous": 0.1949085123309467
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.84,
+  "hit_rate": 0.8898170246618934,
+  "agreement": 0.6236030397854269,
+  "n_hits": 2237,
+  "dangerous": 0.18894192521877487
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.85,
+  "hit_rate": 0.8556085918854416,
+  "agreement": 0.6276150627615062,
+  "n_hits": 2151,
+  "dangerous": 0.17899761336515513
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.86,
+  "hit_rate": 0.8110580747812252,
+  "agreement": 0.6321726336439432,
+  "n_hits": 2039,
+  "dangerous": 0.16746221161495625
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.87,
+  "hit_rate": 0.7589498806682577,
+  "agreement": 0.6331236897274634,
+  "n_hits": 1908,
+  "dangerous": 0.15274463007159905
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.88,
+  "hit_rate": 0.7072394590294352,
+  "agreement": 0.6417322834645669,
+  "n_hits": 1778,
+  "dangerous": 0.13802704852824185
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.89,
+  "hit_rate": 0.639618138424821,
+  "agreement": 0.6461442786069652,
+  "n_hits": 1608,
+  "dangerous": 0.12291169451073986
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.9,
+  "hit_rate": 0.5652346857597454,
+  "agreement": 0.6551724137931034,
+  "n_hits": 1421,
+  "dangerous": 0.10580747812251393
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.91,
+  "hit_rate": 0.48607796340493237,
+  "agreement": 0.6661211129296236,
+  "n_hits": 1222,
+  "dangerous": 0.08591885441527446
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.92,
+  "hit_rate": 0.39618138424821003,
+  "agreement": 0.6857429718875502,
+  "n_hits": 996,
+  "dangerous": 0.06523468575974542
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.93,
+  "hit_rate": 0.322593476531424,
+  "agreement": 0.7114673242909988,
+  "n_hits": 811,
+  "dangerous": 0.04852824184566428
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.94,
+  "hit_rate": 0.24741447891805887,
+  "agreement": 0.7427652733118971,
+  "n_hits": 622,
+  "dangerous": 0.03381066030230708
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.95,
+  "hit_rate": 0.17780429594272076,
+  "agreement": 0.7539149888143176,
+  "n_hits": 447,
+  "dangerous": 0.02386634844868735
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.96,
+  "hit_rate": 0.11495624502784407,
+  "agreement": 0.7681660899653979,
+  "n_hits": 289,
+  "dangerous": 0.011933174224343675
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.97,
+  "hit_rate": 0.059665871121718374,
+  "agreement": 0.72,
+  "n_hits": 150,
+  "dangerous": 0.007955449482895784
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.98,
+  "hit_rate": 0.02426412092283214,
+  "agreement": 0.7704918032786885,
+  "n_hits": 61,
+  "dangerous": 0.0031821797931583136
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XVID",
+  "theta": 0.99,
+  "hit_rate": 0.014319809069212411,
+  "agreement": 0.75,
+  "n_hits": 36,
+  "dangerous": 0.0015910898965791568
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.8,
+  "hit_rate": 0.7243436754176611,
+  "agreement": 0.5513454146073586,
+  "n_hits": 1821,
+  "dangerous": 0.17342879872712808
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.81,
+  "hit_rate": 0.7096260938743039,
+  "agreement": 0.5493273542600897,
+  "n_hits": 1784,
+  "dangerous": 0.17143993635640414
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.82,
+  "hit_rate": 0.6821797931583135,
+  "agreement": 0.5486880466472304,
+  "n_hits": 1715,
+  "dangerous": 0.16507557677008752
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.83,
+  "hit_rate": 0.6539379474940334,
+  "agreement": 0.5541362530413625,
+  "n_hits": 1644,
+  "dangerous": 0.15393794749403342
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.84,
+  "hit_rate": 0.6165473349244233,
+  "agreement": 0.5503225806451613,
+  "n_hits": 1550,
+  "dangerous": 0.14836913285600636
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.85,
+  "hit_rate": 0.5739856801909308,
+  "agreement": 0.553014553014553,
+  "n_hits": 1443,
+  "dangerous": 0.13882259347653142
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.86,
+  "hit_rate": 0.5254574383452665,
+  "agreement": 0.5579106737320212,
+  "n_hits": 1321,
+  "dangerous": 0.12728719172633254
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.87,
+  "hit_rate": 0.4602227525855211,
+  "agreement": 0.5548833189282627,
+  "n_hits": 1157,
+  "dangerous": 0.11336515513126491
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.88,
+  "hit_rate": 0.3743038981702466,
+  "agreement": 0.563230605738576,
+  "n_hits": 941,
+  "dangerous": 0.09148766905330151
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.89,
+  "hit_rate": 0.28758949880668255,
+  "agreement": 0.5560165975103735,
+  "n_hits": 723,
+  "dangerous": 0.07517899761336516
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.9,
+  "hit_rate": 0.20326173428798727,
+  "agreement": 0.5577299412915852,
+  "n_hits": 511,
+  "dangerous": 0.05290373906125696
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.91,
+  "hit_rate": 0.12529832935560858,
+  "agreement": 0.5555555555555556,
+  "n_hits": 315,
+  "dangerous": 0.035003977724741446
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.92,
+  "hit_rate": 0.0624502784407319,
+  "agreement": 0.5923566878980892,
+  "n_hits": 157,
+  "dangerous": 0.016308671439936355
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.93,
+  "hit_rate": 0.026252983293556086,
+  "agreement": 0.7121212121212122,
+  "n_hits": 66,
+  "dangerous": 0.005171042163882259
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.94,
+  "hit_rate": 0.008750994431185362,
+  "agreement": 0.8636363636363636,
+  "n_hits": 22,
+  "dangerous": 0.0007955449482895784
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.95,
+  "hit_rate": 0.002386634844868735,
+  "agreement": 1.0,
+  "n_hits": 6,
+  "dangerous": 0.0
+ },
+ {
+  "alpha": 0.5,
+  "pool": "XCAM",
+  "theta": 0.96,
+  "hit_rate": 0.0003977724741447892,
+  "agreement": 1.0,
+  "n_hits": 1,
+  "dangerous": 0.0
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.8,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8420214882610426,
+  "n_hits": 2513,
+  "dangerous": 0.0883054892601432
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.81,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8420214882610426,
+  "n_hits": 2513,
+  "dangerous": 0.0883054892601432
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.82,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8420214882610426,
+  "n_hits": 2513,
+  "dangerous": 0.0883054892601432
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.83,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8420214882610426,
+  "n_hits": 2513,
+  "dangerous": 0.0883054892601432
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.84,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8420214882610426,
+  "n_hits": 2513,
+  "dangerous": 0.0883054892601432
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.85,
+  "hit_rate": 0.9992044550517104,
+  "agreement": 0.8419585987261147,
+  "n_hits": 2512,
+  "dangerous": 0.0883054892601432
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.86,
+  "hit_rate": 0.9980111376292761,
+  "agreement": 0.8425667596652052,
+  "n_hits": 2509,
+  "dangerous": 0.0879077167859984
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.87,
+  "hit_rate": 0.9976133651551312,
+  "agreement": 0.8429027113237639,
+  "n_hits": 2508,
+  "dangerous": 0.08750994431185362
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.88,
+  "hit_rate": 0.9972155926809865,
+  "agreement": 0.8428400478659752,
+  "n_hits": 2507,
+  "dangerous": 0.08750994431185362
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.89,
+  "hit_rate": 0.9948289578361177,
+  "agreement": 0.8428628548580568,
+  "n_hits": 2501,
+  "dangerous": 0.08750994431185362
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.9,
+  "hit_rate": 0.9884645982498012,
+  "agreement": 0.8442655935613682,
+  "n_hits": 2485,
+  "dangerous": 0.08671439936356404
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.91,
+  "hit_rate": 0.9781225139220366,
+  "agreement": 0.8450589670597805,
+  "n_hits": 2459,
+  "dangerous": 0.08512330946698489
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.92,
+  "hit_rate": 0.9634049323786794,
+  "agreement": 0.8439306358381503,
+  "n_hits": 2422,
+  "dangerous": 0.08392999204455051
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.93,
+  "hit_rate": 0.9355608591885441,
+  "agreement": 0.844812925170068,
+  "n_hits": 2352,
+  "dangerous": 0.08035003977724742
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.94,
+  "hit_rate": 0.8766905330151153,
+  "agreement": 0.8439201451905626,
+  "n_hits": 2204,
+  "dangerous": 0.07398568019093078
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.95,
+  "hit_rate": 0.7903739061256961,
+  "agreement": 0.8575742325113236,
+  "n_hits": 1987,
+  "dangerous": 0.060859188544152745
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.96,
+  "hit_rate": 0.6511535401750199,
+  "agreement": 0.8692730604764813,
+  "n_hits": 1637,
+  "dangerous": 0.04494828957836118
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.97,
+  "hit_rate": 0.49363564041368335,
+  "agreement": 0.8944399677679291,
+  "n_hits": 1241,
+  "dangerous": 0.026252983293556086
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.98,
+  "hit_rate": 0.3162291169451074,
+  "agreement": 0.9207547169811321,
+  "n_hits": 795,
+  "dangerous": 0.010739856801909307
+ },
+ {
+  "alpha": 0.75,
+  "pool": "ALL",
+  "theta": 0.99,
+  "hit_rate": 0.14558472553699284,
+  "agreement": 0.9316939890710383,
+  "n_hits": 366,
+  "dangerous": 0.004375497215592681
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.8,
+  "hit_rate": 0.9960222752585521,
+  "agreement": 0.6281948881789138,
+  "n_hits": 2504,
+  "dangerous": 0.20723945902943516
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.81,
+  "hit_rate": 0.9960222752585521,
+  "agreement": 0.6281948881789138,
+  "n_hits": 2504,
+  "dangerous": 0.20723945902943516
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.82,
+  "hit_rate": 0.9960222752585521,
+  "agreement": 0.6281948881789138,
+  "n_hits": 2504,
+  "dangerous": 0.20723945902943516
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.83,
+  "hit_rate": 0.994431185361973,
+  "agreement": 0.628,
+  "n_hits": 2500,
+  "dangerous": 0.20723945902943516
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.84,
+  "hit_rate": 0.9920445505171042,
+  "agreement": 0.627906976744186,
+  "n_hits": 2494,
+  "dangerous": 0.20684168655529037
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.85,
+  "hit_rate": 0.9860779634049324,
+  "agreement": 0.6284792254941509,
+  "n_hits": 2479,
+  "dangerous": 0.2052505966587112
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.86,
+  "hit_rate": 0.9781225139220366,
+  "agreement": 0.6287108580723871,
+  "n_hits": 2459,
+  "dangerous": 0.20326173428798727
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.87,
+  "hit_rate": 0.9661893396976929,
+  "agreement": 0.6298888431453273,
+  "n_hits": 2429,
+  "dangerous": 0.20047732696897375
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.88,
+  "hit_rate": 0.9518695306284806,
+  "agreement": 0.6310071040534894,
+  "n_hits": 2393,
+  "dangerous": 0.19729514717581542
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.89,
+  "hit_rate": 0.9260143198090692,
+  "agreement": 0.6297250859106529,
+  "n_hits": 2328,
+  "dangerous": 0.19212410501193317
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.9,
+  "hit_rate": 0.883054892601432,
+  "agreement": 0.6364864864864865,
+  "n_hits": 2220,
+  "dangerous": 0.18178202068416865
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.91,
+  "hit_rate": 0.8241845664280032,
+  "agreement": 0.6418918918918919,
+  "n_hits": 2072,
+  "dangerous": 0.16268894192521877
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.92,
+  "hit_rate": 0.7577565632458234,
+  "agreement": 0.6482939632545932,
+  "n_hits": 1905,
+  "dangerous": 0.14558472553699284
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.93,
+  "hit_rate": 0.665871121718377,
+  "agreement": 0.6612903225806451,
+  "n_hits": 1674,
+  "dangerous": 0.12171837708830549
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.94,
+  "hit_rate": 0.5425616547334925,
+  "agreement": 0.6781524926686217,
+  "n_hits": 1364,
+  "dangerous": 0.09347653142402546
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.95,
+  "hit_rate": 0.4116945107398568,
+  "agreement": 0.702415458937198,
+  "n_hits": 1035,
+  "dangerous": 0.06523468575974542
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.96,
+  "hit_rate": 0.26213206046141607,
+  "agreement": 0.7132018209408194,
+  "n_hits": 659,
+  "dangerous": 0.0405727923627685
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.97,
+  "hit_rate": 0.14200477326968974,
+  "agreement": 0.7647058823529411,
+  "n_hits": 357,
+  "dangerous": 0.016706443914081145
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.98,
+  "hit_rate": 0.06443914081145585,
+  "agreement": 0.8518518518518519,
+  "n_hits": 162,
+  "dangerous": 0.005568814638027049
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XVID",
+  "theta": 0.99,
+  "hit_rate": 0.017104216388225936,
+  "agreement": 0.7674418604651163,
+  "n_hits": 43,
+  "dangerous": 0.001988862370723946
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.8,
+  "hit_rate": 0.8023070803500397,
+  "agreement": 0.5924640555280118,
+  "n_hits": 2017,
+  "dangerous": 0.16030230708035004
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.81,
+  "hit_rate": 0.7899761336515513,
+  "agreement": 0.5936555891238671,
+  "n_hits": 1986,
+  "dangerous": 0.1575178997613365
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.82,
+  "hit_rate": 0.7776451869530628,
+  "agreement": 0.5933503836317136,
+  "n_hits": 1955,
+  "dangerous": 0.15513126491646778
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.83,
+  "hit_rate": 0.7617342879872713,
+  "agreement": 0.5906005221932115,
+  "n_hits": 1915,
+  "dangerous": 0.15194908512330946
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.84,
+  "hit_rate": 0.7366746221161495,
+  "agreement": 0.5955723542116631,
+  "n_hits": 1852,
+  "dangerous": 0.14518695306284804
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.85,
+  "hit_rate": 0.7032617342879872,
+  "agreement": 0.5961538461538461,
+  "n_hits": 1768,
+  "dangerous": 0.13842482100238662
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.86,
+  "hit_rate": 0.6630867143993636,
+  "agreement": 0.5980803839232154,
+  "n_hits": 1667,
+  "dangerous": 0.1288782816229117
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.87,
+  "hit_rate": 0.6014319809069213,
+  "agreement": 0.6051587301587301,
+  "n_hits": 1512,
+  "dangerous": 0.11376292760540971
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.88,
+  "hit_rate": 0.520684168655529,
+  "agreement": 0.6088617265087853,
+  "n_hits": 1309,
+  "dangerous": 0.09665871121718377
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.89,
+  "hit_rate": 0.41010342084327767,
+  "agreement": 0.6071774975751697,
+  "n_hits": 1031,
+  "dangerous": 0.07597454256165473
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.9,
+  "hit_rate": 0.27844073190135243,
+  "agreement": 0.6185714285714285,
+  "n_hits": 700,
+  "dangerous": 0.05449482895783612
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.91,
+  "hit_rate": 0.1766109785202864,
+  "agreement": 0.6171171171171171,
+  "n_hits": 444,
+  "dangerous": 0.035003977724741446
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.92,
+  "hit_rate": 0.09108989657915673,
+  "agreement": 0.5938864628820961,
+  "n_hits": 229,
+  "dangerous": 0.017899761336515514
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.93,
+  "hit_rate": 0.03699284009546539,
+  "agreement": 0.5913978494623656,
+  "n_hits": 93,
+  "dangerous": 0.006364359586316627
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.94,
+  "hit_rate": 0.006364359586316627,
+  "agreement": 0.5,
+  "n_hits": 16,
+  "dangerous": 0.0015910898965791568
+ },
+ {
+  "alpha": 0.75,
+  "pool": "XCAM",
+  "theta": 0.95,
+  "hit_rate": 0.0003977724741447892,
+  "agreement": 1.0,
+  "n_hits": 1,
+  "dangerous": 0.0
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.8,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8754476721050537,
+  "n_hits": 2513,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.81,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8754476721050537,
+  "n_hits": 2513,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.82,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8754476721050537,
+  "n_hits": 2513,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.83,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8754476721050537,
+  "n_hits": 2513,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.84,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8754476721050537,
+  "n_hits": 2513,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.85,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8754476721050537,
+  "n_hits": 2513,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.86,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8754476721050537,
+  "n_hits": 2513,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.87,
+  "hit_rate": 0.9996022275258553,
+  "agreement": 0.8754476721050537,
+  "n_hits": 2513,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.88,
+  "hit_rate": 0.9992044550517104,
+  "agreement": 0.8757961783439491,
+  "n_hits": 2512,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.89,
+  "hit_rate": 0.9992044550517104,
+  "agreement": 0.8757961783439491,
+  "n_hits": 2512,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.9,
+  "hit_rate": 0.9980111376292761,
+  "agreement": 0.8756476683937824,
+  "n_hits": 2509,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.91,
+  "hit_rate": 0.9972155926809865,
+  "agreement": 0.8755484642999601,
+  "n_hits": 2507,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.92,
+  "hit_rate": 0.9964200477326969,
+  "agreement": 0.8754491017964072,
+  "n_hits": 2505,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.93,
+  "hit_rate": 0.9952267303102625,
+  "agreement": 0.8752997601918465,
+  "n_hits": 2502,
+  "dangerous": 0.06801909307875895
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.94,
+  "hit_rate": 0.9932378679395386,
+  "agreement": 0.8758510212254705,
+  "n_hits": 2497,
+  "dangerous": 0.06762132060461416
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.95,
+  "hit_rate": 0.986873508353222,
+  "agreement": 0.8770656993147924,
+  "n_hits": 2481,
+  "dangerous": 0.0664280031821798
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.96,
+  "hit_rate": 0.9729514717581543,
+  "agreement": 0.8793949304987735,
+  "n_hits": 2446,
+  "dangerous": 0.06443914081145585
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.97,
+  "hit_rate": 0.9451073985680191,
+  "agreement": 0.88510101010101,
+  "n_hits": 2376,
+  "dangerous": 0.060859188544152745
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.98,
+  "hit_rate": 0.8424821002386634,
+  "agreement": 0.8885741265344664,
+  "n_hits": 2118,
+  "dangerous": 0.05250596658711217
+ },
+ {
+  "alpha": 1.0,
+  "pool": "ALL",
+  "theta": 0.99,
+  "hit_rate": 0.4486873508353222,
+  "agreement": 0.8971631205673759,
+  "n_hits": 1128,
+  "dangerous": 0.02386634844868735
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.8,
+  "hit_rate": 0.9972155926809865,
+  "agreement": 0.5971280414838452,
+  "n_hits": 2507,
+  "dangerous": 0.2311058074781225
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.81,
+  "hit_rate": 0.9972155926809865,
+  "agreement": 0.5971280414838452,
+  "n_hits": 2507,
+  "dangerous": 0.2311058074781225
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.82,
+  "hit_rate": 0.9968178202068417,
+  "agreement": 0.597366320830008,
+  "n_hits": 2506,
+  "dangerous": 0.2307080350039777
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.83,
+  "hit_rate": 0.9968178202068417,
+  "agreement": 0.597366320830008,
+  "n_hits": 2506,
+  "dangerous": 0.2307080350039777
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.84,
+  "hit_rate": 0.9964200477326969,
+  "agreement": 0.5976047904191617,
+  "n_hits": 2505,
+  "dangerous": 0.23031026252983294
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.85,
+  "hit_rate": 0.9964200477326969,
+  "agreement": 0.5976047904191617,
+  "n_hits": 2505,
+  "dangerous": 0.23031026252983294
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.86,
+  "hit_rate": 0.9960222752585521,
+  "agreement": 0.5978434504792333,
+  "n_hits": 2504,
+  "dangerous": 0.22991249005568815
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.87,
+  "hit_rate": 0.9952267303102625,
+  "agreement": 0.5975219824140687,
+  "n_hits": 2502,
+  "dangerous": 0.22991249005568815
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.88,
+  "hit_rate": 0.9904534606205251,
+  "agreement": 0.5975903614457831,
+  "n_hits": 2490,
+  "dangerous": 0.22871917263325378
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.89,
+  "hit_rate": 0.9856801909307876,
+  "agreement": 0.5968523002421308,
+  "n_hits": 2478,
+  "dangerous": 0.22832140015910898
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.9,
+  "hit_rate": 0.9785202863961814,
+  "agreement": 0.5955284552845529,
+  "n_hits": 2460,
+  "dangerous": 0.22792362768496421
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.91,
+  "hit_rate": 0.9693715194908512,
+  "agreement": 0.595814526056627,
+  "n_hits": 2437,
+  "dangerous": 0.22593476531424025
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.92,
+  "hit_rate": 0.9590294351630867,
+  "agreement": 0.5968477810037329,
+  "n_hits": 2411,
+  "dangerous": 0.2243436754176611
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.93,
+  "hit_rate": 0.9411296738265712,
+  "agreement": 0.5967878275570583,
+  "n_hits": 2366,
+  "dangerous": 0.22235481304693716
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.94,
+  "hit_rate": 0.9089101034208433,
+  "agreement": 0.600875273522976,
+  "n_hits": 2285,
+  "dangerous": 0.21400159108989658
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.95,
+  "hit_rate": 0.8476531424025457,
+  "agreement": 0.6039418113561709,
+  "n_hits": 2131,
+  "dangerous": 0.19610182975338106
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.96,
+  "hit_rate": 0.7370723945902944,
+  "agreement": 0.6087425796006476,
+  "n_hits": 1853,
+  "dangerous": 0.16070007955449483
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.97,
+  "hit_rate": 0.539777247414479,
+  "agreement": 0.6374355195283714,
+  "n_hits": 1357,
+  "dangerous": 0.10978520286396182
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.98,
+  "hit_rate": 0.2171837708830549,
+  "agreement": 0.6776556776556777,
+  "n_hits": 546,
+  "dangerous": 0.04017501988862371
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XVID",
+  "theta": 0.99,
+  "hit_rate": 0.061256961018297536,
+  "agreement": 0.7662337662337663,
+  "n_hits": 154,
+  "dangerous": 0.00954653937947494
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.8,
+  "hit_rate": 0.8317422434367542,
+  "agreement": 0.5844093735054997,
+  "n_hits": 2091,
+  "dangerous": 0.17342879872712808
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.81,
+  "hit_rate": 0.830151153540175,
+  "agreement": 0.5850503114518447,
+  "n_hits": 2087,
+  "dangerous": 0.17342879872712808
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.82,
+  "hit_rate": 0.8273667462211615,
+  "agreement": 0.5850961538461539,
+  "n_hits": 2080,
+  "dangerous": 0.1730310262529833
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.83,
+  "hit_rate": 0.8241845664280032,
+  "agreement": 0.5859073359073359,
+  "n_hits": 2072,
+  "dangerous": 0.1726332537788385
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.84,
+  "hit_rate": 0.8138424821002387,
+  "agreement": 0.5850439882697948,
+  "n_hits": 2046,
+  "dangerous": 0.1722354813046937
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.85,
+  "hit_rate": 0.8050914876690533,
+  "agreement": 0.5854743083003953,
+  "n_hits": 2024,
+  "dangerous": 0.17104216388225935
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.86,
+  "hit_rate": 0.7852028639618138,
+  "agreement": 0.5861195542046606,
+  "n_hits": 1974,
+  "dangerous": 0.16467780429594273
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.87,
+  "hit_rate": 0.7688941925218775,
+  "agreement": 0.5876875323331608,
+  "n_hits": 1933,
+  "dangerous": 0.15871121718377088
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.88,
+  "hit_rate": 0.7442322991249005,
+  "agreement": 0.5873864243719936,
+  "n_hits": 1871,
+  "dangerous": 0.15194908512330946
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.89,
+  "hit_rate": 0.7171837708830548,
+  "agreement": 0.5845812534664449,
+  "n_hits": 1803,
+  "dangerous": 0.14836913285600636
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.9,
+  "hit_rate": 0.6630867143993636,
+  "agreement": 0.587882423515297,
+  "n_hits": 1667,
+  "dangerous": 0.13882259347653142
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.91,
+  "hit_rate": 0.539777247414479,
+  "agreement": 0.5932203389830508,
+  "n_hits": 1357,
+  "dangerous": 0.11137629276054097
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.92,
+  "hit_rate": 0.38743038981702466,
+  "agreement": 0.5944558521560575,
+  "n_hits": 974,
+  "dangerous": 0.08591885441527446
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.93,
+  "hit_rate": 0.2398568019093079,
+  "agreement": 0.572139303482587,
+  "n_hits": 603,
+  "dangerous": 0.060859188544152745
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.94,
+  "hit_rate": 0.14160700079554495,
+  "agreement": 0.5926966292134831,
+  "n_hits": 356,
+  "dangerous": 0.03619729514717582
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.95,
+  "hit_rate": 0.04097056483691328,
+  "agreement": 0.6310679611650486,
+  "n_hits": 103,
+  "dangerous": 0.007955449482895784
+ },
+ {
+  "alpha": 1.0,
+  "pool": "XCAM",
+  "theta": 0.96,
+  "hit_rate": 0.003977724741447892,
+  "agreement": 0.7,
+  "n_hits": 10,
+  "dangerous": 0.0011933174224343676
+ }
+]

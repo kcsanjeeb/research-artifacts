@@ -1,0 +1,15 @@
+\section{Reproducibility Trail}
+\label{app:repro}
+
+Every number in this paper traces to a run directory containing \texttt{config.json} (written before execution), \texttt{env.json}, \texttt{code\_state.json} (commits + patches), \texttt{fps\_assertion.jsonl}, metrics, and the judged artifact. Index (server: Ada workspace; mirrored to the paper's repository): Phase 0 Gate 0 MuKV reproduction (\texttt{20260927\_0000}); Phase 1 Component A and its corrected rank-fetch confirmation (\texttt{20260927\_1200}, \texttt{20260927\_2200}); Phase 2 Component B sweep, oracle chain, W3 hardening analysis (\texttt{20260928\_0315}, \texttt{analysis/w31,w32,w33,w41,w43,w54}); cross-benchmark oracles (\texttt{20260928\_2105}, \texttt{20260929\_1215}); W4 frame-rate correction and coverage-spread experiment (\texttt{20260930\_0935}). Code: \texttt{decaf} repository, commits \texttt{57ae130}--\texttt{93014b3} plus W4/W5 fix commits. The append-only experiment log records every run including failures and superseded analyses.
+
+\section{Additional Statistical Detail}
+\label{app:extra}
+
+\paragraph{Gate 0 config fidelity.} MuKV argparse-default run: 46.0 (band [47.5, 53.5], FAIL); paper-config run: 50.9 (PASS, expected $\approx$50.5 under the calibrated offset); minimal-pruning sanity: 51.2 (code-path validation). The paper configuration (segment-dominant keep 0.1/0.1/0.8, per-grain topk 20/32/12, $\alpha$ 0.5/0.7/0.8) is now encoded in a versioned script.
+
+\paragraph{W5.4 pooled regression (full).} $n{=}332$ (4 arms $\times$ 83 temporal questions); LPM with cluster-robust standard errors (cluster = question). Specifications: question FE: coefficient $-0.33$ per unit coverage, CI [$-1.99, +1.33$], $p{=}0.69$; arm FE + window length: $+0.56$, CI [$-0.54, +1.66$], $p{=}0.32$; question FE + arm FE: $+0.40$, CI [$-1.33, +2.13$], $p{=}0.65$. Six-bin coverage--accuracy curve non-monotone; the hybrid arm's accuracy gain coincided with \emph{lower} coverage than baseline. Within-question coverage variation (sd 0.019) is small relative to between-question (0.070); the refutation is conditional on the achieved band and store budget, which the text states.
+
+\paragraph{Answer-level int4 (TB6).} Naive per-channel int4 quantization of the store flips 4 of 5 greedy answers at equal prompts; logit-level fidelity (the basis of prior ``4-bit is near-lossless'' claims) does not predict answer-level fidelity. Group-scale int4 is measured at answer level wherever it is reported.
+
+\paragraph{Multiplicity families.} Family A ($m{=}21$): all pairs among the seven full-run RVS arms. Family B ($m{=}15$): the pre-registered comparison subset. Union $m{=}36$. All corrected claims in the text are stated against the family; Holm primary, BH reported.

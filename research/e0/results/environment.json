@@ -1,0 +1,44 @@
+{
+  "gpus": [
+    "Tesla V100-PCIE-32GB, 32768 MiB, 530.30.02",
+    "Tesla V100-PCIE-32GB, 32768 MiB, 530.30.02",
+    "Tesla V100-PCIE-32GB, 32768 MiB, 530.30.02",
+    "Tesla V100-PCIE-32GB, 32768 MiB, 530.30.02"
+  ],
+  "nvcc": "",
+  "python": "3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:42:31) [GCC 14.4.0]",
+  "torch": "2.6.0+cu124",
+  "torch_cuda": "12.4",
+  "cuda_available": true,
+  "device_capability": [
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      7,
+      0
+    ]
+  ],
+  "commits": {
+    "HolmesVAU": "fdef61ec58e8cfa747ff5f40d7e89e9bd6f9e90d",
+    "LAVIDA": "56b30589ea2c8a9e28e812bcd0f1282c0243b187",
+    "VadCLIP": "c41067f07d252efcda18008bea367886070c33b0",
+    "PEL4VAD": "eeb31f4ca10b805996fb39e5c395f1a8dc119096"
+  },
+  "data_sources": {
+    "ucf_test_videos": "hf datasets backseollgi/UCF-Crime_TEST_SET (UCF-Crime_TEST_SET.tar.gz, 7841518071 bytes, 290 mp4)",
+    "ucf_clip_features": "VadCLIP official UCFClipFeatures.zip via myzhao1999/ucf-crime-clip-features (hf mirror; byte-identical size to the official OneDrive zip)",
+    "vadclip_checkpoint": "model_ucf.pth, official VadCLIP OneDrive share",
+    "holmesvau_weights": "hf ppxin321/HolmesVAU-2B (via hf-mirror.com)"
+  },
+  "network_notes": "huggingface.co, OneDrive API, Dropbox, crcv.ucf.edu, Google Drive, Kaggle and openaipublic (Azure) unreachable from the server; hf-mirror.com and SharePoint download.aspx used instead. LAVIDA released no checkpoints or usage instructions (commit 56b3058) - Experiment 1 runs HolmesVAU-2B only."
+}

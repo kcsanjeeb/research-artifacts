@@ -1,0 +1,150 @@
+{
+ "definition": "W4.3 \u2014 window coverage vs planner gain across the three benchmarks.",
+ "proxies": {
+  "block_time": {
+   "rvs_s": 4.0,
+   "streamingbench_s": 2.0,
+   "ovo_s": 2.0
+  },
+  "n_local_frames": 76,
+  "local_cache_s": {
+   "rvs": 304.0,
+   "streamingbench": 152.0,
+   "ovo": 152.0
+  },
+  "frontier": {
+   "rvs": "min(2*end, video duration) \u2014 2x-end encode quirk (W3.3)",
+   "streamingbench": "end (cumulative encode)",
+   "ovo": "end (cumulative encode)"
+  }
+ },
+ "benchmarks": {
+  "RVS-Ego (oracle subset)": {
+   "name": "RVS-Ego (oracle subset)",
+   "n": 316,
+   "best_policy": "patch",
+   "all_questions": {
+    "n": 316,
+    "mean": 0.21408720376891593,
+    "median": 0.13333333333333333,
+    "frac_zero": 0.06645569620253164,
+    "frac_ge_half": 0.10443037974683544
+   },
+   "all_wrong": {
+    "n": 152,
+    "mean": 0.20903446664907882,
+    "median": 0.12649122807017543,
+    "frac_zero": 0.0,
+    "frac_ge_half": 0.11842105263157894
+   },
+   "window_s": {
+    "n": 316,
+    "mean": 470.4113924050633,
+    "median": 300.0,
+    "frac_zero": 0.0,
+    "frac_ge_half": 1.0
+   },
+   "w33_reproduction": {
+    "mean_ref": 0.20903446664907882,
+    "median_ref": 0.12649122807017543,
+    "mean_here": 0.20903446664907882,
+    "median_here": 0.12649122807017543
+   }
+  },
+  "StreamingBench": {
+   "name": "StreamingBench",
+   "n": 180,
+   "best_policy": "frame",
+   "all_questions": {
+    "n": 180,
+    "mean": 1.0,
+    "median": 1.0,
+    "frac_zero": 0.0,
+    "frac_ge_half": 1.0
+   },
+   "all_wrong": {
+    "n": 42,
+    "mean": 1.0,
+    "median": 1.0,
+    "frac_zero": 0.0,
+    "frac_ge_half": 1.0
+   },
+   "window_s": {
+    "n": 180,
+    "mean": 39.35,
+    "median": 30.0,
+    "frac_zero": 0.0,
+    "frac_ge_half": 1.0
+   }
+  },
+  "OVO-Bench": {
+   "name": "OVO-Bench",
+   "n": 180,
+   "best_policy": "frame",
+   "all_questions": {
+    "n": 180,
+    "mean": 0.5874951462711877,
+    "median": 0.499554367201426,
+    "frac_zero": 0.0,
+    "frac_ge_half": 0.5
+   },
+   "all_wrong": {
+    "n": 98,
+    "mean": 0.5759200926923083,
+    "median": 0.499554367201426,
+    "frac_zero": 0.0,
+    "frac_ge_half": 0.5
+   },
+   "window_s": {
+    "n": 180,
+    "mean": 592.1713888888889,
+    "median": 560.5,
+    "frac_zero": 0.0,
+    "frac_ge_half": 1.0
+   }
+  }
+ },
+ "sources": {
+  "rvs": "runs/20260928_0315_e3_phase2_compB (system arm answers_7b_b_writetime retrieval + oracle_patch for the all-wrong subset)",
+  "streamingbench": "runs/20260928_2105_e3_phase2_xbench",
+  "ovo": "runs/20260929_1215_e3_phase2_ovo"
+ },
+ "table": [
+  {
+   "benchmark": "RVS-Ego",
+   "system_acc": 42.7,
+   "planner_gain_over_random_floor_pt": -0.1,
+   "coverage_all_q_mean": 0.214,
+   "coverage_all_q_median": 0.133,
+   "n_all_q": 316,
+   "coverage_allwrong_mean": 0.209,
+   "coverage_allwrong_median": 0.126,
+   "n_all_wrong": 152,
+   "mean_window_s": 470.4
+  },
+  {
+   "benchmark": "StreamingBench",
+   "system_acc": 73.9,
+   "planner_gain_over_random_floor_pt": 4.3,
+   "coverage_all_q_mean": 1.0,
+   "coverage_all_q_median": 1.0,
+   "n_all_q": 180,
+   "coverage_allwrong_mean": 1.0,
+   "coverage_allwrong_median": 1.0,
+   "n_all_wrong": 42,
+   "mean_window_s": 39.4
+  },
+  {
+   "benchmark": "OVO-Bench",
+   "system_acc": 39.4,
+   "planner_gain_over_random_floor_pt": 0.9,
+   "coverage_all_q_mean": 0.587,
+   "coverage_all_q_median": 0.5,
+   "n_all_q": 180,
+   "coverage_allwrong_mean": 0.576,
+   "coverage_allwrong_median": 0.5,
+   "n_all_wrong": 98,
+   "mean_window_s": 592.2
+  }
+ ]
+}

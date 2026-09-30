@@ -1,0 +1,99 @@
++ RUN=/data3/zhuotaotian2_e2/runs/20260927_1200_e3_phase1_compA
++ TC=/data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py
++ cd /data3/zhuotaotian2_e2/code/decaf
++ source /home/zhuotaotian2/miniconda3/etc/profile.d/conda.sh
+++ export CONDA_EXE=/home/zhuotaotian2/miniconda3/bin/conda
+++ CONDA_EXE=/home/zhuotaotian2/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/zhuotaotian2/miniconda3/bin/conda
+++ _CONDA_EXE=/home/zhuotaotian2/miniconda3/bin/conda
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ export CONDA_PYTHON_EXE=/home/zhuotaotian2/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/zhuotaotian2/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/zhuotaotian2/miniconda3
+++ _CONDA_ROOT=/home/zhuotaotian2/miniconda3
+++ '[' -z '' ']'
+++ export CONDA_SHLVL=0
+++ CONDA_SHLVL=0
+++ '[' -n '' ']'
+++++ dirname /home/zhuotaotian2/miniconda3/bin/conda
++++ dirname /home/zhuotaotian2/miniconda3/bin
+++ PATH=/home/zhuotaotian2/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ export PATH
+++ '[' -z '' ']'
+++ PS1=
++ conda activate rekv
++ local cmd=activate
++ case "$cmd" in
++ __conda_activate activate rekv
++ '[' -n '' ']'
++ local ask_conda
+++ PS1=
+++ __conda_exe shell.posix activate rekv
+++ '[' -n '' ']'
+++ /home/zhuotaotian2/miniconda3/bin/conda shell.posix activate rekv
++ ask_conda='export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(/data4/rekv) '\''
+export PATH='\''/data4/rekv/bin:/home/zhuotaotian2/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+export CONDA_PREFIX='\''/data4/rekv'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''/data4/rekv'\''
+export CONDA_PROMPT_MODIFIER='\''(/data4/rekv) '\''
+export CONDA_EXE='\''/home/zhuotaotian2/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/zhuotaotian2/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/zhuotaotian2/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/zhuotaotian2/miniconda3'\'''
++ eval 'export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+PS1='\''(/data4/rekv) '\''
+export PATH='\''/data4/rekv/bin:/home/zhuotaotian2/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'\''
+export CONDA_PREFIX='\''/data4/rekv'\''
+export CONDA_SHLVL='\''1'\''
+export CONDA_DEFAULT_ENV='\''/data4/rekv'\''
+export CONDA_PROMPT_MODIFIER='\''(/data4/rekv) '\''
+export CONDA_EXE='\''/home/zhuotaotian2/miniconda3/bin/conda'\''
+export _CONDA_EXE='\''/home/zhuotaotian2/miniconda3/bin/conda'\''
+export CONDA_PYTHON_EXE='\''/home/zhuotaotian2/miniconda3/bin/python'\''
+export _CONDA_ROOT='\''/home/zhuotaotian2/miniconda3'\'''
+++ export _CE_M=
+++ _CE_M=
+++ export _CE_CONDA=
+++ _CE_CONDA=
+++ PS1='(/data4/rekv) '
+++ export PATH=/data4/rekv/bin:/home/zhuotaotian2/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ PATH=/data4/rekv/bin:/home/zhuotaotian2/miniconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+++ export CONDA_PREFIX=/data4/rekv
+++ CONDA_PREFIX=/data4/rekv
+++ export CONDA_SHLVL=1
+++ CONDA_SHLVL=1
+++ export CONDA_DEFAULT_ENV=/data4/rekv
+++ CONDA_DEFAULT_ENV=/data4/rekv
+++ export 'CONDA_PROMPT_MODIFIER=(/data4/rekv) '
+++ CONDA_PROMPT_MODIFIER='(/data4/rekv) '
+++ export CONDA_EXE=/home/zhuotaotian2/miniconda3/bin/conda
+++ CONDA_EXE=/home/zhuotaotian2/miniconda3/bin/conda
+++ export _CONDA_EXE=/home/zhuotaotian2/miniconda3/bin/conda
+++ _CONDA_EXE=/home/zhuotaotian2/miniconda3/bin/conda
+++ export CONDA_PYTHON_EXE=/home/zhuotaotian2/miniconda3/bin/python
+++ CONDA_PYTHON_EXE=/home/zhuotaotian2/miniconda3/bin/python
+++ export _CONDA_ROOT=/home/zhuotaotian2/miniconda3
+++ _CONDA_ROOT=/home/zhuotaotian2/miniconda3
++ __conda_hashr
++ '[' -n '' ']'
++ '[' -n '' ']'
++ hash -r
++ export CUDA_VISIBLE_DEVICES=2 HF_HUB_OFFLINE=1 PYTHONPATH=/data3/zhuotaotian2_e2/code/decaf
++ CUDA_VISIBLE_DEVICES=2
++ HF_HUB_OFFLINE=1
++ PYTHONPATH=/data3/zhuotaotian2_e2/code/decaf
++ /data4/rekv/bin/python /data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py /data3/zhuotaotian2_e2/runs/20260927_1200_e3_phase1_compA/trapcheck encode
++ echo 'ENCODE_EXIT 1'
++ DECAF_POSITION_FREE=1
++ PYTHONPATH=/data3/zhuotaotian2_e2/code/decaf
++ /data4/rekv/bin/python /data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py /data3/zhuotaotian2_e2/runs/20260927_1200_e3_phase1_compA/trapcheck qa
++ echo 'QA_EXIT 0'
++ /data4/rekv/bin/python /data3/zhuotaotian2_e2/code/decaf/verification/decaf_trapcheck.py /data3/zhuotaotian2_e2/runs/20260927_1200_e3_phase1_compA/trapcheck compare
++ echo 'COMPARE_EXIT 1'

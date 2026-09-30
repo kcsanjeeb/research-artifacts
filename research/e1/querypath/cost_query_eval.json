@@ -1,0 +1,17 @@
+{
+  "query_eval": {
+    "mode_a": {
+      "gpu_s": 0.0,
+      "note": "bge embedding + cosine only, sub-second"
+    },
+    "mode_b": {
+      "verify_gpu_s_total": 435.7,
+      "n_queries": 220,
+      "verified_types": "existence/negation/temporal top-3",
+      "gpu_s_per_query_all": 2.0,
+      "wall_s": 435.9
+    },
+    "corpus_queries": 220,
+    "sht_excluded": true
+  }
+}

@@ -1,0 +1,120 @@
+{
+ "judge_model": "/data1/LLM_models/Qwen1.5-14B-Chat",
+ "n_questions": 12,
+ "n_yes": 5,
+ "n_no": 7,
+ "n_unparsed_pred": 0,
+ "n_unparsed_score": 0,
+ "accuracy": 0.4166666666666667,
+ "average_score": 2.5,
+ "judged": [
+  {
+   "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+   "question": "What task is being performed with vegetables?",
+   "answer": "Chopping vegetables.",
+   "pred_answer": "something completely unrelated",
+   "judge_raw": "{'pred': 'no', 'score': 0}",
+   "judge_pred": "no",
+   "judge_score": 0
+  },
+  {
+   "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+   "question": "What step is being taken with flatbread?",
+   "answer": "Wrapping sauce in flatbread.",
+   "pred_answer": "something completely unrelated",
+   "judge_raw": "{'pred': 'no', 'score': 0}",
+   "judge_pred": "no",
+   "judge_score": 0
+  },
+  {
+   "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+   "question": "What kitchen fixture is being utilized?",
+   "answer": "Opening a cabinet.",
+   "pred_answer": "Opening a cabinet.",
+   "judge_raw": "{'pred': 'yes', 'score': 5}",
+   "judge_pred": "yes",
+   "judge_score": 5
+  },
+  {
+   "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+   "question": "What's the overview of the action in the clip?",
+   "answer": "Preparing ingredients for a meal.",
+   "pred_answer": "Preparing ingredients for a meal.",
+   "judge_raw": "{'pred': 'yes', 'score': 5}",
+   "judge_pred": "yes",
+   "judge_score": 5
+  },
+  {
+   "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+   "question": "Does the video show someone chopping vegetables?",
+   "answer": "Yes.",
+   "pred_answer": "something completely unrelated",
+   "judge_raw": "{'pred': 'no', 'score': 0}",
+   "judge_pred": "no",
+   "judge_score": 0
+  },
+  {
+   "video_id": "9198b9a4-8d8f-4ba6-9924-4c86982d890a",
+   "question": "Did the individual successfully open a kitchen cabinet?",
+   "answer": "Yes.",
+   "pred_answer": "Yes.",
+   "judge_raw": "{'pred': 'yes', 'score': 5}",
+   "judge_pred": "yes",
+   "judge_score": 5
+  },
+  {
+   "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+   "question": "What is the setting of the video clip?",
+   "answer": "It is in an outdoor field.",
+   "pred_answer": "something completely unrelated",
+   "judge_raw": "{'pred': 'no', 'score': 0}",
+   "judge_pred": "no",
+   "judge_score": 0
+  },
+  {
+   "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+   "question": "Is the scene occurring in an urban or rural environment?",
+   "answer": "Rural environment.",
+   "pred_answer": "Rural environment.",
+   "judge_raw": "{'pred': 'yes', 'score': 5}",
+   "judge_pred": "yes",
+   "judge_score": 5
+  },
+  {
+   "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+   "question": "What time of day does the scene appear to be set in?",
+   "answer": "It appears to be set in the evening.",
+   "pred_answer": "It appears to be set in the evening.",
+   "judge_raw": "{'pred': 'yes', 'score': 5}",
+   "judge_pred": "yes",
+   "judge_score": 5
+  },
+  {
+   "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+   "question": "How is the subject navigating the outdoor space?",
+   "answer": "The subject is walking on the field and then heads home.",
+   "pred_answer": "something completely unrelated",
+   "judge_raw": "{'pred': 'no', 'score': 0}",
+   "judge_pred": "no",
+   "judge_score": 0
+  },
+  {
+   "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+   "question": "Can you provide an overview of the action in this clip?",
+   "answer": "Subject walks outdoors, across a field, and returns home.",
+   "pred_answer": "something completely unrelated",
+   "judge_raw": "{'pred': 'no', 'score': 0}",
+   "judge_pred": "no",
+   "judge_score": 0
+  },
+  {
+   "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+   "question": "Does the video show the subject entering a building?",
+   "answer": "No.",
+   "pred_answer": "something completely unrelated",
+   "judge_raw": "{'pred': 'no', 'score': 5}",
+   "judge_pred": "no",
+   "judge_score": 5
+  }
+ ]
+}

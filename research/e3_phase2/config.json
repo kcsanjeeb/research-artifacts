@@ -1,0 +1,42 @@
+{
+  "phase": "E3 Phase 2 - Component B (multi-grain deferred commitment)",
+  "date": "2026-09-28",
+  "base": "corrected Component A (rank fetch, Gate 1 PASS 54.1/2.82, runs/20260927_2200_e3_phase1_compA_rankfetch)",
+  "code": "code/decaf @ac79712 (per-video layer-counter + store reset fix; base 72c0aff)",
+  "dataset": "RVS-Ego (10 videos, 1465 questions), fps 0.5, n_local 15000, retrieve 64, greedy, seed 2024",
+  "grains": "patch 49 / frame 196 / segment 4x196=784 tokens (MuKV granularity set)",
+  "arms": {
+    "answers_7b_b_deferred": {
+      "DECAF_B_COMMIT": "deferred",
+      "DECAF_B_BIAS": "debias",
+      "DECAF_B_TAX": 0.5,
+      "DECAF_QUANT": 1,
+      "pass2": "on (entropy>1.8 nats or degenerate)",
+      "DECAF_B_GAMMA": 0.5
+    },
+    "answers_7b_b_writetime": {
+      "DECAF_B_COMMIT": "writetime",
+      "DECAF_B_BIAS": "debias",
+      "DECAF_B_TAX": 0.5,
+      "DECAF_QUANT": 1,
+      "DECAF_B_NOPASS2": 1
+    },
+    "answers_7b_b_writetime_rawbias": {
+      "DECAF_B_COMMIT": "writetime",
+      "DECAF_B_BIAS": "raw",
+      "DECAF_B_TAX": 0.5,
+      "DECAF_QUANT": 1,
+      "DECAF_B_NOPASS2": 1
+    }
+  },
+  "analyze_arm": "analyze_bias (GPU3, encode-only): DECAF_B_ANALYZE per-block curves + cumulative store bytes",
+  "scoring": "MuKV-style dual signal: received attention (next-chunk, in-window) + FFT high-frequency energy of content keys; z-normed per grain type; debias = online per-block-relative-position detrend (raw vs debiased arms)",
+  "storage_accounting": "realized frame bytes K+V (+grain keys), MuKV GB/h methodology",
+  "gates": "Gate 2: deferred - writetime >= +2 pts Acc; clairvoyant gap closure >= 50% (oracle PENDING); revised Gate 1: debias - raw >= +2 pts at equal memory",
+  "judge": "Qwen2.5-72B TP=4 gpu_mem 0.80 (/data4/e2judge), watcher run_judge_phase2.sh",
+  "references": {
+    "stock_rekv_7b": "54.1/2.82",
+    "mukv_paper_7b": "50.9/2.67"
+  },
+  "recovery": "2026-09-28 ~12:50 CST: all arms relaunched after IndexError fix; see DIAGNOSIS.md"
+}

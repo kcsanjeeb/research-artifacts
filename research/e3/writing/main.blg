@@ -1,0 +1,92 @@
+This is BibTeX, Version 0.99e (TeX Live 2026)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: references.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty publisher in streamingtom
+Warning--empty address in streamingtom
+Warning--can't use both volume and number fields in streamkv
+Warning--empty publisher in streamkv
+Warning--empty address in streamkv
+Warning--empty publisher in rekv
+Warning--empty address in rekv
+Warning--page numbers missing in both pages and numpages fields in rekv
+Warning--empty publisher in ovobench
+Warning--empty address in ovobench
+Warning--page numbers missing in both pages and numpages fields in ovobench
+Warning--empty publisher in livevlm
+Warning--empty address in livevlm
+Warning--page numbers missing in both pages and numpages fields in livevlm
+Warning--empty publisher in mukv
+Warning--empty address in mukv
+Warning--page numbers missing in both pages and numpages fields in mukv
+Warning--empty year in streamingvlm
+Warning--using n.d. in streamingvlm
+Warning--empty year in avas
+Warning--using n.d. in avas
+Warning--empty year in streammem
+Warning--using n.d. in streammem
+Warning--empty publisher in worldmm
+Warning--empty address in worldmm
+Warning--page numbers missing in both pages and numpages fields in worldmm
+Warning--empty publisher in flashvstream
+Warning--empty address in flashvstream
+Warning--page numbers missing in both pages and numpages fields in flashvstream
+Warning--empty publisher in hermes
+Warning--empty address in hermes
+Warning--empty publisher in weavetime
+Warning--empty address in weavetime
+Warning--page numbers missing in both pages and numpages fields in weavetime
+Warning--empty year in codecsight
+Warning--using n.d. in codecsight
+You've used 19 entries,
+            6335 wiz_defined-function locations,
+            1622 strings with 22119 characters,
+and the built_in function-call counts, 18832 in all, are:
+= -- 1852
+> -- 715
+< -- 0
++ -- 241
+- -- 224
+* -- 1400
+:= -- 1894
+add.period$ -- 89
+call.type$ -- 19
+change.case$ -- 138
+chr.to.int$ -- 17
+cite$ -- 55
+duplicate$ -- 1772
+empty$ -- 1293
+format.name$ -- 298
+if$ -- 4387
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 50
+newline$ -- 205
+num.names$ -- 131
+pop$ -- 867
+preamble$ -- 1
+purify$ -- 253
+quote$ -- 0
+skip$ -- 639
+stack$ -- 0
+substring$ -- 1118
+swap$ -- 119
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 558
+warning$ -- 36
+while$ -- 67
+width$ -- 0
+write$ -- 389
+(There were 36 warnings)

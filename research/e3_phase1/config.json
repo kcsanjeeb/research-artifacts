@@ -1,0 +1,20 @@
+{
+  "task": "E3 Phase 1 — DECAF Component A: position-disentangled store (Gate 1)",
+  "plan": "draft-plan/beat-mukv.md (Mac) §2 Component A, §5 Phase 1",
+  "code": "/data3/zhuotaotian2_e2/code/decaf (git; ReKV@1fd9a3d+patches + env-gated DECAF-A)",
+  "switch": "DECAF_POSITION_FREE=1 (unset = stock W2.5 behavior, bit-identical)",
+  "design": {
+    "store": "pre-RoPE K + V per 196-token frame block on CPU (STOCK ReKV already stores pre-RoPE keys; audit finding, trap-checked T1) + explicit int64 position sidecar per block (block_starts, 8B/block/layer-manager)",
+    "retrieval": "content-key scoring UNCHANGED (stock: pre-RoPE mean-pooled block keys vs pre-RoPE question query); retrieval-recall deltas arise because layer>=1 query embeddings evolve under different attention geometry",
+    "rotate_on_fetch": "retrieved blocks rotated to EXACT original positions from sidecar (n_init + b*196 + j); init tokens 0..12 (stock-identical); question + decode tokens at true streaming positions (next_pos = store length at query)",
+    "memory": "store bytes identical to entangled (fp16 K/V, same shapes); sidecar = n_blocks*8B*24 layer-managers (negligible); reported per run from calc_memory_usage_detailed"
+  },
+  "arms": {
+    "entangled_baseline": "W2.5 runs/20260926_1455_w25_judge_harness (0.5B 45.5/2.36, 7B 54.1/2.82, 72B-judged, n=1465) + new entangled RECALL-ONLY passes (DECAF_RECALL_ONLY=1, flag off)",
+    "position_free": "new answering runs, DECAF_POSITION_FREE=1, same config as W2.5"
+  },
+  "config": "rekv_stream_vqa, sample_fps 0.5, n_local 15000, retrieve_size 64, chunk_size 1, internal retrieval, greedy, seed 2024; models llava-onevision-qwen2-{0.5b,7b}-ov-hf; data data/rvs/ego/ego4d_oe.json (10 videos x 1h, 1465 Qs)",
+  "gate1": "retrieval recall +>=5 pts OR RVS-Ego Acc +>=2 pts (72B-judged) vs entangled at equal memory",
+  "recall_oracle": "per question window [start_time,end_time] in ego4d_oe.json at 0.5 fps: relevant blocks = frames b with start*0.5 <= b < end*0.5, restricted to blocks encoded at query time; micro + macro recall on layer-0 retrieved blocks; relaxed variant expands window by +-30s",
+  "judge": "Qwen2.5-72B-Instruct bf16 vLLM TP=4 gpu_mem 0.80, w25_judge.py verbatim ReKV eval prompt (W2.5 harness)"
+}

@@ -1,0 +1,13 @@
+{
+  "judge": "Qwen2.5-72B-Instruct bf16, vLLM 0.7.3 TP=4, greedy, exact ReKV eval_open_ended.py prompt",
+  "rekv_0.5b": {"n": 1465, "acc": 45.5, "score": 2.36, "unparsed_pred": 0,
+    "published": {"acc": 54.7, "score": 3.9}, "delta_acc": -9.2, "delta_score": -1.54},
+  "rekv_7b": {"n": 1465, "acc": 54.1, "score": 2.82, "unparsed_pred": 0,
+    "published": {"acc": 63.7, "score": 4.0}, "delta_acc": -9.6, "delta_score": -1.18},
+  "model_ranking": {"published_7b_minus_0.5b_acc": 9.0, "ours": 8.6},
+  "inter_judge_agreement": {
+    "judges": ["Qwen2.5-72B-Instruct", "Qwen1.5-14B-Chat"],
+    "subset": "first 50 questions of rekv_0.5b answers (fixed prefix)",
+    "pred_agreement": 0.94, "score_MAE": 0.60, "acc_72b_prefix": 0.48, "acc_14b_prefix": 0.50},
+  "verdict": "UNVALIDATED vs published (|delta| > 2); systematic judge-leniency offset ~9-10 Acc pts vs GPT-judged published numbers; ranking and delta reproduced"
+}

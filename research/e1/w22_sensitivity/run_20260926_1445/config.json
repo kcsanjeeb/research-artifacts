@@ -1,0 +1,11 @@
+{
+ "task": "W2.2: does TTKV sensitivity finding transfer to video KV? per-block 2/4/8-bit quantization distortion by selection-frequency quintile",
+ "extends": "~/e1/baselines/t1_rekv_shard.py encode+eval machinery (t1_rekv_shard.py); quantize/restore verified by ~/e1/w22_sensitivity/w22_probe.py",
+ "model": "llava-onevision-qwen2-0.5b-ov-hf, n_local=15000, topk=64, chunk_size=1, block=196 tokens=1 frame @0.5fps",
+ "data": "10 RVS-Ego videos x 12 seeded questions; selection sets + frequencies from run 20260925_2237_t1_rekv_sharded artifacts/t1_rekv_log.jsonl (120 queries)",
+ "quantization": "symmetric uniform quant-dequant simulating b-bit storage; K per-(head,channel) scales over tokens; V per-(head,token) scales over channels; fp32 scale computation; applied to stored KV of ONE block across all 24 layers; retrieval index (block_k reps) held full precision; GPU-cached copy offloaded before mutation",
+ "distortion": "primary drop = f1_gold(external baseline, unquantized) - f1_gold(quantized), external retrieval path with logged top-64 held fixed (path deterministic, restore bit-exact); secondary out_f1 = token-F1(pred_q, pred_ext_baseline)",
+ "quintiles": "per video over USED blocks (f>0; 96% of blocks never selected so all-block quintiles degenerate); Q1=Cold..Q5=Hot by frequency rank; 5 blocks sampled per quintile per video (seed 20260926+shard)",
+ "gpus": [1,2,3], "shards": 3, "gpu0": "another tenant, untouched",
+ "drift_test": "~/e1/w22_sensitivity/w22_drift.py (log-only, done)"
+}

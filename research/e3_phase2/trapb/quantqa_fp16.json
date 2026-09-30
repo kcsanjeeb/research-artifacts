@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the setting of the video clip?",
+    "pred": "The setting of the video clip is a serene and expansive beach or coastal area with a clear sky, palm trees, and a distant shoreline."
+  },
+  {
+    "question": "Is the scene occurring in an urban or rural environment?",
+    "pred": "The scene is occurring in a rural environment, as indicated by the presence of palm trees and a low wall along the roadside."
+  },
+  {
+    "question": "What time of day does the scene appear to be set in?",
+    "pred": "The scene appears to be set during the early evening, as indicated by the low position of the sun and the long shadows cast on the ground."
+  },
+  {
+    "question": "How is the subject navigating the outdoor space?",
+    "pred": "The subject is walking along a path that leads to a dark wooden door with a blue flower decoration."
+  },
+  {
+    "question": "Can you provide an overview of the action in this clip?",
+    "pred": "The clip begins with a view of a serene beach scene, featuring a sandy shore, palm trees, and a clear sky. It transitions to a person standing on the beach, looking out towards the water, with a view of the horizon and a few buildings in the distance. The scene then shifts to a wider view of the beach, showing the sandy shore, palm trees, and a few buildings in the background. The video wraps up with a close-up of the beach, focusing on the sandy shore and the palm trees, with a person standing on the beach, looking out towards the water."
+  }
+]

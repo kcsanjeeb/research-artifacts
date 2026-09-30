@@ -1,0 +1,9 @@
+{
+  "task": "T5.4",
+  "candidates": [
+    "/home/san/FleetVAD/research/e0/results/tier1_scores.npz",
+    "/home/san/FleetVAD/research/e0/followup/results/xd_tier1_scores.npz",
+    "/home/san/FleetVAD/research/e0/results/sht_features.npz"
+  ],
+  "gate": "AUC raw vs fleet-quantile on SHT; kill M7/P2-V2 if gain < 0.02"
+}

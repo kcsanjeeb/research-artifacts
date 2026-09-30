@@ -1,0 +1,31 @@
+baseline tier-1: AUC=0.8802 AP=0.3352
+oracle ceiling: AUC=0.9058 (delta +0.0256) AP=0.4410 (delta +0.1058)
+v1 replace_b (raw P(Yes)): AUC=0.8811 (delta +0.0009)
+calibrated scores: isotonic range [0.000, 1.000], ranknorm range [0.240, 0.760]
+           replace_b_raw: AUC=0.8811 (delta +0.0009, 3.5% of ceiling) AP=0.3357 (delta +0.0004)
+      replace_b_isotonic: AUC=0.8796 (delta -0.0006, -2.4% of ceiling) AP=0.3361 (delta +0.0009)
+      replace_b_ranknorm: AUC=0.8807 (delta +0.0005, 2.0% of ceiling) AP=0.3355 (delta +0.0003)
+VLM-only PR sweep: best F1=0.177 at thr=0.12 (precision=0.106, recall=0.530)
+ops: {
+  "tier1": {
+    "precision@0.5": 0.21000258464719565,
+    "alerts_per_hour": 2258.8873832314607,
+    "event_recall": 0.8357142857142857,
+    "tta_seconds_mean": 0.6518518518518519
+  },
+  "replace_b_isotonic": {
+    "precision@0.5": 0.2304666102285743,
+    "alerts_per_hour": 1954.0241898281627,
+    "event_recall": 0.8285714285714286,
+    "tta_seconds_mean": 1.1931034482758622
+  }
+}
+[2.4v2] Random K=0.1: dAUC=-0.0002 +-0.0001
+[2.4v2] RawTopK K=0.1: dAUC=+0.0001 +-0.0000
+[2.4v2] Random K=0.25: dAUC=-0.0003 +-0.0002
+[2.4v2] RawTopK K=0.25: dAUC=-0.0009 +-0.0000
+[2.4v2] Random K=0.5: dAUC=-0.0005 +-0.0002
+[2.4v2] RawTopK K=0.5: dAUC=-0.0020 +-0.0000
+[2.4v2] Random K=1.0: dAUC=-0.0006 +-0.0000
+[2.4v2] RawTopK K=1.0: dAUC=-0.0006 +-0.0000
+[saved] /Users/24sf51025/Research/FleetVAD/research/e0/followup/results/vlmvalue_calibrated.json

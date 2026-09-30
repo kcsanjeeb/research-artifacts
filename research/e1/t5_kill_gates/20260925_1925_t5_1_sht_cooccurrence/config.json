@@ -1,0 +1,9 @@
+{
+  "task": "T5.1",
+  "input": "/home/san/e1/smb/inventory_sht.jsonl",
+  "videometa": "/home/san/e1/smb/videometa_sht.jsonl",
+  "definition": "normalized per-clip windows [start/dur, end/dur], interval overlap, pairs restricted to DIFFERENT cameras; no shared clock exists (SMB PROTOCOL) so this proxy is a generous upper bound on true co-occurrence",
+  "kill_threshold": 0.15,
+  "null_draws": 200000,
+  "seed": 0
+}

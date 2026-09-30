@@ -1,0 +1,276 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{19}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{} and \showURL{}.  The latter does
+%%% not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showURL}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showURL #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+\makeatletter
+\@ifundefined{NAT@parse@date}{}{\let\NAT@parse@date@orig\NAT@parse@date}
+\@ifundefined{NAT@parse@date}{}{\def\NAT@parse@date#1#2#3#4#5#6@@{\NAT@parse@date@orig#1#2#3#4#5#6@@\def\NAT@tempyear{0000}\def\NAT@tempexlab{{?}}\ifx\NAT@year\NAT@tempyear\ifx\NAT@exlab\NAT@tempexlab\def\NAT@date{[n.\,d.]}\else\edef\NAT@date{[n.\,d.]\NAT@exlab}\fi\fi}}
+\makeatother
+
+\bibitem[Chen et~al\mbox{.}(2026b)]%
+        {streamingtom}
+\bibfield{author}{\bibinfo{person}{Xueyi Chen}, \bibinfo{person}{Keda Tao},
+  \bibinfo{person}{Kele Shao}, {et~al\mbox{.}}}
+  \bibinfo{year}{2026}\natexlab{b}.
+\newblock \showarticletitle{StreamingTOM: Streaming Token Compression for
+  Efficient Video Understanding}. In \bibinfo{booktitle}{\emph{Proceedings of
+  the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}}.
+  \bibinfo{pages}{24675--24685}.
+\newblock
+\newblock
+\shownote{arXiv:2510.18269}.
+
+
+\bibitem[Chen et~al\mbox{.}(2026a)]%
+        {streamkv}
+\bibfield{author}{\bibinfo{person}{Yilong Chen}, \bibinfo{person}{Xiang Bai},
+  \bibinfo{person}{Zhibin Wang}, {et~al\mbox{.}}}
+  \bibinfo{year}{2026}\natexlab{a}.
+\newblock \showarticletitle{StreamKV: Streaming Video Question-Answering with
+  Segment-based {KV} Cache Retrieval and Compression}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the AAAI Conference on Artificial
+  Intelligence}}, Vol.~\bibinfo{volume}{40}. \bibinfo{pages}{3120--3128}.
+\newblock
+\newblock
+\shownote{arXiv:2511.07278}.
+
+
+\bibitem[Di et~al\mbox{.}(2025)]%
+        {rekv}
+\bibfield{author}{\bibinfo{person}{Shangzhe Di}, \bibinfo{person}{Zhelun Yu},
+  \bibinfo{person}{Guanghao Zhang}, {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Streaming Video Question-Answering with In-context
+  Video KV-Cache Retrieval}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  International Conference on Learning Representations (ICLR)}}.
+\newblock
+
+
+\bibitem[Eyzaguirre et~al\mbox{.}(2026)]%
+        {statekv}
+\bibfield{author}{\bibinfo{person}{Cristobal Eyzaguirre},
+  \bibinfo{person}{Jiajun Wu}, {and} \bibinfo{person}{Juan~Carlos Niebles}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Linear Scaling Video {VLMs} for Long Video
+  Understanding}.
+\newblock
+\showeprint[arxiv]{2605.31598}~[cs.CV]
+\newblock
+\shownote{Project page: https://ceyzaguirre4.github.io/StateKV}.
+
+
+\bibitem[Guo et~al\mbox{.}(2026)]%
+        {eventvstream}
+\bibfield{author}{\bibinfo{person}{Zhenghui Guo}, \bibinfo{person}{Yuanbin
+  Man}, \bibinfo{person}{Junyuan Sheng}, {et~al\mbox{.}}}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{Event-VStream: Event-Driven Real-Time Understanding
+  for Long Video Streams}.
+\newblock
+\showeprint[arxiv]{2601.15655}~[cs.CV]
+
+
+\bibitem[Kim et~al\mbox{.}(2025)]%
+        {infiniPotV}
+\bibfield{author}{\bibinfo{person}{Minsoo Kim}, \bibinfo{person}{Kyuhong Shim},
+  \bibinfo{person}{Jungwook Choi}, {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \bibinfo{title}{InfiniPot-V: Memory-Constrained {KV} Cache
+  Compression for Streaming Video Understanding}.
+\newblock
+\showeprint[arxiv]{2506.15745}~[eess.IV]
+
+
+\bibitem[Li et~al\mbox{.}(2025)]%
+        {ovobench}
+\bibfield{author}{\bibinfo{person}{Yifei Li}, \bibinfo{person}{Junbo Niu},
+  \bibinfo{person}{Ziyang Miao}, {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{OVO-Bench}: How Far is Your Video-{LLMs} from
+  Real-World Online Video Understanding?}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the IEEE/CVF Conference on Computer
+  Vision and Pattern Recognition (CVPR)}}.
+\newblock
+\newblock
+\shownote{arXiv:2501.05510}.
+
+
+\bibitem[Lin et~al\mbox{.}(2024)]%
+        {streamingbench}
+\bibfield{author}{\bibinfo{person}{Junming Lin}, \bibinfo{person}{Zheng Fang},
+  \bibinfo{person}{Chi Chen}, {et~al\mbox{.}}} \bibinfo{year}{2024}\natexlab{}.
+\newblock \bibinfo{title}{StreamingBench: Assessing the Gap for {MLLMs} to
+  Achieve Streaming Video Understanding}.
+\newblock
+\showeprint[arxiv]{2411.03628}~[cs.CV]
+
+
+\bibitem[Ning et~al\mbox{.}(2026)]%
+        {livevlm}
+\bibfield{author}{\bibinfo{person}{Zhenyu Ning}, \bibinfo{person}{Guangda Liu},
+  \bibinfo{person}{Qihao Jin}, {et~al\mbox{.}}}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{LiveVLM: Efficient Online Video Understanding via
+  Streaming-Oriented KV Cache and Retrieval}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 63rd ACM/IEEE Design Automation
+  Conference (DAC)}}.
+\newblock
+
+
+\bibitem[Patel and Joshi(2026)]%
+        {polykv}
+\bibfield{author}{\bibinfo{person}{Ishan Patel} {and} \bibinfo{person}{Ishan
+  Joshi}.} \bibinfo{year}{2026}\natexlab{}.
+\newblock \bibinfo{title}{PolyKV: A Shared Asymmetrically-Compressed {KV} Cache
+  Pool for Multi-Agent {LLM} Inference}.
+\newblock
+\showeprint[arxiv]{2604.24971}~[cs.LG]
+\newblock
+\shownote{DOI: 10.5281/zenodo.19686729}.
+
+
+\bibitem[Xiao et~al\mbox{.}(2026)]%
+        {mukv}
+\bibfield{author}{\bibinfo{person}{Junbin Xiao}, \bibinfo{person}{Jiajun Chen},
+  \bibinfo{person}{Tianxiang Sun}, {et~al\mbox{.}}}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{MuKV: Multi-Grained KV Cache Compression for Long
+  Streaming Video Question-Answering}. In \bibinfo{booktitle}{\emph{Proceedings
+  of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  (CVPR)}}.
+\newblock
+
+
+\bibitem[Xu et~al\mbox{.}(0000)]%
+        {streamingvlm}
+\bibfield{author}{\bibinfo{person}{Ruyi Xu}, \bibinfo{person}{Guangxuan Xiao},
+  \bibinfo{person}{Yukang Chen}, {et~al\mbox{.}}}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{StreamingVLM: Real-Time Understanding for Infinite
+  Video Streams}.
+\newblock
+\showeprint{2510.09608}
+\newblock
+\shownote{arXiv preprint arXiv:2510.09608, 2025}.
+
+
+\bibitem[Yan et~al\mbox{.}(0000)]%
+        {avas}
+\bibfield{author}{\bibinfo{person}{Yuxuan Yan}, \bibinfo{person}{Shiqi Jiang},
+  \bibinfo{person}{Ting Cao}, {et~al\mbox{.}}}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{Empowering Agentic Video Analytics Systems with Video
+  Language Models}.
+\newblock
+\showeprint{2505.00254}
+\newblock
+\shownote{arXiv preprint arXiv:2505.00254, 2025}.
+
+
+\bibitem[Yang et~al\mbox{.}(0000)]%
+        {streammem}
+\bibfield{author}{\bibinfo{person}{Yanlai Yang}, \bibinfo{person}{Zhuokai
+  Zhao}, \bibinfo{person}{Satya~Narayan Shukla}, {et~al\mbox{.}}}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{StreamMem: Query-Agnostic KV Cache Memory for
+  Streaming Video Understanding}.
+\newblock
+\showeprint{2508.15717}
+\newblock
+\shownote{arXiv preprint arXiv:2508.15717, 2025}.
+
+
+\bibitem[Yeo et~al\mbox{.}(2026)]%
+        {worldmm}
+\bibfield{author}{\bibinfo{person}{Woongyeong Yeo}, \bibinfo{person}{Kangsan
+  Kim}, \bibinfo{person}{Jaehong Yoon}, {and} \bibinfo{person}{Sung~Ju Hwang}.}
+  \bibinfo{year}{2026}\natexlab{}.
+\newblock \showarticletitle{WorldMM: Dynamic Multimodal Memory Agent for Long
+  Video Reasoning}. In \bibinfo{booktitle}{\emph{Proceedings of the IEEE/CVF
+  Conference on Computer Vision and Pattern Recognition (CVPR)}}.
+\newblock
+
+
+\bibitem[Zhang et~al\mbox{.}(2025)]%
+        {flashvstream}
+\bibfield{author}{\bibinfo{person}{Haoji Zhang}, \bibinfo{person}{Yiqin Wang},
+  \bibinfo{person}{Yansong Tang}, {et~al\mbox{.}}}
+  \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{Flash-VStream: Efficient Real-Time Understanding
+  for Long Video Streams}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  IEEE/CVF International Conference on Computer Vision (ICCV)}}.
+\newblock
+
+
+\bibitem[Zhang et~al\mbox{.}(2026b)]%
+        {hermes}
+\bibfield{author}{\bibinfo{person}{Haowei Zhang}, \bibinfo{person}{Shudong
+  Yang}, \bibinfo{person}{Jinlan Fu}, {et~al\mbox{.}}}
+  \bibinfo{year}{2026}\natexlab{b}.
+\newblock \showarticletitle{HERMES: {KV} Cache as Hierarchical Memory for
+  Efficient Streaming Video Understanding}. In
+  \bibinfo{booktitle}{\emph{Proceedings of the 64th Annual Meeting of the
+  Association for Computational Linguistics (Volume 1: Long Papers)}}.
+  \bibinfo{pages}{8411--8430}.
+\newblock
+\newblock
+\shownote{arXiv:2601.14724}.
+
+
+\bibitem[Zhang et~al\mbox{.}(2026a)]%
+        {weavetime}
+\bibfield{author}{\bibinfo{person}{Yulin Zhang}, \bibinfo{person}{Cheng Shi},
+  {and} \bibinfo{person}{Sibei Yang}.} \bibinfo{year}{2026}\natexlab{a}.
+\newblock \showarticletitle{WeaveTime: Stream from Earlier Frames into Emergent
+  Memory in VideoLLMs}. In \bibinfo{booktitle}{\emph{Proceedings of the
+  IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}}.
+\newblock
+
+
+\bibitem[Zou et~al\mbox{.}(0000)]%
+        {codecsight}
+\bibfield{author}{\bibinfo{person}{Yulin Zou}, \bibinfo{person}{Yan Chen},
+  \bibinfo{person}{Wenyan Chen}, {et~al\mbox{.}}}
+  \bibinfo{year}{[n.\,d.]}\natexlab{}.
+\newblock \bibinfo{title}{CodecSight: Leveraging Video Codec Signals for
+  Efficient Streaming VLM Inference}.
+\newblock
+\showeprint{2604.06036}
+\newblock
+\shownote{arXiv preprint arXiv:2604.06036, 2026}.
+
+
+\end{thebibliography}

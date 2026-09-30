@@ -1,0 +1,25 @@
+{
+  "tagging": {
+    "n_events": 749,
+    "gpu_s_total_approx": 5800,
+    "note": "749 events re-narrated, ~7.7s/event, 4 GPUs ~30min wall"
+  },
+  "refinement_F2": {
+    "gpu_s": 0
+  },
+  "expansion_F3a": {
+    "gpu_s": 0
+  },
+  "verification_variants": {
+    "gpu_s_per_eval": {
+      "syn_sym": 303.4,
+      "asym": 302.1,
+      "asym2": 307.3,
+      "asym3": 303.1
+    }
+  },
+  "final_config_query_eval": {
+    "gpu_s": 0.0,
+    "config": "tags+refined-combo+verify none"
+  }
+}

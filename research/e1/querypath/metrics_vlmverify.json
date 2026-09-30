@@ -1,0 +1,30 @@
+{
+  "per_type": {
+    "existence": {
+      "n": 60,
+      "accuracy": 0.5
+    },
+    "negation": {
+      "n": 50,
+      "accuracy": 0.9,
+      "false_alarm_rate": 0.1
+    },
+    "existence_plus_negation": {
+      "balanced_acc": 0.7
+    },
+    "temporal": {
+      "n": 60,
+      "mean_tIoU": 0.201,
+      "tIoU_at_0.3": 0.217
+    },
+    "retrieval": {
+      "n": 50,
+      "recall_at_10": 0.254,
+      "AP": 0.141
+    }
+  },
+  "mode": "b",
+  "tau": 0.47999999999999987,
+  "total_wall_s": 435.9,
+  "total_verify_gpu_s": 435.7
+}

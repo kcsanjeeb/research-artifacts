@@ -1,0 +1,433 @@
+{
+  "tier1_spec": {
+    "model": "CLIP ViT-B/16 (weights rebuilt from model_ucf.pth clipmodel.* keys; openaipublic unreachable)",
+    "resolution": "224x224",
+    "frames_per_snippet": 16,
+    "pooling": "mean of raw (unnormalized) per-frame encode_image outputs over each 16-frame snippet",
+    "crops": "released features are 10-crop; VadCLIP uses crop 5; deployment measured at 1 crop = 1 forward/frame",
+    "verification": "live extraction with standard CLIP transform matches released features at cosine 0.73-0.92 (our mp4s are a re-encode; released features reproduce AUC 0.8802 exactly)"
+  },
+  "throughput": {
+    "decode_cpu_1proc": {
+      "frames_per_s": 3207.414631212111,
+      "clips_per_s": 200.46341445075694
+    },
+    "decode_cpu_16proc": {
+      "frames_per_s": 25481.889757344677,
+      "clips_per_s": 1592.6181098340423,
+      "cores": 16
+    },
+    "decode_nvdec": {
+      "available": false
+    },
+    "tier1_extract": {
+      "batch_sweep": [
+        {
+          "batch": 1,
+          "frames_per_s": 161.68529086594432,
+          "clips_per_s": 10.10533067912152,
+          "p50_ms": 6.094813346862793,
+          "p95_ms": 6.618916988372803,
+          "p99_ms": 6.642456054687509,
+          "mean_ms": 6.184854507446289,
+          "vram_torch_mb": 620.110336,
+          "vram_smi_mb": 0.0,
+          "util_mean": 0.0,
+          "util_p95": 0.0,
+          "mem_used_mb_max": 279.969792
+        },
+        {
+          "batch": 8,
+          "frames_per_s": 275.14767246384866,
+          "clips_per_s": 17.19672952899054,
+          "p50_ms": 29.04331684112549,
+          "p95_ms": 29.184889793395996,
+          "p99_ms": 29.808895587921143,
+          "mean_ms": 29.07529592514038,
+          "vram_torch_mb": 692.240896,
+          "vram_smi_mb": 0.0,
+          "util_mean": 0.0,
+          "util_p95": 0.0,
+          "mem_used_mb_max": 279.969792
+        },
+        {
+          "batch": 16,
+          "frames_per_s": 285.3850445669184,
+          "clips_per_s": 17.8365652854324,
+          "p50_ms": 56.05125427246094,
+          "p95_ms": 56.17157220840454,
+          "p99_ms": 56.3103985786438,
+          "mean_ms": 56.064605712890625,
+          "vram_torch_mb": 774.414848,
+          "vram_smi_mb": 0.0,
+          "util_mean": 0.0,
+          "util_p95": 0.0,
+          "mem_used_mb_max": 279.969792
+        },
+        {
+          "batch": 32,
+          "frames_per_s": 285.9056096324598,
+          "clips_per_s": 17.869100602028738,
+          "p50_ms": 111.9225025177002,
+          "p95_ms": 112.02539205551147,
+          "p99_ms": 112.10216045379639,
+          "mean_ms": 111.92505121231079,
+          "vram_torch_mb": 939.139584,
+          "vram_smi_mb": 0.0,
+          "util_mean": 0.0,
+          "util_p95": 0.0,
+          "mem_used_mb_max": 279.969792
+        },
+        {
+          "batch": 64,
+          "frames_per_s": 302.9736217629939,
+          "clips_per_s": 18.93585136018712,
+          "p50_ms": 211.2257480621338,
+          "p95_ms": 211.46090030670166,
+          "p99_ms": 211.54682874679565,
+          "mean_ms": 211.23951196670532,
+          "vram_torch_mb": 1268.654592,
+          "vram_smi_mb": 0.0,
+          "util_mean": 0.0,
+          "util_p95": 0.0,
+          "mem_used_mb_max": 279.969792
+        },
+        {
+          "batch": 128,
+          "frames_per_s": 305.04754618766106,
+          "clips_per_s": 19.065471636728816,
+          "p50_ms": 418.9889430999756,
+          "p95_ms": 422.63604402542114,
+          "p99_ms": 423.47243785858154,
+          "mean_ms": 419.6067190170288,
+          "vram_torch_mb": 1928.602112,
+          "vram_smi_mb": 0.0,
+          "util_mean": 0.0,
+          "util_p95": 0.0,
+          "mem_used_mb_max": 279.969792
+        }
+      ],
+      "best_batch": 128,
+      "frames_per_s": 305.04754618766106,
+      "clips_per_s": 19.065471636728816,
+      "vram_gb": 1.928602112,
+      "p50_ms": 418.9889430999756,
+      "p95_ms": 422.63604402542114
+    },
+    "tier1_head": {
+      "clips_per_s": 6807.551585124837
+    },
+    "end_to_end": {
+      "frames_per_s": 292.05309410878715,
+      "clips_per_s": 18.253318381799197,
+      "note": "decode(resize)+extract, batch 64, single process, 1 GPU"
+    },
+    "stride_sweep": [
+      {
+        "stride": 1,
+        "auc_held": 0.8801992605166815,
+        "ap_held": 0.3352453933862587,
+        "auc_analysed_only": 0.8791208161591098,
+        "event_recall": 0.8357142857142857,
+        "tta_seconds_mean": 0.6518518518518519
+      },
+      {
+        "stride": 2,
+        "auc_held": 0.8798165479160523,
+        "ap_held": 0.3339061711303978,
+        "auc_analysed_only": 0.8793570630830371,
+        "event_recall": 0.8357142857142857,
+        "tta_seconds_mean": 0.6792022792022792
+      },
+      {
+        "stride": 4,
+        "auc_held": 0.8788331984808905,
+        "ap_held": 0.33103235393453556,
+        "auc_analysed_only": 0.8797574028207944,
+        "event_recall": 0.8357142857142857,
+        "tta_seconds_mean": 0.7566951566951567
+      },
+      {
+        "stride": 8,
+        "auc_held": 0.8763252123510801,
+        "ap_held": 0.32508437484836367,
+        "auc_analysed_only": 0.8785372878526675,
+        "event_recall": 0.8214285714285714,
+        "tta_seconds_mean": 0.8162318840579711
+      },
+      {
+        "stride": 16,
+        "auc_held": 0.8703900724665317,
+        "ap_held": 0.3118873041521054,
+        "auc_analysed_only": 0.883044984188385,
+        "event_recall": 0.7857142857142857,
+        "tta_seconds_mean": 0.8775757575757576
+      }
+    ],
+    "vlm_holmesvau2b": {
+      "clips_per_s": 0.757,
+      "source": "E0 capacity.json best single-GPU (b4)"
+    }
+  },
+  "fleet_model": {
+    "frames_per_camera_hour": 108000.0,
+    "snippets_per_camera_hour": 6750.0,
+    "vlm_clips_per_camera_hour": 309.59999999999997,
+    "clip_period_s": 1.0,
+    "escalation_rate": 0.086
+  },
+  "budget_split_per_camera_hour": {
+    "decode_gpu_s": 4.238304184989695,
+    "tier1_extract_gpu_s": 354.04316917061806,
+    "tier1_head_gpu_s": 0.9915459200851899,
+    "vlm_gpu_s_at_8.6pct": 408.9828269484808,
+    "total_gpu_s": 768.2558462241738,
+    "vlm_share_of_total": 0.5323523783887242
+  },
+  "cameras_per_4gpu_server": {
+    "with_vlm": 18.743755834430893,
+    "without_vlm": 40.08093908368323
+  },
+  "headline_table": [
+    {
+      "allocation": "tier1 stride 1, no VLM",
+      "gpu_s_per_camera_hour": 359.27301927569295,
+      "auc": 0.8801992605166815,
+      "dAUC_vs_base": 0.0,
+      "auc_per_gpu_s": 0.002449945343213343
+    },
+    {
+      "allocation": "tier1 stride 2, no VLM",
+      "gpu_s_per_camera_hour": 179.63650963784647,
+      "auc": 0.8798165479160523,
+      "dAUC_vs_base": -0.0003827126006291648,
+      "auc_per_gpu_s": 0.0048977602030333
+    },
+    {
+      "allocation": "tier1 stride 4, no VLM",
+      "gpu_s_per_camera_hour": 89.81825481892324,
+      "auc": 0.8788331984808905,
+      "dAUC_vs_base": -0.001366062035791038,
+      "auc_per_gpu_s": 0.009784572192508629
+    },
+    {
+      "allocation": "tier1 stride 8, no VLM",
+      "gpu_s_per_camera_hour": 44.90912740946162,
+      "auc": 0.8763252123510801,
+      "dAUC_vs_base": -0.0038740481656014403,
+      "auc_per_gpu_s": 0.019513298585410784
+    },
+    {
+      "allocation": "tier1 stride 16, no VLM",
+      "gpu_s_per_camera_hour": 22.45456370473081,
+      "auc": 0.8703900724665317,
+      "dAUC_vs_base": -0.009809188050149853,
+      "auc_per_gpu_s": 0.038762279415081875
+    },
+    {
+      "allocation": "tier1 stride 1 + VLM @8.6%",
+      "gpu_s_per_camera_hour": 768.2558462241738,
+      "auc": 0.8795992605166815,
+      "dAUC_vs_base": -0.0006,
+      "auc_per_gpu_s": 0.0011449301230049061
+    },
+    {
+      "allocation": "tier1 stride 2 + VLM @8.6%",
+      "gpu_s_per_camera_hour": 588.6193365863273,
+      "auc": 0.8792165479160523,
+      "dAUC_vs_base": -0.0006,
+      "auc_per_gpu_s": 0.0014936929408657063
+    }
+  ],
+  "stride_sweep": [
+    {
+      "stride": 1,
+      "auc_held": 0.8801992605166815,
+      "ap_held": 0.3352453933862587,
+      "auc_analysed_only": 0.8791208161591098,
+      "event_recall": 0.8357142857142857,
+      "tta_seconds_mean": 0.6518518518518519
+    },
+    {
+      "stride": 2,
+      "auc_held": 0.8798165479160523,
+      "ap_held": 0.3339061711303978,
+      "auc_analysed_only": 0.8793570630830371,
+      "event_recall": 0.8357142857142857,
+      "tta_seconds_mean": 0.6792022792022792
+    },
+    {
+      "stride": 4,
+      "auc_held": 0.8788331984808905,
+      "ap_held": 0.33103235393453556,
+      "auc_analysed_only": 0.8797574028207944,
+      "event_recall": 0.8357142857142857,
+      "tta_seconds_mean": 0.7566951566951567
+    },
+    {
+      "stride": 8,
+      "auc_held": 0.8763252123510801,
+      "ap_held": 0.32508437484836367,
+      "auc_analysed_only": 0.8785372878526675,
+      "event_recall": 0.8214285714285714,
+      "tta_seconds_mean": 0.8162318840579711
+    },
+    {
+      "stride": 16,
+      "auc_held": 0.8703900724665317,
+      "ap_held": 0.3118873041521054,
+      "auc_analysed_only": 0.883044984188385,
+      "event_recall": 0.7857142857142857,
+      "tta_seconds_mean": 0.8775757575757576
+    }
+  ],
+  "iso_budget": [
+    {
+      "budget_gpu_s_per_h": 7200.0,
+      "strategy": "all_tier1_stride1",
+      "cameras": 20.040469541841617,
+      "auc": 0.8801992605166815
+    },
+    {
+      "budget_gpu_s_per_h": 14400.0,
+      "strategy": "all_tier1_stride1",
+      "cameras": 40.08093908368323,
+      "auc": 0.8801992605166815
+    },
+    {
+      "budget_gpu_s_per_h": 28800.0,
+      "strategy": "all_tier1_stride1",
+      "cameras": 80.16187816736647,
+      "auc": 0.8801992605166815
+    },
+    {
+      "budget_gpu_s_per_h": 57600.0,
+      "strategy": "all_tier1_stride1",
+      "cameras": 160.32375633473293,
+      "auc": 0.8801992605166815
+    },
+    {
+      "budget_gpu_s_per_h": 7200.0,
+      "strategy": "all_tier1_stride2",
+      "cameras": 40.08093908368323,
+      "auc": 0.8798165479160523
+    },
+    {
+      "budget_gpu_s_per_h": 14400.0,
+      "strategy": "all_tier1_stride2",
+      "cameras": 80.16187816736647,
+      "auc": 0.8798165479160523
+    },
+    {
+      "budget_gpu_s_per_h": 28800.0,
+      "strategy": "all_tier1_stride2",
+      "cameras": 160.32375633473293,
+      "auc": 0.8798165479160523
+    },
+    {
+      "budget_gpu_s_per_h": 57600.0,
+      "strategy": "all_tier1_stride2",
+      "cameras": 320.64751266946587,
+      "auc": 0.8798165479160523
+    },
+    {
+      "budget_gpu_s_per_h": 7200.0,
+      "strategy": "all_tier1_stride4",
+      "cameras": 80.16187816736647,
+      "auc": 0.8788331984808905
+    },
+    {
+      "budget_gpu_s_per_h": 14400.0,
+      "strategy": "all_tier1_stride4",
+      "cameras": 160.32375633473293,
+      "auc": 0.8788331984808905
+    },
+    {
+      "budget_gpu_s_per_h": 28800.0,
+      "strategy": "all_tier1_stride4",
+      "cameras": 320.64751266946587,
+      "auc": 0.8788331984808905
+    },
+    {
+      "budget_gpu_s_per_h": 57600.0,
+      "strategy": "all_tier1_stride4",
+      "cameras": 641.2950253389317,
+      "auc": 0.8788331984808905
+    },
+    {
+      "budget_gpu_s_per_h": 7200.0,
+      "strategy": "all_tier1_stride8",
+      "cameras": 160.32375633473293,
+      "auc": 0.8763252123510801
+    },
+    {
+      "budget_gpu_s_per_h": 14400.0,
+      "strategy": "all_tier1_stride8",
+      "cameras": 320.64751266946587,
+      "auc": 0.8763252123510801
+    },
+    {
+      "budget_gpu_s_per_h": 28800.0,
+      "strategy": "all_tier1_stride8",
+      "cameras": 641.2950253389317,
+      "auc": 0.8763252123510801
+    },
+    {
+      "budget_gpu_s_per_h": 57600.0,
+      "strategy": "all_tier1_stride8",
+      "cameras": 1282.5900506778635,
+      "auc": 0.8763252123510801
+    },
+    {
+      "budget_gpu_s_per_h": 7200.0,
+      "strategy": "all_tier1_stride16",
+      "cameras": 320.64751266946587,
+      "auc": 0.8703900724665317
+    },
+    {
+      "budget_gpu_s_per_h": 14400.0,
+      "strategy": "all_tier1_stride16",
+      "cameras": 641.2950253389317,
+      "auc": 0.8703900724665317
+    },
+    {
+      "budget_gpu_s_per_h": 28800.0,
+      "strategy": "all_tier1_stride16",
+      "cameras": 1282.5900506778635,
+      "auc": 0.8703900724665317
+    },
+    {
+      "budget_gpu_s_per_h": 57600.0,
+      "strategy": "all_tier1_stride16",
+      "cameras": 2565.180101355727,
+      "auc": 0.8703900724665317
+    },
+    {
+      "budget_gpu_s_per_h": 7200.0,
+      "strategy": "tier1_stride1+VLM@8.6%",
+      "cameras": 9.371877917215446,
+      "auc": 0.8795992605166815
+    },
+    {
+      "budget_gpu_s_per_h": 14400.0,
+      "strategy": "tier1_stride1+VLM@8.6%",
+      "cameras": 18.743755834430893,
+      "auc": 0.8795992605166815
+    },
+    {
+      "budget_gpu_s_per_h": 28800.0,
+      "strategy": "tier1_stride1+VLM@8.6%",
+      "cameras": 37.487511668861785,
+      "auc": 0.8795992605166815
+    },
+    {
+      "budget_gpu_s_per_h": 57600.0,
+      "strategy": "tier1_stride1+VLM@8.6%",
+      "cameras": 74.97502333772357,
+      "auc": 0.8795992605166815
+    }
+  ],
+  "gate1_verdict": "STRONG",
+  "gate2_verdict": "FLAT",
+  "verdict": "MORE-CAMERAS PAPER"
+}

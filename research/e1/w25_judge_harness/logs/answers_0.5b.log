@@ -1,0 +1,15 @@
+[I 260926 17:11:30 base:203] seed: 2024
+[I 260926 17:11:30 base:208] Loading VideoQA model: model_zoo/llava-onevision-qwen2-0.5b-ov-hf
+[I 260926 17:11:33 llava_onevision_rekv:146] n_init: 13
+[I 260926 17:11:33 llava_onevision_rekv:146] n_local: 15000
+[I 260926 17:11:33 llava_onevision_rekv:146] fattn: False
+[I 260926 17:11:33 llava_onevision_rekv:146] block_size: 196
+[I 260926 17:11:33 llava_onevision_rekv:146] topk: 64
+[I 260926 17:11:33 llava_onevision_rekv:146] chunk_size: 1
+[I 260926 17:11:33 llava_onevision_rekv:146] max_cached_block: 128
+[I 260926 17:11:33 llava_onevision_rekv:146] exc_block_size: 196
+[I 260926 17:11:33 llava_onevision_rekv:146] pin_memory: True
+[I 260926 17:11:33 llava_onevision_rekv:147] n_frame_tokens: 196
+Please install pyav to use video processing functions.
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [20:19<3:02:58, 1219.89s/it] 20%|██        | 2/10 [32:26<2:03:56, 929.58s/it]  30%|███       | 3/10 [41:15<1:27:06, 746.71s/it] 40%|████      | 4/10 [52:01<1:10:41, 706.97s/it] 50%|█████     | 5/10 [1:02:53<57:15, 687.19s/it] 60%|██████    | 6/10 [1:15:50<47:51, 717.84s/it] 70%|███████   | 7/10 [1:26:03<34:10, 683.37s/it] 80%|████████  | 8/10 [1:37:25<22:45, 682.98s/it] 90%|█████████ | 9/10 [1:46:54<10:47, 647.51s/it]100%|██████████| 10/10 [1:59:46<00:00, 685.70s/it]100%|██████████| 10/10 [1:59:46<00:00, 718.61s/it]
+ANSWER_05B_EXIT=0

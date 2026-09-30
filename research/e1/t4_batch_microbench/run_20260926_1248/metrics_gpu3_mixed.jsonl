@@ -1,0 +1,6 @@
+{"tag": "mixed_b8", "batch_size": 8, "n_4f": 4, "n_8f": 4, "batch_idx": 0, "jobs": 8, "wall_s": 18.391, "padded_input_tokens": 1706, "gen_tokens_total": 1944, "peak_vram_mb": 18852.6, "elapsed_s": 64.6}
+{"tag": "mixed_b8", "batch_size": 8, "n_4f": 4, "n_8f": 4, "batch_idx": 1, "jobs": 8, "wall_s": 13.003, "padded_input_tokens": 1706, "gen_tokens_total": 1208, "peak_vram_mb": 18852.6, "elapsed_s": 78.2}
+{"tag": "mixed_b8", "batch_size": 8, "n_4f": 4, "n_8f": 4, "batch_idx": 2, "jobs": 8, "wall_s": 15.851, "padded_input_tokens": 1706, "gen_tokens_total": 1600, "peak_vram_mb": 18852.6, "elapsed_s": 94.5}
+{"tag": "mixed_b8", "batch_size": 8, "n_4f": 4, "n_8f": 4, "batch_idx": 3, "jobs": 8, "wall_s": 19.581, "padded_input_tokens": 1706, "gen_tokens_total": 2104, "peak_vram_mb": 18852.6, "elapsed_s": 114.6}
+{"tag": "mixed_b16", "batch_size": 16, "n_4f": 8, "n_8f": 8, "batch_idx": 0, "jobs": 16, "wall_s": 35.589, "padded_input_tokens": 1706, "gen_tokens_total": 4912, "peak_vram_mb": 21824.3, "elapsed_s": 59.4}
+{"tag": "mixed_b16", "batch_size": 16, "n_4f": 8, "n_8f": 8, "batch_idx": 1, "jobs": 16, "wall_s": 24.483, "padded_input_tokens": 1706, "gen_tokens_total": 2944, "peak_vram_mb": 21824.3, "elapsed_s": 84.8}

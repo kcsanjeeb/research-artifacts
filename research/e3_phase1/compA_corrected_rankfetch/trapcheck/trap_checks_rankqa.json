@@ -1,0 +1,323 @@
+{
+  "mode": "rankqa",
+  "decaf_position_free": "1",
+  "TR1_rank_plumbing": {
+    "n_init": 13,
+    "n_questions": 10,
+    "store_frames": 420,
+    "checks": [
+      {
+        "qi": 0,
+        "question": "What is the setting of the video clip?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 1,
+        "question": "Is the scene occurring in an urban or rural environment?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 2,
+        "question": "What time of day does the scene appear to be set in?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 3,
+        "question": "How is the subject navigating the outdoor space?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 4,
+        "question": "Can you provide an overview of the action in this clip?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 5,
+        "question": "Does the video show the subject entering a building?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 6,
+        "question": "Is the subject interacting with other people in the video?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 7,
+        "question": "Does the video capture the subject engaging in a sport?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 8,
+        "question": "Is the subject seen leaving the field in the video?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      },
+      {
+        "qi": 9,
+        "question": "Does the video show the subject at home?",
+        "end_time": 840,
+        "store_blocks_at_query": 420,
+        "manager_length_tokens": 82333,
+        "rank_pos_ok": true,
+        "next_pos_unset": true,
+        "retrieved_layer0_head": [
+          6,
+          107,
+          210,
+          211,
+          212,
+          214,
+          215,
+          216
+        ],
+        "retrieved_in_pos_order": true,
+        "n_retrieved": 64
+      }
+    ]
+  },
+  "TR2_late_stream_stock_equivalence": {
+    "video_id": "0fa75cb3-c4a0-4232-bdc4-15116ed39d88",
+    "note": "questions answered with the full 420-frame (840 s) store ~84k tokens + init - the exact-mode failure position; rank mode must match W2.5 stock answers",
+    "checks": [
+      {
+        "qi": 0,
+        "question": "What is the setting of the video clip?",
+        "end_time": 840,
+        "pred": "The setting of the video clip is an outdoor area with a large, empty space featuring a curved stone wall, a body of water, and a person standing near the water's edge.",
+        "w25_pred": "The setting of the video clip is an outdoor area with a large, empty space featuring a curved stone wall, a body of water, and a person standing near the water's edge.",
+        "match": true,
+        "pred_chars": 167
+      },
+      {
+        "qi": 1,
+        "question": "Is the scene occurring in an urban or rural environment?",
+        "end_time": 840,
+        "pred": "The scene is occurring in a rural environment, as indicated by the presence of palm trees and a low-lying building in the background.",
+        "w25_pred": "The scene is occurring in a rural environment, as indicated by the presence of palm trees and a low-lying building in the background.",
+        "match": true,
+        "pred_chars": 133
+      },
+      {
+        "qi": 2,
+        "question": "What time of day does the scene appear to be set in?",
+        "end_time": 840,
+        "pred": "The scene appears to be set during sunset, as indicated by the low position of the sun near the horizon.",
+        "w25_pred": "The scene appears to be set during sunset, as indicated by the low position of the sun near the horizon.",
+        "match": true,
+        "pred_chars": 104
+      },
+      {
+        "qi": 3,
+        "question": "How is the subject navigating the outdoor space?",
+        "end_time": 840,
+        "pred": "The subject is walking along the edge of the water, moving towards the right side of the frame.",
+        "w25_pred": "The subject is walking along the edge of the water, moving towards the right side of the frame.",
+        "match": true,
+        "pred_chars": 95
+      },
+      {
+        "qi": 4,
+        "question": "Can you provide an overview of the action in this clip?",
+        "end_time": 840,
+        "pred": "The clip begins with a view of an empty, arched doorway leading to a serene courtyard with a body of water and a distant shoreline. A person wearing a yellow shirt and dark pants walks towards the camera, and the person is later seen standing on the edge of the courtyard, looking out towards the water. The scene transitions to a person standing on the edge of the same courtyard, looking out towards the water. The person then walks towards the camera, and the video concludes with the person walking away from the camera towards the water.",
+        "w25_pred": "The clip begins with a view of an empty, arched doorway leading to a serene courtyard with a body of water and a distant shoreline. A person wearing a yellow shirt and dark pants walks towards the camera, and the person is later seen standing on the edge of the courtyard, looking out towards the water. The scene transitions to a person standing on the edge of the same courtyard, looking out towards the water. The person then walks towards the camera, and the video concludes with the person walking away from the camera towards the water.",
+        "match": true,
+        "pred_chars": 542
+      },
+      {
+        "qi": 5,
+        "question": "Does the video show the subject entering a building?",
+        "end_time": 840,
+        "pred": "Yes, the video shows the subject entering a building, as indicated by the person entering the frame from the right side.",
+        "w25_pred": "Yes, the video shows the subject entering a building, as indicated by the person entering the frame from the right side.",
+        "match": true,
+        "pred_chars": 120
+      },
+      {
+        "qi": 6,
+        "question": "Is the subject interacting with other people in the video?",
+        "end_time": 840,
+        "pred": "No, the subject is not interacting with other people in the video.",
+        "w25_pred": "No, the subject is not interacting with other people in the video.",
+        "match": true,
+        "pred_chars": 66
+      },
+      {
+        "qi": 7,
+        "question": "Does the video capture the subject engaging in a sport?",
+        "end_time": 840,
+        "pred": "No, the video does not capture the subject engaging in a sport.",
+        "w25_pred": "No, the video does not capture the subject engaging in a sport.",
+        "match": true,
+        "pred_chars": 63
+      },
+      {
+        "qi": 8,
+        "question": "Is the subject seen leaving the field in the video?",
+        "end_time": 840,
+        "pred": "Yes.",
+        "w25_pred": "Yes.",
+        "match": true,
+        "pred_chars": 4
+      },
+      {
+        "qi": 9,
+        "question": "Does the video show the subject at home?",
+        "end_time": 840,
+        "pred": "No.",
+        "w25_pred": "No.",
+        "match": true,
+        "pred_chars": 3
+      }
+    ]
+  },
+  "verdict": {
+    "gate_rank_plumbing": "PASS",
+    "gate_late_stream_stock_equiv": "PASS",
+    "n_stock_matches": "10/10",
+    "OVERALL": "PASS"
+  }
+}

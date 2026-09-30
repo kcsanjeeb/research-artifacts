@@ -1,0 +1,53 @@
+{
+  "total_stream_hours": 1.822,
+  "n_gt_events": 59,
+  "n_union_events": 40,
+  "decode_cpu_s_per_stream_h": 10.38,
+  "embed_gpu_s_per_stream_h": 0.232,
+  "rows": [
+    {
+      "gate": "loose",
+      "n_events": 40,
+      "event_recall": 0.966,
+      "recalled": 57,
+      "gt_events": 59,
+      "cost_gpu_s_per_stream_h": 529.7,
+      "tier1_gpu_s_per_h": 354.0,
+      "narration_gpu_s_per_h": 175.7,
+      "storage_kb_per_stream_day": 1257.47
+    },
+    {
+      "gate": "calibrated",
+      "n_events": 37,
+      "event_recall": 0.949,
+      "recalled": 56,
+      "gt_events": 59,
+      "cost_gpu_s_per_stream_h": 516.4,
+      "tier1_gpu_s_per_h": 354.0,
+      "narration_gpu_s_per_h": 162.4,
+      "storage_kb_per_stream_day": 1163.16
+    },
+    {
+      "gate": "strict",
+      "n_events": 35,
+      "event_recall": 0.949,
+      "recalled": 56,
+      "gt_events": 59,
+      "cost_gpu_s_per_stream_h": 509.2,
+      "tier1_gpu_s_per_h": 354.0,
+      "narration_gpu_s_per_h": 155.2,
+      "storage_kb_per_stream_day": 1100.28
+    },
+    {
+      "gate": "time_driven_30s",
+      "n_events": 244,
+      "event_recall": 1.0,
+      "recalled": 59,
+      "gt_events": 59,
+      "cost_gpu_s_per_stream_h": 1441.6,
+      "tier1_gpu_s_per_h": 354.0,
+      "narration_gpu_s_per_h": 1087.6,
+      "storage_kb_per_stream_day": 7670.55
+    }
+  ]
+}

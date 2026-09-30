@@ -1,0 +1,41 @@
+% DECAF measurement paper — Overleaf-ready. Compile: pdfLaTeX. Class: acmart.
+\documentclass[sigconf,anonymous]{acmart}
+
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{xspace}
+
+\settopmatter{printacmref=false}
+\setcopyright{none}
+\renewcommand\footnotetextcopyrightpermission[1]{}
+\pagestyle{plain}
+
+\newcommand{\sys}{DECAF\xspace}
+
+\title{Faithful Baselines, Six Dead Mechanisms, and One Diagnosis:\\ A Measurement Study of Streaming Video-LLM Memory}
+
+\begin{document}
+
+\begin{abstract}
+Streaming video-LLM memory is a crowded design space — multi-grained compression, KV retrieval, query-agnostic pruning, trained streaming architectures — evaluated with incomparable judges, unmatched configurations, and no shared baselines. We built a controlled evaluation stack (faithful reproductions of MuKV and ReKV, a locally hosted 72B judge with a measured systematic offset that is stable across three independent systems, pre-registered gates, and multiplicity correction applied symmetrically to our own claims) and used it to test six candidate mechanisms drawn from the 2025--2026 literature. All six died under pre-registration; each death is a measurement with a root cause. Two methodological contributions survive: an oracle-null protocol that shows a widely-cited style of clairvoyant upper bound is a max-over-policies artifact, and a ceiling decomposition of every all-wrong question across three benchmarks attributes failures to model capability at long temporal windows rather than retrieval or storage — with a powered causal test then refuting the one plausible lever (window coverage), closing the mechanism space on evidence rather than on insufficient power. The field, in our measurement, is optimizing second-order terms while the first-order term goes unmeasured. We provide the full reproducibility trail (every number traces to a judged artifact, config, and code state) and the Pareto accounting of where the accuracy--storage frontier actually stands. Our final claim is deliberately modest: at true 0.5 fps, a multi-grain position-disentangled store matches CVPR'26 SOTA accuracy at comparable storage with a different architecture, and the interesting problems are elsewhere.
+\end{abstract}
+
+\maketitle
+
+\input{sections/01_introduction}
+\input{sections/02_stack}
+\input{sections/03_mechanisms}
+\input{sections/04_oracle_null}
+\input{sections/05_diagnosis}
+\input{sections/06_pareto}
+\input{sections/07_discussion}
+\input{sections/08_conclusion}
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+\appendix
+\input{sections/09_appendix}
+
+\end{document}

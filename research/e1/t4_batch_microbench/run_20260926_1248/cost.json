@@ -1,0 +1,10 @@
+{
+  "total_gpu_s_all_points": 1123.8,
+  "total_gpu_h": 0.312,
+  "gpus_used": [
+    1,
+    2,
+    3
+  ],
+  "model_load_gpu_s_per_process": "~120 (3 processes)"
+}

@@ -1,0 +1,19 @@
+{
+  "T3c_encode_invariance": {
+    "bit_exact": true,
+    "max_abs_diff": 0.0
+  },
+  "verdict": {
+    "gate_store_prerope": "PASS",
+    "gate_rotary": "PASS",
+    "gate_sidecar": "PASS",
+    "gate_stock_equiv": "PASS",
+    "max_stored_k_rel_err": 0.0,
+    "max_stored_v_rel_err": 0.0,
+    "max_rotary_rel_err": 0.00038180980482138693,
+    "OVERALL": "PASS",
+    "gate_rotate_on_fetch": "PASS",
+    "gate_qa_smoke": "PASS",
+    "gate_encode_invariance": "PASS"
+  }
+}

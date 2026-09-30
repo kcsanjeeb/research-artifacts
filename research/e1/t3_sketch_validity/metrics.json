@@ -1,0 +1,103 @@
+{
+  "labels": {
+    "primary": "max bge cosine of narration vs prior same-camera narrations",
+    "secondary": "tag-match rate vs priors"
+  },
+  "pq": {
+    "M": 8,
+    "K": 64,
+    "trained_on": "pooled features of all 749 events"
+  },
+  "tod_bucket_s": 300.0,
+  "spearman": {
+    "count_strict": {
+      "vs_cosine_label": {
+        "rho": 0.30643017181968973,
+        "p": 0.0008214274538666029
+      },
+      "vs_tagrate_label": {
+        "rho": 0.11489646435087617,
+        "p": 0.2193932140427763
+      }
+    },
+    "count_strict_tod": {
+      "vs_cosine_label": {
+        "rho": 0.31603890301697607,
+        "p": 0.0005482548660449631
+      },
+      "vs_tagrate_label": {
+        "rho": 0.05951396369887214,
+        "p": 0.5256852716469128
+      }
+    },
+    "count_subspace_mean": {
+      "vs_cosine_label": {
+        "rho": 0.3825909343934527,
+        "p": 2.250975903878839e-05
+      },
+      "vs_tagrate_label": {
+        "rho": 0.04854688729899319,
+        "p": 0.6048010159676416
+      }
+    },
+    "oracle_clip_cos": {
+      "vs_cosine_label": {
+        "rho": 0.4164148694883328,
+        "p": 3.3302597911642893e-06
+      },
+      "vs_tagrate_label": {
+        "rho": 0.14115350687160982,
+        "p": 0.13069070957431783
+      }
+    },
+    "tag_any_match": {
+      "vs_cosine_label": {
+        "rho": -0.019230089446070426,
+        "p": 0.8376577862124058
+      },
+      "vs_tagrate_label": {
+        "rho": 0.8591753602054277,
+        "p": 5.795335455169634e-35
+      }
+    },
+    "tag_match_rate": {
+      "vs_cosine_label": {
+        "rho": -0.0807291654822019,
+        "p": 0.38897881261988143
+      },
+      "vs_tagrate_label": {
+        "rho": 1.0,
+        "p": 0.0
+      }
+    }
+  },
+  "descriptive": {
+    "n_events": 749,
+    "n_cameras": 633,
+    "n_eligible": 116,
+    "events_per_camera_hist": {
+      "1": 559,
+      "2": 54,
+      "3": 9,
+      "4": 4,
+      "5": 5,
+      "6": 0,
+      "7": 2
+    },
+    "redundancy_cos_quantiles": [
+      0.317,
+      0.533,
+      0.634,
+      0.745,
+      0.998
+    ],
+    "count_subspace_mean_quantiles": [
+      0.0,
+      0.625,
+      1.0,
+      2.0,
+      5.5
+    ]
+  },
+  "feature_fallbacks": 0
+}

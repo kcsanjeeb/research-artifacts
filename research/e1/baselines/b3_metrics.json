@@ -1,0 +1,23 @@
+{
+ "label": "B3_vlm_direct",
+ "existence": {
+  "n": 60,
+  "acc": 0.633
+ },
+ "negation": {
+  "n": 50,
+  "acc": 0.88,
+  "FAR": 0.12
+ },
+ "balanced": 0.757,
+ "temporal": {
+  "n": 60,
+  "mean_tIoU": 0.14,
+  "tIoU_at_0.3": 0.2
+ },
+ "unparsed_yesno": 0,
+ "unparsed_span": 0,
+ "cost": {
+  "mean_gpu_s_per_query": 7.39
+ }
+}

@@ -1,0 +1,287 @@
+{
+  "mode": "bqa",
+  "env": {
+    "DECAF_B": "1",
+    "DECAF_B_COMMIT": "deferred",
+    "DECAF_B_TAX": "0.5",
+    "DECAF_B_BIAS": "debias",
+    "DECAF_QUANT": "1"
+  },
+  "TB3_commit_plumbing": {
+    "n_init": 13,
+    "checks": [
+      {
+        "qi": 0,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 64,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          20,
+          23,
+          56,
+          58
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 1,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 64,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          20,
+          23,
+          56,
+          58
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 2,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 64,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          20,
+          23,
+          56,
+          58
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 3,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 64,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          20,
+          23,
+          56,
+          58
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 4,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 53,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          9,
+          10,
+          118,
+          119
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 5,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 64,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          20,
+          23,
+          56,
+          58
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 6,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 64,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          20,
+          23,
+          56,
+          58
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 7,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 64,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          20,
+          23,
+          56,
+          58
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 8,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 64,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          20,
+          23,
+          56,
+          58
+        ],
+        "plan_log_present": true
+      },
+      {
+        "qi": 9,
+        "store_blocks_at_query": 420,
+        "rank_pos_ok": true,
+        "n_committed_slots": 53,
+        "slots_le_topk": true,
+        "retrieved_head": [
+          0,
+          3,
+          4,
+          6,
+          9,
+          10,
+          118,
+          119
+        ],
+        "plan_log_present": true
+      }
+    ]
+  },
+  "TB4_answering_smoke": {
+    "answers": [
+      {
+        "qi": 0,
+        "end_time": 840,
+        "pred_chars": 163,
+        "nonempty": true,
+        "pred_head": "The setting of the video clip is an empty, well-maintained courtyard with a path",
+        "w25_match": false
+      },
+      {
+        "qi": 1,
+        "end_time": 840,
+        "pred_chars": 126,
+        "nonempty": true,
+        "pred_head": "The scene is occurring in a rural environment, as indicated by the presence of p",
+        "w25_match": false
+      },
+      {
+        "qi": 2,
+        "end_time": 840,
+        "pred_chars": 138,
+        "nonempty": true,
+        "pred_head": "The scene appears to be set during the early evening, as indicated by the low po",
+        "w25_match": false
+      },
+      {
+        "qi": 3,
+        "end_time": 840,
+        "pred_chars": 69,
+        "nonempty": true,
+        "pred_head": "The subject is walking along a paved path, moving towards the camera.",
+        "w25_match": false
+      },
+      {
+        "qi": 4,
+        "end_time": 840,
+        "pred_chars": 630,
+        "nonempty": true,
+        "pred_head": "The video begins with a view of an empty, well-lit courtyard with a pathway lead",
+        "w25_match": false
+      },
+      {
+        "qi": 5,
+        "end_time": 840,
+        "pred_chars": 122,
+        "nonempty": true,
+        "pred_head": "Yes, the video shows the subject entering a building, as indicated by the person",
+        "w25_match": false
+      },
+      {
+        "qi": 6,
+        "end_time": 840,
+        "pred_chars": 66,
+        "nonempty": true,
+        "pred_head": "No, the subject is not interacting with other people in the video.",
+        "w25_match": true
+      },
+      {
+        "qi": 7,
+        "end_time": 840,
+        "pred_chars": 63,
+        "nonempty": true,
+        "pred_head": "No, the video does not capture the subject engaging in a sport.",
+        "w25_match": true
+      },
+      {
+        "qi": 8,
+        "end_time": 840,
+        "pred_chars": 4,
+        "nonempty": true,
+        "pred_head": "Yes.",
+        "w25_match": true
+      },
+      {
+        "qi": 9,
+        "end_time": 840,
+        "pred_chars": 122,
+        "nonempty": true,
+        "pred_head": "No, the video does not show the subject at home; it focuses on the exterior view",
+        "w25_match": false
+      }
+    ],
+    "n_nonempty": 10,
+    "n_w25_match": 3
+  },
+  "verdict": {
+    "gate_commit_plumbing": "PASS",
+    "gate_answering_smoke": "PASS",
+    "n_w25_match_info": "3/10",
+    "OVERALL": "PASS"
+  }
+}

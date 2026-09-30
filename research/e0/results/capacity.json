@@ -1,0 +1,127 @@
+{
+  "config": {
+    "seed": 0,
+    "model_path": "/home/san/FleetVAD/research/e0/data/HolmesVAU-2B",
+    "max_new_tokens": 64,
+    "pool_videos": 64,
+    "batch_sweep": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "warmup_iters": 10,
+    "timed_iters": 100,
+    "replica_sweep": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "worker_duration_s": 60,
+    "num_gpus": 4
+  },
+  "clip_spec": {
+    "frames": 12,
+    "resolution": "448x448",
+    "tile": "single (max_num=1)",
+    "sampling": "uniform (repo default get_index)",
+    "prompt": "Could you specify the anomaly events present in the video?",
+    "do_sample": false,
+    "max_new_tokens": 64
+  },
+  "models": {
+    "HolmesVAU-2B": {
+      "load_s": 3.8625476360321045,
+      "vram_gb_after_load_torch": 4.816039936,
+      "vram_gb_after_load_smi": 5.08,
+      "dtype": "float16",
+      "attn": "eager (flash-attn disabled for sm_70)",
+      "batch_sweep": [
+        {
+          "batch": 1,
+          "clips_per_s": 0.525521810252577,
+          "p50_ms": 1866.0632371902466,
+          "p95_ms": 2314.4309759140015,
+          "p99_ms": 2325.9979844093323,
+          "mean_ms": 1902.8705954551697,
+          "vram_torch_mb": 7454.95296,
+          "vram_smi_mb": 8568.0,
+          "util_mean": 75.78122020972354,
+          "util_p95": 100.0,
+          "mem_used_mb_max": 9264.037888
+        },
+        {
+          "batch": 2,
+          "clips_per_s": 0.6694964152386315,
+          "p50_ms": 2984.03537273407,
+          "p95_ms": 3305.6148290634155,
+          "p99_ms": 3334.696784019472,
+          "mean_ms": 2987.31995344162,
+          "vram_torch_mb": 10082.927616,
+          "vram_smi_mb": 12870.0,
+          "util_mean": 90.56938961433343,
+          "util_p95": 100.0,
+          "mem_used_mb_max": 13775.01184
+        },
+        {
+          "batch": 4,
+          "clips_per_s": 0.7569596533634502,
+          "p50_ms": 5304.887771606445,
+          "p95_ms": 5510.1815938949585,
+          "p99_ms": 5548.743643760681,
+          "mean_ms": 5284.297494888306,
+          "vram_torch_mb": 15338.939392,
+          "vram_smi_mb": 21470.0,
+          "util_mean": 96.5498275862069,
+          "util_p95": 100.0,
+          "mem_used_mb_max": 22792.76544
+        },
+        {
+          "batch": 8,
+          "clips_per_s": 0.7494836956073555,
+          "p50_ms": 10428.74825000763,
+          "p95_ms": 11561.49673461914,
+          "p99_ms": 12028.144774436983,
+          "mean_ms": 10674.014720916748,
+          "vram_torch_mb": 25844.369408,
+          "vram_smi_mb": 27882.0,
+          "util_mean": 93.43617927743695,
+          "util_p95": 100.0,
+          "mem_used_mb_max": 31309.299712
+        },
+        {
+          "batch": 16,
+          "oom": true
+        }
+      ],
+      "best_batch": 4,
+      "replica_sweep": [
+        {
+          "replicas": 1,
+          "total_clips": 48,
+          "wall_s": 62.81445670127869,
+          "agg_clips_per_s": 0.7641552999219506,
+          "per_replica": [
+            {
+              "clips_per_s": 0.7641552999219506,
+              "p50_ms": 5184.977173805237,
+              "p95_ms": 5476.700115203857,
+              "vram_torch_mb": 15335.146496
+            }
+          ]
+        },
+        {
+          "replicas": 2,
+          "failed": true
+        }
+      ],
+      "replicas_per_gpu": 1,
+      "pool_throughput_clips_per_s_4gpu": 3.043970158442251
+    }
+  }
+}

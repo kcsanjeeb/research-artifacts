@@ -1,0 +1,30 @@
+From ca7b9df79b65f076e30b6b1bad8c35524f7dafcb Mon Sep 17 00:00:00 2001
+From: decaf-phase1 <decaf@local>
+Date: Sun, 27 Sep 2026 13:33:33 +0800
+Subject: [PATCH 2/2] trapcheck: T2 pos fix (per-row (f,h) layout),
+ mode-specific result files
+
+---
+ verification/decaf_trapcheck.py | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/verification/decaf_trapcheck.py b/verification/decaf_trapcheck.py
+index 1b61ea7..826d54f 100644
+--- a/verification/decaf_trapcheck.py
++++ b/verification/decaf_trapcheck.py
+@@ -146,9 +146,9 @@ if MODE == 'encode':
+             e_pre = rel_err(torch.from_numpy(ck), torch.from_numpy(np.asarray(dump_pre)))
+             # rotary: rotate dump K_pre at absolute positions, compare to dump K_post
+             x = torch.from_numpy(np.asarray(dump_pre)).permute(0, 2, 1, 3).cuda()  # (F,Hkv,196,Dh)
+-            pos = n_init + (torch.arange(n_first)[:, None] * N_FRAME_TOKENS
+-                            + torch.arange(N_FRAME_TOKENS)[None, :]).reshape(-1)
+-            rot = rope.apply_rotary_with_positions(x.reshape(n_first, Hkv * N_FRAME_TOKENS, Dh), pos.cuda())
++            pos = (n_init + (torch.arange(n_first * Hkv) // Hkv)[:, None] * N_FRAME_TOKENS
++                   + torch.arange(N_FRAME_TOKENS)[None, :])  # (F*Hkv, 196) row r <-> (f=r//Hkv, h=r%Hkv)
++            rot = rope.apply_rotary_with_positions(x.reshape(n_first * Hkv, N_FRAME_TOKENS, Dh), pos.cuda())
+             rot = rot.reshape(n_first, Hkv, N_FRAME_TOKENS, Dh).permute(0, 2, 1, 3).half().cpu().numpy()
+             e_rot = rel_err(torch.from_numpy(rot), torch.from_numpy(np.asarray(dump_post)))
+             t2[f'layer{li}'] = {'dump_Kpre_rel_err': e_pre, 'rotary_vs_dump_Kpost_rel_err': e_rot}
+-- 
+2.34.1
+

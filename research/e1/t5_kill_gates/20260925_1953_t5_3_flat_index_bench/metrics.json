@@ -1,0 +1,83 @@
+{
+  "faiss_version": "1.15.0",
+  "omp_threads": 72,
+  "dim": 384,
+  "k": 10,
+  "n_queries": 1000,
+  "seed": 0,
+  "metric": "inner product on unit-norm vectors (cosine)",
+  "threshold": {
+    "p99_ms_at_1M": 50.0,
+    "rationale": "interactive retrieval on a 60 s SLO query path; index time must not dominate"
+  },
+  "real_embedding_validation": {
+    "n_files": 633,
+    "dims": [
+      384
+    ],
+    "dtypes": [
+      "float32"
+    ],
+    "l2_norm_min": 0.9999999403953552,
+    "l2_norm_max": 1.0
+  },
+  "latency": {
+    "10000": {
+      "p50_ms": 0.5952194333076477,
+      "p95_ms": 0.6032169796526432,
+      "p99_ms": 0.6054213643074036,
+      "mean_ms": 0.5958429630845785,
+      "max_ms": 0.6191954016685486,
+      "qps_single": 1678.2945540267333,
+      "index_bytes": 15360000,
+      "self_recall_at_1_100probe": 1.0
+    },
+    "100000": {
+      "p50_ms": 52.2703742608428,
+      "p95_ms": 64.33368539437652,
+      "p99_ms": 67.275220323354,
+      "mean_ms": 52.68276406079531,
+      "max_ms": 75.35513862967491,
+      "qps_single": 18.98154012659646,
+      "index_bytes": 153600000,
+      "self_recall_at_1_100probe": 1.0
+    },
+    "1000000": {
+      "p50_ms": 75.23825205862522,
+      "p95_ms": 93.11760729178785,
+      "p99_ms": 110.63490325585008,
+      "mean_ms": 76.3026662748307,
+      "max_ms": 154.15902435779572,
+      "qps_single": 13.105701921321474,
+      "index_bytes": 1536000000,
+      "self_recall_at_1_100probe": 1.0,
+      "batch32": {
+        "batch_size": 32,
+        "n_batches": 30,
+        "mean_per_query_ms": 2.7902801715147993,
+        "p99_per_query_ms": 3.091353789786808,
+        "qps_batched": 358.3869498872279
+      },
+      "thread_sweep": {
+        "8": {
+          "p50_ms": 47.89367225021124,
+          "p95_ms": 52.238318510353565,
+          "p99_ms": 88.76472007483243,
+          "mean_ms": 48.01139379541079,
+          "max_ms": 135.04103757441044,
+          "qps_single": 20.82838928320356
+        },
+        "32": {
+          "p50_ms": 29.324082657694817,
+          "p95_ms": 30.420360434800386,
+          "p99_ms": 36.48036861792201,
+          "mean_ms": 29.521989095956087,
+          "max_ms": 83.91688950359821,
+          "qps_single": 33.87305634283903
+        }
+      }
+    }
+  },
+  "flat_holds_at_1M": false,
+  "verdict": "flat breaks before/at 1M (p99 = 110.6 ms > 50 ms) -> P5-f survives"
+}

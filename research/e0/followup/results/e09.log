@@ -1,0 +1,40 @@
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py:3015: RuntimeWarning: Degrees of freedom <= 0 for slice
+  c = cov(x, y, rowvar, dtype=dtype)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: divide by zero encountered in divide
+  c *= np.true_divide(1, fact)
+/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/numpy/lib/_function_base_impl.py:2888: RuntimeWarning: invalid value encountered in multiply
+  c *= np.true_divide(1, fact)
+/Users/24sf51025/Research/FleetVAD/research/e0/followup/src/e09.py:585: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  ax.boxplot([d[0] for d in data], labels=[str(s) for s in STRIDES],
+/Users/24sf51025/Research/FleetVAD/research/e0/followup/src/e09.py:585: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  ax.boxplot([d[0] for d in data], labels=[str(s) for s in STRIDES],
+=== ucf ===
+[A:ucf] stride8 ZOH: mean=-0.0383 std=0.1083 lose>0.02=0.14 improve=0.66 best-stride hist={'1': 0.05714285714285714, '2': 0.06428571428571428, '4': 0.02857142857142857, '8': 0.08571428571428572, '16': 0.7642857142857142}
+[A:ucf] stride8 downsampled: mean=-0.0010 std=0.0761 lose>0.02=0.32 improve=0.41 n=135
+[B:ucf] B=0.5: uniform=0.8798 oracle=0.8798 headroom=+0.0000 random=0.8798
+[B:ucf] B=0.25: uniform=0.8788 oracle=0.8788 headroom=+0.0000 random=0.8788
+[B:ucf] B=0.125: uniform=0.8763 oracle=0.8763 headroom=+0.0000 random=0.8763
+[B:ucf] B=0.0625: uniform=0.8704 oracle=0.8704 headroom=+0.0000 random=0.8704
+[C:ucf] model corr (5-fold by video)=-0.055 quartile sep=-0.0156 (q1=-0.0362 q4=-0.0518) top feats=[('roughness', -0.2306862087949578), ('grid_entropy', -0.17091690168140428), ('std', -0.12176777139718452)]
+[D:ucf] B=0.5: uniform=0.8798 rand_static=0.8798 adapt_pv=0.8798(cost 0.500) adapt_pw=0.8800(cost 0.712) rand_pw=0.8799 oracle=0.8798 capture=+0.0%
+[D:ucf] B=0.25: uniform=0.8788 rand_static=0.8788 adapt_pv=0.8788(cost 0.250) adapt_pw=0.8792(cost 0.353) rand_pw=0.8792 oracle=0.8788 capture=+0.0%
+[D:ucf] B=0.125: uniform=0.8763 rand_static=0.8763 adapt_pv=0.8763(cost 0.125) adapt_pw=0.8769(cost 0.179) rand_pw=0.8773 oracle=0.8763 capture=+0.0%
+[D:ucf] B=0.0625: uniform=0.8704 rand_static=0.8704 adapt_pv=0.8704(cost 0.062) adapt_pw=0.8704(cost 0.064) rand_pw=0.8705 oracle=0.8704 capture=+0.0%
+=== xd ===
+[A:xd] stride8 ZOH: mean=-0.0674 std=0.1289 lose>0.02=0.11 improve=0.75 best-stride hist={'1': 0.052060737527114966, '2': 0.03036876355748373, '4': 0.010845986984815618, '8': 0.049891540130151846, '16': 0.8568329718004338}
+[A:xd] stride8 downsampled: mean=+0.0079 std=0.1013 lose>0.02=0.36 improve=0.35 n=439
+[B:xd] B=0.5: uniform=0.9341 oracle=0.9341 headroom=+0.0000 random=0.9341
+[B:xd] B=0.25: uniform=0.9334 oracle=0.9334 headroom=+0.0000 random=0.9334
+[B:xd] B=0.125: uniform=0.9307 oracle=0.9307 headroom=+0.0000 random=0.9307
+[B:xd] B=0.0625: uniform=0.9248 oracle=0.9248 headroom=+0.0000 random=0.9248
+[C:xd] model corr (5-fold by video)=0.183 quartile sep=+0.0576 (q1=-0.1032 q4=-0.0456) top feats=[('lag1', 0.26463984764503246), ('rng', 0.20322126566815332), ('std', 0.17520748947359693)]
+[D:xd] B=0.5: uniform=0.9341 rand_static=0.9341 adapt_pv=0.9341(cost 0.500) adapt_pw=0.9343(cost 0.807) rand_pw=0.9343 oracle=0.9341 capture=+0.0%
+[D:xd] B=0.25: uniform=0.9334 rand_static=0.9334 adapt_pv=0.9334(cost 0.250) adapt_pw=0.9339(cost 0.374) rand_pw=0.9338 oracle=0.9334 capture=+0.0%
+[D:xd] B=0.125: uniform=0.9307 rand_static=0.9307 adapt_pv=0.9307(cost 0.125) adapt_pw=0.9320(cost 0.169) rand_pw=0.9316 oracle=0.9307 capture=+0.0%
+[D:xd] B=0.0625: uniform=0.9248 rand_static=0.9248 adapt_pv=0.9248(cost 0.062) adapt_pw=0.9248(cost 0.065) rand_pw=0.9250 oracle=0.9248 capture=+0.0%
+[figures] saved e09_heterogeneity.png, e09_frontier.png
+
+GATE1 headroom@1/4: {'ucf': 0.0, 'xd': 0.0} -> ['NO SYSTEM', 'NO SYSTEM']
+GATE2 capture@1/4: {'ucf': 0.0, 'xd': 0.0} -> ['NO SYSTEM', 'NO SYSTEM']
+VERDICT: MEASUREMENT PAPER
+[saved] /Users/24sf51025/Research/FleetVAD/research/e0/followup/results/e09.json

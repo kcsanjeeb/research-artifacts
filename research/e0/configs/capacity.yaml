@@ -1,0 +1,10 @@
+seed: 0
+model_path: /home/san/FleetVAD/research/e0/data/HolmesVAU-2B
+max_new_tokens: 64
+pool_videos: 64
+batch_sweep: [1, 2, 4, 8, 16, 32]
+warmup_iters: 10
+timed_iters: 100
+replica_sweep: [1, 2, 3, 4, 5, 6]
+worker_duration_s: 60
+num_gpus: 4

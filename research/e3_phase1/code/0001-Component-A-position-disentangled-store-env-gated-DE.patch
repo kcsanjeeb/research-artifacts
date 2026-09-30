@@ -1,0 +1,942 @@
+From 5babc2f692fc99548e77a9a6469af5084bc7d69e Mon Sep 17 00:00:00 2001
+From: decaf-phase1 <decaf@local>
+Date: Sun, 27 Sep 2026 12:51:31 +0800
+Subject: [PATCH 1/2] Component A: position-disentangled store (env-gated
+ DECAF_POSITION_FREE)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+- sidecar: per-block absolute start position (block_starts), asserted == n_init + b*block_size
+- retrieval unchanged (stock already scores pre-RoPE content keys; audit finding)
+- rotate-on-fetch: retrieved blocks rotated to exact sidecar positions; question/decode
+  tokens at true streaming positions via PositionalKV (next_pos = store length at query)
+- instrumentation: DECAF_RETRIEVAL_LOG jsonl (per-layer retrieved blocks + similarities),
+  DECAF_RECALL_ONLY, calc_memory_usage_detailed
+- verification: decaf_trapcheck.py (T1 store-is-pre-RoPE, T2 rotary reproduction vs W2.1
+  dumps, T3 rotate-on-fetch plumbing, T4 alignment, T5 stock equivalence vs W2.5),
+  compute_recall.py (temporal oracle), gate1_verdict.py
+
+NOTE: runs MUST set PYTHONPATH=code/decaf — the rekv env editable-installs code/ReKV.
+---
+ model/abstract_rekv.py              |  16 ++
+ model/attention/kv_cache_manager.py |  53 +++-
+ model/attention/rekv_attention.py   |  60 ++++-
+ model/attention/rope.py             |  14 ++
+ model/llava_onevision_rekv.py       |  38 +++
+ verification/compute_recall.py      |  92 +++++++
+ verification/decaf_trapcheck.py     | 363 ++++++++++++++++++++++++++++
+ verification/gate1_verdict.py       | 100 ++++++++
+ video_qa/rekv_stream_vqa.py         |   2 +
+ 9 files changed, 732 insertions(+), 6 deletions(-)
+ create mode 100644 verification/compute_recall.py
+ create mode 100644 verification/decaf_trapcheck.py
+ create mode 100644 verification/gate1_verdict.py
+
+diff --git a/model/abstract_rekv.py b/model/abstract_rekv.py
+index f23daf5..b5a3fc4 100644
+--- a/model/abstract_rekv.py
++++ b/model/abstract_rekv.py
+@@ -68,3 +68,19 @@ class Abstract_ReKV:
+         n_layers = len(self.kv_cache)
+         memory = n_layers * self.kv_cache[0].calculate_cpu_memory()
+         return memory
++
++    def calc_memory_usage_detailed(self):
++        """DECAF Component A memory report: offloaded store bytes (stock accounting)
++        + position sidecar bytes + block count, for equal-memory accounting."""
++        store = self.calc_memory_usage()
++        sidecar = sum(cm.calculate_sidecar_memory() for cm in self.kv_cache)
++        n_blocks = int(self.kv_cache[0].num_global_block) if self.kv_cache else 0
++        block_size = int(self.kv_cache[0].block_size) if self.kv_cache else 0
++        return {
++            'store_bytes': int(store),
++            'sidecar_bytes': int(sidecar),
++            'total_bytes': int(store + sidecar),
++            'n_blocks': n_blocks,
++            'block_size': block_size,
++            'n_layers': len(self.kv_cache),
++        }
+diff --git a/model/attention/kv_cache_manager.py b/model/attention/kv_cache_manager.py
+index 33ac248..ce2784c 100644
+--- a/model/attention/kv_cache_manager.py
++++ b/model/attention/kv_cache_manager.py
+@@ -1,10 +1,31 @@
+ import math
++import os
+ import torch
+ from typing import Optional, Tuple
+ 
+ from .dot_production_attention import get_multi_stage_dot_production_attention
+ 
+ 
++# DECAF Component A: environment switch.
++# DECAF_POSITION_FREE=1 -> position-disentangled store mode:
++#   retrieval keeps scoring on content (pre-RoPE) keys, but fetched blocks are
++#   rotated to their EXACT original positions (the sidecar) before attention,
++#   and question/decoding tokens use their true streaming positions.
++# Unset -> stock ReKV behavior (bit-identical to the W2.5-validated code).
++DECAF_POSITION_FREE = os.environ.get('DECAF_POSITION_FREE', '0') == '1'
++
++
++# A KV cache entry that also carries the exact position id of every token.
++# Returned by the DECAF retrieval path so decoding steps can keep rotating with
++# true positions. Behaves like the stock (k, v) tuple everywhere else.
++class PositionalKV(tuple):
++    def __new__(cls, k, v, positions):
++        obj = super().__new__(cls, (k, v))
++        obj.positions = positions
++        obj.next_pos = None  # set by the DECAF retrieval path only
++        return obj
++
++
+ # Allocate a fixed-size block of GPU memory specifically for storing the KV-Cache of the local_window.
+ class CudaCache:
+     def __init__(self, num_units, unit_size, dtype):
+@@ -283,6 +304,13 @@ class ContextManager:
+         self.cached_blocks = [{} for _ in range(self.num_units)] # relavency scores of blocks: batch_size x {block_id: block_score}
+         self.num_global_block = 0
+ 
++        # DECAF Component A: position sidecar. Absolute start position of each
++        # offloaded block in the full token stream. Block b holds tokens
++        # [n_init + b*block_size, n_init + (b+1)*block_size) by construction
++        # (init tokens are extracted first, blocks are cut in order). The
++        # trap-check script asserts this identity against the store.
++        self.block_starts = [[] for _ in range(self.num_units)]
++
+         # context memory's representative keys: batch_size x (n_blocks, hidden_dim)
+         self.block_k = [VectorTensor(
+             dim_head * self.unit_size, global_k.dtype, global_k.device
+@@ -467,6 +495,25 @@ class ContextManager:
+ 
+         return ret
+ 
++    # DECAF Component A: exact per-token positions for the blocks currently in
++    # self.retrieved_block_indices (set by get_retrieved_kv). Returns one
++    # (n_retrieved_tokens,) long tensor per unit, positions taken from the
++    # sidecar. The caller prepends the init tokens' positions (0..n_init-1),
++    # which are identical to the stock buffer-relative layout.
++    def get_retrieved_positions(self):
++        assert self.retrieved_block_indices is not None
++        arange_block = torch.arange(self.block_size)
++        positions = []
++        for u in range(self.num_units):
++            starts = [self.block_starts[u][b] for b in self.retrieved_block_indices[u]]
++            pos = (torch.as_tensor(starts)[:, None] + arange_block[None, :]).reshape(-1)
++            positions.append(pos)
++        return positions
++
++    def calculate_sidecar_memory(self):
++        # int64 per block per layer-manager, all layers identical content.
++        return sum(len(s) for s in self.block_starts) * 8
++
+     # load init KV
+     def get_global_hidden_and_mask(self, exc_length):
+         global_h_k = self.global_buffer[0]
+@@ -606,7 +653,11 @@ class ContextManager:
+                 global_block_k = global_block_k[:, None, :]  # (batch_size, 1, num_heads * dim_head)
+                 for u in range(self.num_units):
+                     self.block_k[u].append(global_block_k[u])
+-                
++                    # DECAF Component A: position sidecar for the block offloaded
++                    # above (one int64 per block per layer-manager; the mapping is
++                    # deterministic, stored explicitly per the design).
++                    self.block_starts[u].append(self.n_init + self.num_global_block * self.block_size)
++
+                 self.num_global_block += 1
+                 global_remainder_st += self.block_size
+ 
+diff --git a/model/attention/rekv_attention.py b/model/attention/rekv_attention.py
+index 6d38855..2c5ea35 100644
+--- a/model/attention/rekv_attention.py
++++ b/model/attention/rekv_attention.py
+@@ -2,7 +2,7 @@ import copy
+ import torch
+ from typing import Optional
+ 
+-from .kv_cache_manager import ContextManager
++from .kv_cache_manager import ContextManager, PositionalKV, DECAF_POSITION_FREE
+ from .dot_production_attention import get_multi_stage_dot_production_attention
+ 
+ 
+@@ -63,16 +63,43 @@ def rekv_attention_forward(
+ 
+         # NOTE: Question-answering, fall back to sliding-window attention (infinite_lm)
+         if type(past_key_value) is not ContextManager or past_key_value.to_retrieve:
++            decaf_pos = None  # DECAF: exact per-token positions of h_k, if active
+             if type(past_key_value) is ContextManager:  # retrieval
+                 if past_key_value.retrieved_block_indices is None:  # retrieve based on global_q (question's query)
+                     past_k, past_v = past_key_value.get_retrieved_kv(global_q)
+                 else:  # retrieve based on pre-computed retrieved_block_indices
+                     past_k, past_v = past_key_value.get_retrieved_kv()
+                 updata_kv_cache = False  # We do not update KV cache with the input KV (h_k, h_v) because we only use it for retrieval
++                if DECAF_POSITION_FREE:
++                    # Rotate-on-fetch: exact positions for the retrieved blocks
++                    # come from the sidecar; init tokens keep positions 0..n_init-1
++                    # (identical to the stock buffer layout); the incoming question
++                    # tokens continue at their true streaming positions.
++                    assert past_key_value.num_units == 1, 'DECAF position-free mode assumes batch size 1'
++                    block_pos = past_key_value.get_retrieved_positions()[0].to(h_k.device)
++                    n_past = past_k.size(2)
++                    init_pos = torch.arange(past_key_value.n_init, device=h_k.device)
++                    assert n_past == init_pos.numel() + block_pos.numel(), \
++                        f'{n_past} vs {init_pos.numel()} + {block_pos.numel()}'
++                    decaf_pos = torch.cat([
++                        init_pos, block_pos,
++                        torch.arange(h_k.size(2), device=h_k.device, dtype=torch.long) + past_key_value.length,
++                    ])
+             else:  # sliding-window attention
+                 past_k = past_key_value[0]
+                 past_v = past_key_value[1]
+                 updata_kv_cache = True
++                if isinstance(past_key_value, PositionalKV):
++                    # DECAF: continue at true positions for the newly appended tokens.
++                    past_pos = past_key_value.positions.to(h_k.device)
++                    len_new = h_k.size(2)
++                    base = past_key_value.next_pos
++                    if base is None:
++                        base = int(past_pos[-1]) + 1
++                    decaf_pos = torch.cat([
++                        past_pos,
++                        torch.arange(len_new, device=h_k.device, dtype=torch.long) + int(base),
++                    ])
+ 
+             """ 2. Update KV w/ past KV cache """
+             h_k = torch.cat([past_k, h_k], dim=-2)
+@@ -87,17 +114,40 @@ def rekv_attention_forward(
+                 else:
+                     h_k_cache = torch.cat([h_k[:,:, :n_init, :], h_k[:, :, max(0, h_k.size(-2) - n_local):, :]], dim=2)
+                     h_v_cache = torch.cat([h_v[:,:, :n_init, :], h_v[:, :, max(0, h_k.size(-2) - n_local):, :]], dim=2)
+-                current_key_value = (h_k_cache, h_v_cache)
++                if decaf_pos is not None:
++                    if len_k <= n_local + n_init:
++                        pos_cache = decaf_pos
++                    else:
++                        pos_cache = torch.cat([decaf_pos[:n_init], decaf_pos[-n_local:]])
++                    current_key_value = PositionalKV(h_k_cache, h_v_cache, pos_cache)
++                else:
++                    current_key_value = (h_k_cache, h_v_cache)
+             else:
+-                current_key_value = (past_k, past_v)
++                if decaf_pos is not None:
++                    # exclude the incoming tokens, as in stock; carry positions only.
++                    # next_pos: the question's true streaming position (store length
++                    # at query time) so prefill/decoding continue at exact positions
++                    # even though the retrieved buffer only holds a subset of blocks.
++                    n_past = past_k.size(2)
++                    current_key_value = PositionalKV(past_k, past_v, decaf_pos[:n_past])
++                    current_key_value.next_pos = int(past_key_value.length)
++                else:
++                    current_key_value = (past_k, past_v)
+ 
+             """ 4. Get local QKV and apply RoPE to local QK """
+             h_q_, h_k_, h_v_ = h_q, h_k, h_v
++            pos_ = decaf_pos
+             if len_q + n_local < h_k_.size(-2):
+                 h_k_ = h_k_[:, :, h_k_.size(-2) - len_q - n_local:, :]
+                 h_v_ = h_v_[:, :, h_v_.size(-2) - len_q - n_local:, :]
+-
+-            local_h_q, local_h_k = position_bias(h_q_, h_k_)
++                if pos_ is not None:
++                    pos_ = pos_[pos_.numel() - h_k_.size(-2):]
++
++            if pos_ is None:  # stock: contiguous buffer-relative positions
++                local_h_q, local_h_k = position_bias(h_q_, h_k_)
++            else:  # DECAF: rotate-on-fetch with exact per-token positions
++                local_h_q = position_bias.apply_rotary_with_positions(h_q_, pos_[-len_q:])
++                local_h_k = position_bias.apply_rotary_with_positions(h_k_, pos_)
+             local_h_v = h_v_
+ 
+             """ 5. Get init QKV and apply RoPE to init Q (Infinite-LM assigns the same position_ids to initial tokens) """
+diff --git a/model/attention/rope.py b/model/attention/rope.py
+index 34e013c..c71faf8 100755
+--- a/model/attention/rope.py
++++ b/model/attention/rope.py
+@@ -103,6 +103,20 @@ class RotaryEmbeddingESM(torch.nn.Module):
+ 
+         return ((x.float() * cos) + (self.rotate_half(x).float() * sin)).to(dtype)
+ 
++    # DECAF Component A: rotate with explicit per-token positions (the position
++    # sidecar), instead of the stock contiguous range. Computes cos/sin directly
++    # for the requested positions — no dense position table, same fp32 math as
++    # apply_rotary_pos_emb. x: (..., N, D); pos: (N,) long tensor of positions.
++    def apply_rotary_with_positions(self, x: torch.Tensor, pos: torch.Tensor) -> torch.Tensor:
++        dtype = x.dtype
++        pos = pos.to(device=x.device)
++        freqs = torch.outer(pos.float() * self.distance_scale, self.inv_freq)  # (N, D/2)
++        emb = torch.cat((freqs, freqs), dim=-1)  # (N, D)
++        view_idx = (None,) * (x.dim() - 2) + (slice(None), slice(None))  # (1,...,1,N,D)
++        cos = emb.cos()[view_idx]
++        sin = emb.sin()[view_idx]
++        return ((x.float() * cos) + (self.rotate_half(x).float() * sin)).to(dtype)
++
+ 
+     def forward(self, q: torch.Tensor, k: torch.Tensor, seq_dim= -2) -> Tuple[torch.Tensor, torch.Tensor]:
+         self._cos_cached, self._sin_cached = self._update_cos_sin_tables(k, seq_dim=seq_dim)
+diff --git a/model/llava_onevision_rekv.py b/model/llava_onevision_rekv.py
+index c6b94f1..5438ae3 100644
+--- a/model/llava_onevision_rekv.py
++++ b/model/llava_onevision_rekv.py
+@@ -1,3 +1,6 @@
++import json
++import os
++
+ import torch
+ from transformers import LlavaOnevisionProcessor, LlavaOnevisionForConditionalGeneration
+ from logzero import logger
+@@ -5,6 +8,34 @@ from logzero import logger
+ from model.patch import patch_hf
+ from model.abstract_rekv import Abstract_ReKV
+ 
++# DECAF Component A instrumentation (no-op unless the env vars are set):
++#   DECAF_RETRIEVAL_LOG   -> jsonl path; per-question retrieval records are appended
++#   DECAF_RECALL_ONLY=1   -> stop right after retrieval (no generation); for
++#                            measuring entangled-store recall without a full run
++DECAF_RETRIEVAL_LOG = os.environ.get('DECAF_RETRIEVAL_LOG', '')
++DECAF_RECALL_ONLY = os.environ.get('DECAF_RECALL_ONLY', '0') == '1'
++
++
++def _log_retrieval(video_id, question, input_length, kv_cache):
++    if not DECAF_RETRIEVAL_LOG:
++        return
++    layer0 = kv_cache[0]
++    rec = {
++        'video_id': video_id,
++        'question': question,
++        'encoded_length': int(input_length),  # tokens in the store stream incl. init
++        'n_blocks': int(layer0.num_global_block),
++        'retrieved_layer0': [int(i) for i in layer0.retrieved_block_indices[0]],
++        'retrieved_all_layers': [
++            [int(i) for i in layer_kv.retrieved_block_indices[0]] for layer_kv in kv_cache
++        ],
++        'similarity_layer0': (
++            [float(s) for s in layer0.similarity[0]] if layer0.similarity is not None else None
++        ),
++    }
++    with open(DECAF_RETRIEVAL_LOG, 'a') as f:
++        f.write(json.dumps(rec) + '\n')
++
+ 
+ class LlavaOneVision_ReKV(LlavaOnevisionForConditionalGeneration, Abstract_ReKV):
+     def __init__(self, config, processor, n_frame_tokens, init_prompt_ids, n_local, topk, chunk_size):
+@@ -51,6 +82,8 @@ class LlavaOneVision_ReKV(LlavaOnevisionForConditionalGeneration, Abstract_ReKV)
+             out = self.language_model(input_ids=input_ids, use_cache=True, past_key_values=self.kv_cache)
+             past_key_values = out.past_key_values  # Retrieved KV-Cache: L x 2 x (B, h, N, Dh)
+             self.last_retrieved_blocks = list(self.kv_cache[0].retrieved_block_indices[0])  # T1 logging
++            _log_retrieval(getattr(self, '_current_video_id', ''), input_text['question'],
++                           self.kv_cache[0].length, self.kv_cache)
+         else:  # External retrieval
+             for layer_kv in self.kv_cache:
+                 assert layer_kv.block_size == self.n_frame_tokens, f'block_size: {layer_kv.block_size}, n_frame_tokens: {self.n_frame_tokens}'
+@@ -58,10 +91,15 @@ class LlavaOneVision_ReKV(LlavaOnevisionForConditionalGeneration, Abstract_ReKV)
+             out = self.language_model(input_ids=input_ids, use_cache=True, past_key_values=self.kv_cache)
+             past_key_values = out.past_key_values  # Retrieved KV-Cache: L x 2 x (B, h, N, Dh)
+             self.last_retrieved_blocks = list(self.kv_cache[0].retrieved_block_indices[0])  # T1 logging
++            _log_retrieval(getattr(self, '_current_video_id', ''), input_text['question'],
++                           self.kv_cache[0].length, self.kv_cache)
+ 
+         for layer_kv in self.kv_cache:  # reset to default
+             layer_kv.reset_retrieval()
+ 
++        if DECAF_RECALL_ONLY:
++            return ''
++
+         for i in range(max_new_tokens):
+             if i == 0:  # prefill
+                 input_ids = self.processor.tokenizer(input_text['prompt']).input_ids
+diff --git a/verification/compute_recall.py b/verification/compute_recall.py
+new file mode 100644
+index 0000000..eab703b
+--- /dev/null
++++ b/verification/compute_recall.py
+@@ -0,0 +1,92 @@
++"""DECAF Component A: retrieval-recall measurement against the ego4d_oe temporal oracle.
++
++Oracle definition (primary, STRICT): for a question with temporal window
++[start_time, end_time] (seconds) in ego4d_oe.json, sampled at 0.5 fps, the
++relevant block set is
++    O = { b : start_time*0.5 <= b < end_time*0.5 }  (block b == sampled frame b)
++restricted to blocks encoded at query time (b < frames_encoded; the stream has
++only seen [0, end_time*0.5) frames, so this restriction is usually vacuous).
++Recall@retrieve_size per question = |retrieved_layer0 ∩ O| / |O|; questions with
++|O| == 0 are excluded and counted.
++
++Relaxed variant (RELAXED_30S): the window is expanded by +-30 s on each side
++(+-15 sampled frames at 0.5 fps) before intersecting with encoded blocks.
++
++Metrics reported per jsonl log: macro/mean per-question recall, micro recall
++(sum intersections / sum |O|), n_questions counted, n_skipped (empty oracle).
++
++Usage: compute_recall.py <anno.json> <retrieval.jsonl> <out.json> [--layer L]
++"""
++import argparse
++import json
++
++
++def main():
++    ap = argparse.ArgumentParser()
++    ap.add_argument('anno')
++    ap.add_argument('jsonl')
++    ap.add_argument('out')
++    ap.add_argument('--layer', type=int, default=0, help='which layer\'s indices (default 0, as logged by W2.5 T1)')
++    ap.add_argument('--sample_fps', type=float, default=0.5)
++    args = ap.parse_args()
++
++    anno = json.load(open(args.anno))
++    win = {}
++    for v in anno:
++        for i, c in enumerate(v['conversations']):
++            win[(v['video_id'], i)] = (c['start_time'], c['end_time'])
++    q_order = {v['video_id']: [c['question'] for c in v['conversations']] for v in anno}
++
++    per_q = []
++    with open(args.jsonl) as f:
++        for line in f:
++            per_q.append(json.loads(line))
++
++    def recall_for(rec, relaxed):
++        vid = rec['video_id']
++        # question index within the video's conversation list
++        try:
++            qi = q_order[vid].index(rec['question'])
++        except ValueError:
++            return None
++        start, end = win[(vid, qi)]
++        margin = 30.0 if relaxed else 0.0
++        lo = (start - margin) * args.sample_fps
++        hi = (end + margin) * args.sample_fps
++        frames_encoded = (rec['encoded_length'] - 13) / 196.0
++        oracle = {b for b in range(0, int(hi)) if b >= lo and 0 <= b < frames_encoded}
++        if not oracle:
++            return ('SKIP', 0, 0)
++        idx = rec['retrieved_layer0']
++        hit = len(set(idx) & oracle)
++        return ('OK', hit, len(oracle))
++
++    out = {'jsonl': args.jsonl, 'layer': args.layer}
++    for tag, relaxed in [('strict', False), ('relaxed_pm30s', True)]:
++        hits, tot, n, skipped = 0, 0, 0, 0
++        per_q_recall = []
++        for rec in per_q:
++            r = recall_for(rec, relaxed)
++            if r is None:
++                continue
++            status, hit, osize = r
++            if status == 'SKIP':
++                skipped += 1
++                continue
++            n += 1
++            hits += hit
++            tot += osize
++            per_q_recall.append(hit / osize)
++        out[tag] = {
++            'n_questions': n,
++            'n_skipped_empty_oracle': skipped,
++            'micro_recall_pct': round(100.0 * hits / tot, 2) if tot else None,
++            'macro_recall_pct': round(100.0 * sum(per_q_recall) / len(per_q_recall), 2) if per_q_recall else None,
++        }
++    with open(args.out, 'w') as f:
++        json.dump(out, f, indent=2)
++    print(json.dumps(out, indent=2))
++
++
++if __name__ == '__main__':
++    main()
+diff --git a/verification/decaf_trapcheck.py b/verification/decaf_trapcheck.py
+new file mode 100644
+index 0000000..1b61ea7
+--- /dev/null
++++ b/verification/decaf_trapcheck.py
+@@ -0,0 +1,363 @@
++"""DECAF Component A trap checks — W2.1 verification kit applied to the ReKV host path.
++
++Runs in two modes (single process each):
++
++  mode=encode (stock env; DECAF_POSITION_FREE unset):
++    T1  store-is-content: offloaded MemoryUnit K/V == raw k_proj/v_proj outputs
++        (rel err must be ~0; a large discrepancy = capture bug -> STOP per plan)
++    T2  rotary reproduction: model's own position_bias(pre-RoPE K, abs pos) == W2.1
++        K_post dumps (fp16 storage tolerance); also dump K_pre vs captured k_proj
++        for chunk 1 (attention-kernel differences documented per layer)
++    T2c sidecar identity: block_starts[b] == n_init + b*block_size exactly
++    T4  token alignment: 196 tokens/frame everywhere
++    T5  stock equivalence: 2 greedy answers == W2.5 answers_0.5b CSV rows
++        (proves the decaf repo with the flag OFF is the W2.5-validated stock)
++
++  mode=qa (subprocess with DECAF_POSITION_FREE=1):
++    T3a helper equivalence: apply_rotary_with_positions(x, arange(p,p+N)) ==
++        stock apply_rotary_pos_emb range rotation (same fp32 math)
++    T3b rotate-on-fetch plumbing: retrieval returns PositionalKV with exact
++        buffer positions (init 0..12, block b at 13+b*196+j) and
++        next_pos == manager.length; get_retrieved_positions matches sidecar
++    T3c encode invariance: DECAF-mode encode == stock-mode encode bit-exact
++    T3d full greedy QA smoke (retrieval + prefill + decode) runs clean
++
++Usage: python verification/decaf_trapcheck.py <out_dir> <mode>
++"""
++import json
++import os
++import sys
++
++import numpy as np
++import torch
++from decord import VideoReader, cpu
++
++OUT = sys.argv[1]
++MODE = sys.argv[2]
++os.makedirs(OUT, exist_ok=True)
++
++MODEL = os.environ.get('DECAF_TC_MODEL', 'model_zoo/llava-onevision-qwen2-0.5b-ov-hf')
++DUMP = os.environ.get('DECAF_TC_DUMP', '/data1/zhuotaotian2_e2_kv/kv/0fa75cb3-c4a0-4232-bdc4-15116ed39d88')
++ANNO = os.environ.get('DECAF_TC_ANNO', 'data/rvs/ego/ego4d_oe.json')
++W25_CSV = os.environ.get('DECAF_TC_W25CSV', '/data3/zhuotaotian2_e2/runs/20260926_1455_w25_judge_harness/answers_0.5b/1_0.csv')
++N_FRAMES = int(os.environ.get('DECAF_TC_FRAMES', '96'))      # encode depth for store checks
++N_FRAMES_QA = int(os.environ.get('DECAF_TC_FRAMES_QA', '440'))  # 0fa75cb3 first questions end at 840s = 420 frames
++LAYERS = [0, 5, 11, 17, 23]
++SAMPLE_FPS = 0.5
++N_FRAME_TOKENS = 196
++
++results = {'mode': MODE, 'decaf_position_free': os.environ.get('DECAF_POSITION_FREE', '0')}
++
++
++def rel_err(a, b):
++    a = a.detach().float().cpu()
++    b = b.detach().float().cpu()
++    return ((a - b).norm() / (b.norm() + 1e-12)).item()
++
++
++def save(name, obj):
++    results[name] = obj
++    with open(os.path.join(OUT, f'trap_checks_{MODE}.json'), 'w') as f:
++        json.dump(results, f, indent=2)
++
++
++def load_video_frames(video_path, n):
++    vr = VideoReader(video_path, ctx=cpu(0), num_threads=1)
++    fps = round(vr.get_avg_fps())
++    frame_idx = [i for i in range(0, len(vr), int(fps / SAMPLE_FPS))]
++    return vr.get_batch(frame_idx[:n]).asnumpy(), len(frame_idx)
++
++
++if MODE == 'encode':
++
++    def main():
++        from model.llava_onevision_rekv import load_model
++        model, processor = load_model(model_path=MODEL, n_local=15000, topk=64, chunk_size=1)
++        n_layers = len(model.language_model.model.layers)
++
++        kcap, vcap = {}, {}
++        for li in LAYERS:
++            layer = model.language_model.model.layers[li]
++            layer.self_attn.k_proj.register_forward_hook(
++                lambda m, i, o, li=li: kcap.__setitem__(li, o.detach().clone()))
++            layer.self_attn.v_proj.register_forward_hook(
++                lambda m, i, o, li=li: vcap.__setitem__(li, o.detach().clone()))
++
++        video_path = 'data/rvs/ego/videos/0fa75cb3-c4a0-4232-bdc4-15116ed39d88.mp4'
++        frames, n_sampled = load_video_frames(video_path, N_FRAMES)
++        assert frames.shape[0] == N_FRAMES
++        save('T4_frame_sampling', {'n_sampled_total': n_sampled, 'encoded': N_FRAMES, 'stride': 'fps/0.5'})
++
++        model.clear_cache()
++        model.encode_init_prompt()
++        caps, vcaps = {li: [] for li in LAYERS}, {li: [] for li in LAYERS}
++        for c0 in range(0, N_FRAMES, 64):
++            chunk = frames[c0:c0 + 64]
++            model._encode_video_chunk(chunk)
++            for li in LAYERS:
++                caps[li].append(kcap[li])  # (1, T, Hkv*D), tokens [13+c0*196, ...)
++                vcaps[li].append(vcap[li])
++
++        cm = model.kv_cache[0]
++        n_blocks = cm.num_global_block
++        n_init = cm.n_init
++        save('T2c_sidecar_identity', {
++            'n_init': n_init, 'n_blocks': n_blocks, 'block_size': cm.block_size,
++            'identity_holds': all(
++                cm.block_starts[0][b] == n_init + b * cm.block_size for b in range(n_blocks)),
++        })
++        assert cm.block_size == N_FRAME_TOKENS
++
++        # T1: stored blocks == raw projections (exact; dtype fp16 copies of the same tensors)
++        Dh = model.language_model.model.layers[0].self_attn.head_dim
++        t1 = {}
++        for li in LAYERS:
++            kerrs, verrs = [], []
++            for b in range(n_blocks):
++                if (b + 1) > N_FRAMES:
++                    break
++                ci = b // 64
++                off = (b % 64) * N_FRAME_TOKENS
++                ck = caps[li][ci][0, off:off + N_FRAME_TOKENS]
++                cv = vcaps[li][ci][0, off:off + N_FRAME_TOKENS]
++                ck = ck.view(N_FRAME_TOKENS, -1, Dh).permute(1, 0, 2)
++                cv = cv.view(N_FRAME_TOKENS, -1, Dh).permute(1, 0, 2)
++                sk, sv = model.kv_cache[li].global_blocks[0][b].cpu_data
++                kerrs.append(rel_err(sk.cpu(), ck))
++                verrs.append(rel_err(sv.cpu(), cv))
++            t1[f'layer{li}'] = {
++                'n_blocks_checked': len(kerrs),
++                'k_rel_err_max': max(kerrs), 'k_rel_err_mean': sum(kerrs) / len(kerrs),
++                'v_rel_err_max': max(verrs), 'v_rel_err_mean': sum(verrs) / len(verrs),
++            }
++        save('T1_store_is_prerope', t1)
++
++        # T2: cross-check chunk-1 captures against W2.1 dumps + rotary reproduction
++        Hkv = model.config.text_config.num_key_value_heads
++        Dh = model.config.text_config.hidden_size // model.config.text_config.num_attention_heads
++        t2 = {}
++        rope = model.language_model.model.position_bias
++        n_first = min(64, N_FRAMES)
++        for li in LAYERS:
++            dump_pre = np.load(os.path.join(DUMP, f'K_pre_layer{li:02d}.npy'), mmap_mode='r')[:n_first]
++            dump_post = np.load(os.path.join(DUMP, f'K_post_layer{li:02d}.npy'), mmap_mode='r')[:n_first]
++            ck = caps[li][0][0, :n_first * N_FRAME_TOKENS]  # (64*196, Hkv*D)
++            ck = ck.view(n_first, N_FRAME_TOKENS, Hkv, Dh).float().cpu().numpy()
++            e_pre = rel_err(torch.from_numpy(ck), torch.from_numpy(np.asarray(dump_pre)))
++            # rotary: rotate dump K_pre at absolute positions, compare to dump K_post
++            x = torch.from_numpy(np.asarray(dump_pre)).permute(0, 2, 1, 3).cuda()  # (F,Hkv,196,Dh)
++            pos = n_init + (torch.arange(n_first)[:, None] * N_FRAME_TOKENS
++                            + torch.arange(N_FRAME_TOKENS)[None, :]).reshape(-1)
++            rot = rope.apply_rotary_with_positions(x.reshape(n_first, Hkv * N_FRAME_TOKENS, Dh), pos.cuda())
++            rot = rot.reshape(n_first, Hkv, N_FRAME_TOKENS, Dh).permute(0, 2, 1, 3).half().cpu().numpy()
++            e_rot = rel_err(torch.from_numpy(rot), torch.from_numpy(np.asarray(dump_post)))
++            t2[f'layer{li}'] = {'dump_Kpre_rel_err': e_pre, 'rotary_vs_dump_Kpost_rel_err': e_rot}
++        save('T2_rotary_reproduction', {'layers': t2, 'note':
++              'dump K_pre/V from the UNPATCHED sdpa-fp16 HF path; patched host uses fp32-upcast torch '
++              'attention, so layer>=1 diffs are kernel differences, not capture bugs. rotary check is '
++              'elementwise on the same K_pre -> tight tolerance expected.'})
++
++        # stock memory report (sidecar accounting baseline)
++        save('memory', model.calc_memory_usage_detailed())
++
++        # T5: stock equivalence vs W2.5 answers (2 questions, video anno[0],
++        # interleaving encode exactly like rekv_stream_vqa.analyze_a_video)
++        import pandas as pd
++        anno = json.load(open(ANNO))
++        s0 = anno[0]
++        frames0, _ = load_video_frames(s0['video_path'], 160)
++        model.clear_cache()
++        model.encode_init_prompt()
++        model._current_video_id = s0['video_id']
++        picked = [c for c in s0['conversations'] if c['end_time'] * SAMPLE_FPS <= 160][:2]
++        w25 = pd.read_csv(W25_CSV)
++        t5 = []
++        start_idx = 0.0
++        for c in picked:
++            end_idx = c['end_time'] * SAMPLE_FPS
++            if end_idx > start_idx:
++                model.encode_video(torch.from_numpy(frames0[int(start_idx):int(end_idx)]))
++                start_idx = end_idx
++            pred = model.question_answering(
++                {'question': c['question'], 'prompt': model.get_prompt(c['question'])},
++                max_new_tokens=256)
++            ref = w25[(w25.video_id == s0['video_id']) & (w25.question == c['question'])]['pred_answer']
++            t5.append({'question': c['question'], 'pred': pred, 'w25_pred': ref.iloc[0] if len(ref) else None,
++                       'match': (ref.iloc[0] if len(ref) else None) == pred.replace('\n', '')})
++        save('T5_stock_equivalence_vs_w25', {'video_id': s0['video_id'], 'checks': t5})
++
++        # T3c reference: stock-mode encode snapshot of the same 200 frames
++        frames_q, _ = load_video_frames('data/rvs/ego/videos/0fa75cb3-c4a0-4232-bdc4-15116ed39d88.mp4',
++                                        int(os.environ.get('DECAF_TC_FRAMES_QA', '440')))
++        model.clear_cache()
++        model.encode_init_prompt()
++        model.encode_video(torch.from_numpy(frames_q))
++        snap = []
++        for li in [0, 5, 23]:
++            for b in range(min(3, model.kv_cache[li].num_global_block)):
++                sk, sv = model.kv_cache[li].global_blocks[0][b].cpu_data
++                snap.append(np.asarray([sk.cpu().numpy().sum(), sv.cpu().numpy().sum(),
++                                        sk.cpu().numpy().astype(np.float32).std()]))
++        np.save(os.path.join(OUT, 'T3c_encode_reference.npy'), np.stack(snap))
++
++        # verdict
++        g1 = max(v['k_rel_err_max'] for v in t1.values())
++        g1v = max(v['v_rel_err_max'] for v in t1.values())
++        g2 = max(v['rotary_vs_dump_Kpost_rel_err'] for v in t2.values())
++        verdict = {
++            'gate_store_prerope': 'PASS' if max(g1, g1v) <= 1e-6 else 'FAIL',
++            'gate_rotary': 'PASS' if g2 <= 2e-3 else 'FAIL',
++            'gate_sidecar': 'PASS' if results['T2c_sidecar_identity']['identity_holds'] else 'FAIL',
++            'gate_stock_equiv': 'PASS' if all(c['match'] for c in t5) else 'FAIL',
++            'max_stored_k_rel_err': g1, 'max_stored_v_rel_err': g1v,
++            'max_rotary_rel_err': g2,
++        }
++        verdict['OVERALL'] = 'PASS' if all(v == 'PASS' for v in verdict.values() if v.startswith('gate')) else 'FAIL'
++        save('verdict', verdict)
++        print('ENCODE_MODE_DONE', json.dumps(verdict))
++
++    with torch.inference_mode():
++        main()
++
++elif MODE == 'qa':
++
++    def main():
++        from model.llava_onevision_rekv import load_model
++        from model.attention.kv_cache_manager import ContextManager, PositionalKV
++        from model.attention.rekv_attention import DECAF_POSITION_FREE
++        assert DECAF_POSITION_FREE, 'mode=qa must run with DECAF_POSITION_FREE=1'
++        model, processor = load_model(model_path=MODEL, n_local=15000, topk=64, chunk_size=1)
++
++        # T3a: helper equivalence with the stock range rotation (same fp32 math)
++        rope = model.language_model.model.position_bias
++        torch.manual_seed(0)
++        hd = rope.inv_freq.numel() * 2  # model head_dim (64 for the 0.5B)
++        x = torch.randn(2, 4, 37, hd, device='cuda', dtype=torch.float16)
++        for p in [0, 5, 15001, 352000]:
++            pos = torch.arange(p, p + 37, device='cuda')
++            y1 = rope.apply_rotary_with_positions(x, pos)
++            cos, sin = rope._update_cos_sin_tables_len(p + 37, x.device, dim=4)
++            y2 = rope.apply_rotary_pos_emb(x, 37, p + 37, cos, sin)
++            save(f'T3a_helper_equiv_p{p}', {'rel_err': rel_err(y1, y2)})
++            assert rel_err(y1, y2) <= 1e-6
++
++        # capture get_retrieved_positions PER MANAGER (each layer has its own)
++        captured = {}
++        orig_grp = ContextManager.get_retrieved_positions
++
++        def spy_grp(self):
++            pos = orig_grp(self)
++            captured[id(self)] = {
++                'pos': [p.clone() for p in pos],
++                'indices': [list(i) for i in self.retrieved_block_indices],
++                'num_global_block': int(self.num_global_block),
++                'init_exc': bool(self.init_exc),
++                'topk': int(self.topk),
++                'chunk_size': int(self.chunk_size),
++                'n_blocks_retrieved': len(self.retrieved_block_indices[0]),
++                'logits_len': (int(self.similarity.shape[1]) if self.similarity is not None else None),
++            }
++            return pos
++
++        ContextManager.get_retrieved_positions = spy_grp
++
++        video_path = 'data/rvs/ego/videos/0fa75cb3-c4a0-4232-bdc4-15116ed39d88.mp4'
++        frames, _ = load_video_frames(video_path, N_FRAMES_QA)
++        model.clear_cache()
++        model.encode_init_prompt()
++        # T3c snapshot of stored bytes for cross-mode comparison
++        model.encode_video(torch.from_numpy(frames))
++        snap = []
++        for li in [0, 5, 23]:
++            for b in range(min(3, model.kv_cache[li].num_global_block)):
++                sk, sv = model.kv_cache[li].global_blocks[0][b].cpu_data
++                snap.append(np.asarray([sk.cpu().numpy().sum(), sv.cpu().numpy().sum(),
++                                        sk.cpu().numpy().astype(np.float32).std()]))
++        np.save(os.path.join(OUT, 'T3c_encode_snapshot.npy'), np.stack(snap))
++
++        n_init = model.kv_cache[0].n_init
++        cm0 = model.kv_cache[0]
++
++        # T3b: retrieval plumbing — replicate question_answering's retrieval step
++        anno = json.load(open(ANNO))
++        convs = [c for c in anno[0]['conversations'] if c['end_time'] * SAMPLE_FPS <= N_FRAMES_QA][:2] \
++            if anno[0]['video_id'].startswith('0fa75cb3') else None
++        if convs is None:
++            vs = [v for v in anno if v['video_id'].startswith('0fa75cb3')][0]
++        else:
++            vs = anno[0]
++        convs = [c for c in vs['conversations'] if c['end_time'] * SAMPLE_FPS <= N_FRAMES_QA][:2]
++        assert len(convs) == 2, f'need 2 questions within {N_FRAMES_QA} frames'
++
++        t3b = []
++        for c in convs:
++            for layer_kv in model.kv_cache:
++                layer_kv.set_retrieval()
++            input_ids = processor.tokenizer(c['question']).input_ids
++            input_ids = torch.as_tensor([input_ids], device=model.device)
++            out = model.language_model(input_ids=input_ids, use_cache=True, past_key_values=model.kv_cache)
++            pkv = out.past_key_values[0]
++            assert isinstance(pkv, PositionalKV), 'retrieval must return PositionalKV in DECAF mode'
++            L = model.kv_cache[0].length
++            cap0 = captured[id(cm0)]
++            exp_buf = list(range(n_init))
++            for b in cap0['indices'][0]:
++                exp_buf += [cm0.block_starts[0][b] + j for j in range(N_FRAME_TOKENS)]
++            got_buf = [int(x) for x in pkv.positions]
++            grp = [int(x) for x in cap0['pos'][0]]
++            exp_grp = []
++            for b in cap0['indices'][0]:
++                exp_grp += [n_init + b * N_FRAME_TOKENS + j for j in range(N_FRAME_TOKENS)]
++            t3b.append({
++                'question': c['question'],
++                'next_pos': int(pkv.next_pos), 'manager_length': int(L),
++                'next_pos_ok': int(pkv.next_pos) == int(L),
++                'buffer_pos_ok': got_buf == exp_buf,
++                'sidecar_grp_ok': grp == exp_grp,
++                'sidecar_identity': all(cm0.block_starts[0][b] == n_init + b * N_FRAME_TOKENS
++                                        for b in range(cm0.num_global_block)),
++                'retrieved_layer0': cap0['indices'][0][:8],
++                'layer0_diag': {k: cap0[k] for k in ['num_global_block', 'init_exc', 'topk',
++                                                     'chunk_size', 'n_blocks_retrieved', 'logits_len']},
++                'all_layers_n_blocks': sorted({v['n_blocks_retrieved'] for v in captured.values()}),
++            })
++            for layer_kv in model.kv_cache:
++                layer_kv.reset_retrieval()
++
++        save('T3b_rotate_on_fetch_plumbing', {'n_init': n_init, 'checks': t3b})
++
++        # T3d: full greedy QA smoke through retrieval + prefill + decode
++        smoke = []
++        for c in convs:
++            pred = model.question_answering(
++                {'question': c['question'], 'prompt': model.get_prompt(c['question'])},
++                max_new_tokens=64)
++            smoke.append({'question': c['question'], 'answer': c['answer'], 'pred': pred})
++        save('T3d_full_qa_smoke', smoke)
++
++        ok = all(c['next_pos_ok'] and c['buffer_pos_ok'] and c['sidecar_grp_ok'] and c['sidecar_identity']
++                 for c in t3b)
++        save('verdict', {'gate_rotate_on_fetch': 'PASS' if ok else 'FAIL',
++                         'gate_qa_smoke': 'PASS', 'OVERALL': 'PASS' if ok else 'FAIL'})
++        print('QA_MODE_DONE', json.dumps(results['verdict']))
++
++    with torch.inference_mode():
++        main()
++
++elif MODE == 'compare':
++    ref = np.load(os.path.join(OUT, 'T3c_encode_reference.npy'))
++    got = np.load(os.path.join(OUT, 'T3c_encode_snapshot.npy'))
++    same = bool(np.array_equal(ref, got))
++    verdict = {}
++    for m in ['encode', 'qa']:
++        with open(os.path.join(OUT, f'trap_checks_{m}.json')) as f:
++            verdict.update(json.load(f).get('verdict', {}))
++    verdict['gate_encode_invariance'] = 'PASS' if same else 'FAIL'
++    verdict['OVERALL'] = 'PASS' if all(
++        v == 'PASS' for k, v in verdict.items() if k.startswith('gate')) else 'FAIL'
++    summary = {'T3c_encode_invariance': {'bit_exact': same,
++                                         'max_abs_diff': float(np.abs(ref - got).max())},
++               'verdict': verdict}
++    with open(os.path.join(OUT, 'trap_checks_verdict.json'), 'w') as f:
++        json.dump(summary, f, indent=2)
++    print('COMPARE_DONE bit_exact=%s' % same)
+diff --git a/verification/gate1_verdict.py b/verification/gate1_verdict.py
+new file mode 100644
+index 0000000..7e1e79f
+--- /dev/null
++++ b/verification/gate1_verdict.py
+@@ -0,0 +1,100 @@
++#!/usr/bin/env python
++"""DECAF Gate 1 verdict.
++
++Gate (beat-mukv.md §5 Phase 1): retrieval recall +>=5 pts OR RVS-Ego Acc +>=2 pts
++(72B-judged) for the position-free store vs the entangled store at equal memory.
++
++Inputs: judged DECAF jsons, judged W2.5 entangled jsons, recall summaries.
++Output: gate1_verdict.txt + gate1_verdict.json
++"""
++import json
++import sys
++
++
++def load(p):
++    with open(p) as f:
++        return json.load(f)
++
++
++def judged_metrics(path):
++    d = load(path)
++    # w25_judge.py output: {'n':..., 'acc':..., 'score':...} (acc in percent)
++    if isinstance(d, dict) and 'acc' in d:
++        return {'n': d['n'], 'acc': d['acc'], 'score': d['score']}
++    raise ValueError(f'unrecognized judged format: {path}')
++
++
++def recall_metrics(path):
++    d = load(path)
++    return d
++
++
++def fmt_pct(x):
++    return f'{x:+.2f} pts' if x is not None else 'n/a'
++
++
++def main():
++    (judged_decaf_7b, judged_decaf_05b,
++     judged_ent_7b, judged_ent_05b,
++     recall_decaf_7b, recall_decaf_05b,
++     recall_ent_7b, recall_ent_05b, out_prefix) = sys.argv[1:10]
++
++    d7 = judged_metrics(judged_decaf_7b)
++    d5 = judged_metrics(judged_decaf_05b)
++    e7 = judged_metrics(judged_ent_7b)
++    e5 = judged_metrics(judged_ent_05b)
++
++    r_d7 = recall_metrics(recall_decaf_7b)
++    r_d5 = recall_metrics(recall_decaf_05b)
++    r_e7 = recall_metrics(recall_ent_7b)
++    r_e5 = recall_metrics(recall_ent_05b)
++
++    lines = []
++    lines.append('DECAF Gate 1 verdict — position-disentangled store vs entangled store (equal memory)')
++    lines.append('')
++    lines.append('RVS-Ego accuracy (72B-judged, n=1465):')
++    for tag, d, e in [('7B', d7, e7), ('0.5B', d5, e5)]:
++        lines.append(f'  {tag}: entangled Acc {e["acc"]} / Score {e["score"]}  |  '
++                     f'position-free Acc {d["acc"]} / Score {d["score"]}  |  '
++                     f'delta Acc {fmt_pct(d["acc"] - e["acc"])} / Score {fmt_pct(d["score"] - e["score"])}')
++    lines.append('')
++    lines.append('Retrieval recall vs temporal oracle (layer-0 retrieved blocks, strict window;')
++    lines.append('oracle = frames in [start,end] of ego4d_oe.json at 0.5 fps, restricted to encoded frames):')
++    for tag, rd, re_ in [('7B', r_d7, r_e7), ('0.5B', r_d5, r_e5)]:
++        for w in ['strict', 'relaxed_pm30s']:
++            dm = rd[w]['micro_recall_pct']
++            em = re_[w]['micro_recall_pct']
++            lines.append(f'  {tag} {w}: entangled micro {em}%  |  position-free micro {dm}%  |  '
++                         f'delta {fmt_pct((dm - em) if (dm is not None and em is not None) else None)}'
++                         f'  (n={rd[w]["n_questions"]})')
++    lines.append('')
++
++    d_acc_7b = d7['acc'] - e7['acc']
++    d_acc_05b = d5['acc'] - e5['acc']
++    dr7 = r_d7['strict']['micro_recall_pct'] - r_e7['strict']['micro_recall_pct'] \
++        if None not in (r_d7['strict']['micro_recall_pct'], r_e7['strict']['micro_recall_pct']) else None
++    dr5 = r_d5['strict']['micro_recall_pct'] - r_e5['strict']['micro_recall_pct'] \
++        if None not in (r_d5['strict']['micro_recall_pct'], r_e5['strict']['micro_recall_pct']) else None
++
++    passed = (dr7 is not None and dr7 >= 5.0) or (dr5 is not None and dr5 >= 5.0) \
++        or d_acc_7b >= 2.0 or d_acc_05b >= 2.0
++    lines.append(f'Gate criteria: recall +>=5 pts OR Acc +>=2 pts (primary: 7B).')
++    lines.append(f'  recall delta 7B: {fmt_pct(dr7)} | 0.5B: {fmt_pct(dr5)}')
++    lines.append(f'  acc delta    7B: {fmt_pct(d_acc_7b)} | 0.5B: {fmt_pct(d_acc_05b)}')
++    lines.append(f'GATE 1 VERDICT: {"PASS" if passed else "FAIL"}')
++    verdict = {
++        'gate1': 'PASS' if passed else 'FAIL',
++        'acc_delta_7b': d_acc_7b, 'acc_delta_05b': d_acc_05b,
++        'recall_delta_7b': dr7, 'recall_delta_05b': dr5,
++        'entangled': {'7b': e7, '0.5b': e5},
++        'position_free': {'7b': d7, '0.5b': d5},
++    }
++    with open(out_prefix + '.txt', 'w') as f:
++        f.write('\n'.join(lines) + '\n')
++    with open(out_prefix + '.json', 'w') as f:
++        json.dump(verdict, f, indent=2)
++    print('\n'.join(lines))
++
++
++if __name__ == '__main__':
++    main()
+diff --git a/video_qa/rekv_stream_vqa.py b/video_qa/rekv_stream_vqa.py
+index cf115a9..e460e06 100644
+--- a/video_qa/rekv_stream_vqa.py
++++ b/video_qa/rekv_stream_vqa.py
+@@ -41,6 +41,7 @@ class ReKVStreamVQA(BaseVQA):
+ 
+         self.qa_model.clear_cache()
+         self.qa_model.encode_init_prompt()
++        self.qa_model._current_video_id = video_sample['video_id']
+ 
+         for sample in video_sample['conversations']:
+             logger.debug(f'sample: {sample}')
+@@ -63,6 +64,7 @@ class ReKVStreamVQA(BaseVQA):
+                 'question': question,
+                 'answer': answer,
+                 'pred_answer': qa_results['pred_answer'],
++                'retrieved_blocks': ';'.join(str(i) for i in getattr(self.qa_model, 'last_retrieved_blocks', [])),
+             })
+  
+ 
+-- 
+2.34.1
+

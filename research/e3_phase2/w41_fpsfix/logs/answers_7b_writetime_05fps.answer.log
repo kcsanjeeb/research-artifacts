@@ -1,0 +1,25 @@
+[I 260930 09:39:14 base:203] seed: 2024
+[I 260930 09:39:14 base:208] Loading VideoQA model: model_zoo/llava-onevision-qwen2-7b-ov-hf
+Please install pyav to use video processing functions.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:03,  1.09s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:02<00:02,  1.04s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:03<00:01,  1.02s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.35it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:03<00:00,  1.18it/s]
+[I 260930 09:39:20 llava_onevision_rekv:226] n_init: 13
+[I 260930 09:39:20 llava_onevision_rekv:226] n_local: 15000
+[I 260930 09:39:20 llava_onevision_rekv:226] fattn: False
+[I 260930 09:39:20 llava_onevision_rekv:226] block_size: 196
+[I 260930 09:39:20 llava_onevision_rekv:226] topk: 64
+[I 260930 09:39:20 llava_onevision_rekv:226] chunk_size: 1
+[I 260930 09:39:20 llava_onevision_rekv:226] max_cached_block: 128
+[I 260930 09:39:20 llava_onevision_rekv:226] exc_block_size: 196
+[I 260930 09:39:20 llava_onevision_rekv:226] pin_memory: True
+[I 260930 09:39:20 llava_onevision_rekv:227] n_frame_tokens: 196
+  0%|          | 0/10 [00:00<?, ?it/s][I 260930 09:40:37 rekv_stream_vqa:50] FPS_ASSERT effective=0.5000 config=0.5 frames=1800 dur=3600.0s
+ 10%|█         | 1/10 [37:44<5:39:39, 2264.36s/it][I 260930 10:17:08 rekv_stream_vqa:50] FPS_ASSERT effective=0.5002 config=0.5 frames=1806 dur=3610.366666666667s
+ 20%|██        | 2/10 [53:39<3:19:15, 1494.38s/it][I 260930 10:33:03 rekv_stream_vqa:50] FPS_ASSERT effective=0.5002 config=0.5 frames=1806 dur=3610.766666666667s
+ 30%|███       | 3/10 [1:07:57<2:20:24, 1203.56s/it][I 260930 10:47:20 rekv_stream_vqa:50] FPS_ASSERT effective=0.5002 config=0.5 frames=1801 dur=3600.633333333333s
+ 40%|████      | 4/10 [1:24:08<1:51:11, 1111.94s/it][I 260930 11:03:31 rekv_stream_vqa:50] FPS_ASSERT effective=0.5002 config=0.5 frames=1801 dur=3600.9s
+ 50%|█████     | 5/10 [1:43:19<1:33:50, 1126.09s/it][I 260930 11:22:44 rekv_stream_vqa:50] FPS_ASSERT effective=0.5001 config=0.5 frames=1806 dur=3611.4s
+ 60%|██████    | 6/10 [1:59:22<1:11:22, 1070.52s/it][I 260930 11:38:47 rekv_stream_vqa:50] FPS_ASSERT effective=0.5002 config=0.5 frames=1804 dur=3606.5666666666666s
+ 70%|███████   | 7/10 [2:12:19<48:43, 974.47s/it]   [I 260930 11:51:42 rekv_stream_vqa:50] FPS_ASSERT effective=0.5000 config=0.5 frames=1800 dur=3599.9666666666667s
+ 80%|████████  | 8/10 [2:32:24<34:56, 1048.02s/it][I 260930 12:11:48 rekv_stream_vqa:50] FPS_ASSERT effective=0.5001 config=0.5 frames=1804 dur=3607.366666666667s
+ 90%|█████████ | 9/10 [2:41:39<14:53, 893.74s/it] [I 260930 12:21:03 rekv_stream_vqa:50] FPS_ASSERT effective=0.5002 config=0.5 frames=1804 dur=3606.6s
+100%|██████████| 10/10 [2:55:50<00:00, 880.51s/it]100%|██████████| 10/10 [2:55:50<00:00, 1055.02s/it]
